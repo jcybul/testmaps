@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="https://d3js.org/topojson.v1.min.js"></script>
+        <style>
+            .boroughs {
+                fill: rgb(222,235,247);
+                stroke: #000;
+                stroke-width: 0.5px;
+            }
+            .tooltip {
+                position: absolute;
+                font-size: 12px;
+                width:  auto;
+                height: auto;
+                pointer-events: none;
+                background-color: white;
+            }
+            .circle-hover {
+                stroke: #000;
+                stroke-width: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map-container"></div>
+        <script>
+
+            var width = 900,
+                height = 600;
+
+            var svg = d3.select("#map-container").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            var projection = d3.geo.mercator() // mercator makes it easy to center on specific lat/long
+                .scale(50000)
+                .center([55.3, 3.43]); // long, lat of NYC
+
+            var pathGenerator = d3.geo.path()
+                .projection(projection);
+
+            d3.json("data.json", function(error, uk) {
+            var subunits = topojson.feature(uk, uk.objects.lad);
+
+            svg.selectAll(".subunit")
+            .data(subunits.features)
+            .enter().append("path")
+            .attr("class", function(d) { return "subunit " + d.id; })
+            
+            });
+
+        </script>
+    </body>
+</html>

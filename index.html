@@ -1,37 +1,148 @@
-html>
-<head>
-    <meta charset="utf-8">
-    <title>D3 World Map</title>
-    <style>
-        path {
-            stroke: white;
-            stroke-width: 0.5px;
-            fill: black;
-        }
-    </style>
-    <script src="https://martinjc.github.io/UK-GeoJSON/json/eng/topo_lad.json"></script>
-</head>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    
+
+/* Region colors? */
+.subunit.SCT { fill: #ddc; }
+.subunit.WLS { fill: #cdd; }
+.subunit.NIR { fill: #cdc; }
+.subunit.ENG { fill: #dcd; }
+
+
+.subunit.IRL,
+.subunit-label.IRL {
+  display: none;
+}
+
+.subunit-boundary {
+  fill: none;
+  stroke: #777;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+
+.subunit-boundary.IRL {
+  stroke: #aaa;
+}
+
+.subunit-label {
+  fill: #777;
+  fill-opacity: .5;
+  font-size: 20px;
+  font-weight: 300;
+  text-anchor: middle;
+}
+
+.place,
+.place-label {
+  fill: #444;
+}
+
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  pointer-events: none;
+}
+
+</style>
 <body>
-<script type="text/javascript">
-    var width = 900;
-    var height = 600;
+    Simple UK
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script>
 
-    var projection = d3.geo.mercator();
+        function generateRandom(min = 0, max = 100) {
 
-    var svg = d3.select("body").append("svg")
-        .attr("width", width)
-        .attr("height", height);
-    var path = d3.geo.path()
-        .projection(projection);
-    var g = svg.append("g");
+        // find diff
+        let difference = max - min;
 
-    d3.json("world-110m2.json", function(error, topology) {
-        g.selectAll("path")
-            .data(topojson.object(topology, topology.objects.countries)
-                .geometries)
-            .enter()
-            .append("path")
+        // generate random number 
+        let rand = Math.random();
+
+        // multiply with difference 
+        rand = Math.floor( rand * difference);
+
+        // add with min value 
+        rand = rand + min;
+
+        return rand;
+        }
+        d3.json("data.json", function(error, uk) {
+            if (error) return console.error(error);
+            console.log(uk);
+        });
+
+            var width = 960,
+            height = 1160;
+
+        var projection = d3.geo.albers()
+            .center([0, 55.4])
+            .rotate([4.4, 0])
+            .parallels([50, 60])
+            .scale(1200 * 5)
+            .translate([width / 2, height / 2]);
+
+        var path = d3.geo.path()
+            .projection(projection)
+            .pointRadius(2);
+
+        var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            
+
+        d3.json("data.json", function(error, uk) {
+        var subunits = topojson.feature(uk, uk.objects.lad);
+        var michelin;
+        d3.csv('michellinData.csv', function(error2, m) {
+                    if (error2) return console.error(error2);
+                    console.log(m)
+                    
+        svg.selectAll("circles.points")
+        .data(m)
+        .enter()
+        .append("circle")
+        .attr("r",2)
+        .attr("transform", function(d) {return "translate(" + projection([d.lng,d.lat]) + ")"})
+
+                    
+        })
+
+        var color = ["blue","black","red","green"]
+        const colorScale = d3.scale.ordinal(subunits.features.map(d => d.Polygon), d3.schemeCategory10);
+
+
+        svg.selectAll(".subunit")
+            .data(subunits.features)
+            .enter().append("path")
+            .attr('id', function(d) {console.log(d.id); return d.id; })
+            .attr("class", function(d) { return "subunit " + d.id; })
+            .attr("fill", (d) => color[generateRandom(0,4)])
             .attr("d", path)
+
+        svg.append("path")
+            .datum(topojson.mesh(uk, uk.objects.lad, function(a, b) { return a !== b && a.id !== "IRL"; }))
+            .attr("d", path)
+            .attr("class", "subunit-boundary")
+            .attr("fill", color[generateRandom(0,3)])
+            
+        svg.append("path")
+            .datum(topojson.mesh(uk, uk.objects.lad, function(a, b) { return a === b && a.id === "IRL"; }))
+            .attr("d", path)
+            .attr("class", "subunit-boundary IRL")
+            .attr("fill", color[generateRandom(0,3)])
+
+        svg.selectAll(".subunit-label")
+            .data(subunits.features)
+            .enter().append("text")
+            .attr("class", function(d) { return "subunit-label " + d.id; })
+            .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+            .attr("dy", ".35em")
+            .text(function(d) { return d.properties.name;})
+        
     });
-</script>
+
+        
+    </script>
 </body>
