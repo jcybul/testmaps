@@ -68,33 +68,85 @@ text {
 
         return rand;
         }
-        d3.json("data.json", function(error, uk) {
-            if (error) return console.error(error);
-            console.log(uk);
-        });
-
-            var width = 960,
+            let width = 960,
             height = 1160;
 
-        var projection = d3.geo.albers()
+        let projection = d3.geo.albers()
             .center([0, 55.4])
             .rotate([4.4, 0])
             .parallels([50, 60])
             .scale(1200 * 5)
             .translate([width / 2, height / 2]);
 
-        var path = d3.geo.path()
+        let path = d3.geo.path()
             .projection(projection)
             .pointRadius(2);
 
-        var svg = d3.select("body").append("svg")
+        let svg = d3.select("body").append("svg")
             .attr("width", width)
             .attr("height", height)
             
 
-        d3.json("data.json", function(error, uk) {
-        var subunits = topojson.feature(uk, uk.objects.lad);
-        var michelin;
+        d3.json("data.json", function(error, england ) {
+        let subunits_england = topojson.feature(england, england.objects.lad);
+
+        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
+        //const colorScale = d3.scale.ordinal(subunits.features.map(d => d.Polygon), d3.schemeCategory10);
+
+
+        svg.selectAll(".subunit")
+            .data(subunits_england.features)
+            .enter().append("path")
+            .attr('id', function(d) { return d.id; })
+            .attr("class", function(d) { return "subunit " + d.id; })
+            .attr("fill", (d) => color[generateRandom(0,4)])
+            .attr("d", path)
+
+        d3.json("ni.json", function(error ,wales) {
+        let subunits_scotland = topojson.feature(wales, wales.objects.lgd);            
+        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
+   
+
+        svg.selectAll(".subunit___")
+            .data(subunits_scotland.features)
+            .enter().append("path")
+            .attr('id', function(d) {console.log(d.id); return d.id; })
+            .attr("class", function(d) { return "subunit " + d.id; })
+            .attr("fill", (d) => color[generateRandom(0,4)])
+            .attr("d", path)
+
+        })
+
+        d3.json("scotland.json", function(error ,scotland) {
+        let subunits_scotland = topojson.feature(scotland, scotland.objects.lad);            
+        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
+        svg.selectAll(".subunit_")
+            .data(subunits_scotland.features)
+            .enter().append("path")
+            .attr('id', function(d) { return d.id; })
+            .attr("class", function(d) { return "subunit " + d.id; })
+            .attr("fill", (d) => color[generateRandom(0,4)])
+            .attr("d", path)
+
+        })
+            
+        d3.json("wales.json", function(error ,wales) {
+        let subunits_scotland = topojson.feature(wales, wales.objects.lad);            
+        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
+
+        svg.selectAll(".subunit__")
+            .data(subunits_scotland.features)
+            .enter().append("path")
+            .attr('id', function(d) { return d.id; })
+            .attr("class", function(d) { return "subunit " + d.id; })
+            .attr("fill", (d) => color[generateRandom(0,4)])
+            .attr("d", path)
+
+        })
+
+
+
+        let michelin;
         d3.csv('michellinData.csv', function(error2, m) {
                     if (error2) return console.error(error2);
                     console.log(m)
@@ -103,46 +155,13 @@ text {
         .data(m)
         .enter()
         .append("circle")
-        .attr("r",2)
+        .attr("fill", "black")
+        .attr("r",1)
         .attr("transform", function(d) {return "translate(" + projection([d.lng,d.lat]) + ")"})
-
                     
         })
 
-        var color = ["blue","black","red","green"]
-        const colorScale = d3.scale.ordinal(subunits.features.map(d => d.Polygon), d3.schemeCategory10);
-
-
-        svg.selectAll(".subunit")
-            .data(subunits.features)
-            .enter().append("path")
-            .attr('id', function(d) {console.log(d.id); return d.id; })
-            .attr("class", function(d) { return "subunit " + d.id; })
-            .attr("fill", (d) => color[generateRandom(0,4)])
-            .attr("d", path)
-
-        svg.append("path")
-            .datum(topojson.mesh(uk, uk.objects.lad, function(a, b) { return a !== b && a.id !== "IRL"; }))
-            .attr("d", path)
-            .attr("class", "subunit-boundary")
-            .attr("fill", color[generateRandom(0,3)])
-            
-        svg.append("path")
-            .datum(topojson.mesh(uk, uk.objects.lad, function(a, b) { return a === b && a.id === "IRL"; }))
-            .attr("d", path)
-            .attr("class", "subunit-boundary IRL")
-            .attr("fill", color[generateRandom(0,3)])
-
-        svg.selectAll(".subunit-label")
-            .data(subunits.features)
-            .enter().append("text")
-            .attr("class", function(d) { return "subunit-label " + d.id; })
-            .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
-            .attr("dy", ".35em")
-            .text(function(d) { return d.properties.name;})
-        
     });
 
-        
     </script>
 </body>
