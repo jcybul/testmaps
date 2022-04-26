@@ -1,167 +1,129 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
-    
+  /* Region colors? */
+  .subunit.SCT {
+    fill: #ddc;
+  }
 
-/* Region colors? */
-.subunit.SCT { fill: #ddc; }
-.subunit.WLS { fill: #cdd; }
-.subunit.NIR { fill: #cdc; }
-.subunit.ENG { fill: #dcd; }
+  .subunit.WLS {
+    fill: #cdd;
+  }
+
+  .subunit.NIR {
+    fill: #cdc;
+  }
+
+  .subunit.ENG {
+    fill: #dcd;
+  }
 
 
-.subunit.IRL,
-.subunit-label.IRL {
-  display: none;
-}
+  .subunit.IRL,
+  .subunit-label.IRL {
+    display: none;
+  }
 
-.subunit-boundary {
-  fill: none;
-  stroke: #777;
-  stroke-dasharray: 2,2;
-  stroke-linejoin: round;
-}
+  .subunit-boundary {
+    fill: none;
+    stroke: #777;
+    stroke-dasharray: 2, 2;
+    stroke-linejoin: round;
+  }
 
-.subunit-boundary.IRL {
-  stroke: #aaa;
-}
+  .subunit-boundary.IRL {
+    stroke: #aaa;
+  }
 
-.subunit-label {
-  fill: #777;
-  fill-opacity: .5;
-  font-size: 20px;
-  font-weight: 300;
-  text-anchor: middle;
-}
+  .subunit-label {
+    fill: #777;
+    fill-opacity: .5;
+    font-size: 20px;
+    font-weight: 300;
+    text-anchor: middle;
+  }
 
-.place,
-.place-label {
-  fill: #444;
-}
+  .place,
+  .place-label {
+    fill: #444;
+  }
 
-text {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  pointer-events: none;
-}
-
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    pointer-events: none;
+  }
 </style>
+
 <body>
-    Simple UK
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/topojson.v1.min.js"></script>
-    <script>
+  Simple UK
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script>
 
-        function generateRandom(min = 0, max = 100) {
+    function generateRandom(min = 0, max = 100) {
+      return min + Math.floor(Math.random() * (max - min));
+    }
 
-        // find diff
-        let difference = max - min;
+    const width = 960;
+    const height = 1160;
 
-        // generate random number 
-        let rand = Math.random();
+    let projection = d3.geo.albers()
+      .center([0, 55.4])
+      .rotate([4.4, 0])
+      .parallels([50, 60])
+      .scale(1200 * 5)
+      .translate([width / 2, height / 2]);
 
-        // multiply with difference 
-        rand = Math.floor( rand * difference);
+    let path = d3.geo.path()
+      .projection(projection)
+      .pointRadius(2);
 
-        // add with min value 
-        rand = rand + min;
+    let svg = d3.select("body").append("svg")
+      .attr("width", width)
+      .attr("height", height)
 
-        return rand;
+    function renderMap(maps, callback) {
+      const currentMap = maps.pop();
+      const colors = ["#AFE1AF", "#7DF9FF", "#90EE90", "#ECFFDC"];
+      const mapName = currentMap.split(".")[0];
+
+      d3.json(currentMap, function (error, data) {
+        const subunits = topojson.feature(data, data.objects.lad || data.objects.lgd);
+        console.log("Rendering " + currentMap);
+
+        svg.selectAll(".subunit_" + mapName)
+          .data(subunits.features)
+          .enter().append("path")
+          .attr('id', (d) => d.id)
+          .attr("class", (d) => "subunit " + d.id)
+          .attr("fill", (d) => colors[generateRandom(0, colors.length)])
+          .attr("d", path);
+
+        if (maps.length === 0) {
+          callback();
+        } else {
+          renderMap(maps, callback);
         }
-            let width = 960,
-            height = 1160;
+      });
+    }
 
-        let projection = d3.geo.albers()
-            .center([0, 55.4])
-            .rotate([4.4, 0])
-            .parallels([50, 60])
-            .scale(1200 * 5)
-            .translate([width / 2, height / 2]);
+    renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], function () {
+      let michelin;
+      d3.csv('michellinData.csv', function (error2, m) {
+        if (error2) return console.error(error2);
+        console.log(m)
 
-        let path = d3.geo.path()
-            .projection(projection)
-            .pointRadius(2);
-
-        let svg = d3.select("body").append("svg")
-            .attr("width", width)
-            .attr("height", height)
-            
-
-        d3.json("data.json", function(error, england ) {
-        let subunits_england = topojson.feature(england, england.objects.lad);
-
-        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
-        //const colorScale = d3.scale.ordinal(subunits.features.map(d => d.Polygon), d3.schemeCategory10);
-
-
-        svg.selectAll(".subunit")
-            .data(subunits_england.features)
-            .enter().append("path")
-            .attr('id', function(d) { return d.id; })
-            .attr("class", function(d) { return "subunit " + d.id; })
-            .attr("fill", (d) => color[generateRandom(0,4)])
-            .attr("d", path)
-
-        d3.json("ni.json", function(error ,wales) {
-        let subunits_scotland = topojson.feature(wales, wales.objects.lgd);            
-        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
-   
-
-        svg.selectAll(".subunit___")
-            .data(subunits_scotland.features)
-            .enter().append("path")
-            .attr('id', function(d) {console.log(d.id); return d.id; })
-            .attr("class", function(d) { return "subunit " + d.id; })
-            .attr("fill", (d) => color[generateRandom(0,4)])
-            .attr("d", path)
-
-        })
-
-        d3.json("scotland.json", function(error ,scotland) {
-        let subunits_scotland = topojson.feature(scotland, scotland.objects.lad);            
-        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
-        svg.selectAll(".subunit_")
-            .data(subunits_scotland.features)
-            .enter().append("path")
-            .attr('id', function(d) { return d.id; })
-            .attr("class", function(d) { return "subunit " + d.id; })
-            .attr("fill", (d) => color[generateRandom(0,4)])
-            .attr("d", path)
-
-        })
-            
-        d3.json("wales.json", function(error ,wales) {
-        let subunits_scotland = topojson.feature(wales, wales.objects.lad);            
-        let color = ["#AFE1AF","#7DF9FF","#90EE90","#ECFFDC"]
-
-        svg.selectAll(".subunit__")
-            .data(subunits_scotland.features)
-            .enter().append("path")
-            .attr('id', function(d) { return d.id; })
-            .attr("class", function(d) { return "subunit " + d.id; })
-            .attr("fill", (d) => color[generateRandom(0,4)])
-            .attr("d", path)
-
-        })
-
-
-
-        let michelin;
-        d3.csv('michellinData.csv', function(error2, m) {
-                    if (error2) return console.error(error2);
-                    console.log(m)
-                    
         svg.selectAll("circles.points")
-        .data(m)
-        .enter()
-        .append("circle")
-        .attr("fill", "black")
-        .attr("r",1)
-        .attr("transform", function(d) {return "translate(" + projection([d.lng,d.lat]) + ")"})
-                    
-        })
+          .data(m)
+          .enter()
+          .append("circle")
+          .attr("fill", "black")
+          .attr("r", function (d) { return 1 * d.rating })
+          .attr("transform", function (d) { return "translate(" + projection([d.lng, d.lat]) + ")" })
 
+      })
     });
 
-    </script>
+  </script>
 </body>
