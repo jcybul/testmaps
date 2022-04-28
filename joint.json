@@ -1,0 +1,2216 @@
+{
+  "E06000005": {
+    "Population": 106803,
+    "Income": 17391,
+    "weighted": 13241.73,
+    "Color": "(0, 24, 231)"
+  },
+  "E06000047": {
+    "Population": 530094,
+    "Income": 16617,
+    "weighted": 16932.84,
+    "Color": "(0, 61, 194)"
+  },
+  "E06000001": {
+    "Population": 93663,
+    "Income": 15962,
+    "weighted": 12110.029999999999,
+    "Color": "(0, 12, 243)"
+  },
+  "E06000002": {
+    "Population": 140980,
+    "Income": 15835,
+    "weighted": 12494.3,
+    "Color": "(0, 16, 239)"
+  },
+  "E06000057": {
+    "Population": 322434,
+    "Income": 20216,
+    "weighted": 17375.54,
+    "Color": "(0, 66, 189)"
+  },
+  "E06000003": {
+    "Population": 137150,
+    "Income": 16882,
+    "weighted": 13188.9,
+    "Color": "(0, 23, 232)"
+  },
+  "E06000004": {
+    "Population": 197348,
+    "Income": 17519,
+    "weighted": 14236.779999999999,
+    "Color": "(0, 34, 221)"
+  },
+  "E08000037": {
+    "Population": 202055,
+    "Income": 16477,
+    "weighted": 13554.449999999999,
+    "Color": "(0, 27, 228)"
+  },
+  "E08000021": {
+    "Population": 302820,
+    "Income": 16473,
+    "weighted": 14559.3,
+    "Color": "(0, 37, 218)"
+  },
+  "E08000022": {
+    "Population": 207913,
+    "Income": 18246,
+    "weighted": 14851.329999999998,
+    "Color": "(0, 40, 215)"
+  },
+  "E08000023": {
+    "Population": 150976,
+    "Income": 15915,
+    "weighted": 12650.26,
+    "Color": "(0, 18, 237)"
+  },
+  "E08000024": {
+    "Population": 277705,
+    "Income": 16011,
+    "weighted": 13984.75,
+    "Color": "(0, 31, 224)"
+  },
+  "E06000008": {
+    "Population": 149696,
+    "Income": 14484,
+    "weighted": 11635.759999999998,
+    "Color": "(0, 8, 247)"
+  },
+  "E06000009": {
+    "Population": 139446,
+    "Income": 16276,
+    "weighted": 12787.66,
+    "Color": "(0, 19, 236)"
+  },
+  "E06000049": {
+    "Population": 384152,
+    "Income": 25486,
+    "weighted": 21681.719999999998,
+    "Color": "(0, 109, 146)"
+  },
+  "E06000050": {
+    "Population": 343071,
+    "Income": 22301,
+    "weighted": 19041.41,
+    "Color": "(0, 83, 172)"
+  },
+  "E06000006": {
+    "Population": 129410,
+    "Income": 17907,
+    "weighted": 13829,
+    "Color": "(0, 30, 225)"
+  },
+  "E06000007": {
+    "Population": 210014,
+    "Income": 20946,
+    "weighted": 16762.34,
+    "Color": "(0, 59, 196)"
+  },
+  "E07000026": {
+    "Population": 97761,
+    "Income": 18968,
+    "weighted": 14255.21,
+    "Color": "(0, 34, 221)"
+  },
+  "E07000027": {
+    "Population": 67049,
+    "Income": 17990,
+    "weighted": 13263.49,
+    "Color": "(0, 24, 231)"
+  },
+  "E07000028": {
+    "Population": 108678,
+    "Income": 19110,
+    "weighted": 14463.78,
+    "Color": "(0, 36, 219)"
+  },
+  "E07000029": {
+    "Population": 68183,
+    "Income": 18788,
+    "weighted": 13833.429999999998,
+    "Color": "(0, 30, 225)"
+  },
+  "E07000030": {
+    "Population": 53253,
+    "Income": 22097,
+    "weighted": 16000.43,
+    "Color": "(0, 52, 203)"
+  },
+  "E07000031": {
+    "Population": 105088,
+    "Income": 23990,
+    "weighted": 17843.88,
+    "Color": "(0, 70, 185)"
+  },
+  "E08000001": {
+    "Population": 287550,
+    "Income": 16533,
+    "weighted": 14448.599999999999,
+    "Color": "(0, 36, 219)"
+  },
+  "E08000002": {
+    "Population": 190990,
+    "Income": 19142,
+    "weighted": 15309.3,
+    "Color": "(0, 45, 210)"
+  },
+  "E08000003": {
+    "Population": 552858,
+    "Income": 15322,
+    "weighted": 16253.98,
+    "Color": "(0, 54, 201)"
+  },
+  "E08000004": {
+    "Population": 237110,
+    "Income": 15885,
+    "weighted": 13490.6,
+    "Color": "(0, 26, 229)"
+  },
+  "E08000005": {
+    "Population": 222412,
+    "Income": 16143,
+    "weighted": 13524.219999999998,
+    "Color": "(0, 27, 228)"
+  },
+  "E08000006": {
+    "Population": 258834,
+    "Income": 17524,
+    "weighted": 14855.14,
+    "Color": "(0, 40, 215)"
+  },
+  "E08000007": {
+    "Population": 293423,
+    "Income": 21606,
+    "weighted": 18058.43,
+    "Color": "(0, 73, 182)"
+  },
+  "E08000008": {
+    "Population": 226493,
+    "Income": 17185,
+    "weighted": 14294.43,
+    "Color": "(0, 34, 221)"
+  },
+  "E08000009": {
+    "Population": 237354,
+    "Income": 24060,
+    "weighted": 19215.54,
+    "Color": "(0, 84, 171)"
+  },
+  "E08000010": {
+    "Population": 328662,
+    "Income": 17239,
+    "weighted": 15353.919999999998,
+    "Color": "(0, 45, 210)"
+  },
+  "E07000117": {
+    "Population": 88920,
+    "Income": 15409,
+    "weighted": 11675.5,
+    "Color": "(0, 8, 247)"
+  },
+  "E07000118": {
+    "Population": 118216,
+    "Income": 19463,
+    "weighted": 14806.259999999998,
+    "Color": "(0, 40, 215)"
+  },
+  "E07000119": {
+    "Population": 80780,
+    "Income": 21603,
+    "weighted": 15929.899999999998,
+    "Color": "(0, 51, 204)"
+  },
+  "E07000120": {
+    "Population": 81043,
+    "Income": 15704,
+    "weighted": 11803.23,
+    "Color": "(0, 9, 246)"
+  },
+  "E07000121": {
+    "Population": 146038,
+    "Income": 17433,
+    "weighted": 13663.48,
+    "Color": "(0, 28, 227)"
+  },
+  "E07000122": {
+    "Population": 92112,
+    "Income": 15985,
+    "weighted": 12110.62,
+    "Color": "(0, 12, 243)"
+  },
+  "E07000123": {
+    "Population": 143135,
+    "Income": 17133,
+    "weighted": 13424.449999999999,
+    "Color": "(0, 26, 229)"
+  },
+  "E07000124": {
+    "Population": 60888,
+    "Income": 24493,
+    "weighted": 17753.98,
+    "Color": "(0, 69, 186)"
+  },
+  "E07000125": {
+    "Population": 71482,
+    "Income": 18078,
+    "weighted": 13369.419999999998,
+    "Color": "(0, 25, 230)"
+  },
+  "E07000126": {
+    "Population": 110788,
+    "Income": 19528,
+    "weighted": 14777.48,
+    "Color": "(0, 39, 216)"
+  },
+  "E07000127": {
+    "Population": 114306,
+    "Income": 20004,
+    "weighted": 15145.859999999999,
+    "Color": "(0, 43, 212)"
+  },
+  "E07000128": {
+    "Population": 112091,
+    "Income": 18459,
+    "weighted": 14042.21,
+    "Color": "(0, 32, 223)"
+  },
+  "E08000011": {
+    "Population": 150862,
+    "Income": 16627,
+    "weighted": 13147.52,
+    "Color": "(0, 23, 232)"
+  },
+  "E08000012": {
+    "Population": 498042,
+    "Income": 15673,
+    "weighted": 15951.519999999999,
+    "Color": "(0, 51, 204)"
+  },
+  "E08000014": {
+    "Population": 276410,
+    "Income": 19325,
+    "weighted": 16291.6,
+    "Color": "(0, 55, 200)"
+  },
+  "E08000013": {
+    "Population": 180585,
+    "Income": 17325,
+    "weighted": 13933.35,
+    "Color": "(0, 31, 224)"
+  },
+  "E08000015": {
+    "Population": 324011,
+    "Income": 19175,
+    "weighted": 16662.61,
+    "Color": "(0, 58, 197)"
+  },
+  "E06000011": {
+    "Population": 341173,
+    "Income": 20516,
+    "weighted": 17772.93,
+    "Color": "(0, 70, 185)"
+  },
+  "E06000010": {
+    "Population": 259778,
+    "Income": 14908,
+    "weighted": 13033.38,
+    "Color": "(0, 22, 233)"
+  },
+  "E06000012": {
+    "Population": 159563,
+    "Income": 16569,
+    "weighted": 13193.93,
+    "Color": "(0, 23, 232)"
+  },
+  "E06000013": {
+    "Population": 172292,
+    "Income": 17218,
+    "weighted": 13775.519999999999,
+    "Color": "(0, 29, 226)"
+  },
+  "E06000014": {
+    "Population": 210618,
+    "Income": 20216,
+    "weighted": 16257.38,
+    "Color": "(0, 54, 201)"
+  },
+  "E07000163": {
+    "Population": 57142,
+    "Income": 22181,
+    "weighted": 16098.119999999999,
+    "Color": "(0, 53, 202)"
+  },
+  "E07000164": {
+    "Population": 91594,
+    "Income": 23487,
+    "weighted": 17356.839999999997,
+    "Color": "(0, 65, 190)"
+  },
+  "E07000165": {
+    "Population": 160831,
+    "Income": 26868,
+    "weighted": 20415.91,
+    "Color": "(0, 96, 159)"
+  },
+  "E07000166": {
+    "Population": 53730,
+    "Income": 21033,
+    "weighted": 15260.399999999998,
+    "Color": "(0, 44, 211)"
+  },
+  "E07000167": {
+    "Population": 55380,
+    "Income": 22044,
+    "weighted": 15984.599999999999,
+    "Color": "(0, 52, 203)"
+  },
+  "E07000168": {
+    "Population": 108757,
+    "Income": 19116,
+    "weighted": 14468.769999999999,
+    "Color": "(0, 36, 219)"
+  },
+  "E07000169": {
+    "Population": 90620,
+    "Income": 21994,
+    "weighted": 16302,
+    "Color": "(0, 55, 200)"
+  },
+  "E08000016": {
+    "Population": 246866,
+    "Income": 17093,
+    "weighted": 14433.759999999998,
+    "Color": "(0, 36, 219)"
+  },
+  "E08000017": {
+    "Population": 311890,
+    "Income": 17001,
+    "weighted": 15019.599999999999,
+    "Color": "(0, 42, 213)"
+  },
+  "E08000018": {
+    "Population": 265411,
+    "Income": 16985,
+    "weighted": 14543.61,
+    "Color": "(0, 37, 218)"
+  },
+  "E08000019": {
+    "Population": 584853,
+    "Income": 16131,
+    "weighted": 17140.23,
+    "Color": "(0, 63, 192)"
+  },
+  "E08000032": {
+    "Population": 539776,
+    "Income": 15308,
+    "weighted": 16113.359999999999,
+    "Color": "(0, 53, 202)"
+  },
+  "E08000033": {
+    "Population": 211455,
+    "Income": 17882,
+    "weighted": 14631.95,
+    "Color": "(0, 38, 217)"
+  },
+  "E08000034": {
+    "Population": 439787,
+    "Income": 17288,
+    "weighted": 16499.469999999998,
+    "Color": "(0, 57, 198)"
+  },
+  "E08000035": {
+    "Population": 793139,
+    "Income": 18634,
+    "weighted": 20975.19,
+    "Color": "(0, 102, 153)"
+  },
+  "E08000036": {
+    "Population": 348312,
+    "Income": 17329,
+    "weighted": 15613.419999999998,
+    "Color": "(0, 48, 207)"
+  },
+  "E06000015": {
+    "Population": 257302,
+    "Income": 16793,
+    "weighted": 14328.119999999999,
+    "Color": "(0, 35, 220)"
+  },
+  "E06000016": {
+    "Population": 354224,
+    "Income": 13802,
+    "weighted": 13203.64,
+    "Color": "(0, 23, 232)"
+  },
+  "E06000018": {
+    "Population": 332900,
+    "Income": 13381,
+    "weighted": 12695.699999999999,
+    "Color": "(0, 18, 237)"
+  },
+  "E06000017": {
+    "Population": 39927,
+    "Income": 24707,
+    "weighted": 17694.17,
+    "Color": "(0, 69, 186)"
+  },
+  "E07000032": {
+    "Population": 128147,
+    "Income": 18983,
+    "weighted": 14569.569999999998,
+    "Color": "(0, 37, 218)"
+  },
+  "E07000033": {
+    "Population": 80562,
+    "Income": 16062,
+    "weighted": 12049.02,
+    "Color": "(0, 12, 243)"
+  },
+  "E07000034": {
+    "Population": 104900,
+    "Income": 16802,
+    "weighted": 12810.4,
+    "Color": "(0, 19, 236)"
+  },
+  "E07000035": {
+    "Population": 72325,
+    "Income": 25635,
+    "weighted": 18667.75,
+    "Color": "(0, 79, 176)"
+  },
+  "E07000036": {
+    "Population": 115371,
+    "Income": 18301,
+    "weighted": 13964.41,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000037": {
+    "Population": 92666,
+    "Income": 19824,
+    "weighted": 14803.46,
+    "Color": "(0, 40, 215)"
+  },
+  "E07000038": {
+    "Population": 101462,
+    "Income": 19094,
+    "weighted": 14380.42,
+    "Color": "(0, 35, 220)"
+  },
+  "E07000039": {
+    "Population": 107261,
+    "Income": 20154,
+    "weighted": 15180.41,
+    "Color": "(0, 43, 212)"
+  },
+  "E07000129": {
+    "Population": 101526,
+    "Income": 19145,
+    "weighted": 14416.76,
+    "Color": "(0, 36, 219)"
+  },
+  "E07000130": {
+    "Population": 185851,
+    "Income": 18275,
+    "weighted": 14651.01,
+    "Color": "(0, 38, 217)"
+  },
+  "E07000131": {
+    "Population": 93807,
+    "Income": 24246,
+    "weighted": 17910.27,
+    "Color": "(0, 71, 184)"
+  },
+  "E07000132": {
+    "Population": 113136,
+    "Income": 19841,
+    "weighted": 15020.06,
+    "Color": "(0, 42, 213)"
+  },
+  "E07000133": {
+    "Population": 51209,
+    "Income": 21473,
+    "weighted": 15543.189999999999,
+    "Color": "(0, 47, 208)"
+  },
+  "E07000134": {
+    "Population": 103611,
+    "Income": 19644,
+    "weighted": 14786.91,
+    "Color": "(0, 39, 216)"
+  },
+  "E07000135": {
+    "Population": 57015,
+    "Income": 18629,
+    "weighted": 13610.449999999999,
+    "Color": "(0, 28, 227)"
+  },
+  "E07000136": {
+    "Population": 70173,
+    "Income": 17826,
+    "weighted": 13179.929999999998,
+    "Color": "(0, 23, 232)"
+  },
+  "E07000137": {
+    "Population": 141727,
+    "Income": 17178,
+    "weighted": 13441.869999999999,
+    "Color": "(0, 26, 229)"
+  },
+  "E07000138": {
+    "Population": 99299,
+    "Income": 16874,
+    "weighted": 12804.789999999999,
+    "Color": "(0, 19, 236)"
+  },
+  "E07000139": {
+    "Population": 116915,
+    "Income": 19912,
+    "weighted": 15107.55,
+    "Color": "(0, 43, 212)"
+  },
+  "E07000140": {
+    "Population": 95019,
+    "Income": 18459,
+    "weighted": 13871.49,
+    "Color": "(0, 30, 225)"
+  },
+  "E07000141": {
+    "Population": 142424,
+    "Income": 21522,
+    "weighted": 16489.64,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000142": {
+    "Population": 95667,
+    "Income": 18709,
+    "weighted": 14052.97,
+    "Color": "(0, 32, 223)"
+  },
+  "E07000170": {
+    "Population": 127918,
+    "Income": 16845,
+    "weighted": 13070.68,
+    "Color": "(0, 22, 233)"
+  },
+  "E07000171": {
+    "Population": 117459,
+    "Income": 18596,
+    "weighted": 14191.789999999999,
+    "Color": "(0, 33, 222)"
+  },
+  "E07000172": {
+    "Population": 114033,
+    "Income": 18570,
+    "weighted": 14139.33,
+    "Color": "(0, 33, 222)"
+  },
+  "E07000173": {
+    "Population": 117896,
+    "Income": 19250,
+    "weighted": 14653.96,
+    "Color": "(0, 38, 217)"
+  },
+  "E07000174": {
+    "Population": 109313,
+    "Income": 17448,
+    "weighted": 13306.73,
+    "Color": "(0, 24, 231)"
+  },
+  "E07000175": {
+    "Population": 122421,
+    "Income": 20004,
+    "weighted": 15227.009999999998,
+    "Color": "(0, 44, 211)"
+  },
+  "E07000176": {
+    "Population": 119184,
+    "Income": 23384,
+    "weighted": 17560.64,
+    "Color": "(0, 68, 187)"
+  },
+  "E06000019": {
+    "Population": 192801,
+    "Income": 20631,
+    "weighted": 16369.71,
+    "Color": "(0, 55, 200)"
+  },
+  "E06000051": {
+    "Population": 323136,
+    "Income": 20732,
+    "weighted": 17743.76,
+    "Color": "(0, 69, 186)"
+  },
+  "E06000021": {
+    "Population": 256375,
+    "Income": 15455,
+    "weighted": 13382.25,
+    "Color": "(0, 25, 230)"
+  },
+  "E06000020": {
+    "Population": 179854,
+    "Income": 17250,
+    "weighted": 13873.54,
+    "Color": "(0, 30, 225)"
+  },
+  "E07000192": {
+    "Population": 100762,
+    "Income": 18096,
+    "weighted": 13674.82,
+    "Color": "(0, 28, 227)"
+  },
+  "E07000193": {
+    "Population": 119754,
+    "Income": 19763,
+    "weighted": 15031.64,
+    "Color": "(0, 42, 213)"
+  },
+  "E07000194": {
+    "Population": 104756,
+    "Income": 22974,
+    "weighted": 17129.36,
+    "Color": "(0, 63, 192)"
+  },
+  "E07000195": {
+    "Population": 129441,
+    "Income": 17666,
+    "weighted": 13660.609999999999,
+    "Color": "(0, 28, 227)"
+  },
+  "E07000196": {
+    "Population": 112436,
+    "Income": 20463,
+    "weighted": 15448.46,
+    "Color": "(0, 46, 209)"
+  },
+  "E07000197": {
+    "Population": 137280,
+    "Income": 20473,
+    "weighted": 15703.899999999998,
+    "Color": "(0, 49, 206)"
+  },
+  "E07000198": {
+    "Population": 98435,
+    "Income": 19411,
+    "weighted": 14572.05,
+    "Color": "(0, 37, 218)"
+  },
+  "E07000199": {
+    "Population": 76696,
+    "Income": 18446,
+    "weighted": 13679.16,
+    "Color": "(0, 28, 227)"
+  },
+  "E07000218": {
+    "Population": 65264,
+    "Income": 20109,
+    "weighted": 14728.939999999999,
+    "Color": "(0, 39, 216)"
+  },
+  "E07000219": {
+    "Population": 129883,
+    "Income": 18636,
+    "weighted": 14344.029999999999,
+    "Color": "(0, 35, 220)"
+  },
+  "E07000220": {
+    "Population": 108935,
+    "Income": 22071,
+    "weighted": 16539.05,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000221": {
+    "Population": 130098,
+    "Income": 27934,
+    "weighted": 20854.78,
+    "Color": "(0, 101, 154)"
+  },
+  "E07000222": {
+    "Population": 143753,
+    "Income": 27980,
+    "weighted": 21023.53,
+    "Color": "(0, 103, 152)"
+  },
+  "E08000025": {
+    "Population": 1141816,
+    "Income": 15368,
+    "weighted": 22175.76,
+    "Color": "(0, 114, 141)"
+  },
+  "E08000026": {
+    "Population": 371521,
+    "Income": 15350,
+    "weighted": 14460.21,
+    "Color": "(0, 36, 219)"
+  },
+  "E08000027": {
+    "Population": 321596,
+    "Income": 16735,
+    "weighted": 14930.46,
+    "Color": "(0, 41, 214)"
+  },
+  "E08000028": {
+    "Population": 328450,
+    "Income": 14454,
+    "weighted": 13402.3,
+    "Color": "(0, 25, 230)"
+  },
+  "E08000029": {
+    "Population": 216374,
+    "Income": 23722,
+    "weighted": 18769.14,
+    "Color": "(0, 80, 175)"
+  },
+  "E08000030": {
+    "Population": 285478,
+    "Income": 15694,
+    "weighted": 13840.58,
+    "Color": "(0, 30, 225)"
+  },
+  "E08000031": {
+    "Population": 263357,
+    "Income": 15500,
+    "weighted": 13483.57,
+    "Color": "(0, 26, 229)"
+  },
+  "E07000234": {
+    "Population": 99881,
+    "Income": 23909,
+    "weighted": 17735.11,
+    "Color": "(0, 69, 186)"
+  },
+  "E07000235": {
+    "Population": 78698,
+    "Income": 23220,
+    "weighted": 17040.98,
+    "Color": "(0, 62, 193)"
+  },
+  "E07000236": {
+    "Population": 85261,
+    "Income": 21187,
+    "weighted": 15683.51,
+    "Color": "(0, 49, 206)"
+  },
+  "E07000237": {
+    "Population": 101222,
+    "Income": 19509,
+    "weighted": 14668.519999999999,
+    "Color": "(0, 38, 217)"
+  },
+  "E07000238": {
+    "Population": 129433,
+    "Income": 23462,
+    "weighted": 17717.729999999996,
+    "Color": "(0, 69, 186)"
+  },
+  "E07000239": {
+    "Population": 101291,
+    "Income": 19037,
+    "weighted": 14338.81,
+    "Color": "(0, 35, 220)"
+  },
+  "E06000055": {
+    "Population": 173292,
+    "Income": 22321,
+    "weighted": 17357.62,
+    "Color": "(0, 65, 190)"
+  },
+  "E06000056": {
+    "Population": 288648,
+    "Income": 22419,
+    "weighted": 18579.78,
+    "Color": "(0, 78, 177)"
+  },
+  "E06000032": {
+    "Population": 213052,
+    "Income": 16873,
+    "weighted": 13941.619999999999,
+    "Color": "(0, 31, 224)"
+  },
+  "E06000031": {
+    "Population": 202259,
+    "Income": 18124,
+    "weighted": 14709.39,
+    "Color": "(0, 39, 216)"
+  },
+  "E06000033": {
+    "Population": 183125,
+    "Income": 21187,
+    "weighted": 16662.15,
+    "Color": "(0, 58, 197)"
+  },
+  "E06000034": {
+    "Population": 174341,
+    "Income": 19951,
+    "weighted": 15709.109999999999,
+    "Color": "(0, 49, 206)"
+  },
+  "E07000008": {
+    "Population": 124798,
+    "Income": 25105,
+    "weighted": 18821.48,
+    "Color": "(0, 80, 175)"
+  },
+  "E07000009": {
+    "Population": 89840,
+    "Income": 22769,
+    "weighted": 16836.7,
+    "Color": "(0, 60, 195)"
+  },
+  "E07000010": {
+    "Population": 101850,
+    "Income": 17958,
+    "weighted": 13589.099999999999,
+    "Color": "(0, 27, 228)"
+  },
+  "E07000011": {
+    "Population": 177963,
+    "Income": 22089,
+    "weighted": 17241.93,
+    "Color": "(0, 64, 191)"
+  },
+  "E07000012": {
+    "Population": 159086,
+    "Income": 27610,
+    "weighted": 20917.86,
+    "Color": "(0, 102, 153)"
+  },
+  "E07000066": {
+    "Population": 187199,
+    "Income": 21435,
+    "weighted": 16876.489999999998,
+    "Color": "(0, 61, 194)"
+  },
+  "E07000067": {
+    "Population": 152604,
+    "Income": 22179,
+    "weighted": 17051.34,
+    "Color": "(0, 62, 193)"
+  },
+  "E07000068": {
+    "Population": 77021,
+    "Income": 30517,
+    "weighted": 22132.109999999997,
+    "Color": "(0, 114, 141)"
+  },
+  "E07000069": {
+    "Population": 90376,
+    "Income": 22011,
+    "weighted": 16311.46,
+    "Color": "(0, 55, 200)"
+  },
+  "E07000070": {
+    "Population": 178388,
+    "Income": 24643,
+    "weighted": 19033.98,
+    "Color": "(0, 82, 173)"
+  },
+  "E07000071": {
+    "Population": 194706,
+    "Income": 20570,
+    "weighted": 16346.059999999998,
+    "Color": "(0, 55, 200)"
+  },
+  "E07000072": {
+    "Population": 131689,
+    "Income": 30550,
+    "weighted": 22701.89,
+    "Color": "(0, 120, 135)"
+  },
+  "E07000073": {
+    "Population": 87067,
+    "Income": 19157,
+    "weighted": 14280.57,
+    "Color": "(0, 34, 221)"
+  },
+  "E07000074": {
+    "Population": 64926,
+    "Income": 23427,
+    "weighted": 17048.159999999996,
+    "Color": "(0, 62, 193)"
+  },
+  "E07000075": {
+    "Population": 87368,
+    "Income": 22986,
+    "weighted": 16963.879999999997,
+    "Color": "(0, 61, 194)"
+  },
+  "E07000076": {
+    "Population": 146561,
+    "Income": 18513,
+    "weighted": 14424.71,
+    "Color": "(0, 36, 219)"
+  },
+  "E07000077": {
+    "Population": 91284,
+    "Income": 28090,
+    "weighted": 20575.84,
+    "Color": "(0, 98, 157)"
+  },
+  "E07000095": {
+    "Population": 97279,
+    "Income": 23109,
+    "weighted": 17149.09,
+    "Color": "(0, 63, 192)"
+  },
+  "E07000096": {
+    "Population": 154763,
+    "Income": 26318,
+    "weighted": 19970.23,
+    "Color": "(0, 92, 163)"
+  },
+  "E07000242": {
+    "Population": 149748,
+    "Income": 28356,
+    "weighted": 21346.679999999997,
+    "Color": "(0, 106, 149)"
+  },
+  "E07000098": {
+    "Population": 104919,
+    "Income": 30046,
+    "weighted": 22081.389999999996,
+    "Color": "(0, 113, 142)"
+  },
+  "E07000099": {
+    "Population": 133570,
+    "Income": 25826,
+    "weighted": 19413.899999999998,
+    "Color": "(0, 86, 169)"
+  },
+  "E07000240": {
+    "Population": 148452,
+    "Income": 33751,
+    "weighted": 25110.219999999998,
+    "Color": "(0, 144, 111)"
+  },
+  "E07000243": {
+    "Population": 87845,
+    "Income": 20079,
+    "weighted": 14933.75,
+    "Color": "(0, 41, 214)"
+  },
+  "E07000102": {
+    "Population": 93323,
+    "Income": 29712,
+    "weighted": 21731.629999999997,
+    "Color": "(0, 110, 145)"
+  },
+  "E07000103": {
+    "Population": 96577,
+    "Income": 24163,
+    "weighted": 17879.87,
+    "Color": "(0, 71, 184)"
+  },
+  "E07000241": {
+    "Population": 123043,
+    "Income": 22895,
+    "weighted": 17256.929999999997,
+    "Color": "(0, 64, 191)"
+  },
+  "E07000143": {
+    "Population": 139968,
+    "Income": 18462,
+    "weighted": 14323.08,
+    "Color": "(0, 35, 220)"
+  },
+  "E07000144": {
+    "Population": 130783,
+    "Income": 21073,
+    "weighted": 16058.929999999998,
+    "Color": "(0, 52, 203)"
+  },
+  "E07000145": {
+    "Population": 99336,
+    "Income": 16225,
+    "weighted": 12350.86,
+    "Color": "(0, 15, 240)"
+  },
+  "E07000146": {
+    "Population": 151383,
+    "Income": 19572,
+    "weighted": 15214.23,
+    "Color": "(0, 44, 211)"
+  },
+  "E07000147": {
+    "Population": 104837,
+    "Income": 20466,
+    "weighted": 15374.57,
+    "Color": "(0, 45, 210)"
+  },
+  "E07000148": {
+    "Population": 140573,
+    "Income": 17170,
+    "weighted": 13424.73,
+    "Color": "(0, 26, 229)"
+  },
+  "E07000149": {
+    "Population": 140880,
+    "Income": 20564,
+    "weighted": 15803.599999999999,
+    "Color": "(0, 50, 205)"
+  },
+  "E07000200": {
+    "Population": 92036,
+    "Income": 22641,
+    "weighted": 16769.059999999998,
+    "Color": "(0, 60, 195)"
+  },
+  "E07000202": {
+    "Population": 136913,
+    "Income": 18093,
+    "weighted": 14034.23,
+    "Color": "(0, 32, 223)"
+  },
+  "E07000244": {
+    "Population": 249461,
+    "Income": 20364,
+    "weighted": 16749.41,
+    "Color": "(0, 59, 196)"
+  },
+  "E07000203": {
+    "Population": 103895,
+    "Income": 21280,
+    "weighted": 15934.949999999999,
+    "Color": "(0, 51, 204)"
+  },
+  "E07000245": {
+    "Population": 179045,
+    "Income": 20224,
+    "weighted": 15947.25,
+    "Color": "(0, 51, 204)"
+  },
+  "E09000007": {
+    "Population": 270029,
+    "Income": 44015,
+    "weighted": 33510.78999999999,
+    "Color": "(0, 229, 26)"
+  },
+  "E09000012": {
+    "Population": 281120,
+    "Income": 24575,
+    "weighted": 20013.7,
+    "Color": "(0, 92, 163)"
+  },
+  "E09000013": {
+    "Population": 185143,
+    "Income": 43040,
+    "weighted": 31979.429999999997,
+    "Color": "(0, 213, 42)"
+  },
+  "E09000014": {
+    "Population": 268647,
+    "Income": 30176,
+    "weighted": 23809.67,
+    "Color": "(0, 131, 124)"
+  },
+  "E09000019": {
+    "Population": 242467,
+    "Income": 32534,
+    "weighted": 25198.47,
+    "Color": "(0, 145, 110)"
+  },
+  "E09000020": {
+    "Population": 156129,
+    "Income": 85376,
+    "weighted": 61324.49,
+    "Color": "(255, 0, 0)"
+  },
+  "E09000022": {
+    "Population": 326034,
+    "Income": 30386,
+    "weighted": 24530.539999999997,
+    "Color": "(0, 138, 117)"
+  },
+  "E09000023": {
+    "Population": 305842,
+    "Income": 24047,
+    "weighted": 19891.32,
+    "Color": "(0, 91, 164)"
+  },
+  "E09000025": {
+    "Population": 353134,
+    "Income": 20710,
+    "weighted": 18028.339999999997,
+    "Color": "(0, 72, 183)"
+  },
+  "E09000028": {
+    "Population": 318830,
+    "Income": 28609,
+    "weighted": 23214.6,
+    "Color": "(0, 125, 130)"
+  },
+  "E09000030": {
+    "Population": 324745,
+    "Income": 26404,
+    "weighted": 21730.25,
+    "Color": "(0, 110, 145)"
+  },
+  "E09000032": {
+    "Population": 329677,
+    "Income": 40851,
+    "weighted": 31892.469999999998,
+    "Color": "(0, 213, 42)"
+  },
+  "E09000033": {
+    "Population": 261317,
+    "Income": 53670,
+    "weighted": 40182.17,
+    "Color": "(41, 214, 0)"
+  },
+  "E09000002": {
+    "Population": 212906,
+    "Income": 18928,
+    "weighted": 15378.659999999998,
+    "Color": "(0, 45, 210)"
+  },
+  "E09000003": {
+    "Population": 395869,
+    "Income": 31489,
+    "weighted": 26000.989999999998,
+    "Color": "(0, 153, 102)"
+  },
+  "E09000004": {
+    "Population": 248287,
+    "Income": 23401,
+    "weighted": 18863.57,
+    "Color": "(0, 81, 174)"
+  },
+  "E09000005": {
+    "Population": 329771,
+    "Income": 26376,
+    "weighted": 21760.909999999996,
+    "Color": "(0, 110, 145)"
+  },
+  "E09000006": {
+    "Population": 332336,
+    "Income": 30157,
+    "weighted": 24433.26,
+    "Color": "(0, 137, 118)"
+  },
+  "E09000008": {
+    "Population": 386710,
+    "Income": 24603,
+    "weighted": 21089.199999999997,
+    "Color": "(0, 103, 152)"
+  },
+  "E09000009": {
+    "Population": 341806,
+    "Income": 28155,
+    "weighted": 23126.56,
+    "Color": "(0, 124, 131)"
+  },
+  "E09000010": {
+    "Population": 333794,
+    "Income": 23710,
+    "weighted": 19934.94,
+    "Color": "(0, 92, 163)"
+  },
+  "E09000011": {
+    "Population": 287942,
+    "Income": 24700,
+    "weighted": 20169.42,
+    "Color": "(0, 94, 161)"
+  },
+  "E09000015": {
+    "Population": 251160,
+    "Income": 29284,
+    "weighted": 23010.399999999998,
+    "Color": "(0, 123, 132)"
+  },
+  "E09000016": {
+    "Population": 259552,
+    "Income": 24089,
+    "weighted": 19457.82,
+    "Color": "(0, 87, 168)"
+  },
+  "E09000017": {
+    "Population": 306870,
+    "Income": 23160,
+    "weighted": 19280.699999999997,
+    "Color": "(0, 85, 170)"
+  },
+  "E09000018": {
+    "Population": 271523,
+    "Income": 26575,
+    "weighted": 21317.73,
+    "Color": "(0, 106, 149)"
+  },
+  "E09000021": {
+    "Population": 177507,
+    "Income": 29045,
+    "weighted": 22106.57,
+    "Color": "(0, 114, 141)"
+  },
+  "E09000024": {
+    "Population": 206548,
+    "Income": 33251,
+    "weighted": 25341.179999999997,
+    "Color": "(0, 146, 109)"
+  },
+  "E09000026": {
+    "Population": 305222,
+    "Income": 24650,
+    "weighted": 20307.22,
+    "Color": "(0, 95, 160)"
+  },
+  "E09000027": {
+    "Population": 198019,
+    "Income": 43363,
+    "weighted": 32334.289999999997,
+    "Color": "(0, 217, 38)"
+  },
+  "E09000029": {
+    "Population": 206349,
+    "Income": 25591,
+    "weighted": 19977.189999999995,
+    "Color": "(0, 92, 163)"
+  },
+  "E09000031": {
+    "Population": 276983,
+    "Income": 24614,
+    "weighted": 19999.629999999997,
+    "Color": "(0, 92, 163)"
+  },
+  "E06000036": {
+    "Population": 122549,
+    "Income": 23892,
+    "weighted": 17949.89,
+    "Color": "(0, 71, 184)"
+  },
+  "E06000043": {
+    "Population": 290885,
+    "Income": 23142,
+    "weighted": 19108.25,
+    "Color": "(0, 83, 172)"
+  },
+  "E06000046": {
+    "Population": 141771,
+    "Income": 19211,
+    "weighted": 14865.41,
+    "Color": "(0, 40, 215)"
+  },
+  "E06000035": {
+    "Population": 278556,
+    "Income": 19814,
+    "weighted": 16655.36,
+    "Color": "(0, 58, 197)"
+  },
+  "E06000042": {
+    "Population": 269457,
+    "Income": 22116,
+    "weighted": 18175.77,
+    "Color": "(0, 74, 181)"
+  },
+  "E06000044": {
+    "Population": 214905,
+    "Income": 17028,
+    "weighted": 14068.649999999998,
+    "Color": "(0, 32, 223)"
+  },
+  "E06000038": {
+    "Population": 161780,
+    "Income": 23203,
+    "weighted": 17859.899999999998,
+    "Color": "(0, 71, 184)"
+  },
+  "E06000039": {
+    "Population": 149539,
+    "Income": 19469,
+    "weighted": 15123.689999999999,
+    "Color": "(0, 43, 212)"
+  },
+  "E06000045": {
+    "Population": 252520,
+    "Income": 17529,
+    "weighted": 14795.5,
+    "Color": "(0, 40, 215)"
+  },
+  "E06000037": {
+    "Population": 158450,
+    "Income": 26714,
+    "weighted": 20284.3,
+    "Color": "(0, 95, 160)"
+  },
+  "E06000040": {
+    "Population": 151422,
+    "Income": 31975,
+    "weighted": 23896.72,
+    "Color": "(0, 132, 123)"
+  },
+  "E06000041": {
+    "Population": 171119,
+    "Income": 29443,
+    "weighted": 22321.289999999997,
+    "Color": "(0, 116, 139)"
+  },
+  "E07000061": {
+    "Population": 103745,
+    "Income": 20020,
+    "weighted": 15051.45,
+    "Color": "(0, 42, 213)"
+  },
+  "E07000062": {
+    "Population": 92661,
+    "Income": 18545,
+    "weighted": 13908.11,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000063": {
+    "Population": 103268,
+    "Income": 23543,
+    "weighted": 17512.78,
+    "Color": "(0, 67, 188)"
+  },
+  "E07000064": {
+    "Population": 96080,
+    "Income": 22585,
+    "weighted": 16770.3,
+    "Color": "(0, 60, 195)"
+  },
+  "E07000065": {
+    "Population": 161475,
+    "Income": 25895,
+    "weighted": 19741.25,
+    "Color": "(0, 90, 165)"
+  },
+  "E07000084": {
+    "Population": 176582,
+    "Income": 25458,
+    "weighted": 19586.42,
+    "Color": "(0, 88, 167)"
+  },
+  "E07000085": {
+    "Population": 122308,
+    "Income": 28337,
+    "weighted": 21058.979999999996,
+    "Color": "(0, 103, 152)"
+  },
+  "E07000086": {
+    "Population": 133584,
+    "Income": 22722,
+    "weighted": 17241.239999999998,
+    "Color": "(0, 64, 191)"
+  },
+  "E07000087": {
+    "Population": 116233,
+    "Income": 22669,
+    "weighted": 17030.629999999997,
+    "Color": "(0, 62, 193)"
+  },
+  "E07000088": {
+    "Population": 84838,
+    "Income": 18711,
+    "weighted": 13946.079999999998,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000089": {
+    "Population": 97073,
+    "Income": 29293,
+    "weighted": 21475.829999999998,
+    "Color": "(0, 107, 148)"
+  },
+  "E07000090": {
+    "Population": 126220,
+    "Income": 20700,
+    "weighted": 15752.199999999999,
+    "Color": "(0, 49, 206)"
+  },
+  "E07000091": {
+    "Population": 180086,
+    "Income": 24778,
+    "weighted": 19145.46,
+    "Color": "(0, 84, 171)"
+  },
+  "E07000092": {
+    "Population": 94599,
+    "Income": 22215,
+    "weighted": 16496.489999999998,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000093": {
+    "Population": 126160,
+    "Income": 25872,
+    "weighted": 19371.999999999996,
+    "Color": "(0, 86, 169)"
+  },
+  "E07000094": {
+    "Population": 124859,
+    "Income": 28611,
+    "weighted": 21276.289999999997,
+    "Color": "(0, 105, 150)"
+  },
+  "E07000105": {
+    "Population": 130032,
+    "Income": 21967,
+    "weighted": 16677.22,
+    "Color": "(0, 59, 196)"
+  },
+  "E07000106": {
+    "Population": 165394,
+    "Income": 19631,
+    "weighted": 15395.64,
+    "Color": "(0, 46, 209)"
+  },
+  "E07000107": {
+    "Population": 112606,
+    "Income": 22459,
+    "weighted": 16847.36,
+    "Color": "(0, 60, 195)"
+  },
+  "E07000108": {
+    "Population": 118131,
+    "Income": 19964,
+    "weighted": 15156.109999999999,
+    "Color": "(0, 43, 212)"
+  },
+  "E07000109": {
+    "Population": 106939,
+    "Income": 20665,
+    "weighted": 15534.889999999998,
+    "Color": "(0, 47, 208)"
+  },
+  "E07000110": {
+    "Population": 171826,
+    "Income": 22888,
+    "weighted": 17739.859999999997,
+    "Color": "(0, 69, 186)"
+  },
+  "E07000111": {
+    "Population": 120750,
+    "Income": 31654,
+    "weighted": 23365.3,
+    "Color": "(0, 126, 129)"
+  },
+  "E07000112": {
+    "Population": 112996,
+    "Income": 20461,
+    "weighted": 15452.66,
+    "Color": "(0, 46, 209)"
+  },
+  "E07000113": {
+    "Population": 150082,
+    "Income": 19753,
+    "weighted": 15327.919999999998,
+    "Color": "(0, 45, 210)"
+  },
+  "E07000114": {
+    "Population": 141922,
+    "Income": 18710,
+    "weighted": 14516.22,
+    "Color": "(0, 37, 218)"
+  },
+  "E07000115": {
+    "Population": 132153,
+    "Income": 25249,
+    "weighted": 18995.829999999998,
+    "Color": "(0, 82, 173)"
+  },
+  "E07000116": {
+    "Population": 118724,
+    "Income": 28503,
+    "weighted": 21139.34,
+    "Color": "(0, 104, 151)"
+  },
+  "E07000177": {
+    "Population": 150503,
+    "Income": 24115,
+    "weighted": 18385.53,
+    "Color": "(0, 76, 179)"
+  },
+  "E07000178": {
+    "Population": 152457,
+    "Income": 22848,
+    "weighted": 17518.17,
+    "Color": "(0, 67, 188)"
+  },
+  "E07000179": {
+    "Population": 142057,
+    "Income": 29669,
+    "weighted": 22188.87,
+    "Color": "(0, 114, 141)"
+  },
+  "E07000180": {
+    "Population": 136007,
+    "Income": 25680,
+    "weighted": 19336.07,
+    "Color": "(0, 85, 170)"
+  },
+  "E07000181": {
+    "Population": 110643,
+    "Income": 27212,
+    "weighted": 20154.829999999998,
+    "Color": "(0, 94, 161)"
+  },
+  "E07000207": {
+    "Population": 136795,
+    "Income": 40922,
+    "weighted": 30013.35,
+    "Color": "(0, 194, 61)"
+  },
+  "E07000208": {
+    "Population": 80627,
+    "Income": 29427,
+    "weighted": 21405.17,
+    "Color": "(0, 106, 149)"
+  },
+  "E07000209": {
+    "Population": 148998,
+    "Income": 29325,
+    "weighted": 22017.48,
+    "Color": "(0, 113, 142)"
+  },
+  "E07000210": {
+    "Population": 87245,
+    "Income": 33329,
+    "weighted": 24202.75,
+    "Color": "(0, 135, 120)"
+  },
+  "E07000211": {
+    "Population": 148748,
+    "Income": 29069,
+    "weighted": 21835.78,
+    "Color": "(0, 111, 144)"
+  },
+  "E07000212": {
+    "Population": 89424,
+    "Income": 26925,
+    "weighted": 19741.74,
+    "Color": "(0, 90, 165)"
+  },
+  "E07000213": {
+    "Population": 99844,
+    "Income": 26136,
+    "weighted": 19293.639999999996,
+    "Color": "(0, 85, 170)"
+  },
+  "E07000214": {
+    "Population": 89305,
+    "Income": 29545,
+    "weighted": 21574.55,
+    "Color": "(0, 108, 147)"
+  },
+  "E07000215": {
+    "Population": 88129,
+    "Income": 30333,
+    "weighted": 22114.39,
+    "Color": "(0, 114, 141)"
+  },
+  "E07000216": {
+    "Population": 126328,
+    "Income": 33071,
+    "weighted": 24412.979999999996,
+    "Color": "(0, 137, 118)"
+  },
+  "E07000217": {
+    "Population": 100793,
+    "Income": 29877,
+    "weighted": 21921.829999999998,
+    "Color": "(0, 112, 143)"
+  },
+  "E07000223": {
+    "Population": 64301,
+    "Income": 21618,
+    "weighted": 15775.609999999999,
+    "Color": "(0, 49, 206)"
+  },
+  "E07000224": {
+    "Population": 160758,
+    "Income": 22471,
+    "weighted": 17337.28,
+    "Color": "(0, 65, 190)"
+  },
+  "E07000225": {
+    "Population": 121129,
+    "Income": 26915,
+    "weighted": 20051.79,
+    "Color": "(0, 93, 162)"
+  },
+  "E07000226": {
+    "Population": 112409,
+    "Income": 21656,
+    "weighted": 16283.289999999999,
+    "Color": "(0, 55, 200)"
+  },
+  "E07000227": {
+    "Population": 143791,
+    "Income": 27522,
+    "weighted": 20703.309999999998,
+    "Color": "(0, 99, 156)"
+  },
+  "E07000228": {
+    "Population": 151022,
+    "Income": 26947,
+    "weighted": 20373.12,
+    "Color": "(0, 96, 159)"
+  },
+  "E07000229": {
+    "Population": 110570,
+    "Income": 22224,
+    "weighted": 16662.5,
+    "Color": "(0, 58, 197)"
+  },
+  "E06000022": {
+    "Population": 193282,
+    "Income": 23515,
+    "weighted": 18393.32,
+    "Color": "(0, 76, 179)"
+  },
+  "E06000058": {
+    "Population": 395331,
+    "Income": 21652,
+    "weighted": 19109.71,
+    "Color": "(0, 83, 172)"
+  },
+  "E06000023": {
+    "Population": 463377,
+    "Income": 20249,
+    "weighted": 18808.07,
+    "Color": "(0, 80, 175)"
+  },
+  "E06000052": {
+    "Population": 569578,
+    "Income": 18846,
+    "weighted": 18887.98,
+    "Color": "(0, 81, 174)"
+  },
+  "E06000053": {
+    "Population": 2224,
+    "Income": 24825,
+    "weighted": 17399.74,
+    "Color": "(0, 66, 189)"
+  },
+  "E06000024": {
+    "Population": 215052,
+    "Income": 22878,
+    "weighted": 18165.12,
+    "Color": "(0, 74, 181)"
+  },
+  "E06000026": {
+    "Population": 262100,
+    "Income": 17343,
+    "weighted": 14761.099999999999,
+    "Color": "(0, 39, 216)"
+  },
+  "E06000025": {
+    "Population": 285093,
+    "Income": 22900,
+    "weighted": 18880.929999999997,
+    "Color": "(0, 81, 174)"
+  },
+  "E06000030": {
+    "Population": 222193,
+    "Income": 20516,
+    "weighted": 16583.129999999997,
+    "Color": "(0, 58, 197)"
+  },
+  "E06000027": {
+    "Population": 136264,
+    "Income": 18698,
+    "weighted": 14451.239999999998,
+    "Color": "(0, 36, 219)"
+  },
+  "E06000054": {
+    "Population": 500024,
+    "Income": 23179,
+    "weighted": 21225.54,
+    "Color": "(0, 105, 150)"
+  },
+  "E07000040": {
+    "Population": 146284,
+    "Income": 22078,
+    "weighted": 16917.44,
+    "Color": "(0, 61, 194)"
+  },
+  "E07000041": {
+    "Population": 131405,
+    "Income": 19005,
+    "weighted": 14617.55,
+    "Color": "(0, 38, 217)"
+  },
+  "E07000042": {
+    "Population": 82311,
+    "Income": 20811,
+    "weighted": 15390.81,
+    "Color": "(0, 46, 209)"
+  },
+  "E07000043": {
+    "Population": 97145,
+    "Income": 20105,
+    "weighted": 15044.95,
+    "Color": "(0, 42, 213)"
+  },
+  "E07000044": {
+    "Population": 87004,
+    "Income": 23927,
+    "weighted": 17618.94,
+    "Color": "(0, 68, 187)"
+  },
+  "E07000045": {
+    "Population": 134163,
+    "Income": 21009,
+    "weighted": 16047.93,
+    "Color": "(0, 52, 203)"
+  },
+  "E07000046": {
+    "Population": 68267,
+    "Income": 18974,
+    "weighted": 13964.47,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000047": {
+    "Population": 55796,
+    "Income": 21509,
+    "weighted": 15614.259999999998,
+    "Color": "(0, 48, 207)"
+  },
+  "E06000059": {
+    "Population": 378508,
+    "Income": 22613,
+    "weighted": 19614.18,
+    "Color": "(0, 88, 167)"
+  },
+  "E07000078": {
+    "Population": 116306,
+    "Income": 23197,
+    "weighted": 17400.96,
+    "Color": "(0, 66, 189)"
+  },
+  "E07000079": {
+    "Population": 89862,
+    "Income": 29350,
+    "weighted": 21443.62,
+    "Color": "(0, 107, 148)"
+  },
+  "E07000080": {
+    "Population": 86791,
+    "Income": 19572,
+    "weighted": 14568.31,
+    "Color": "(0, 37, 218)"
+  },
+  "E07000081": {
+    "Population": 129128,
+    "Income": 18751,
+    "weighted": 14416.98,
+    "Color": "(0, 36, 219)"
+  },
+  "E07000082": {
+    "Population": 119964,
+    "Income": 23588,
+    "weighted": 17711.239999999998,
+    "Color": "(0, 69, 186)"
+  },
+  "E07000083": {
+    "Population": 95019,
+    "Income": 21669,
+    "weighted": 16118.49,
+    "Color": "(0, 53, 202)"
+  },
+  "E07000187": {
+    "Population": 115587,
+    "Income": 22146,
+    "weighted": 16658.07,
+    "Color": "(0, 58, 197)"
+  },
+  "E07000188": {
+    "Population": 123178,
+    "Income": 20340,
+    "weighted": 15469.78,
+    "Color": "(0, 46, 209)"
+  },
+  "E07000189": {
+    "Population": 168345,
+    "Income": 20810,
+    "weighted": 16250.449999999999,
+    "Color": "(0, 54, 201)"
+  },
+  "E07000246": {
+    "Population": 155115,
+    "Income": 20250,
+    "weighted": 15726.15,
+    "Color": "(0, 49, 206)"
+  },
+  "W06000001": {
+    "Population": 70043,
+    "Income": 17529,
+    "weighted": 12970.73,
+    "Color": "(0, 21, 234)"
+  },
+  "W06000002": {
+    "Population": 124560,
+    "Income": 15941,
+    "weighted": 12404.3,
+    "Color": "(0, 15, 240)"
+  },
+  "W06000003": {
+    "Population": 117203,
+    "Income": 18189,
+    "weighted": 13904.33,
+    "Color": "(0, 31, 224)"
+  },
+  "W06000004": {
+    "Population": 95696,
+    "Income": 17901,
+    "weighted": 13487.66,
+    "Color": "(0, 26, 229)"
+  },
+  "W06000005": {
+    "Population": 156100,
+    "Income": 18722,
+    "weighted": 14666.4,
+    "Color": "(0, 38, 217)"
+  },
+  "W06000006": {
+    "Population": 135957,
+    "Income": 17785,
+    "weighted": 13809.07,
+    "Color": "(0, 30, 225)"
+  },
+  "W06000023": {
+    "Population": 132435,
+    "Income": 18287,
+    "weighted": 14125.25,
+    "Color": "(0, 33, 222)"
+  },
+  "W06000008": {
+    "Population": 72695,
+    "Income": 17065,
+    "weighted": 12672.45,
+    "Color": "(0, 18, 237)"
+  },
+  "W06000009": {
+    "Population": 125818,
+    "Income": 17207,
+    "weighted": 13303.08,
+    "Color": "(0, 24, 231)"
+  },
+  "W06000010": {
+    "Population": 188771,
+    "Income": 16928,
+    "weighted": 13737.309999999998,
+    "Color": "(0, 29, 226)"
+  },
+  "W06000011": {
+    "Population": 246993,
+    "Income": 16262,
+    "weighted": 13853.33,
+    "Color": "(0, 30, 225)"
+  },
+  "W06000012": {
+    "Population": 143315,
+    "Income": 16442,
+    "weighted": 12942.55,
+    "Color": "(0, 21, 234)"
+  },
+  "W06000013": {
+    "Population": 147049,
+    "Income": 17047,
+    "weighted": 13403.39,
+    "Color": "(0, 25, 230)"
+  },
+  "W06000014": {
+    "Population": 133587,
+    "Income": 19987,
+    "weighted": 15326.77,
+    "Color": "(0, 45, 210)"
+  },
+  "W06000015": {
+    "Population": 366903,
+    "Income": 17431,
+    "weighted": 15870.73,
+    "Color": "(0, 50, 205)"
+  },
+  "W06000024": {
+    "Population": 60326,
+    "Income": 15592,
+    "weighted": 11517.66,
+    "Color": "(0, 6, 249)"
+  },
+  "W06000018": {
+    "Population": 181075,
+    "Income": 15992,
+    "weighted": 13005.15,
+    "Color": "(0, 21, 234)"
+  },
+  "W06000019": {
+    "Population": 69862,
+    "Income": 14630,
+    "weighted": 10939.62,
+    "Color": "(0, 1, 254)"
+  },
+  "W06000020": {
+    "Population": 93961,
+    "Income": 16505,
+    "weighted": 12493.11,
+    "Color": "(0, 16, 239)"
+  },
+  "W06000021": {
+    "Population": 94590,
+    "Income": 21392,
+    "weighted": 15920.3,
+    "Color": "(0, 51, 204)"
+  },
+  "W06000022": {
+    "Population": 154676,
+    "Income": 17977,
+    "weighted": 14130.66,
+    "Color": "(0, 33, 222)"
+  },
+  "S12000033": {
+    "Population": 228670,
+    "Income": 21349,
+    "weighted": 17231,
+    "Color": "(0, 64, 191)"
+  },
+  "S12000034": {
+    "Population": 261210,
+    "Income": 22853,
+    "weighted": 18609.199999999997,
+    "Color": "(0, 78, 177)"
+  },
+  "S12000041": {
+    "Population": 116200,
+    "Income": 19818,
+    "weighted": 15034.599999999999,
+    "Color": "(0, 42, 213)"
+  },
+  "S12000035": {
+    "Population": 85870,
+    "Income": 20314,
+    "weighted": 15078.5,
+    "Color": "(0, 42, 213)"
+  },
+  "S12000005": {
+    "Population": 51540,
+    "Income": 18560,
+    "weighted": 13507.4,
+    "Color": "(0, 26, 229)"
+  },
+  "S12000006": {
+    "Population": 148860,
+    "Income": 18806,
+    "weighted": 14652.8,
+    "Color": "(0, 38, 217)"
+  },
+  "S12000042": {
+    "Population": 149320,
+    "Income": 16597,
+    "weighted": 13111.1,
+    "Color": "(0, 22, 233)"
+  },
+  "S12000008": {
+    "Population": 122010,
+    "Income": 17306,
+    "weighted": 13334.3,
+    "Color": "(0, 25, 230)"
+  },
+  "S12000045": {
+    "Population": 108640,
+    "Income": 24004,
+    "weighted": 17889.2,
+    "Color": "(0, 71, 184)"
+  },
+  "S12000010": {
+    "Population": 107090,
+    "Income": 22494,
+    "weighted": 16816.7,
+    "Color": "(0, 60, 195)"
+  },
+  "S12000011": {
+    "Population": 95530,
+    "Income": 23685,
+    "weighted": 17534.8,
+    "Color": "(0, 67, 188)"
+  },
+  "S12000036": {
+    "Population": 524930,
+    "Income": 23580,
+    "weighted": 21755.3,
+    "Color": "(0, 110, 145)"
+  },
+  "S12000013": {
+    "Population": 26720,
+    "Income": 19318,
+    "weighted": 13789.8,
+    "Color": "(0, 29, 226)"
+  },
+  "S12000014": {
+    "Population": 160890,
+    "Income": 18793,
+    "weighted": 14763.999999999998,
+    "Color": "(0, 39, 216)"
+  },
+  "S12000047": {
+    "Population": 373550,
+    "Income": 18518,
+    "weighted": 16698.1,
+    "Color": "(0, 59, 196)"
+  },
+  "S12000049": {
+    "Population": 633120,
+    "Income": 16345,
+    "weighted": 17772.7,
+    "Color": "(0, 70, 185)"
+  },
+  "S12000017": {
+    "Population": 235830,
+    "Income": 20049,
+    "weighted": 16392.6,
+    "Color": "(0, 56, 199)"
+  },
+  "S12000018": {
+    "Population": 77800,
+    "Income": 17982,
+    "weighted": 13365.4,
+    "Color": "(0, 25, 230)"
+  },
+  "S12000019": {
+    "Population": 92460,
+    "Income": 21094,
+    "weighted": 15690.4,
+    "Color": "(0, 49, 206)"
+  },
+  "S12000020": {
+    "Population": 95820,
+    "Income": 19319,
+    "weighted": 14481.5,
+    "Color": "(0, 36, 219)"
+  },
+  "S12000021": {
+    "Population": 134740,
+    "Income": 17473,
+    "weighted": 13578.499999999998,
+    "Color": "(0, 27, 228)"
+  },
+  "S12000050": {
+    "Population": 341370,
+    "Income": 17391,
+    "weighted": 15587.399999999998,
+    "Color": "(0, 48, 207)"
+  },
+  "S12000023": {
+    "Population": 22270,
+    "Income": 19831,
+    "weighted": 14104.4,
+    "Color": "(0, 33, 222)"
+  },
+  "S12000048": {
+    "Population": 151950,
+    "Income": 21504,
+    "weighted": 16572.3,
+    "Color": "(0, 58, 197)"
+  },
+  "S12000038": {
+    "Population": 179100,
+    "Income": 19259,
+    "weighted": 15272.3,
+    "Color": "(0, 44, 211)"
+  },
+  "S12000026": {
+    "Population": 115510,
+    "Income": 20421,
+    "weighted": 15449.8,
+    "Color": "(0, 46, 209)"
+  },
+  "S12000027": {
+    "Population": 22920,
+    "Income": 20960,
+    "weighted": 14901.199999999999,
+    "Color": "(0, 41, 214)"
+  },
+  "S12000028": {
+    "Population": 112610,
+    "Income": 19428,
+    "weighted": 14725.699999999999,
+    "Color": "(0, 39, 216)"
+  },
+  "S12000029": {
+    "Population": 320530,
+    "Income": 19360,
+    "weighted": 16757.3,
+    "Color": "(0, 59, 196)"
+  },
+  "S12000030": {
+    "Population": 94210,
+    "Income": 21345,
+    "weighted": 15883.599999999999,
+    "Color": "(0, 51, 204)"
+  },
+  "S12000039": {
+    "Population": 88930,
+    "Income": 17937,
+    "weighted": 13445.199999999999,
+    "Color": "(0, 26, 229)"
+  },
+  "S12000040": {
+    "Population": 183100,
+    "Income": 18694,
+    "weighted": 14916.8,
+    "Color": "(0, 41, 214)"
+  },
+  "N09000001": {
+    "Population": 143504,
+    "Income": 17723,
+    "weighted": 13841.14,
+    "Color": "(0, 30, 225)"
+  },
+  "N09000002": {
+    "Population": 216205,
+    "Income": 16649,
+    "weighted": 13816.349999999999,
+    "Color": "(0, 30, 225)"
+  },
+  "N09000003": {
+    "Population": 343542,
+    "Income": 16974,
+    "weighted": 15317.22,
+    "Color": "(0, 45, 210)"
+  },
+  "N09000004": {
+    "Population": 144838,
+    "Income": 17219,
+    "weighted": 13501.68,
+    "Color": "(0, 26, 229)"
+  },
+  "N09000005": {
+    "Population": 151284,
+    "Income": 15331,
+    "weighted": 12244.539999999999,
+    "Color": "(0, 14, 241)"
+  },
+  "N09000006": {
+    "Population": 117397,
+    "Income": 16403,
+    "weighted": 12656.069999999998,
+    "Color": "(0, 18, 237)"
+  },
+  "N09000007": {
+    "Population": 146002,
+    "Income": 19774,
+    "weighted": 15301.82,
+    "Color": "(0, 45, 210)"
+  },
+  "N09000008": {
+    "Population": 139274,
+    "Income": 18496,
+    "weighted": 14339.939999999999,
+    "Color": "(0, 35, 220)"
+  },
+  "N09000009": {
+    "Population": 148528,
+    "Income": 17164,
+    "weighted": 13500.08,
+    "Color": "(0, 26, 229)"
+  },
+  "N09000010": {
+    "Population": 181368,
+    "Income": 16728,
+    "weighted": 13523.279999999999,
+    "Color": "(0, 27, 228)"
+  },
+  "N09000011": {
+    "Population": 161725,
+    "Income": 18925,
+    "weighted": 14864.75,
+    "Color": "(0, 40, 215)"
+  }
+}
