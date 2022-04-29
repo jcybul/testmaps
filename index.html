@@ -1,127 +1,152 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-  /* Region colors? */
-  .subunit.SCT {
-    fill: #ddc;
-  }
+<html lang="en">
+<head>
+    <meta charset="utf-8">
 
-  .subunit.WLS {
-    fill: #cdd;
-  }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;0,900;1,100;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <style>
+        .left_box {
+            background: #00345E;
+            width: 30%;
+            height: 100%;
+            position: absolute;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
 
-  .subunit.NIR {
-    fill: #cdc;
-  }
+        #canvas {
+            position: absolute;
+            width: 70%;
+            height: 100%;
+            left: 30%;
+        }
 
-  .subunit.ENG {
-    fill: #dcd;
-  }
+        .selection_info {
+            position: absolute;
+            right: 1.5em;
+            top: 1.5em;
+        }
 
+        .left_box h1 {
+            font-size: 36px;
+            font-weight: normal;
+            color: #FFFDFD;
+        }
 
-  .subunit.IRL,
-  .subunit-label.IRL {
-    display: none;
-  }
+        .left_box p {
+            font-size: 13px;
+            color: #FFFDFD;
+        }
 
-  .subunit-boundary {
-    fill: none;
-    stroke: #777;
-    stroke-dasharray: 2, 2;
-    stroke-linejoin: round;
-  }
+        h1, h2, p {
+            font-family: 'Roboto', sans-serif;
+        }
 
-  .subunit-boundary.IRL {
-    stroke: #aaa;
-  }
+        th, tr {
+            font-size: 13px;
+            color: #2D2D2D;
+            text-align: center;
 
-  .subunit-label {
-    fill: #777;
-    fill-opacity: .5;
-    font-size: 20px;
-    font-weight: 300;
-    text-anchor: middle;
-  }
+        }
 
-  .place,
-  .place-label {
-    fill: #444;
-  }
+        .selection_info {
+            border-radius: 17px;
+            background: #C4C4C4;
+            padding: 1em;
+        }
 
-  text {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    pointer-events: none;
-  }
+        .selection_info h2 {
+            font-size: 20px;
+            font-weight: bolder;
+            color: #2D2D2D;
+            margin: 0;
+        }
 
-  .right_box {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 30%;
-    height: 90%;
-  }
+        td {
+            font-size: 24px;
+        }
 
-  .details {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-  }
+        body {
+            margin: 0;
+        }
+    </style>
+    <title>Michelin Star Restaurants in the UK</title>
 
-  
-  body {
-    margin: 0;
-  }
-</style>
-
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+</head>
 <body>
-  Simple UK
-  <script src="https://d3js.org/d3.v3.min.js"></script>
-  <script src="https://d3js.org/topojson.v1.min.js"></script>
-  <script>
 
-    function generateRandom(min = 0, max = 100) {
-      return min + Math.floor(Math.random() * (max - min));
-    }
+<svg id="canvas"></svg>
+
+<div class="left_box">
+    <h1>Michelin Star Restaurants in the UK</h1>
+    <p><i>and how they compare to economic and demographic factors</i></p>
+    <br>
+    <p>Select a region to learn more about its demographics and how likely a restaurant will be awarded a Michelin
+        star.</p>
+</div>
+
+<div class="selection_info">
+    <h2 id="region_name">Region Name</h2>
+    <table>
+        <tr>
+            <th>Population</th>
+            <th>Income</th>
+            <th>Housing</th>
+        </tr>
+        <tr>
+            <td><b><i>##</i></b></td>
+            <td><b><i>##</i></b></td>
+            <td><b><i>##</i></b></td>
+        </tr>
+    </table>
+    <br>
+    <h2>Restaurants</h2>
+    <br>
+    <br>
+    <br>
+</div>
 
 
-    const width = window.innerWidth * 2 / 3;
+<script>
+    const width = window.innerWidth * 0.7;
     const height = window.innerHeight;
 
     let projection = d3.geo.albers()
-      .center([0, 55.4])
-      .rotate([4.4, 0])
-      .parallels([50, 60])
-      .scale(1200 * 5)
-      .translate([width / 2, height / 2]);
+        .center([0, 55.4])
+        .rotate([4.4, 0])
+        .parallels([50, 60])
+        .scale(1200 * 5)
+        .translate([width / 2, height / 2]);
 
     let path = d3.geo.path()
-      .projection(projection)
-      .pointRadius(2);
+        .projection(projection)
+        .pointRadius(2);
 
-    // let svg = d3.select("body").append("svg")
-    // .attr("width", width)
-    // .attr("height", height)
-    let svg = d3.select("body")
-      .append("svg")
-      .attr("width", width)
-      .attr("height", height)
-      .call(d3.behavior.zoom().on("zoom", function () {
-        svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
-      }))
-      .append("g");
+    let zoom = d3.behavior.zoom()
+        .on("zoom", function () {
+            svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
+            svg.selectAll("circle").attr("r", d => 2 * d.rating / zoom.scale());
+        });
+
+    let svg = d3.select("#canvas")
+        .call(zoom)
+        .append("g");
 
     function componentToHex(c) {
-      var hex = c.toString(16);
-      return hex.length == 1 ? "0" + hex : hex;
+        var hex = c.toString(16);
+        return hex.length == 1 ? "0" + hex : hex;
     }
 
     function rgbToHex(R) {
-      l = R.Color.match(/\d+/g).map(Number)
-      console.log(l[0])
-      return "#" + componentToHex(l[0]) + componentToHex(l[1]) + componentToHex(l[2]);
+        l = R.Color.match(/\d+/g).map(Number)
+        console.log(l[0])
+        return "#" + componentToHex(l[0]) + componentToHex(l[1]) + componentToHex(l[2]);
     }
-
 
     function renderMap(maps, callback) {
       const currentMap = maps.pop();
@@ -163,32 +188,23 @@
     }
 
     renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], function () {
-      let michelin;
-      d3.csv('michellinData.csv', function (error2, m) {
-        if (error2) return console.error(error2);
-        console.log(m)
+        let michelin;
+        d3.csv('michellinData.csv', function (error2, m) {
+            if (error2) return console.error(error2);
+            console.log(m)
 
-        svg.selectAll("circles.points")
-          .data(m)
-          .enter()
-          .append("circle")
-          .attr("fill", "black")
-          .attr("r", function (d) { return 0.01* d.rating })
-          .attr("transform", function (d) { return "translate(" + projection([d.lng, d.lat]) + ")"})
-      })
+            svg.selectAll("circles.points")
+                .data(m)
+                .enter()
+                .append("circle")
+                .attr("fill", "black")
+                .attr("r", d => 2 * d.rating / zoom.scale())
+                .attr("transform", function (d) {
+                    return "translate(" + projection([d.lng, d.lat]) + ")"
+                })
+        })
     });
 
-  </script>
-
-
-<div class="right_box">
-  <div class="details">
-    <h>Simple UK</h>
-    <p id="region_name">Region ID: {click to map select}</p>
-    <p id="region_pop">Population: {click to map select}</p>
-    <p id="region_income">Income: {click to map select}</p>
-  </div>
-</div>
-  
-
+</script>
 </body>
+</html>
