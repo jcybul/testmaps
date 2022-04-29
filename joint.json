@@ -1,6 +1,8 @@
 {
   "S12000042": {
     "Housing": 124246.4128,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 149320,
     "Income": 16597,
     "Name": "Dundee City",
@@ -9,6 +11,8 @@
   },
   "S12000006": {
     "Housing": 128048.1654,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 148860,
     "Income": 18806,
     "Name": "Dumfries and Galloway",
@@ -17,6 +21,8 @@
   },
   "S12000017": {
     "Housing": 166906.5695,
+    "Stars": 1,
+    "Restaurants": "['Loch Bay']",
     "Population": 235830,
     "Income": 20049,
     "Name": "Highland",
@@ -25,6 +31,8 @@
   },
   "S12000026": {
     "Housing": 149505.3899,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 115510,
     "Income": 20421,
     "Name": "Scottish Borders",
@@ -33,6 +41,8 @@
   },
   "S12000034": {
     "Housing": 184319.0942,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 261210,
     "Income": 22853,
     "Name": "Aberdeenshire",
@@ -41,6 +51,8 @@
   },
   "S12000036": {
     "Housing": 265678.8472,
+    "Stars": 3,
+    "Restaurants": "['Martin Wishart', 'Kitchin', 'Condita']",
     "Population": 524930,
     "Income": 23580,
     "Name": "City of Edinburgh",
@@ -49,6 +61,8 @@
   },
   "S12000038": {
     "Housing": 122347.3043,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 179100,
     "Income": 19259,
     "Name": "Renfrewshire",
@@ -57,6 +71,8 @@
   },
   "S12000039": {
     "Housing": 105342.1416,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 88930,
     "Income": 17937,
     "Name": "West Dunbartonshire",
@@ -65,6 +81,8 @@
   },
   "S12000040": {
     "Housing": 162681.1001,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 183100,
     "Income": 18694,
     "Name": "West Lothian",
@@ -73,6 +91,8 @@
   },
   "S12000041": {
     "Housing": 145718.0434,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 116200,
     "Income": 19818,
     "Name": "Angus",
@@ -81,6 +101,8 @@
   },
   "S12000045": {
     "Housing": 212444.2656,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 108640,
     "Income": 24004,
     "Name": "East Dunbartonshire",
@@ -89,6 +111,8 @@
   },
   "S12000005": {
     "Housing": 129617.0978,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 51540,
     "Income": 18560,
     "Name": "Clackmannanshire",
@@ -97,6 +121,8 @@
   },
   "S12000008": {
     "Housing": 95794.33876,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 122010,
     "Income": 17306,
     "Name": "East Ayrshire",
@@ -105,6 +131,8 @@
   },
   "S12000011": {
     "Housing": 228558.197,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 95530,
     "Income": 23685,
     "Name": "East Renfrewshire",
@@ -113,6 +141,8 @@
   },
   "S12000013": {
     "Housing": 119493.4267,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 26720,
     "Income": 19318,
     "Name": "Na h-Eileanan Siar",
@@ -121,6 +151,8 @@
   },
   "S12000014": {
     "Housing": 125046.4549,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 160890,
     "Income": 18793,
     "Name": "Falkirk",
@@ -129,6 +161,8 @@
   },
   "S12000047": {
     "Housing": 133617.4821,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 373550,
     "Income": 18518,
     "Name": "Fife",
@@ -137,6 +171,8 @@
   },
   "S12000018": {
     "Housing": 103201.0667,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 77800,
     "Income": 17982,
     "Name": "Inverclyde",
@@ -145,6 +181,8 @@
   },
   "S12000019": {
     "Housing": 186633.4985,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 92460,
     "Income": 21094,
     "Name": "Midlothian",
@@ -153,6 +191,8 @@
   },
   "S12000020": {
     "Housing": 150944.1292,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 95820,
     "Income": 19319,
     "Name": "Moray",
@@ -161,6 +201,8 @@
   },
   "S12000021": {
     "Housing": 107161.9331,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 134740,
     "Income": 17473,
     "Name": "North Ayrshire",
@@ -169,6 +211,8 @@
   },
   "S12000023": {
     "Housing": 152014.0309,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 22270,
     "Income": 19831,
     "Name": "Orkney Islands",
@@ -177,6 +221,8 @@
   },
   "S12000048": {
     "Housing": 192607.311,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 151950,
     "Income": 21504,
     "Name": "Perth and Kinross",
@@ -185,6 +231,8 @@
   },
   "S12000027": {
     "Housing": 158725.5285,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 22920,
     "Income": 20960,
     "Name": "Shetland Islands",
@@ -193,6 +241,8 @@
   },
   "S12000028": {
     "Housing": 132771.1767,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 112610,
     "Income": 19428,
     "Name": "South Ayrshire",
@@ -201,6 +251,8 @@
   },
   "S12000029": {
     "Housing": 128473.2539,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 320530,
     "Income": 19360,
     "Name": "South Lanarkshire",
@@ -209,6 +261,8 @@
   },
   "S12000030": {
     "Housing": 189403.4496,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 94210,
     "Income": 21345,
     "Name": "Stirling",
@@ -217,6 +271,8 @@
   },
   "S12000033": {
     "Housing": 148668.0449,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 228670,
     "Income": 21349,
     "Name": "Aberdeen City",
@@ -225,6 +281,8 @@
   },
   "S12000010": {
     "Housing": 227760.1702,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 107090,
     "Income": 22494,
     "Name": "East Lothian",
@@ -233,6 +291,8 @@
   },
   "S12000035": {
     "Housing": 143852.2542,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 85870,
     "Income": 20314,
     "Name": "Argyll and Bute",
@@ -241,6 +301,8 @@
   },
   "N09000010": {
     "Housing": 144849.0489,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 181368,
     "Income": 16728,
     "Name": "Newry, Mourne and Down",
@@ -249,6 +311,8 @@
   },
   "N09000011": {
     "Housing": 154717.6865,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 161725,
     "Income": 18925,
     "Name": "Ards and North Down",
@@ -257,6 +321,8 @@
   },
   "E09000029": {
     "Housing": 373196.4433,
+    "Stars": 1,
+    "Restaurants": "['Bohemia']",
     "Population": 206349,
     "Income": 25591,
     "Name": "Sutton",
@@ -265,6 +331,8 @@
   },
   "E09000006": {
     "Housing": 438405.6782,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 332336,
     "Income": 30157,
     "Name": "Bromley",
@@ -273,6 +341,8 @@
   },
   "E09000016": {
     "Housing": 364713.3978,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 259552,
     "Income": 24089,
     "Name": "Havering",
@@ -281,6 +351,8 @@
   },
   "E09000022": {
     "Housing": 508348.5089,
+    "Stars": 1,
+    "Restaurants": "['Trinity']",
     "Population": 326034,
     "Income": 30386,
     "Name": "Lambeth",
@@ -289,6 +361,8 @@
   },
   "E09000027": {
     "Housing": 650883.187,
+    "Stars": 2,
+    "Restaurants": "['Dysart Petersham', 'The Glasshouse']",
     "Population": 198019,
     "Income": 43363,
     "Name": "Richmond upon Thames",
@@ -297,6 +371,8 @@
   },
   "E09000030": {
     "Housing": 438332.4244,
+    "Stars": 4,
+    "Restaurants": "['Da Terra', 'Mãos', 'Galvin La Chapelle']",
     "Population": 324745,
     "Income": 26404,
     "Name": "Tower Hamlets",
@@ -305,6 +381,8 @@
   },
   "E09000002": {
     "Housing": 299686.2048,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 212906,
     "Income": 18928,
     "Name": "Barking and Dagenham",
@@ -313,6 +391,8 @@
   },
   "E09000003": {
     "Housing": 520386.4253,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 395869,
     "Income": 31489,
     "Name": "Barnet",
@@ -321,6 +401,8 @@
   },
   "E09000004": {
     "Housing": 338057.898,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 248287,
     "Income": 23401,
     "Name": "Bexley",
@@ -329,6 +411,8 @@
   },
   "E09000005": {
     "Housing": 484770.1893,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 329771,
     "Income": 26376,
     "Name": "Brent",
@@ -337,6 +421,8 @@
   },
   "E09000007": {
     "Housing": 834748.7033,
+    "Stars": 5,
+    "Restaurants": "['The Ninth', 'Hakkasan Mayfair', 'Pied à Terre', 'Kitchen Table']",
     "Population": 270029,
     "Income": 44015,
     "Name": "Camden",
@@ -345,6 +431,8 @@
   },
   "E09000008": {
     "Housing": 365762.5183,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 386710,
     "Income": 24603,
     "Name": "Croydon",
@@ -353,6 +441,8 @@
   },
   "E09000009": {
     "Housing": 473336.2406,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 341806,
     "Income": 28155,
     "Name": "Ealing",
@@ -361,6 +451,8 @@
   },
   "E09000010": {
     "Housing": 394057.3336,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 333794,
     "Income": 23710,
     "Name": "Enfield",
@@ -369,6 +461,8 @@
   },
   "E09000011": {
     "Housing": 391560.0285,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 287942,
     "Income": 24700,
     "Name": "Greenwich",
@@ -377,6 +471,8 @@
   },
   "E09000031": {
     "Housing": 431536.5135,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 276983,
     "Income": 24614,
     "Name": "Waltham Forest",
@@ -385,6 +481,8 @@
   },
   "E09000032": {
     "Housing": 588820.2647,
+    "Stars": 1,
+    "Restaurants": "['Chez Bruce']",
     "Population": 329677,
     "Income": 40851,
     "Name": "Wandsworth",
@@ -393,6 +491,8 @@
   },
   "E09000033": {
     "Housing": 956750.3887,
+    "Stars": 45,
+    "Restaurants": "['Le Gavroche', 'Muse', 'Seven Park Place', 'Ikoyi', 'Benares', 'Gymkhana', 'Wild Honey St James', 'Kol', 'Hélène Darroze at The Connaught', 'Locanda Locatelli', \"Evelyn's Table\", 'Amaya', 'Dining Room at The Goring', 'Sketch (The Lecture Room & Library)', 'Ritz Restaurant', 'Veeraswamy', 'Murano', 'Dinner by Heston Blumenthal', 'Quilon', 'Pollen Street Social', 'Kai', 'Portland', 'Pétrus by Gordon Ramsay', 'Umu', 'Frog by Adam Handling', 'Hakkasan Hanway Place', 'Trishna', 'A. Wong', 'Sabor', 'Alain Ducasse at The Dorchester', 'Marcus', 'SO|LA', 'Barrafina', 'HIDE', 'Jamavar']",
     "Population": 261317,
     "Income": 53670,
     "Name": "Westminster",
@@ -401,6 +501,8 @@
   },
   "E09000012": {
     "Housing": 556561.4469,
+    "Stars": 8,
+    "Restaurants": "['Brat', 'Casa Fofō', 'Behind', 'Leroy', 'The Clove Club', 'Cornerstone', \"Lyle's\"]",
     "Population": 281120,
     "Income": 24575,
     "Name": "Hackney",
@@ -409,6 +511,8 @@
   },
   "E09000013": {
     "Housing": 718438.7406,
+    "Stars": 3,
+    "Restaurants": "['Harwood Arms', 'River Café', 'Endo at The Rotunda']",
     "Population": 185143,
     "Income": 43040,
     "Name": "Hammersmith and Fulham",
@@ -417,6 +521,8 @@
   },
   "E09000014": {
     "Housing": 548828.597,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 268647,
     "Income": 30176,
     "Name": "Haringey",
@@ -425,6 +531,8 @@
   },
   "E09000015": {
     "Housing": 449686.3771,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 251160,
     "Income": 29284,
     "Name": "Harrow",
@@ -433,6 +541,8 @@
   },
   "E09000017": {
     "Housing": 405173.0671,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 306870,
     "Income": 23160,
     "Name": "Hillingdon",
@@ -441,6 +551,8 @@
   },
   "E09000018": {
     "Housing": 402167.3098,
+    "Stars": 1,
+    "Restaurants": "['La Trompette']",
     "Population": 271523,
     "Income": 26575,
     "Name": "Hounslow",
@@ -449,6 +561,8 @@
   },
   "E09000019": {
     "Housing": 631678.6048,
+    "Stars": 2,
+    "Restaurants": "['Angler', 'St John']",
     "Population": 242467,
     "Income": 32534,
     "Name": "Islington",
@@ -457,6 +571,8 @@
   },
   "E09000020": {
     "Housing": 1256712.531,
+    "Stars": 11,
+    "Restaurants": "['Restaurant Gordon Ramsay', 'Kitchen W8', 'CORE by Clare Smyth', 'Five Fields', 'Claude Bosi at Bibendum', 'Elystan Street']",
     "Population": 156129,
     "Income": 85376,
     "Name": "Kensington and Chelsea",
@@ -465,6 +581,8 @@
   },
   "E09000021": {
     "Housing": 486236.8773,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 177507,
     "Income": 29045,
     "Name": "Kingston upon Thames",
@@ -473,6 +591,8 @@
   },
   "E09000023": {
     "Housing": 410349.5528,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 305842,
     "Income": 24047,
     "Name": "Lewisham",
@@ -481,6 +601,8 @@
   },
   "E09000024": {
     "Housing": 507899.5062,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 206548,
     "Income": 33251,
     "Name": "Merton",
@@ -489,6 +611,8 @@
   },
   "E09000025": {
     "Housing": 363456.238,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 353134,
     "Income": 20710,
     "Name": "Newham",
@@ -497,6 +621,8 @@
   },
   "E09000026": {
     "Housing": 415067.9548,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 305222,
     "Income": 24650,
     "Name": "Redbridge",
@@ -505,6 +631,8 @@
   },
   "E09000028": {
     "Housing": 498671.8914,
+    "Stars": 4,
+    "Restaurants": "['Trivet', 'Sollip', 'Story']",
     "Population": 318830,
     "Income": 28609,
     "Name": "Southwark",
@@ -513,6 +641,8 @@
   },
   "N09000001": {
     "Housing": 142254.3181,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 143504,
     "Income": 17723,
     "Name": "Antrim and Newtownabbey",
@@ -521,6 +651,8 @@
   },
   "N09000002": {
     "Housing": 122469.8357,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 216205,
     "Income": 16649,
     "Name": "Armagh City, Banbridge and Craigavon",
@@ -529,6 +661,8 @@
   },
   "N09000003": {
     "Housing": 131083.9297,
+    "Stars": 3,
+    "Restaurants": "['The Muddlers Club', 'Eipic', 'OX']",
     "Population": 343542,
     "Income": 16974,
     "Name": "Belfast",
@@ -537,6 +671,8 @@
   },
   "N09000004": {
     "Housing": 145739.1734,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 144838,
     "Income": 17219,
     "Name": "Causeway Coast and Glens",
@@ -545,6 +681,8 @@
   },
   "N09000005": {
     "Housing": 123065.9246,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 151284,
     "Income": 15331,
     "Name": "Derry City and Strabane",
@@ -553,6 +691,8 @@
   },
   "N09000006": {
     "Housing": 128333.6597,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 117397,
     "Income": 16403,
     "Name": "Fermanagh and Omagh",
@@ -561,6 +701,8 @@
   },
   "N09000007": {
     "Housing": 163390.8629,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 146002,
     "Income": 19774,
     "Name": "Lisburn and Castlereagh",
@@ -569,6 +711,8 @@
   },
   "N09000008": {
     "Housing": 128294.2454,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 139274,
     "Income": 18496,
     "Name": "Mid and East Antrim",
@@ -577,6 +721,8 @@
   },
   "N09000009": {
     "Housing": 135126.912,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 148528,
     "Income": 17164,
     "Name": "Mid Ulster",
@@ -585,6 +731,8 @@
   },
   "E08000033": {
     "Housing": 146942.7307,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 211455,
     "Income": 17882,
     "Name": "Calderdale",
@@ -593,6 +741,8 @@
   },
   "E08000007": {
     "Housing": 228233.1242,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 293423,
     "Income": 21606,
     "Name": "Stockport",
@@ -601,6 +751,8 @@
   },
   "E08000010": {
     "Housing": 134926.5928,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 328662,
     "Income": 17239,
     "Name": "Wigan",
@@ -609,6 +761,8 @@
   },
   "E08000013": {
     "Housing": 131209.8307,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 180585,
     "Income": 17325,
     "Name": "St. Helens",
@@ -617,6 +771,8 @@
   },
   "E08000019": {
     "Housing": 167002.822,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 584853,
     "Income": 16131,
     "Name": "Sheffield",
@@ -625,6 +781,8 @@
   },
   "E08000025": {
     "Housing": 188589.5937,
+    "Stars": 5,
+    "Restaurants": "['Opheem', \"Purnell's\", 'Carters of Moseley', \"Adam's\", 'Simpsons']",
     "Population": 1141816,
     "Income": 15368,
     "Name": "Birmingham",
@@ -633,6 +791,8 @@
   },
   "E08000031": {
     "Housing": 154056.8845,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 263357,
     "Income": 15500,
     "Name": "Wolverhampton",
@@ -641,6 +801,8 @@
   },
   "E08000037": {
     "Housing": 131170.1197,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 202055,
     "Income": 16477,
     "Name": "Gateshead",
@@ -649,6 +811,8 @@
   },
   "E08000008": {
     "Housing": 150900.8484,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 226493,
     "Income": 17185,
     "Name": "Tameside",
@@ -657,6 +821,8 @@
   },
   "E08000009": {
     "Housing": 290302.561,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 237354,
     "Income": 24060,
     "Name": "Trafford",
@@ -665,6 +831,8 @@
   },
   "E08000032": {
     "Housing": 136946.9005,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 539776,
     "Income": 15308,
     "Name": "Bradford",
@@ -673,6 +841,8 @@
   },
   "E08000034": {
     "Housing": 150239.7762,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 439787,
     "Income": 17288,
     "Name": "Kirklees",
@@ -681,6 +851,8 @@
   },
   "E08000035": {
     "Housing": 185627.7611,
+    "Stars": 1,
+    "Restaurants": "['The Man Behind The Curtain']",
     "Population": 793139,
     "Income": 18634,
     "Name": "Leeds",
@@ -689,6 +861,8 @@
   },
   "E08000036": {
     "Housing": 150246.9464,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 348312,
     "Income": 17329,
     "Name": "Wakefield",
@@ -697,6 +871,8 @@
   },
   "E08000011": {
     "Housing": 130308.9765,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 150862,
     "Income": 16627,
     "Name": "Knowsley",
@@ -705,6 +881,8 @@
   },
   "E08000012": {
     "Housing": 133973.0043,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 498042,
     "Income": 15673,
     "Name": "Liverpool",
@@ -713,6 +891,8 @@
   },
   "E08000014": {
     "Housing": 167542.4896,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 276410,
     "Income": 19325,
     "Name": "Sefton",
@@ -721,6 +901,8 @@
   },
   "E08000015": {
     "Housing": 160475.2584,
+    "Stars": 1,
+    "Restaurants": "['Fraiche']",
     "Population": 324011,
     "Income": 19175,
     "Name": "Wirral",
@@ -729,6 +911,8 @@
   },
   "E08000016": {
     "Housing": 124750.3851,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 246866,
     "Income": 17093,
     "Name": "Barnsley",
@@ -737,6 +921,8 @@
   },
   "E08000017": {
     "Housing": 128850.7864,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 311890,
     "Income": 17001,
     "Name": "Doncaster",
@@ -745,6 +931,8 @@
   },
   "E08000018": {
     "Housing": 140457.0197,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 265411,
     "Income": 16985,
     "Name": "Rotherham",
@@ -753,6 +941,8 @@
   },
   "E08000021": {
     "Housing": 159631.7865,
+    "Stars": 1,
+    "Restaurants": "['House of Tides']",
     "Population": 302820,
     "Income": 16473,
     "Name": "Newcastle upon Tyne",
@@ -761,6 +951,8 @@
   },
   "E08000022": {
     "Housing": 161641.5235,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 207913,
     "Income": 18246,
     "Name": "North Tyneside",
@@ -769,6 +961,8 @@
   },
   "E08000023": {
     "Housing": 133526.6567,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 150976,
     "Income": 15915,
     "Name": "South Tyneside",
@@ -777,6 +971,8 @@
   },
   "E08000024": {
     "Housing": 116314.9512,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 277705,
     "Income": 16011,
     "Name": "Sunderland",
@@ -785,6 +981,8 @@
   },
   "E08000026": {
     "Housing": 188280.2305,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 371521,
     "Income": 15350,
     "Name": "Coventry",
@@ -793,6 +991,8 @@
   },
   "E08000027": {
     "Housing": 178582.9879,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 321596,
     "Income": 16735,
     "Name": "Dudley",
@@ -801,6 +1001,8 @@
   },
   "E08000028": {
     "Housing": 152005.8675,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 328450,
     "Income": 14454,
     "Name": "Sandwell",
@@ -809,6 +1011,10 @@
   },
   "E08000029": {
     "Housing": 283845.5376,
+    "Stars": 1,
+    "Restaurants": [
+      "Peel's"
+    ],
     "Population": 216374,
     "Income": 23722,
     "Name": "Solihull",
@@ -817,6 +1023,8 @@
   },
   "E08000030": {
     "Housing": 166990.4414,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 285478,
     "Income": 15694,
     "Name": "Walsall",
@@ -825,6 +1033,8 @@
   },
   "E08000001": {
     "Housing": 137241.4111,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 287550,
     "Income": 16533,
     "Name": "Bolton",
@@ -833,6 +1043,8 @@
   },
   "E08000002": {
     "Housing": 179195.2068,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 190990,
     "Income": 19142,
     "Name": "Bury",
@@ -841,6 +1053,8 @@
   },
   "E08000003": {
     "Housing": 181071.142,
+    "Stars": 1,
+    "Restaurants": "['mana']",
     "Population": 552858,
     "Income": 15322,
     "Name": "Manchester",
@@ -849,6 +1063,8 @@
   },
   "E08000005": {
     "Housing": 141396.8266,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 222412,
     "Income": 16143,
     "Name": "Rochdale",
@@ -857,6 +1073,8 @@
   },
   "E08000006": {
     "Housing": 165465.8515,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 258834,
     "Income": 17524,
     "Name": "Salford",
@@ -865,6 +1083,8 @@
   },
   "E08000004": {
     "Housing": 136051.5602,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 237110,
     "Income": 15885,
     "Name": "Oldham",
@@ -873,6 +1093,8 @@
   },
   "E07000145": {
     "Housing": 173486.8243,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 99336,
     "Income": 16225,
     "Name": "Great Yarmouth",
@@ -881,6 +1103,8 @@
   },
   "E07000149": {
     "Housing": 260584.4466,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 140880,
     "Income": 20564,
     "Name": "South Norfolk",
@@ -889,6 +1113,8 @@
   },
   "E07000166": {
     "Housing": 211226.2555,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 53730,
     "Income": 21033,
     "Name": "Richmondshire",
@@ -897,6 +1123,8 @@
   },
   "E07000211": {
     "Housing": 405831.8978,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 148748,
     "Income": 29069,
     "Name": "Reigate and Banstead",
@@ -905,6 +1133,8 @@
   },
   "E07000212": {
     "Housing": 410246.3894,
+    "Stars": 1,
+    "Restaurants": "['Tony Parkin at The Tudor Room']",
     "Population": 89424,
     "Income": 26925,
     "Name": "Runnymede",
@@ -913,6 +1143,8 @@
   },
   "E07000214": {
     "Housing": 392086.1572,
+    "Stars": 1,
+    "Restaurants": "['Latymer']",
     "Population": 89305,
     "Income": 29545,
     "Name": "Surrey Heath",
@@ -921,6 +1153,8 @@
   },
   "E07000215": {
     "Housing": 439765.387,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 88129,
     "Income": 30333,
     "Name": "Tandridge",
@@ -929,6 +1163,8 @@
   },
   "E07000216": {
     "Housing": 451241.9183,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 126328,
     "Income": 33071,
     "Name": "Waverley",
@@ -937,6 +1173,8 @@
   },
   "E07000217": {
     "Housing": 415297.9291,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 100793,
     "Income": 29877,
     "Name": "Woking",
@@ -945,6 +1183,8 @@
   },
   "E07000218": {
     "Housing": 206851.2051,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 65264,
     "Income": 20109,
     "Name": "North Warwickshire",
@@ -953,6 +1193,8 @@
   },
   "E07000220": {
     "Housing": 233933.5399,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 108935,
     "Income": 22071,
     "Name": "Rugby",
@@ -961,6 +1203,8 @@
   },
   "E07000221": {
     "Housing": 317229.828,
+    "Stars": 2,
+    "Restaurants": "['The Royal Oak', 'Salt']",
     "Population": 130098,
     "Income": 27934,
     "Name": "Stratford-on-Avon",
@@ -969,6 +1213,8 @@
   },
   "E07000222": {
     "Housing": 309065.7605,
+    "Stars": 1,
+    "Restaurants": "['The Cross at Kenilworth']",
     "Population": 143753,
     "Income": 27980,
     "Name": "Warwick",
@@ -977,6 +1223,8 @@
   },
   "E07000223": {
     "Housing": 315664.9936,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 64301,
     "Income": 21618,
     "Name": "Adur",
@@ -985,6 +1233,8 @@
   },
   "E07000225": {
     "Housing": 376961.0753,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 121129,
     "Income": 26915,
     "Name": "Chichester",
@@ -993,6 +1243,8 @@
   },
   "E07000226": {
     "Housing": 280701.4683,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 112409,
     "Income": 21656,
     "Name": "Crawley",
@@ -1001,6 +1253,8 @@
   },
   "E07000227": {
     "Housing": 374058.5485,
+    "Stars": 2,
+    "Restaurants": "['Restaurant Tristan', 'Interlude']",
     "Population": 143791,
     "Income": 27522,
     "Name": "Horsham",
@@ -1009,6 +1263,8 @@
   },
   "E07000228": {
     "Housing": 369955.5875,
+    "Stars": 1,
+    "Restaurants": "['Gravetye Manor']",
     "Population": 151022,
     "Income": 26947,
     "Name": "Mid Sussex",
@@ -1017,6 +1273,8 @@
   },
   "E07000229": {
     "Housing": 279060.1925,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 110570,
     "Income": 22224,
     "Name": "Worthing",
@@ -1025,6 +1283,8 @@
   },
   "E07000192": {
     "Housing": 170510.929,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 100762,
     "Income": 18096,
     "Name": "Cannock Chase",
@@ -1033,6 +1293,8 @@
   },
   "E07000194": {
     "Housing": 246576.4678,
+    "Stars": 1,
+    "Restaurants": "['Upstairs by Tom Shepherd']",
     "Population": 104756,
     "Income": 22974,
     "Name": "Lichfield",
@@ -1041,6 +1303,8 @@
   },
   "E07000195": {
     "Housing": 157442.0101,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 129441,
     "Income": 17666,
     "Name": "Newcastle-under-Lyme",
@@ -1049,6 +1313,8 @@
   },
   "E07000196": {
     "Housing": 230820.1886,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 112436,
     "Income": 20463,
     "Name": "South Staffordshire",
@@ -1057,6 +1323,8 @@
   },
   "E07000197": {
     "Housing": 209228.1002,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 137280,
     "Income": 20473,
     "Name": "Stafford",
@@ -1065,6 +1333,8 @@
   },
   "E07000198": {
     "Housing": 182358.3881,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 98435,
     "Income": 19411,
     "Name": "Staffordshire Moorlands",
@@ -1073,6 +1343,8 @@
   },
   "E07000200": {
     "Housing": 286017.4155,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 92036,
     "Income": 22641,
     "Name": "Babergh",
@@ -1081,6 +1353,8 @@
   },
   "E07000202": {
     "Housing": 197068.7093,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 136913,
     "Income": 18093,
     "Name": "Ipswich",
@@ -1089,6 +1363,8 @@
   },
   "E07000203": {
     "Housing": 267640.0436,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 103895,
     "Income": 21280,
     "Name": "Mid Suffolk",
@@ -1097,6 +1373,8 @@
   },
   "E07000207": {
     "Housing": 586050.4374,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 136795,
     "Income": 40922,
     "Name": "Elmbridge",
@@ -1105,6 +1383,8 @@
   },
   "E07000208": {
     "Housing": 454605.9879,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 80627,
     "Income": 29427,
     "Name": "Epsom and Ewell",
@@ -1113,6 +1393,8 @@
   },
   "E07000209": {
     "Housing": 445856.4668,
+    "Stars": 1,
+    "Restaurants": "['Clock House']",
     "Population": 148998,
     "Income": 29325,
     "Name": "Guildford",
@@ -1121,6 +1403,8 @@
   },
   "E07000168": {
     "Housing": 165214.9377,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 108757,
     "Income": 19116,
     "Name": "Scarborough",
@@ -1129,6 +1413,8 @@
   },
   "E07000169": {
     "Housing": 201019.2174,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 90620,
     "Income": 21994,
     "Name": "Selby",
@@ -1137,6 +1423,8 @@
   },
   "E07000170": {
     "Housing": 143389.1715,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 127918,
     "Income": 16845,
     "Name": "Ashfield",
@@ -1145,6 +1433,8 @@
   },
   "E07000171": {
     "Housing": 156256.0379,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 117459,
     "Income": 18596,
     "Name": "Bassetlaw",
@@ -1153,6 +1443,8 @@
   },
   "E07000172": {
     "Housing": 186145.1016,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 114033,
     "Income": 18570,
     "Name": "Broxtowe",
@@ -1161,6 +1453,8 @@
   },
   "E07000174": {
     "Housing": 137695.5708,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 109313,
     "Income": 17448,
     "Name": "Mansfield",
@@ -1169,6 +1463,8 @@
   },
   "E07000175": {
     "Housing": 184091.9929,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 122421,
     "Income": 20004,
     "Name": "Newark and Sherwood",
@@ -1177,6 +1473,8 @@
   },
   "E07000176": {
     "Housing": 277906.3664,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 119184,
     "Income": 23384,
     "Name": "Rushcliffe",
@@ -1185,6 +1483,8 @@
   },
   "E07000178": {
     "Housing": 407963.5616,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 152457,
     "Income": 22848,
     "Name": "Oxford",
@@ -1193,6 +1493,10 @@
   },
   "E07000179": {
     "Housing": 408312.9111,
+    "Stars": 2,
+    "Restaurants": [
+      "Le Manoir aux Quat' Saisons, a Belmond Hotel"
+    ],
     "Population": 142057,
     "Income": 29669,
     "Name": "South Oxfordshire",
@@ -1201,6 +1505,8 @@
   },
   "E07000181": {
     "Housing": 324130.2683,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 110643,
     "Income": 27212,
     "Name": "West Oxfordshire",
@@ -1209,6 +1515,8 @@
   },
   "E07000187": {
     "Housing": 257968.5443,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 115587,
     "Income": 22146,
     "Name": "Mendip",
@@ -1217,6 +1525,8 @@
   },
   "E07000188": {
     "Housing": 227492.3116,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 123178,
     "Income": 20340,
     "Name": "Sedgemoor",
@@ -1225,6 +1535,8 @@
   },
   "E07000189": {
     "Housing": 229151.8191,
+    "Stars": 1,
+    "Restaurants": "['Osip']",
     "Population": 168345,
     "Income": 20810,
     "Name": "South Somerset",
@@ -1233,6 +1545,8 @@
   },
   "E07000193": {
     "Housing": 181624.3345,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 119754,
     "Income": 19763,
     "Name": "East Staffordshire",
@@ -1241,6 +1555,8 @@
   },
   "E07000199": {
     "Housing": 185877.0288,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 76696,
     "Income": 18446,
     "Name": "Tamworth",
@@ -1249,6 +1565,8 @@
   },
   "E07000210": {
     "Housing": 477691.7216,
+    "Stars": 1,
+    "Restaurants": "['Sorrel']",
     "Population": 87245,
     "Income": 33329,
     "Name": "Mole Valley",
@@ -1257,6 +1575,8 @@
   },
   "E07000173": {
     "Housing": 187433.6992,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 117896,
     "Income": 19250,
     "Name": "Gedling",
@@ -1265,6 +1585,8 @@
   },
   "E07000177": {
     "Housing": 283741.9593,
+    "Stars": 1,
+    "Restaurants": "['Nut Tree Inn']",
     "Population": 150503,
     "Income": 24115,
     "Name": "Cherwell",
@@ -1273,6 +1595,8 @@
   },
   "E07000180": {
     "Housing": 354352.9674,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 136007,
     "Income": 25680,
     "Name": "Vale of White Horse",
@@ -1281,6 +1605,8 @@
   },
   "E07000235": {
     "Housing": 266007.8175,
+    "Stars": 1,
+    "Restaurants": "['Pensons']",
     "Population": 78698,
     "Income": 23220,
     "Name": "Malvern Hills",
@@ -1289,6 +1615,8 @@
   },
   "E07000237": {
     "Housing": 210751.904,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 101222,
     "Income": 19509,
     "Name": "Worcester",
@@ -1297,6 +1625,8 @@
   },
   "E07000238": {
     "Housing": 273822.0229,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 129433,
     "Income": 23462,
     "Name": "Wychavon",
@@ -1305,6 +1635,8 @@
   },
   "E07000239": {
     "Housing": 192328.3254,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 101291,
     "Income": 19037,
     "Name": "Wyre Forest",
@@ -1313,6 +1645,8 @@
   },
   "E07000240": {
     "Housing": 506035.8961,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 148452,
     "Income": 33751,
     "Name": "St Albans",
@@ -1321,6 +1655,8 @@
   },
   "E07000242": {
     "Housing": 387598.0824,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 149748,
     "Income": 28356,
     "Name": "East Hertfordshire",
@@ -1329,6 +1665,8 @@
   },
   "E07000243": {
     "Housing": 283822.9296,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 87845,
     "Income": 20079,
     "Name": "Stevenage",
@@ -1337,6 +1675,8 @@
   },
   "E07000213": {
     "Housing": 366490.4085,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 99844,
     "Income": 26136,
     "Name": "Spelthorne",
@@ -1345,6 +1685,8 @@
   },
   "E07000219": {
     "Housing": 175961.4497,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 129883,
     "Income": 18636,
     "Name": "Nuneaton and Bedworth",
@@ -1353,6 +1695,8 @@
   },
   "E07000224": {
     "Housing": 284318.6902,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 160758,
     "Income": 22471,
     "Name": "Arun",
@@ -1361,6 +1705,8 @@
   },
   "E07000234": {
     "Housing": 293056.4666,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 99881,
     "Income": 23909,
     "Name": "Bromsgrove",
@@ -1369,6 +1715,8 @@
   },
   "E07000011": {
     "Housing": 260896.2694,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 177963,
     "Income": 22089,
     "Name": "Huntingdonshire",
@@ -1377,6 +1725,8 @@
   },
   "E07000029": {
     "Housing": 122159.7383,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 68183,
     "Income": 18788,
     "Name": "Copeland",
@@ -1385,6 +1735,8 @@
   },
   "E07000035": {
     "Housing": 269002.9409,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 72325,
     "Income": 25635,
     "Name": "Derbyshire Dales",
@@ -1393,6 +1745,8 @@
   },
   "E07000042": {
     "Housing": 235926.2082,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 82311,
     "Income": 20811,
     "Name": "Mid Devon",
@@ -1401,6 +1755,8 @@
   },
   "E07000008": {
     "Housing": 435408.6272,
+    "Stars": 2,
+    "Restaurants": "['Midsummer House']",
     "Population": 124798,
     "Income": 25105,
     "Name": "Cambridge",
@@ -1409,6 +1765,8 @@
   },
   "E07000009": {
     "Housing": 285122.0432,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 89840,
     "Income": 22769,
     "Name": "East Cambridgeshire",
@@ -1417,6 +1775,8 @@
   },
   "E07000010": {
     "Housing": 187937.1857,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 101850,
     "Income": 17958,
     "Name": "Fenland",
@@ -1425,6 +1785,8 @@
   },
   "E07000012": {
     "Housing": 373157.4126,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 159086,
     "Income": 27610,
     "Name": "South Cambridgeshire",
@@ -1433,6 +1795,8 @@
   },
   "E07000026": {
     "Housing": 151493.4415,
+    "Stars": 1,
+    "Restaurants": "['Cottage in the Wood']",
     "Population": 97761,
     "Income": 18968,
     "Name": "Allerdale",
@@ -1441,6 +1805,8 @@
   },
   "E07000027": {
     "Housing": 121605.3483,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 67049,
     "Income": 17990,
     "Name": "Barrow-in-Furness",
@@ -1449,6 +1815,8 @@
   },
   "E07000028": {
     "Housing": 136613.3516,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 108678,
     "Income": 19110,
     "Name": "Carlisle",
@@ -1457,6 +1825,8 @@
   },
   "E07000030": {
     "Housing": 198644.1134,
+    "Stars": 2,
+    "Restaurants": "['Allium at Askham Hall', 'Dog and Gun Inn']",
     "Population": 53253,
     "Income": 22097,
     "Name": "Eden",
@@ -1465,6 +1835,8 @@
   },
   "E07000031": {
     "Housing": 239019.4373,
+    "Stars": 7,
+    "Restaurants": "[\"L'Enclume\", 'Rogan & Co', 'HRiSHi', 'Forest Side', 'Old Stamp House']",
     "Population": 105088,
     "Income": 23990,
     "Name": "South Lakeland",
@@ -1473,6 +1845,8 @@
   },
   "E07000032": {
     "Housing": 174758.8099,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 128147,
     "Income": 18983,
     "Name": "Amber Valley",
@@ -1481,6 +1855,8 @@
   },
   "E07000033": {
     "Housing": 128807.4239,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 80562,
     "Income": 16062,
     "Name": "Bolsover",
@@ -1489,6 +1865,8 @@
   },
   "E07000034": {
     "Housing": 158537.3652,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 104900,
     "Income": 16802,
     "Name": "Chesterfield",
@@ -1497,6 +1875,8 @@
   },
   "E07000036": {
     "Housing": 164643.2085,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 115371,
     "Income": 18301,
     "Name": "Erewash",
@@ -1505,6 +1885,8 @@
   },
   "E07000068": {
     "Housing": 425786.9659,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 77021,
     "Income": 30517,
     "Name": "Brentwood",
@@ -1513,6 +1895,8 @@
   },
   "E07000074": {
     "Housing": 335345.8137,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 64926,
     "Income": 23427,
     "Name": "Maldon",
@@ -1521,6 +1905,8 @@
   },
   "E07000079": {
     "Housing": 383645.294,
+    "Stars": 1,
+    "Restaurants": "['Le Champignon Sauvage']",
     "Population": 89862,
     "Income": 29350,
     "Name": "Cotswold",
@@ -1529,6 +1915,8 @@
   },
   "E07000081": {
     "Housing": 204573.0359,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 129128,
     "Income": 18751,
     "Name": "Gloucester",
@@ -1537,6 +1925,8 @@
   },
   "E07000062": {
     "Housing": 214198.7459,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 92661,
     "Income": 18545,
     "Name": "Hastings",
@@ -1545,6 +1935,8 @@
   },
   "E07000064": {
     "Housing": 297475.1833,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 96080,
     "Income": 22585,
     "Name": "Rother",
@@ -1553,6 +1945,8 @@
   },
   "E07000065": {
     "Housing": 335892.0687,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 161475,
     "Income": 25895,
     "Name": "Wealden",
@@ -1561,6 +1955,8 @@
   },
   "E07000066": {
     "Housing": 306297.1969,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 187199,
     "Income": 21435,
     "Name": "Basildon",
@@ -1569,6 +1965,8 @@
   },
   "E07000067": {
     "Housing": 282018.5343,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 152604,
     "Income": 22179,
     "Name": "Braintree",
@@ -1577,6 +1975,8 @@
   },
   "E07000069": {
     "Housing": 305503.268,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 90376,
     "Income": 22011,
     "Name": "Castle Point",
@@ -1585,6 +1985,8 @@
   },
   "E07000070": {
     "Housing": 340877.1502,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 178388,
     "Income": 24643,
     "Name": "Chelmsford",
@@ -1593,6 +1995,8 @@
   },
   "E07000071": {
     "Housing": 263748.8266,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 194706,
     "Income": 20570,
     "Name": "Colchester",
@@ -1601,6 +2005,8 @@
   },
   "E07000072": {
     "Housing": 459561.5538,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 131689,
     "Income": 30550,
     "Name": "Epping Forest",
@@ -1609,6 +2015,8 @@
   },
   "E07000073": {
     "Housing": 273823.5176,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 87067,
     "Income": 19157,
     "Name": "Harlow",
@@ -1617,6 +2025,8 @@
   },
   "E07000075": {
     "Housing": 349442.0658,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 87368,
     "Income": 22986,
     "Name": "Rochford",
@@ -1625,6 +2035,8 @@
   },
   "E07000076": {
     "Housing": 219491.1946,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 146561,
     "Income": 18513,
     "Name": "Tendring",
@@ -1633,6 +2045,8 @@
   },
   "E07000077": {
     "Housing": 391512.3565,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 91284,
     "Income": 28090,
     "Name": "Uttlesford",
@@ -1641,6 +2055,8 @@
   },
   "E07000078": {
     "Housing": 270796.0504,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 116306,
     "Income": 23197,
     "Name": "Cheltenham",
@@ -1649,6 +2065,8 @@
   },
   "E07000080": {
     "Housing": 240548.6451,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 86791,
     "Income": 19572,
     "Name": "Forest of Dean",
@@ -1657,6 +2075,8 @@
   },
   "E07000061": {
     "Housing": 243286.9951,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 103745,
     "Income": 20020,
     "Name": "Eastbourne",
@@ -1665,6 +2085,8 @@
   },
   "E07000063": {
     "Housing": 326956.5512,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 103268,
     "Income": 23543,
     "Name": "Lewes",
@@ -1673,6 +2095,8 @@
   },
   "E07000037": {
     "Housing": 195932.8567,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 92666,
     "Income": 19824,
     "Name": "High Peak",
@@ -1681,6 +2105,8 @@
   },
   "E07000038": {
     "Housing": 186764.9092,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 101462,
     "Income": 19094,
     "Name": "North East Derbyshire",
@@ -1689,6 +2115,8 @@
   },
   "E07000039": {
     "Housing": 193688.8383,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 107261,
     "Income": 20154,
     "Name": "South Derbyshire",
@@ -1697,6 +2125,8 @@
   },
   "E07000040": {
     "Housing": 289509.4499,
+    "Stars": 1,
+    "Restaurants": "['Lympstone Manor']",
     "Population": 146284,
     "Income": 22078,
     "Name": "East Devon",
@@ -1705,6 +2135,8 @@
   },
   "E07000041": {
     "Housing": 258288.5319,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 131405,
     "Income": 19005,
     "Name": "Exeter",
@@ -1713,6 +2145,8 @@
   },
   "E07000043": {
     "Housing": 247589.9511,
+    "Stars": 2,
+    "Restaurants": "['Thomas Carr 1873', 'Masons Arms']",
     "Population": 97145,
     "Income": 20105,
     "Name": "North Devon",
@@ -1721,6 +2155,8 @@
   },
   "E07000044": {
     "Housing": 308230.73,
+    "Stars": 1,
+    "Restaurants": "['Elephant']",
     "Population": 87004,
     "Income": 23927,
     "Name": "South Hams",
@@ -1729,6 +2165,8 @@
   },
   "E07000045": {
     "Housing": 246983.3319,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 134163,
     "Income": 21009,
     "Name": "Teignbridge",
@@ -1737,6 +2175,8 @@
   },
   "E07000046": {
     "Housing": 233595.0351,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 68267,
     "Income": 18974,
     "Name": "Torridge",
@@ -1745,6 +2185,8 @@
   },
   "E07000047": {
     "Housing": 256849.44,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 55796,
     "Income": 21509,
     "Name": "West Devon",
@@ -1753,6 +2195,8 @@
   },
   "E07000136": {
     "Housing": 155233.0299,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 70173,
     "Income": 17826,
     "Name": "Boston",
@@ -1761,6 +2205,8 @@
   },
   "E07000137": {
     "Housing": 179688.7085,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 141727,
     "Income": 17178,
     "Name": "East Lindsey",
@@ -1769,6 +2215,8 @@
   },
   "E07000138": {
     "Housing": 154993.2675,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 99299,
     "Income": 16874,
     "Name": "Lincoln",
@@ -1777,6 +2225,8 @@
   },
   "E07000139": {
     "Housing": 209885.649,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 116915,
     "Income": 19912,
     "Name": "North Kesteven",
@@ -1785,6 +2235,8 @@
   },
   "E07000140": {
     "Housing": 189238.1162,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 95019,
     "Income": 18459,
     "Name": "South Holland",
@@ -1793,6 +2245,8 @@
   },
   "E07000142": {
     "Housing": 169044.2177,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 95667,
     "Income": 18709,
     "Name": "West Lindsey",
@@ -1801,6 +2255,8 @@
   },
   "E07000110": {
     "Housing": 289938.4488,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 171826,
     "Income": 22888,
     "Name": "Maidstone",
@@ -1809,6 +2265,8 @@
   },
   "E07000117": {
     "Housing": 84936.06021,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 88920,
     "Income": 15409,
     "Name": "Burnley",
@@ -1817,6 +2275,8 @@
   },
   "E07000122": {
     "Housing": 100629.3168,
+    "Stars": 1,
+    "Restaurants": "['White Swan']",
     "Population": 92112,
     "Income": 15985,
     "Name": "Pendle",
@@ -1825,6 +2285,8 @@
   },
   "E07000125": {
     "Housing": 138014.2184,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 71482,
     "Income": 18078,
     "Name": "Rossendale",
@@ -1833,6 +2295,8 @@
   },
   "E07000106": {
     "Housing": 301136.3271,
+    "Stars": 2,
+    "Restaurants": "['Bridge Arms', 'Fordwich Arms']",
     "Population": 165394,
     "Income": 19631,
     "Name": "Canterbury",
@@ -1841,6 +2305,8 @@
   },
   "E07000107": {
     "Housing": 297234.3185,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 112606,
     "Income": 22459,
     "Name": "Dartford",
@@ -1849,6 +2315,8 @@
   },
   "E07000108": {
     "Housing": 249141.3779,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 118131,
     "Income": 19964,
     "Name": "Dover",
@@ -1857,6 +2325,8 @@
   },
   "E07000109": {
     "Housing": 278532.6172,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 106939,
     "Income": 20665,
     "Name": "Gravesham",
@@ -1865,6 +2335,8 @@
   },
   "E07000111": {
     "Housing": 432829.1207,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 120750,
     "Income": 31654,
     "Name": "Sevenoaks",
@@ -1873,6 +2345,8 @@
   },
   "E07000112": {
     "Housing": 256300.7904,
+    "Stars": 1,
+    "Restaurants": "['hide and fox']",
     "Population": 112996,
     "Income": 20461,
     "Name": "Folkestone and Hythe",
@@ -1881,6 +2355,8 @@
   },
   "E07000113": {
     "Housing": 249811.6093,
+    "Stars": 1,
+    "Restaurants": "['The Sportsman']",
     "Population": 150082,
     "Income": 19753,
     "Name": "Swale",
@@ -1889,6 +2365,8 @@
   },
   "E07000114": {
     "Housing": 236991.0392,
+    "Stars": 1,
+    "Restaurants": "['Stark']",
     "Population": 141922,
     "Income": 18710,
     "Name": "Thanet",
@@ -1897,6 +2375,8 @@
   },
   "E07000115": {
     "Housing": 366755.5229,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 132153,
     "Income": 25249,
     "Name": "Tonbridge and Malling",
@@ -1905,6 +2385,8 @@
   },
   "E07000116": {
     "Housing": 383412.8421,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 118724,
     "Income": 28503,
     "Name": "Tunbridge Wells",
@@ -1913,6 +2395,8 @@
   },
   "E07000118": {
     "Housing": 180459.1949,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 118216,
     "Income": 19463,
     "Name": "Chorley",
@@ -1921,6 +2405,8 @@
   },
   "E07000119": {
     "Housing": 190037.0686,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 80780,
     "Income": 21603,
     "Name": "Fylde",
@@ -1929,6 +2415,8 @@
   },
   "E07000120": {
     "Housing": 96668.65509,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 81043,
     "Income": 15704,
     "Name": "Hyndburn",
@@ -1937,6 +2425,8 @@
   },
   "E07000121": {
     "Housing": 156283.1124,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 146038,
     "Income": 17433,
     "Name": "Lancaster",
@@ -1945,6 +2435,8 @@
   },
   "E07000123": {
     "Housing": 127379.8077,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 143135,
     "Income": 17133,
     "Name": "Preston",
@@ -1953,6 +2445,8 @@
   },
   "E07000087": {
     "Housing": 293760.4722,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 116233,
     "Income": 22669,
     "Name": "Fareham",
@@ -1961,6 +2455,8 @@
   },
   "E07000093": {
     "Housing": 325726.4104,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 126160,
     "Income": 25872,
     "Name": "Test Valley",
@@ -1969,6 +2465,8 @@
   },
   "E07000099": {
     "Housing": 337493.6698,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 133570,
     "Income": 25826,
     "Name": "North Hertfordshire",
@@ -1977,6 +2475,8 @@
   },
   "E07000105": {
     "Housing": 295051.1739,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 130032,
     "Income": 21967,
     "Name": "Ashford",
@@ -1985,6 +2485,8 @@
   },
   "E07000082": {
     "Housing": 279877.6828,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 119964,
     "Income": 23588,
     "Name": "Stroud",
@@ -1993,6 +2495,8 @@
   },
   "E07000083": {
     "Housing": 275232.6376,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 95019,
     "Income": 21669,
     "Name": "Tewkesbury",
@@ -2001,6 +2505,8 @@
   },
   "E07000084": {
     "Housing": 301641.2379,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 176582,
     "Income": 25458,
     "Name": "Basingstoke and Deane",
@@ -2009,6 +2515,8 @@
   },
   "E07000085": {
     "Housing": 366488.5819,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 122308,
     "Income": 28337,
     "Name": "East Hampshire",
@@ -2017,6 +2525,8 @@
   },
   "E07000086": {
     "Housing": 282451.8225,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 133584,
     "Income": 22722,
     "Name": "Eastleigh",
@@ -2025,6 +2535,8 @@
   },
   "E07000088": {
     "Housing": 210673.2957,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 84838,
     "Income": 18711,
     "Name": "Gosport",
@@ -2033,6 +2545,8 @@
   },
   "E07000089": {
     "Housing": 406364.6138,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 97073,
     "Income": 29293,
     "Name": "Hart",
@@ -2041,6 +2555,8 @@
   },
   "E07000090": {
     "Housing": 264257.7219,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 126220,
     "Income": 20700,
     "Name": "Havant",
@@ -2049,6 +2565,8 @@
   },
   "E07000091": {
     "Housing": 335120.2065,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 180086,
     "Income": 24778,
     "Name": "New Forest",
@@ -2057,6 +2575,8 @@
   },
   "E07000092": {
     "Housing": 281591.3284,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 94599,
     "Income": 22215,
     "Name": "Rushmoor",
@@ -2065,6 +2585,8 @@
   },
   "E07000094": {
     "Housing": 411570.9059,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 124859,
     "Income": 28611,
     "Name": "Winchester",
@@ -2073,6 +2595,8 @@
   },
   "E07000095": {
     "Housing": 351847.5251,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 97279,
     "Income": 23109,
     "Name": "Broxbourne",
@@ -2081,6 +2605,8 @@
   },
   "E07000096": {
     "Housing": 399291.6728,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 154763,
     "Income": 26318,
     "Name": "Dacorum",
@@ -2089,6 +2615,8 @@
   },
   "E07000098": {
     "Housing": 462457.1866,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 104919,
     "Income": 30046,
     "Name": "Hertsmere",
@@ -2097,6 +2625,8 @@
   },
   "E07000102": {
     "Housing": 514591.027,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 93323,
     "Income": 29712,
     "Name": "Three Rivers",
@@ -2105,6 +2635,8 @@
   },
   "E07000103": {
     "Housing": 347012.5441,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 96577,
     "Income": 24163,
     "Name": "Watford",
@@ -2113,6 +2645,8 @@
   },
   "E07000236": {
     "Housing": 209475.4498,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 85261,
     "Income": 21187,
     "Name": "Redditch",
@@ -2121,6 +2655,8 @@
   },
   "E07000241": {
     "Housing": 391313.1532,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 123043,
     "Income": 22895,
     "Name": "Welwyn Hatfield",
@@ -2129,6 +2665,8 @@
   },
   "E07000143": {
     "Housing": 223764.109,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 139968,
     "Income": 18462,
     "Name": "Breckland",
@@ -2137,6 +2675,8 @@
   },
   "E07000144": {
     "Housing": 262291.031,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 130783,
     "Income": 21073,
     "Name": "Broadland",
@@ -2145,6 +2685,8 @@
   },
   "E07000146": {
     "Housing": 217699.8233,
+    "Stars": 1,
+    "Restaurants": "['The Neptune']",
     "Population": 151383,
     "Income": 19572,
     "Name": "King's Lynn and West Norfolk",
@@ -2153,6 +2695,8 @@
   },
   "E07000147": {
     "Housing": 255655.07,
+    "Stars": 2,
+    "Restaurants": "['Meadowsweet', 'Morston Hall']",
     "Population": 104837,
     "Income": 20466,
     "Name": "North Norfolk",
@@ -2161,6 +2705,8 @@
   },
   "E07000148": {
     "Housing": 204456.5833,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 140573,
     "Income": 17170,
     "Name": "Norwich",
@@ -2169,6 +2715,8 @@
   },
   "E07000163": {
     "Housing": 215741.5695,
+    "Stars": 1,
+    "Restaurants": "['The Angel']",
     "Population": 57142,
     "Income": 22181,
     "Name": "Craven",
@@ -2177,6 +2725,8 @@
   },
   "E07000164": {
     "Housing": 231805.773,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 91594,
     "Income": 23487,
     "Name": "Hambleton",
@@ -2185,6 +2735,8 @@
   },
   "E07000165": {
     "Housing": 284710.4802,
+    "Stars": 1,
+    "Restaurants": "['Shaun Rankin at Grantley Hall']",
     "Population": 160831,
     "Income": 26868,
     "Name": "Harrogate",
@@ -2193,6 +2745,8 @@
   },
   "E07000167": {
     "Housing": 236199.6474,
+    "Stars": 2,
+    "Restaurants": "['Black Swan', 'Star Inn at Harome']",
     "Population": 55380,
     "Income": 22044,
     "Name": "Ryedale",
@@ -2201,6 +2755,10 @@
   },
   "E07000130": {
     "Housing": 223647.2995,
+    "Stars": 1,
+    "Restaurants": [
+      "John's House"
+    ],
     "Population": 185851,
     "Income": 18275,
     "Name": "Charnwood",
@@ -2209,6 +2767,8 @@
   },
   "E07000135": {
     "Housing": 220447.4051,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 57015,
     "Income": 18629,
     "Name": "Oadby and Wigston",
@@ -2217,6 +2777,8 @@
   },
   "E07000141": {
     "Housing": 216196.957,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 142424,
     "Income": 21522,
     "Name": "South Kesteven",
@@ -2225,6 +2787,8 @@
   },
   "E07000124": {
     "Housing": 215592.3066,
+    "Stars": 1,
+    "Restaurants": "['Northcote']",
     "Population": 60888,
     "Income": 24493,
     "Name": "Ribble Valley",
@@ -2233,6 +2797,8 @@
   },
   "E07000126": {
     "Housing": 169240.0172,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 110788,
     "Income": 19528,
     "Name": "South Ribble",
@@ -2241,6 +2807,8 @@
   },
   "E07000127": {
     "Housing": 186886.6982,
+    "Stars": 3,
+    "Restaurants": "['Moor Hall', 'The Barn']",
     "Population": 114306,
     "Income": 20004,
     "Name": "West Lancashire",
@@ -2249,6 +2817,8 @@
   },
   "E07000128": {
     "Housing": 151267.5845,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 112091,
     "Income": 18459,
     "Name": "Wyre",
@@ -2257,6 +2827,8 @@
   },
   "E07000129": {
     "Housing": 229537.2559,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 101526,
     "Income": 19145,
     "Name": "Blaby",
@@ -2265,6 +2837,8 @@
   },
   "E07000131": {
     "Housing": 293602.6336,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 93807,
     "Income": 24246,
     "Name": "Harborough",
@@ -2273,6 +2847,8 @@
   },
   "E07000132": {
     "Housing": 221256.3415,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 113136,
     "Income": 19841,
     "Name": "Hinckley and Bosworth",
@@ -2281,6 +2857,8 @@
   },
   "E07000133": {
     "Housing": 226459.4892,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 51209,
     "Income": 21473,
     "Name": "Melton",
@@ -2289,6 +2867,8 @@
   },
   "E07000134": {
     "Housing": 207759.6006,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 103611,
     "Income": 19644,
     "Name": "North West Leicestershire",
@@ -2297,6 +2877,8 @@
   },
   "W06000014": {
     "Housing": 228398.676,
+    "Stars": 1,
+    "Restaurants": "['Home']",
     "Population": 133587,
     "Income": 19987,
     "Name": "Vale of Glamorgan",
@@ -2305,6 +2887,8 @@
   },
   "W06000015": {
     "Housing": 210250.2053,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 366903,
     "Income": 17431,
     "Name": "Cardiff",
@@ -2313,6 +2897,8 @@
   },
   "W06000019": {
     "Housing": 93045.76732,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 69862,
     "Income": 14630,
     "Name": "Blaenau Gwent",
@@ -2321,6 +2907,8 @@
   },
   "W06000020": {
     "Housing": 148184.761,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 93961,
     "Income": 16505,
     "Name": "Torfaen",
@@ -2329,6 +2917,8 @@
   },
   "W06000021": {
     "Housing": 273209.0341,
+    "Stars": 2,
+    "Restaurants": "['The Whitebrook', 'Walnut Tree']",
     "Population": 94590,
     "Income": 21392,
     "Name": "Monmouthshire",
@@ -2337,6 +2927,8 @@
   },
   "W06000022": {
     "Housing": 184096.2085,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 154676,
     "Income": 17977,
     "Name": "Newport",
@@ -2345,6 +2937,8 @@
   },
   "W06000023": {
     "Housing": 186685.5798,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 132435,
     "Income": 18287,
     "Name": "Powys",
@@ -2353,6 +2947,8 @@
   },
   "W06000001": {
     "Housing": 176890.2767,
+    "Stars": 1,
+    "Restaurants": "['Sosban & The Old Butchers']",
     "Population": 70043,
     "Income": 17529,
     "Name": "Isle of Anglesey",
@@ -2361,6 +2957,8 @@
   },
   "W06000005": {
     "Housing": 169483.3821,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 156100,
     "Income": 18722,
     "Name": "Flintshire",
@@ -2369,6 +2967,8 @@
   },
   "W06000012": {
     "Housing": 119141.6054,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 143315,
     "Income": 16442,
     "Name": "Neath Port Talbot",
@@ -2377,6 +2977,8 @@
   },
   "W06000018": {
     "Housing": 138299.2569,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 181075,
     "Income": 15992,
     "Name": "Caerphilly",
@@ -2385,6 +2987,8 @@
   },
   "W06000024": {
     "Housing": 107890.6521,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 60326,
     "Income": 15592,
     "Name": "Merthyr Tydfil",
@@ -2393,6 +2997,8 @@
   },
   "E06000007": {
     "Housing": 193896.1844,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 210014,
     "Income": 20946,
     "Name": "Warrington",
@@ -2401,6 +3007,8 @@
   },
   "E06000013": {
     "Housing": 146411.2633,
+    "Stars": 1,
+    "Restaurants": "['Winteringham Fields']",
     "Population": 172292,
     "Income": 17218,
     "Name": "North Lincolnshire",
@@ -2409,6 +3017,8 @@
   },
   "E06000018": {
     "Housing": 144284.2182,
+    "Stars": 3,
+    "Restaurants": "['Restaurant Sat Bains', 'alchemilla']",
     "Population": 332900,
     "Income": 13381,
     "Name": "Nottingham",
@@ -2417,6 +3027,8 @@
   },
   "E06000020": {
     "Housing": 167254.7823,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 179854,
     "Income": 17250,
     "Name": "Telford and Wrekin",
@@ -2425,6 +3037,8 @@
   },
   "E06000001": {
     "Housing": 108739.0584,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 93663,
     "Income": 15962,
     "Name": "Hartlepool",
@@ -2433,6 +3047,8 @@
   },
   "E06000004": {
     "Housing": 135678.3997,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 197348,
     "Income": 17519,
     "Name": "Stockton-on-Tees",
@@ -2441,6 +3057,8 @@
   },
   "E06000005": {
     "Housing": 130085.8847,
+    "Stars": 2,
+    "Restaurants": "['Raby Hunt']",
     "Population": 106803,
     "Income": 17391,
     "Name": "Darlington",
@@ -2449,6 +3067,8 @@
   },
   "E06000006": {
     "Housing": 143477.7195,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 129410,
     "Income": 17907,
     "Name": "Halton",
@@ -2457,6 +3077,8 @@
   },
   "E06000008": {
     "Housing": 115128.7345,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 149696,
     "Income": 14484,
     "Name": "Blackburn with Darwen",
@@ -2465,6 +3087,8 @@
   },
   "E06000009": {
     "Housing": 105993.3009,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 139446,
     "Income": 16276,
     "Name": "Blackpool",
@@ -2473,6 +3097,8 @@
   },
   "E06000010": {
     "Housing": 113060.5048,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 259778,
     "Income": 14908,
     "Name": "Kingston upon Hull, City of",
@@ -2481,6 +3107,8 @@
   },
   "E06000011": {
     "Housing": 179831.0404,
+    "Stars": 1,
+    "Restaurants": "['Pipe and Glass']",
     "Population": 341173,
     "Income": 20516,
     "Name": "East Riding of Yorkshire",
@@ -2489,6 +3117,8 @@
   },
   "E06000012": {
     "Housing": 123210.3784,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 159563,
     "Income": 16569,
     "Name": "North East Lincolnshire",
@@ -2497,6 +3127,8 @@
   },
   "E06000014": {
     "Housing": 255724.1442,
+    "Stars": 1,
+    "Restaurants": "['Roots']",
     "Population": 210618,
     "Income": 20216,
     "Name": "York",
@@ -2505,6 +3137,8 @@
   },
   "E06000015": {
     "Housing": 160702.9726,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 257302,
     "Income": 16793,
     "Name": "Derby",
@@ -2513,6 +3147,8 @@
   },
   "E06000016": {
     "Housing": 175232.6659,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 354224,
     "Income": 13802,
     "Name": "Leicester",
@@ -2521,6 +3157,8 @@
   },
   "E06000017": {
     "Housing": 307199.8691,
+    "Stars": 1,
+    "Restaurants": "['Hambleton Hall']",
     "Population": 39927,
     "Income": 24707,
     "Name": "Rutland",
@@ -2529,6 +3167,8 @@
   },
   "E06000019": {
     "Housing": 237128.7035,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 192801,
     "Income": 20631,
     "Name": "Herefordshire, County of",
@@ -2537,6 +3177,8 @@
   },
   "E06000044": {
     "Housing": 211374.0835,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 214905,
     "Income": 17028,
     "Name": "Portsmouth",
@@ -2545,6 +3187,8 @@
   },
   "E06000045": {
     "Housing": 208058.8076,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 252520,
     "Income": 17529,
     "Name": "Southampton",
@@ -2553,6 +3197,8 @@
   },
   "E06000046": {
     "Housing": 219869.2029,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 141771,
     "Income": 19211,
     "Name": "Isle of Wight",
@@ -2561,6 +3207,8 @@
   },
   "E06000047": {
     "Housing": 102350.2888,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 530094,
     "Income": 16617,
     "Name": "County Durham",
@@ -2569,6 +3217,8 @@
   },
   "E06000050": {
     "Housing": 206018.8247,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 343071,
     "Income": 22301,
     "Name": "Cheshire West and Chester",
@@ -2577,6 +3227,8 @@
   },
   "E06000051": {
     "Housing": 214801.0943,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 323136,
     "Income": 20732,
     "Name": "Shropshire",
@@ -2585,6 +3237,8 @@
   },
   "E06000052": {
     "Housing": 233997.8423,
+    "Stars": 3,
+    "Restaurants": "[\"Outlaw's Fish Kitchen\", \"Outlaw's New Road\", 'Paul Ainsworth at No.6']",
     "Population": 569578,
     "Income": 18846,
     "Name": "Cornwall",
@@ -2593,6 +3247,8 @@
   },
   "E06000054": {
     "Housing": 273729.3904,
+    "Stars": 3,
+    "Restaurants": "['Bybrook', 'The Dining Room', 'Restaurant Hywel Jones by Lucknam Park']",
     "Population": 500024,
     "Income": 23179,
     "Name": "Wiltshire",
@@ -2601,6 +3257,8 @@
   },
   "E06000056": {
     "Housing": 304323.1733,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 288648,
     "Income": 22419,
     "Name": "Central Bedfordshire",
@@ -2609,6 +3267,8 @@
   },
   "E06000057": {
     "Housing": 152304.7254,
+    "Stars": 2,
+    "Restaurants": "['Hjem', 'Pine']",
     "Population": 322434,
     "Income": 20216,
     "Name": "Northumberland",
@@ -2617,6 +3277,8 @@
   },
   "E06000026": {
     "Housing": 177043.8075,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 262100,
     "Income": 17343,
     "Name": "Plymouth",
@@ -2625,6 +3287,8 @@
   },
   "E06000037": {
     "Housing": 351255.0897,
+    "Stars": 1,
+    "Restaurants": "['The Woodspeen']",
     "Population": 158450,
     "Income": 26714,
     "Name": "West Berkshire",
@@ -2633,6 +3297,8 @@
   },
   "E06000042": {
     "Housing": 258508.0643,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 269457,
     "Income": 22116,
     "Name": "Milton Keynes",
@@ -2641,6 +3307,8 @@
   },
   "E06000021": {
     "Housing": 112145.6088,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 256375,
     "Income": 15455,
     "Name": "Stoke-on-Trent",
@@ -2649,6 +3317,8 @@
   },
   "E06000022": {
     "Housing": 337049.8951,
+    "Stars": 1,
+    "Restaurants": "['Olive Tree']",
     "Population": 193282,
     "Income": 23515,
     "Name": "Bath and North East Somerset",
@@ -2657,6 +3327,8 @@
   },
   "E06000023": {
     "Housing": 280436.6009,
+    "Stars": 3,
+    "Restaurants": "['Bulrush', 'Casamia', 'Paco Tapas']",
     "Population": 463377,
     "Income": 20249,
     "Name": "Bristol, City of",
@@ -2665,6 +3337,8 @@
   },
   "E06000024": {
     "Housing": 264775.9129,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 215052,
     "Income": 22878,
     "Name": "North Somerset",
@@ -2673,6 +3347,8 @@
   },
   "E06000025": {
     "Housing": 278245.2026,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 285093,
     "Income": 22900,
     "Name": "South Gloucestershire",
@@ -2681,6 +3357,8 @@
   },
   "E06000027": {
     "Housing": 197793.7858,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 136264,
     "Income": 18698,
     "Name": "Torbay",
@@ -2689,6 +3367,8 @@
   },
   "E06000030": {
     "Housing": 214333.5281,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 222193,
     "Income": 20516,
     "Name": "Swindon",
@@ -2697,6 +3377,8 @@
   },
   "E06000031": {
     "Housing": 194513.1313,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 202259,
     "Income": 18124,
     "Name": "Peterborough",
@@ -2705,6 +3387,8 @@
   },
   "E06000032": {
     "Housing": 235378.6065,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 213052,
     "Income": 16873,
     "Name": "Luton",
@@ -2713,6 +3397,8 @@
   },
   "E06000033": {
     "Housing": 285439.942,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 183125,
     "Income": 21187,
     "Name": "Southend-on-Sea",
@@ -2721,6 +3407,8 @@
   },
   "E06000034": {
     "Housing": 267574.0462,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 174341,
     "Income": 19951,
     "Name": "Thurrock",
@@ -2729,6 +3417,8 @@
   },
   "E06000035": {
     "Housing": 242796.3218,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 278556,
     "Income": 19814,
     "Name": "Medway",
@@ -2737,6 +3427,8 @@
   },
   "E06000036": {
     "Housing": 334743.3042,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 122549,
     "Income": 23892,
     "Name": "Bracknell Forest",
@@ -2745,6 +3437,8 @@
   },
   "E06000038": {
     "Housing": 293658.9357,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 161780,
     "Income": 23203,
     "Name": "Reading",
@@ -2753,6 +3447,8 @@
   },
   "E06000002": {
     "Housing": 112611.6416,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 140980,
     "Income": 15835,
     "Name": "Middlesbrough",
@@ -2761,6 +3457,8 @@
   },
   "E06000003": {
     "Housing": 119806.8622,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 137150,
     "Income": 16882,
     "Name": "Redcar and Cleveland",
@@ -2769,6 +3467,8 @@
   },
   "E06000049": {
     "Housing": 228157.4605,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 384152,
     "Income": 25486,
     "Name": "Cheshire East",
@@ -2777,6 +3477,8 @@
   },
   "E06000055": {
     "Housing": 287393.4834,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 173292,
     "Income": 22321,
     "Name": "Bedford",
@@ -2785,6 +3487,8 @@
   },
   "E06000039": {
     "Housing": 296955.853,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 149539,
     "Income": 19469,
     "Name": "Slough",
@@ -2793,6 +3497,8 @@
   },
   "E06000040": {
     "Housing": 472825.8184,
+    "Stars": 8,
+    "Restaurants": "['Coworth Park', 'Waterside Inn', 'Hinds Head', 'Fat Duck']",
     "Population": 151422,
     "Income": 31975,
     "Name": "Windsor and Maidenhead",
@@ -2801,6 +3507,8 @@
   },
   "E06000041": {
     "Housing": 406089.1079,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 171119,
     "Income": 29443,
     "Name": "Wokingham",
@@ -2809,6 +3517,8 @@
   },
   "E06000043": {
     "Housing": 364492.8287,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 290885,
     "Income": 23142,
     "Name": "Brighton and Hove",
@@ -2817,6 +3527,8 @@
   },
   "W06000002": {
     "Housing": 159634.1175,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 124560,
     "Income": 15941,
     "Name": "Gwynedd",
@@ -2825,6 +3537,8 @@
   },
   "W06000003": {
     "Housing": 168635.7313,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 117203,
     "Income": 18189,
     "Name": "Conwy",
@@ -2833,6 +3547,8 @@
   },
   "W06000004": {
     "Housing": 155914.7402,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 95696,
     "Income": 17901,
     "Name": "Denbighshire",
@@ -2841,6 +3557,8 @@
   },
   "W06000006": {
     "Housing": 157903.236,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 135957,
     "Income": 17785,
     "Name": "Wrexham",
@@ -2849,6 +3567,8 @@
   },
   "W06000008": {
     "Housing": 185083.003,
+    "Stars": 3,
+    "Restaurants": "['Ynyshir', 'SY23']",
     "Population": 72695,
     "Income": 17065,
     "Name": "Ceredigion",
@@ -2857,6 +3577,8 @@
   },
   "W06000009": {
     "Housing": 176297.8949,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 125818,
     "Income": 17207,
     "Name": "Pembrokeshire",
@@ -2865,6 +3587,8 @@
   },
   "W06000010": {
     "Housing": 148102.9115,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 188771,
     "Income": 16928,
     "Name": "Carmarthenshire",
@@ -2873,6 +3597,8 @@
   },
   "W06000011": {
     "Housing": 149330.8904,
+    "Stars": 1,
+    "Restaurants": "['Beach House']",
     "Population": 246993,
     "Income": 16262,
     "Name": "Swansea",
@@ -2881,6 +3607,8 @@
   },
   "W06000013": {
     "Housing": 154621.4849,
+    "Stars": "",
+    "Restaurants": "",
     "Population": 147049,
     "Income": 17047,
     "Name": "Bridgend",
