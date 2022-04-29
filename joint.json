@@ -1,2585 +1,2890 @@
 {
-  "E06000005": {
-    "Population": 106803,
-    "Income": 17391,
-    "Name": "Darlington",
-    "weighted": 13241.73,
-    "Color": "(0, 24, 231)"
-  },
-  "E06000047": {
-    "Population": 530094,
-    "Income": 16617,
-    "Name": "County Durham",
-    "weighted": 16932.84,
-    "Color": "(0, 61, 194)"
-  },
-  "E06000001": {
-    "Population": 93663,
-    "Income": 15962,
-    "Name": "Hartlepool",
-    "weighted": 12110.029999999999,
-    "Color": "(0, 12, 243)"
-  },
-  "E06000002": {
-    "Population": 140980,
-    "Income": 15835,
-    "Name": "Middlesbrough",
-    "weighted": 12494.3,
-    "Color": "(0, 16, 239)"
-  },
-  "E06000057": {
-    "Population": 322434,
-    "Income": 20216,
-    "Name": "Northumberland",
-    "weighted": 17375.54,
-    "Color": "(0, 66, 189)"
-  },
-  "E06000003": {
-    "Population": 137150,
-    "Income": 16882,
-    "Name": "Redcar and Cleveland",
-    "weighted": 13188.9,
-    "Color": "(0, 23, 232)"
-  },
-  "E06000004": {
-    "Population": 197348,
-    "Income": 17519,
-    "Name": "Stockton-on-Tees",
-    "weighted": 14236.779999999999,
-    "Color": "(0, 34, 221)"
-  },
-  "E08000037": {
-    "Population": 202055,
-    "Income": 16477,
-    "Name": "Gateshead",
-    "weighted": 13554.449999999999,
-    "Color": "(0, 27, 228)"
-  },
-  "E08000021": {
-    "Population": 302820,
-    "Income": 16473,
-    "Name": "Newcastle upon Tyne",
-    "weighted": 14559.3,
-    "Color": "(0, 37, 218)"
-  },
-  "E08000022": {
-    "Population": 207913,
-    "Income": 18246,
-    "Name": "North Tyneside",
-    "weighted": 14851.329999999998,
-    "Color": "(0, 40, 215)"
-  },
-  "E08000023": {
-    "Population": 150976,
-    "Income": 15915,
-    "Name": "South Tyneside",
-    "weighted": 12650.26,
-    "Color": "(0, 18, 237)"
-  },
-  "E08000024": {
-    "Population": 277705,
-    "Income": 16011,
-    "Name": "Sunderland",
-    "weighted": 13984.75,
-    "Color": "(0, 31, 224)"
-  },
-  "E06000008": {
-    "Population": 149696,
-    "Income": 14484,
-    "Name": "Blackburn with Darwen",
-    "weighted": 11635.759999999998,
-    "Color": "(0, 8, 247)"
-  },
-  "E06000009": {
-    "Population": 139446,
-    "Income": 16276,
-    "Name": "Blackpool",
-    "weighted": 12787.66,
-    "Color": "(0, 19, 236)"
-  },
-  "E06000049": {
-    "Population": 384152,
-    "Income": 25486,
-    "Name": "Cheshire East",
-    "weighted": 21681.719999999998,
-    "Color": "(0, 109, 146)"
-  },
-  "E06000050": {
-    "Population": 343071,
-    "Income": 22301,
-    "Name": "Cheshire West and Chester",
-    "weighted": 19041.41,
-    "Color": "(0, 83, 172)"
-  },
-  "E06000006": {
-    "Population": 129410,
-    "Income": 17907,
-    "Name": "Halton",
-    "weighted": 13829,
-    "Color": "(0, 30, 225)"
-  },
-  "E06000007": {
-    "Population": 210014,
-    "Income": 20946,
-    "Name": "Warrington",
-    "weighted": 16762.34,
-    "Color": "(0, 59, 196)"
-  },
-  "E07000026": {
-    "Population": 97761,
-    "Income": 18968,
-    "Name": "Allerdale",
-    "weighted": 14255.21,
-    "Color": "(0, 34, 221)"
-  },
-  "E07000027": {
-    "Population": 67049,
-    "Income": 17990,
-    "Name": "Barrow-in-Furness",
-    "weighted": 13263.49,
-    "Color": "(0, 24, 231)"
-  },
-  "E07000028": {
-    "Population": 108678,
-    "Income": 19110,
-    "Name": "Carlisle",
-    "weighted": 14463.78,
-    "Color": "(0, 36, 219)"
-  },
-  "E07000029": {
-    "Population": 68183,
-    "Income": 18788,
-    "Name": "Copeland",
-    "weighted": 13833.429999999998,
-    "Color": "(0, 30, 225)"
-  },
-  "E07000030": {
-    "Population": 53253,
-    "Income": 22097,
-    "Name": "Eden",
-    "weighted": 16000.43,
-    "Color": "(0, 52, 203)"
-  },
-  "E07000031": {
-    "Population": 105088,
-    "Income": 23990,
-    "Name": "South Lakeland",
-    "weighted": 17843.88,
-    "Color": "(0, 70, 185)"
-  },
-  "E08000001": {
-    "Population": 287550,
-    "Income": 16533,
-    "Name": "Bolton",
-    "weighted": 14448.599999999999,
-    "Color": "(0, 36, 219)"
-  },
-  "E08000002": {
-    "Population": 190990,
-    "Income": 19142,
-    "Name": "Bury",
-    "weighted": 15309.3,
-    "Color": "(0, 45, 210)"
-  },
-  "E08000003": {
-    "Population": 552858,
-    "Income": 15322,
-    "Name": "Manchester",
-    "weighted": 16253.98,
-    "Color": "(0, 54, 201)"
-  },
-  "E08000004": {
-    "Population": 237110,
-    "Income": 15885,
-    "Name": "Oldham",
-    "weighted": 13490.6,
-    "Color": "(0, 26, 229)"
-  },
-  "E08000005": {
-    "Population": 222412,
-    "Income": 16143,
-    "Name": "Rochdale",
-    "weighted": 13524.219999999998,
-    "Color": "(0, 27, 228)"
-  },
-  "E08000006": {
-    "Population": 258834,
-    "Income": 17524,
-    "Name": "Salford",
-    "weighted": 14855.14,
-    "Color": "(0, 40, 215)"
-  },
-  "E08000007": {
-    "Population": 293423,
-    "Income": 21606,
-    "Name": "Stockport",
-    "weighted": 18058.43,
-    "Color": "(0, 73, 182)"
-  },
-  "E08000008": {
-    "Population": 226493,
-    "Income": 17185,
-    "Name": "Tameside",
-    "weighted": 14294.43,
-    "Color": "(0, 34, 221)"
-  },
-  "E08000009": {
-    "Population": 237354,
-    "Income": 24060,
-    "Name": "Trafford",
-    "weighted": 19215.54,
-    "Color": "(0, 84, 171)"
-  },
-  "E08000010": {
-    "Population": 328662,
-    "Income": 17239,
-    "Name": "Wigan",
-    "weighted": 15353.919999999998,
-    "Color": "(0, 45, 210)"
-  },
-  "E07000117": {
-    "Population": 88920,
-    "Income": 15409,
-    "Name": "Burnley",
-    "weighted": 11675.5,
-    "Color": "(0, 8, 247)"
-  },
-  "E07000118": {
-    "Population": 118216,
-    "Income": 19463,
-    "Name": "Chorley",
-    "weighted": 14806.259999999998,
-    "Color": "(0, 40, 215)"
-  },
-  "E07000119": {
-    "Population": 80780,
-    "Income": 21603,
-    "Name": "Fylde",
-    "weighted": 15929.899999999998,
-    "Color": "(0, 51, 204)"
-  },
-  "E07000120": {
-    "Population": 81043,
-    "Income": 15704,
-    "Name": "Hyndburn",
-    "weighted": 11803.23,
-    "Color": "(0, 9, 246)"
-  },
-  "E07000121": {
-    "Population": 146038,
-    "Income": 17433,
-    "Name": "Lancaster",
-    "weighted": 13663.48,
-    "Color": "(0, 28, 227)"
-  },
-  "E07000122": {
-    "Population": 92112,
-    "Income": 15985,
-    "Name": "Pendle",
-    "weighted": 12110.62,
-    "Color": "(0, 12, 243)"
-  },
-  "E07000123": {
-    "Population": 143135,
-    "Income": 17133,
-    "Name": "Preston",
-    "weighted": 13424.449999999999,
-    "Color": "(0, 26, 229)"
-  },
-  "E07000124": {
-    "Population": 60888,
-    "Income": 24493,
-    "Name": "Ribble Valley",
-    "weighted": 17753.98,
-    "Color": "(0, 69, 186)"
-  },
-  "E07000125": {
-    "Population": 71482,
-    "Income": 18078,
-    "Name": "Rossendale",
-    "weighted": 13369.419999999998,
-    "Color": "(0, 25, 230)"
-  },
-  "E07000126": {
-    "Population": 110788,
-    "Income": 19528,
-    "Name": "South Ribble",
-    "weighted": 14777.48,
-    "Color": "(0, 39, 216)"
-  },
-  "E07000127": {
-    "Population": 114306,
-    "Income": 20004,
-    "Name": "West Lancashire",
-    "weighted": 15145.859999999999,
-    "Color": "(0, 43, 212)"
-  },
-  "E07000128": {
-    "Population": 112091,
-    "Income": 18459,
-    "Name": "Wyre",
-    "weighted": 14042.21,
-    "Color": "(0, 32, 223)"
-  },
-  "E08000011": {
-    "Population": 150862,
-    "Income": 16627,
-    "Name": "Knowsley",
-    "weighted": 13147.52,
-    "Color": "(0, 23, 232)"
-  },
-  "E08000012": {
-    "Population": 498042,
-    "Income": 15673,
-    "Name": "Liverpool",
-    "weighted": 15951.519999999999,
-    "Color": "(0, 51, 204)"
-  },
-  "E08000014": {
-    "Population": 276410,
-    "Income": 19325,
-    "Name": "Sefton",
-    "weighted": 16291.6,
-    "Color": "(0, 55, 200)"
-  },
-  "E08000013": {
-    "Population": 180585,
-    "Income": 17325,
-    "Name": "St. Helens",
-    "weighted": 13933.35,
-    "Color": "(0, 31, 224)"
-  },
-  "E08000015": {
-    "Population": 324011,
-    "Income": 19175,
-    "Name": "Wirral",
-    "weighted": 16662.61,
-    "Color": "(0, 58, 197)"
-  },
-  "E06000011": {
-    "Population": 341173,
-    "Income": 20516,
-    "Name": "East Riding of Yorkshire",
-    "weighted": 17772.93,
-    "Color": "(0, 70, 185)"
-  },
-  "E06000010": {
-    "Population": 259778,
-    "Income": 14908,
-    "Name": "Kingston upon Hull, City of",
-    "weighted": 13033.38,
-    "Color": "(0, 22, 233)"
-  },
-  "E06000012": {
-    "Population": 159563,
-    "Income": 16569,
-    "Name": "North East Lincolnshire",
-    "weighted": 13193.93,
-    "Color": "(0, 23, 232)"
-  },
-  "E06000013": {
-    "Population": 172292,
-    "Income": 17218,
-    "Name": "North Lincolnshire",
-    "weighted": 13775.519999999999,
-    "Color": "(0, 29, 226)"
-  },
-  "E06000014": {
-    "Population": 210618,
-    "Income": 20216,
-    "Name": "York",
-    "weighted": 16257.38,
-    "Color": "(0, 54, 201)"
-  },
-  "E07000163": {
-    "Population": 57142,
-    "Income": 22181,
-    "Name": "Craven",
-    "weighted": 16098.119999999999,
-    "Color": "(0, 53, 202)"
-  },
-  "E07000164": {
-    "Population": 91594,
-    "Income": 23487,
-    "Name": "Hambleton",
-    "weighted": 17356.839999999997,
-    "Color": "(0, 65, 190)"
-  },
-  "E07000165": {
-    "Population": 160831,
-    "Income": 26868,
-    "Name": "Harrogate",
-    "weighted": 20415.91,
-    "Color": "(0, 96, 159)"
-  },
-  "E07000166": {
-    "Population": 53730,
-    "Income": 21033,
-    "Name": "Richmondshire",
-    "weighted": 15260.399999999998,
-    "Color": "(0, 44, 211)"
-  },
-  "E07000167": {
-    "Population": 55380,
-    "Income": 22044,
-    "Name": "Ryedale",
-    "weighted": 15984.599999999999,
-    "Color": "(0, 52, 203)"
-  },
-  "E07000168": {
-    "Population": 108757,
-    "Income": 19116,
-    "Name": "Scarborough",
-    "weighted": 14468.769999999999,
-    "Color": "(0, 36, 219)"
-  },
-  "E07000169": {
-    "Population": 90620,
-    "Income": 21994,
-    "Name": "Selby",
-    "weighted": 16302,
-    "Color": "(0, 55, 200)"
-  },
-  "E08000016": {
-    "Population": 246866,
-    "Income": 17093,
-    "Name": "Barnsley",
-    "weighted": 14433.759999999998,
-    "Color": "(0, 36, 219)"
-  },
-  "E08000017": {
-    "Population": 311890,
-    "Income": 17001,
-    "Name": "Doncaster",
-    "weighted": 15019.599999999999,
-    "Color": "(0, 42, 213)"
-  },
-  "E08000018": {
-    "Population": 265411,
-    "Income": 16985,
-    "Name": "Rotherham",
-    "weighted": 14543.61,
-    "Color": "(0, 37, 218)"
-  },
-  "E08000019": {
-    "Population": 584853,
-    "Income": 16131,
-    "Name": "Sheffield",
-    "weighted": 17140.23,
-    "Color": "(0, 63, 192)"
-  },
-  "E08000032": {
-    "Population": 539776,
-    "Income": 15308,
-    "Name": "Bradford",
-    "weighted": 16113.359999999999,
-    "Color": "(0, 53, 202)"
-  },
-  "E08000033": {
-    "Population": 211455,
-    "Income": 17882,
-    "Name": "Calderdale",
-    "weighted": 14631.95,
-    "Color": "(0, 38, 217)"
-  },
-  "E08000034": {
-    "Population": 439787,
-    "Income": 17288,
-    "Name": "Kirklees",
-    "weighted": 16499.469999999998,
-    "Color": "(0, 57, 198)"
-  },
-  "E08000035": {
-    "Population": 793139,
-    "Income": 18634,
-    "Name": "Leeds",
-    "weighted": 20975.19,
-    "Color": "(0, 102, 153)"
-  },
-  "E08000036": {
-    "Population": 348312,
-    "Income": 17329,
-    "Name": "Wakefield",
-    "weighted": 15613.419999999998,
-    "Color": "(0, 48, 207)"
-  },
-  "E06000015": {
-    "Population": 257302,
-    "Income": 16793,
-    "Name": "Derby",
-    "weighted": 14328.119999999999,
-    "Color": "(0, 35, 220)"
-  },
-  "E06000016": {
-    "Population": 354224,
-    "Income": 13802,
-    "Name": "Leicester",
-    "weighted": 13203.64,
-    "Color": "(0, 23, 232)"
-  },
-  "E06000018": {
-    "Population": 332900,
-    "Income": 13381,
-    "Name": "Nottingham",
-    "weighted": 12695.699999999999,
-    "Color": "(0, 18, 237)"
-  },
-  "E06000017": {
-    "Population": 39927,
-    "Income": 24707,
-    "Name": "Rutland",
-    "weighted": 17694.17,
-    "Color": "(0, 69, 186)"
-  },
-  "E07000032": {
-    "Population": 128147,
-    "Income": 18983,
-    "Name": "Amber Valley",
-    "weighted": 14569.569999999998,
-    "Color": "(0, 37, 218)"
-  },
-  "E07000033": {
-    "Population": 80562,
-    "Income": 16062,
-    "Name": "Bolsover",
-    "weighted": 12049.02,
-    "Color": "(0, 12, 243)"
-  },
-  "E07000034": {
-    "Population": 104900,
-    "Income": 16802,
-    "Name": "Chesterfield",
-    "weighted": 12810.4,
-    "Color": "(0, 19, 236)"
-  },
-  "E07000035": {
-    "Population": 72325,
-    "Income": 25635,
-    "Name": "Derbyshire Dales",
-    "weighted": 18667.75,
-    "Color": "(0, 79, 176)"
-  },
-  "E07000036": {
-    "Population": 115371,
-    "Income": 18301,
-    "Name": "Erewash",
-    "weighted": 13964.41,
-    "Color": "(0, 31, 224)"
-  },
-  "E07000037": {
-    "Population": 92666,
-    "Income": 19824,
-    "Name": "High Peak",
-    "weighted": 14803.46,
-    "Color": "(0, 40, 215)"
-  },
-  "E07000038": {
-    "Population": 101462,
-    "Income": 19094,
-    "Name": "North East Derbyshire",
-    "weighted": 14380.42,
-    "Color": "(0, 35, 220)"
-  },
-  "E07000039": {
-    "Population": 107261,
-    "Income": 20154,
-    "Name": "South Derbyshire",
-    "weighted": 15180.41,
-    "Color": "(0, 43, 212)"
-  },
-  "E07000129": {
-    "Population": 101526,
-    "Income": 19145,
-    "Name": "Blaby",
-    "weighted": 14416.76,
-    "Color": "(0, 36, 219)"
-  },
-  "E07000130": {
-    "Population": 185851,
-    "Income": 18275,
-    "Name": "Charnwood",
-    "weighted": 14651.01,
-    "Color": "(0, 38, 217)"
-  },
-  "E07000131": {
-    "Population": 93807,
-    "Income": 24246,
-    "Name": "Harborough",
-    "weighted": 17910.27,
-    "Color": "(0, 71, 184)"
-  },
-  "E07000132": {
-    "Population": 113136,
-    "Income": 19841,
-    "Name": "Hinckley and Bosworth",
-    "weighted": 15020.06,
-    "Color": "(0, 42, 213)"
-  },
-  "E07000133": {
-    "Population": 51209,
-    "Income": 21473,
-    "Name": "Melton",
-    "weighted": 15543.189999999999,
-    "Color": "(0, 47, 208)"
-  },
-  "E07000134": {
-    "Population": 103611,
-    "Income": 19644,
-    "Name": "North West Leicestershire",
-    "weighted": 14786.91,
-    "Color": "(0, 39, 216)"
-  },
-  "E07000135": {
-    "Population": 57015,
-    "Income": 18629,
-    "Name": "Oadby and Wigston",
-    "weighted": 13610.449999999999,
-    "Color": "(0, 28, 227)"
-  },
-  "E07000136": {
-    "Population": 70173,
-    "Income": 17826,
-    "Name": "Boston",
-    "weighted": 13179.929999999998,
-    "Color": "(0, 23, 232)"
-  },
-  "E07000137": {
-    "Population": 141727,
-    "Income": 17178,
-    "Name": "East Lindsey",
-    "weighted": 13441.869999999999,
-    "Color": "(0, 26, 229)"
-  },
-  "E07000138": {
-    "Population": 99299,
-    "Income": 16874,
-    "Name": "Lincoln",
-    "weighted": 12804.789999999999,
-    "Color": "(0, 19, 236)"
-  },
-  "E07000139": {
-    "Population": 116915,
-    "Income": 19912,
-    "Name": "North Kesteven",
-    "weighted": 15107.55,
-    "Color": "(0, 43, 212)"
-  },
-  "E07000140": {
-    "Population": 95019,
-    "Income": 18459,
-    "Name": "South Holland",
-    "weighted": 13871.49,
-    "Color": "(0, 30, 225)"
-  },
-  "E07000141": {
-    "Population": 142424,
-    "Income": 21522,
-    "Name": "South Kesteven",
-    "weighted": 16489.64,
-    "Color": "(0, 57, 198)"
-  },
-  "E07000142": {
-    "Population": 95667,
-    "Income": 18709,
-    "Name": "West Lindsey",
-    "weighted": 14052.97,
-    "Color": "(0, 32, 223)"
-  },
-  "E07000170": {
-    "Population": 127918,
-    "Income": 16845,
-    "Name": "Ashfield",
-    "weighted": 13070.68,
-    "Color": "(0, 22, 233)"
-  },
-  "E07000171": {
-    "Population": 117459,
-    "Income": 18596,
-    "Name": "Bassetlaw",
-    "weighted": 14191.789999999999,
-    "Color": "(0, 33, 222)"
-  },
-  "E07000172": {
-    "Population": 114033,
-    "Income": 18570,
-    "Name": "Broxtowe",
-    "weighted": 14139.33,
-    "Color": "(0, 33, 222)"
-  },
-  "E07000173": {
-    "Population": 117896,
-    "Income": 19250,
-    "Name": "Gedling",
-    "weighted": 14653.96,
-    "Color": "(0, 38, 217)"
-  },
-  "E07000174": {
-    "Population": 109313,
-    "Income": 17448,
-    "Name": "Mansfield",
-    "weighted": 13306.73,
-    "Color": "(0, 24, 231)"
-  },
-  "E07000175": {
-    "Population": 122421,
-    "Income": 20004,
-    "Name": "Newark and Sherwood",
-    "weighted": 15227.009999999998,
-    "Color": "(0, 44, 211)"
-  },
-  "E07000176": {
-    "Population": 119184,
-    "Income": 23384,
-    "Name": "Rushcliffe",
-    "weighted": 17560.64,
-    "Color": "(0, 68, 187)"
-  },
-  "E06000019": {
-    "Population": 192801,
-    "Income": 20631,
-    "Name": "Herefordshire, County of",
-    "weighted": 16369.71,
-    "Color": "(0, 55, 200)"
-  },
-  "E06000051": {
-    "Population": 323136,
-    "Income": 20732,
-    "Name": "Shropshire",
-    "weighted": 17743.76,
-    "Color": "(0, 69, 186)"
-  },
-  "E06000021": {
-    "Population": 256375,
-    "Income": 15455,
-    "Name": "Stoke-on-Trent",
-    "weighted": 13382.25,
-    "Color": "(0, 25, 230)"
-  },
-  "E06000020": {
-    "Population": 179854,
-    "Income": 17250,
-    "Name": "Telford and Wrekin",
-    "weighted": 13873.54,
-    "Color": "(0, 30, 225)"
-  },
-  "E07000192": {
-    "Population": 100762,
-    "Income": 18096,
-    "Name": "Cannock Chase",
-    "weighted": 13674.82,
-    "Color": "(0, 28, 227)"
-  },
-  "E07000193": {
-    "Population": 119754,
-    "Income": 19763,
-    "Name": "East Staffordshire",
-    "weighted": 15031.64,
-    "Color": "(0, 42, 213)"
-  },
-  "E07000194": {
-    "Population": 104756,
-    "Income": 22974,
-    "Name": "Lichfield",
-    "weighted": 17129.36,
-    "Color": "(0, 63, 192)"
-  },
-  "E07000195": {
-    "Population": 129441,
-    "Income": 17666,
-    "Name": "Newcastle-under-Lyme",
-    "weighted": 13660.609999999999,
-    "Color": "(0, 28, 227)"
-  },
-  "E07000196": {
-    "Population": 112436,
-    "Income": 20463,
-    "Name": "South Staffordshire",
-    "weighted": 15448.46,
-    "Color": "(0, 46, 209)"
-  },
-  "E07000197": {
-    "Population": 137280,
-    "Income": 20473,
-    "Name": "Stafford",
-    "weighted": 15703.899999999998,
-    "Color": "(0, 49, 206)"
-  },
-  "E07000198": {
-    "Population": 98435,
-    "Income": 19411,
-    "Name": "Staffordshire Moorlands",
-    "weighted": 14572.05,
-    "Color": "(0, 37, 218)"
-  },
-  "E07000199": {
-    "Population": 76696,
-    "Income": 18446,
-    "Name": "Tamworth",
-    "weighted": 13679.16,
-    "Color": "(0, 28, 227)"
-  },
-  "E07000218": {
-    "Population": 65264,
-    "Income": 20109,
-    "Name": "North Warwickshire",
-    "weighted": 14728.939999999999,
-    "Color": "(0, 39, 216)"
-  },
-  "E07000219": {
-    "Population": 129883,
-    "Income": 18636,
-    "Name": "Nuneaton and Bedworth",
-    "weighted": 14344.029999999999,
-    "Color": "(0, 35, 220)"
-  },
-  "E07000220": {
-    "Population": 108935,
-    "Income": 22071,
-    "Name": "Rugby",
-    "weighted": 16539.05,
-    "Color": "(0, 57, 198)"
-  },
-  "E07000221": {
-    "Population": 130098,
-    "Income": 27934,
-    "Name": "Stratford-on-Avon",
-    "weighted": 20854.78,
-    "Color": "(0, 101, 154)"
-  },
-  "E07000222": {
-    "Population": 143753,
-    "Income": 27980,
-    "Name": "Warwick",
-    "weighted": 21023.53,
-    "Color": "(0, 103, 152)"
-  },
-  "E08000025": {
-    "Population": 1141816,
-    "Income": 15368,
-    "Name": "Birmingham",
-    "weighted": 22175.76,
-    "Color": "(0, 114, 141)"
-  },
-  "E08000026": {
-    "Population": 371521,
-    "Income": 15350,
-    "Name": "Coventry",
-    "weighted": 14460.21,
-    "Color": "(0, 36, 219)"
-  },
-  "E08000027": {
-    "Population": 321596,
-    "Income": 16735,
-    "Name": "Dudley",
-    "weighted": 14930.46,
-    "Color": "(0, 41, 214)"
-  },
-  "E08000028": {
-    "Population": 328450,
-    "Income": 14454,
-    "Name": "Sandwell",
-    "weighted": 13402.3,
-    "Color": "(0, 25, 230)"
-  },
-  "E08000029": {
-    "Population": 216374,
-    "Income": 23722,
-    "Name": "Solihull",
-    "weighted": 18769.14,
-    "Color": "(0, 80, 175)"
-  },
-  "E08000030": {
-    "Population": 285478,
-    "Income": 15694,
-    "Name": "Walsall",
-    "weighted": 13840.58,
-    "Color": "(0, 30, 225)"
-  },
-  "E08000031": {
-    "Population": 263357,
-    "Income": 15500,
-    "Name": "Wolverhampton",
-    "weighted": 13483.57,
-    "Color": "(0, 26, 229)"
-  },
-  "E07000234": {
-    "Population": 99881,
-    "Income": 23909,
-    "Name": "Bromsgrove",
-    "weighted": 17735.11,
-    "Color": "(0, 69, 186)"
-  },
-  "E07000235": {
-    "Population": 78698,
-    "Income": 23220,
-    "Name": "Malvern Hills",
-    "weighted": 17040.98,
-    "Color": "(0, 62, 193)"
-  },
-  "E07000236": {
-    "Population": 85261,
-    "Income": 21187,
-    "Name": "Redditch",
-    "weighted": 15683.51,
-    "Color": "(0, 49, 206)"
-  },
-  "E07000237": {
-    "Population": 101222,
-    "Income": 19509,
-    "Name": "Worcester",
-    "weighted": 14668.519999999999,
-    "Color": "(0, 38, 217)"
-  },
-  "E07000238": {
-    "Population": 129433,
-    "Income": 23462,
-    "Name": "Wychavon",
-    "weighted": 17717.729999999996,
-    "Color": "(0, 69, 186)"
-  },
-  "E07000239": {
-    "Population": 101291,
-    "Income": 19037,
-    "Name": "Wyre Forest",
-    "weighted": 14338.81,
-    "Color": "(0, 35, 220)"
-  },
-  "E06000055": {
-    "Population": 173292,
-    "Income": 22321,
-    "Name": "Bedford",
-    "weighted": 17357.62,
-    "Color": "(0, 65, 190)"
-  },
-  "E06000056": {
-    "Population": 288648,
-    "Income": 22419,
-    "Name": "Central Bedfordshire",
-    "weighted": 18579.78,
-    "Color": "(0, 78, 177)"
-  },
-  "E06000032": {
-    "Population": 213052,
-    "Income": 16873,
-    "Name": "Luton",
-    "weighted": 13941.619999999999,
-    "Color": "(0, 31, 224)"
-  },
-  "E06000031": {
-    "Population": 202259,
-    "Income": 18124,
-    "Name": "Peterborough",
-    "weighted": 14709.39,
-    "Color": "(0, 39, 216)"
-  },
-  "E06000033": {
-    "Population": 183125,
-    "Income": 21187,
-    "Name": "Southend-on-Sea",
-    "weighted": 16662.15,
-    "Color": "(0, 58, 197)"
-  },
-  "E06000034": {
-    "Population": 174341,
-    "Income": 19951,
-    "Name": "Thurrock",
-    "weighted": 15709.109999999999,
-    "Color": "(0, 49, 206)"
-  },
-  "E07000008": {
-    "Population": 124798,
-    "Income": 25105,
-    "Name": "Cambridge",
-    "weighted": 18821.48,
-    "Color": "(0, 80, 175)"
-  },
-  "E07000009": {
-    "Population": 89840,
-    "Income": 22769,
-    "Name": "East Cambridgeshire",
-    "weighted": 16836.7,
-    "Color": "(0, 60, 195)"
-  },
-  "E07000010": {
-    "Population": 101850,
-    "Income": 17958,
-    "Name": "Fenland",
-    "weighted": 13589.099999999999,
-    "Color": "(0, 27, 228)"
-  },
-  "E07000011": {
-    "Population": 177963,
-    "Income": 22089,
-    "Name": "Huntingdonshire",
-    "weighted": 17241.93,
-    "Color": "(0, 64, 191)"
-  },
-  "E07000012": {
-    "Population": 159086,
-    "Income": 27610,
-    "Name": "South Cambridgeshire",
-    "weighted": 20917.86,
-    "Color": "(0, 102, 153)"
-  },
-  "E07000066": {
-    "Population": 187199,
-    "Income": 21435,
-    "Name": "Basildon",
-    "weighted": 16876.489999999998,
-    "Color": "(0, 61, 194)"
-  },
-  "E07000067": {
-    "Population": 152604,
-    "Income": 22179,
-    "Name": "Braintree",
-    "weighted": 17051.34,
-    "Color": "(0, 62, 193)"
-  },
-  "E07000068": {
-    "Population": 77021,
-    "Income": 30517,
-    "Name": "Brentwood",
-    "weighted": 22132.109999999997,
-    "Color": "(0, 114, 141)"
-  },
-  "E07000069": {
-    "Population": 90376,
-    "Income": 22011,
-    "Name": "Castle Point",
-    "weighted": 16311.46,
-    "Color": "(0, 55, 200)"
-  },
-  "E07000070": {
-    "Population": 178388,
-    "Income": 24643,
-    "Name": "Chelmsford",
-    "weighted": 19033.98,
-    "Color": "(0, 82, 173)"
-  },
-  "E07000071": {
-    "Population": 194706,
-    "Income": 20570,
-    "Name": "Colchester",
-    "weighted": 16346.059999999998,
-    "Color": "(0, 55, 200)"
-  },
-  "E07000072": {
-    "Population": 131689,
-    "Income": 30550,
-    "Name": "Epping Forest",
-    "weighted": 22701.89,
-    "Color": "(0, 120, 135)"
-  },
-  "E07000073": {
-    "Population": 87067,
-    "Income": 19157,
-    "Name": "Harlow",
-    "weighted": 14280.57,
-    "Color": "(0, 34, 221)"
-  },
-  "E07000074": {
-    "Population": 64926,
-    "Income": 23427,
-    "Name": "Maldon",
-    "weighted": 17048.159999999996,
-    "Color": "(0, 62, 193)"
-  },
-  "E07000075": {
-    "Population": 87368,
-    "Income": 22986,
-    "Name": "Rochford",
-    "weighted": 16963.879999999997,
-    "Color": "(0, 61, 194)"
-  },
-  "E07000076": {
-    "Population": 146561,
-    "Income": 18513,
-    "Name": "Tendring",
-    "weighted": 14424.71,
-    "Color": "(0, 36, 219)"
-  },
-  "E07000077": {
-    "Population": 91284,
-    "Income": 28090,
-    "Name": "Uttlesford",
-    "weighted": 20575.84,
-    "Color": "(0, 98, 157)"
-  },
-  "E07000095": {
-    "Population": 97279,
-    "Income": 23109,
-    "Name": "Broxbourne",
-    "weighted": 17149.09,
-    "Color": "(0, 63, 192)"
-  },
-  "E07000096": {
-    "Population": 154763,
-    "Income": 26318,
-    "Name": "Dacorum",
-    "weighted": 19970.23,
-    "Color": "(0, 92, 163)"
-  },
-  "E07000242": {
-    "Population": 149748,
-    "Income": 28356,
-    "Name": "East Hertfordshire",
-    "weighted": 21346.679999999997,
-    "Color": "(0, 106, 149)"
-  },
-  "E07000098": {
-    "Population": 104919,
-    "Income": 30046,
-    "Name": "Hertsmere",
-    "weighted": 22081.389999999996,
-    "Color": "(0, 113, 142)"
-  },
-  "E07000099": {
-    "Population": 133570,
-    "Income": 25826,
-    "Name": "North Hertfordshire",
-    "weighted": 19413.899999999998,
-    "Color": "(0, 86, 169)"
-  },
-  "E07000240": {
-    "Population": 148452,
-    "Income": 33751,
-    "Name": "St Albans",
-    "weighted": 25110.219999999998,
-    "Color": "(0, 144, 111)"
-  },
-  "E07000243": {
-    "Population": 87845,
-    "Income": 20079,
-    "Name": "Stevenage",
-    "weighted": 14933.75,
-    "Color": "(0, 41, 214)"
-  },
-  "E07000102": {
-    "Population": 93323,
-    "Income": 29712,
-    "Name": "Three Rivers",
-    "weighted": 21731.629999999997,
-    "Color": "(0, 110, 145)"
-  },
-  "E07000103": {
-    "Population": 96577,
-    "Income": 24163,
-    "Name": "Watford",
-    "weighted": 17879.87,
-    "Color": "(0, 71, 184)"
-  },
-  "E07000241": {
-    "Population": 123043,
-    "Income": 22895,
-    "Name": "Welwyn Hatfield",
-    "weighted": 17256.929999999997,
-    "Color": "(0, 64, 191)"
-  },
-  "E07000143": {
-    "Population": 139968,
-    "Income": 18462,
-    "Name": "Breckland",
-    "weighted": 14323.08,
-    "Color": "(0, 35, 220)"
-  },
-  "E07000144": {
-    "Population": 130783,
-    "Income": 21073,
-    "Name": "Broadland",
-    "weighted": 16058.929999999998,
-    "Color": "(0, 52, 203)"
-  },
-  "E07000145": {
-    "Population": 99336,
-    "Income": 16225,
-    "Name": "Great Yarmouth",
-    "weighted": 12350.86,
-    "Color": "(0, 15, 240)"
-  },
-  "E07000146": {
-    "Population": 151383,
-    "Income": 19572,
-    "Name": "King's Lynn and West Norfolk",
-    "weighted": 15214.23,
-    "Color": "(0, 44, 211)"
-  },
-  "E07000147": {
-    "Population": 104837,
-    "Income": 20466,
-    "Name": "North Norfolk",
-    "weighted": 15374.57,
-    "Color": "(0, 45, 210)"
-  },
-  "E07000148": {
-    "Population": 140573,
-    "Income": 17170,
-    "Name": "Norwich",
-    "weighted": 13424.73,
-    "Color": "(0, 26, 229)"
-  },
-  "E07000149": {
-    "Population": 140880,
-    "Income": 20564,
-    "Name": "South Norfolk",
-    "weighted": 15803.599999999999,
-    "Color": "(0, 50, 205)"
-  },
-  "E07000200": {
-    "Population": 92036,
-    "Income": 22641,
-    "Name": "Babergh",
-    "weighted": 16769.059999999998,
-    "Color": "(0, 60, 195)"
-  },
-  "E07000202": {
-    "Population": 136913,
-    "Income": 18093,
-    "Name": "Ipswich",
-    "weighted": 14034.23,
-    "Color": "(0, 32, 223)"
-  },
-  "E07000244": {
-    "Population": 249461,
-    "Income": 20364,
-    "Name": "East Suffolk",
-    "weighted": 16749.41,
-    "Color": "(0, 59, 196)"
-  },
-  "E07000203": {
-    "Population": 103895,
-    "Income": 21280,
-    "Name": "Mid Suffolk",
-    "weighted": 15934.949999999999,
-    "Color": "(0, 51, 204)"
-  },
-  "E07000245": {
-    "Population": 179045,
-    "Income": 20224,
-    "Name": "West Suffolk",
-    "weighted": 15947.25,
-    "Color": "(0, 51, 204)"
-  },
-  "E09000007": {
-    "Population": 270029,
-    "Income": 44015,
-    "Name": "Camden",
-    "weighted": 33510.78999999999,
-    "Color": "(0, 229, 26)"
-  },
-  "E09000012": {
-    "Population": 281120,
-    "Income": 24575,
-    "Name": "Hackney",
-    "weighted": 20013.7,
-    "Color": "(0, 92, 163)"
-  },
-  "E09000013": {
-    "Population": 185143,
-    "Income": 43040,
-    "Name": "Hammersmith and Fulham",
-    "weighted": 31979.429999999997,
-    "Color": "(0, 213, 42)"
-  },
-  "E09000014": {
-    "Population": 268647,
-    "Income": 30176,
-    "Name": "Haringey",
-    "weighted": 23809.67,
-    "Color": "(0, 131, 124)"
-  },
-  "E09000019": {
-    "Population": 242467,
-    "Income": 32534,
-    "Name": "Islington",
-    "weighted": 25198.47,
-    "Color": "(0, 145, 110)"
-  },
-  "E09000020": {
-    "Population": 156129,
-    "Income": 85376,
-    "Name": "Kensington and Chelsea",
-    "weighted": 61324.49,
-    "Color": "(255, 0, 0)"
-  },
-  "E09000022": {
-    "Population": 326034,
-    "Income": 30386,
-    "Name": "Lambeth",
-    "weighted": 24530.539999999997,
-    "Color": "(0, 138, 117)"
-  },
-  "E09000023": {
-    "Population": 305842,
-    "Income": 24047,
-    "Name": "Lewisham",
-    "weighted": 19891.32,
-    "Color": "(0, 91, 164)"
-  },
-  "E09000025": {
-    "Population": 353134,
-    "Income": 20710,
-    "Name": "Newham",
-    "weighted": 18028.339999999997,
-    "Color": "(0, 72, 183)"
-  },
-  "E09000028": {
-    "Population": 318830,
-    "Income": 28609,
-    "Name": "Southwark",
-    "weighted": 23214.6,
-    "Color": "(0, 125, 130)"
-  },
-  "E09000030": {
-    "Population": 324745,
-    "Income": 26404,
-    "Name": "Tower Hamlets",
-    "weighted": 21730.25,
-    "Color": "(0, 110, 145)"
-  },
-  "E09000032": {
-    "Population": 329677,
-    "Income": 40851,
-    "Name": "Wandsworth",
-    "weighted": 31892.469999999998,
-    "Color": "(0, 213, 42)"
-  },
-  "E09000033": {
-    "Population": 261317,
-    "Income": 53670,
-    "Name": "Westminster",
-    "weighted": 40182.17,
-    "Color": "(41, 214, 0)"
-  },
-  "E09000002": {
-    "Population": 212906,
-    "Income": 18928,
-    "Name": "Barking and Dagenham",
-    "weighted": 15378.659999999998,
-    "Color": "(0, 45, 210)"
-  },
-  "E09000003": {
-    "Population": 395869,
-    "Income": 31489,
-    "Name": "Barnet",
-    "weighted": 26000.989999999998,
-    "Color": "(0, 153, 102)"
-  },
-  "E09000004": {
-    "Population": 248287,
-    "Income": 23401,
-    "Name": "Bexley",
-    "weighted": 18863.57,
-    "Color": "(0, 81, 174)"
-  },
-  "E09000005": {
-    "Population": 329771,
-    "Income": 26376,
-    "Name": "Brent",
-    "weighted": 21760.909999999996,
-    "Color": "(0, 110, 145)"
-  },
-  "E09000006": {
-    "Population": 332336,
-    "Income": 30157,
-    "Name": "Bromley",
-    "weighted": 24433.26,
-    "Color": "(0, 137, 118)"
-  },
-  "E09000008": {
-    "Population": 386710,
-    "Income": 24603,
-    "Name": "Croydon",
-    "weighted": 21089.199999999997,
-    "Color": "(0, 103, 152)"
-  },
-  "E09000009": {
-    "Population": 341806,
-    "Income": 28155,
-    "Name": "Ealing",
-    "weighted": 23126.56,
-    "Color": "(0, 124, 131)"
-  },
-  "E09000010": {
-    "Population": 333794,
-    "Income": 23710,
-    "Name": "Enfield",
-    "weighted": 19934.94,
-    "Color": "(0, 92, 163)"
-  },
-  "E09000011": {
-    "Population": 287942,
-    "Income": 24700,
-    "Name": "Greenwich",
-    "weighted": 20169.42,
-    "Color": "(0, 94, 161)"
-  },
-  "E09000015": {
-    "Population": 251160,
-    "Income": 29284,
-    "Name": "Harrow",
-    "weighted": 23010.399999999998,
-    "Color": "(0, 123, 132)"
-  },
-  "E09000016": {
-    "Population": 259552,
-    "Income": 24089,
-    "Name": "Havering",
-    "weighted": 19457.82,
-    "Color": "(0, 87, 168)"
-  },
-  "E09000017": {
-    "Population": 306870,
-    "Income": 23160,
-    "Name": "Hillingdon",
-    "weighted": 19280.699999999997,
-    "Color": "(0, 85, 170)"
-  },
-  "E09000018": {
-    "Population": 271523,
-    "Income": 26575,
-    "Name": "Hounslow",
-    "weighted": 21317.73,
-    "Color": "(0, 106, 149)"
-  },
-  "E09000021": {
-    "Population": 177507,
-    "Income": 29045,
-    "Name": "Kingston upon Thames",
-    "weighted": 22106.57,
-    "Color": "(0, 114, 141)"
-  },
-  "E09000024": {
-    "Population": 206548,
-    "Income": 33251,
-    "Name": "Merton",
-    "weighted": 25341.179999999997,
-    "Color": "(0, 146, 109)"
-  },
-  "E09000026": {
-    "Population": 305222,
-    "Income": 24650,
-    "Name": "Redbridge",
-    "weighted": 20307.22,
-    "Color": "(0, 95, 160)"
-  },
-  "E09000027": {
-    "Population": 198019,
-    "Income": 43363,
-    "Name": "Richmond upon Thames",
-    "weighted": 32334.289999999997,
-    "Color": "(0, 217, 38)"
-  },
-  "E09000029": {
-    "Population": 206349,
-    "Income": 25591,
-    "Name": "Sutton",
-    "weighted": 19977.189999999995,
-    "Color": "(0, 92, 163)"
-  },
-  "E09000031": {
-    "Population": 276983,
-    "Income": 24614,
-    "Name": "Waltham Forest",
-    "weighted": 19999.629999999997,
-    "Color": "(0, 92, 163)"
-  },
-  "E06000036": {
-    "Population": 122549,
-    "Income": 23892,
-    "Name": "Bracknell Forest",
-    "weighted": 17949.89,
-    "Color": "(0, 71, 184)"
-  },
-  "E06000043": {
-    "Population": 290885,
-    "Income": 23142,
-    "Name": "Brighton and Hove",
-    "weighted": 19108.25,
-    "Color": "(0, 83, 172)"
-  },
-  "E06000046": {
-    "Population": 141771,
-    "Income": 19211,
-    "Name": "Isle of Wight",
-    "weighted": 14865.41,
-    "Color": "(0, 40, 215)"
-  },
-  "E06000035": {
-    "Population": 278556,
-    "Income": 19814,
-    "Name": "Medway",
-    "weighted": 16655.36,
-    "Color": "(0, 58, 197)"
-  },
-  "E06000042": {
-    "Population": 269457,
-    "Income": 22116,
-    "Name": "Milton Keynes",
-    "weighted": 18175.77,
-    "Color": "(0, 74, 181)"
-  },
-  "E06000044": {
-    "Population": 214905,
-    "Income": 17028,
-    "Name": "Portsmouth",
-    "weighted": 14068.649999999998,
-    "Color": "(0, 32, 223)"
-  },
-  "E06000038": {
-    "Population": 161780,
-    "Income": 23203,
-    "Name": "Reading",
-    "weighted": 17859.899999999998,
-    "Color": "(0, 71, 184)"
-  },
-  "E06000039": {
-    "Population": 149539,
-    "Income": 19469,
-    "Name": "Slough",
-    "weighted": 15123.689999999999,
-    "Color": "(0, 43, 212)"
-  },
-  "E06000045": {
-    "Population": 252520,
-    "Income": 17529,
-    "Name": "Southampton",
-    "weighted": 14795.5,
-    "Color": "(0, 40, 215)"
-  },
-  "E06000037": {
-    "Population": 158450,
-    "Income": 26714,
-    "Name": "West Berkshire",
-    "weighted": 20284.3,
-    "Color": "(0, 95, 160)"
-  },
-  "E06000040": {
-    "Population": 151422,
-    "Income": 31975,
-    "Name": "Windsor and Maidenhead",
-    "weighted": 23896.72,
-    "Color": "(0, 132, 123)"
-  },
-  "E06000041": {
-    "Population": 171119,
-    "Income": 29443,
-    "Name": "Wokingham",
-    "weighted": 22321.289999999997,
-    "Color": "(0, 116, 139)"
-  },
-  "E07000061": {
-    "Population": 103745,
-    "Income": 20020,
-    "Name": "Eastbourne",
-    "weighted": 15051.45,
-    "Color": "(0, 42, 213)"
-  },
-  "E07000062": {
-    "Population": 92661,
-    "Income": 18545,
-    "Name": "Hastings",
-    "weighted": 13908.11,
-    "Color": "(0, 31, 224)"
-  },
-  "E07000063": {
-    "Population": 103268,
-    "Income": 23543,
-    "Name": "Lewes",
-    "weighted": 17512.78,
-    "Color": "(0, 67, 188)"
-  },
-  "E07000064": {
-    "Population": 96080,
-    "Income": 22585,
-    "Name": "Rother",
-    "weighted": 16770.3,
-    "Color": "(0, 60, 195)"
-  },
-  "E07000065": {
-    "Population": 161475,
-    "Income": 25895,
-    "Name": "Wealden",
-    "weighted": 19741.25,
-    "Color": "(0, 90, 165)"
-  },
-  "E07000084": {
-    "Population": 176582,
-    "Income": 25458,
-    "Name": "Basingstoke and Deane",
-    "weighted": 19586.42,
-    "Color": "(0, 88, 167)"
-  },
-  "E07000085": {
-    "Population": 122308,
-    "Income": 28337,
-    "Name": "East Hampshire",
-    "weighted": 21058.979999999996,
-    "Color": "(0, 103, 152)"
-  },
-  "E07000086": {
-    "Population": 133584,
-    "Income": 22722,
-    "Name": "Eastleigh",
-    "weighted": 17241.239999999998,
-    "Color": "(0, 64, 191)"
-  },
-  "E07000087": {
-    "Population": 116233,
-    "Income": 22669,
-    "Name": "Fareham",
-    "weighted": 17030.629999999997,
-    "Color": "(0, 62, 193)"
-  },
-  "E07000088": {
-    "Population": 84838,
-    "Income": 18711,
-    "Name": "Gosport",
-    "weighted": 13946.079999999998,
-    "Color": "(0, 31, 224)"
-  },
-  "E07000089": {
-    "Population": 97073,
-    "Income": 29293,
-    "Name": "Hart",
-    "weighted": 21475.829999999998,
-    "Color": "(0, 107, 148)"
-  },
-  "E07000090": {
-    "Population": 126220,
-    "Income": 20700,
-    "Name": "Havant",
-    "weighted": 15752.199999999999,
-    "Color": "(0, 49, 206)"
-  },
-  "E07000091": {
-    "Population": 180086,
-    "Income": 24778,
-    "Name": "New Forest",
-    "weighted": 19145.46,
-    "Color": "(0, 84, 171)"
-  },
-  "E07000092": {
-    "Population": 94599,
-    "Income": 22215,
-    "Name": "Rushmoor",
-    "weighted": 16496.489999999998,
-    "Color": "(0, 57, 198)"
-  },
-  "E07000093": {
-    "Population": 126160,
-    "Income": 25872,
-    "Name": "Test Valley",
-    "weighted": 19371.999999999996,
-    "Color": "(0, 86, 169)"
-  },
-  "E07000094": {
-    "Population": 124859,
-    "Income": 28611,
-    "Name": "Winchester",
-    "weighted": 21276.289999999997,
-    "Color": "(0, 105, 150)"
-  },
-  "E07000105": {
-    "Population": 130032,
-    "Income": 21967,
-    "Name": "Ashford",
-    "weighted": 16677.22,
-    "Color": "(0, 59, 196)"
-  },
-  "E07000106": {
-    "Population": 165394,
-    "Income": 19631,
-    "Name": "Canterbury",
-    "weighted": 15395.64,
-    "Color": "(0, 46, 209)"
-  },
-  "E07000107": {
-    "Population": 112606,
-    "Income": 22459,
-    "Name": "Dartford",
-    "weighted": 16847.36,
-    "Color": "(0, 60, 195)"
-  },
-  "E07000108": {
-    "Population": 118131,
-    "Income": 19964,
-    "Name": "Dover",
-    "weighted": 15156.109999999999,
-    "Color": "(0, 43, 212)"
-  },
-  "E07000109": {
-    "Population": 106939,
-    "Income": 20665,
-    "Name": "Gravesham",
-    "weighted": 15534.889999999998,
-    "Color": "(0, 47, 208)"
-  },
-  "E07000110": {
-    "Population": 171826,
-    "Income": 22888,
-    "Name": "Maidstone",
-    "weighted": 17739.859999999997,
-    "Color": "(0, 69, 186)"
-  },
-  "E07000111": {
-    "Population": 120750,
-    "Income": 31654,
-    "Name": "Sevenoaks",
-    "weighted": 23365.3,
-    "Color": "(0, 126, 129)"
-  },
-  "E07000112": {
-    "Population": 112996,
-    "Income": 20461,
-    "Name": "Folkestone and Hythe",
-    "weighted": 15452.66,
-    "Color": "(0, 46, 209)"
-  },
-  "E07000113": {
-    "Population": 150082,
-    "Income": 19753,
-    "Name": "Swale",
-    "weighted": 15327.919999999998,
-    "Color": "(0, 45, 210)"
-  },
-  "E07000114": {
-    "Population": 141922,
-    "Income": 18710,
-    "Name": "Thanet",
-    "weighted": 14516.22,
-    "Color": "(0, 37, 218)"
-  },
-  "E07000115": {
-    "Population": 132153,
-    "Income": 25249,
-    "Name": "Tonbridge and Malling",
-    "weighted": 18995.829999999998,
-    "Color": "(0, 82, 173)"
-  },
-  "E07000116": {
-    "Population": 118724,
-    "Income": 28503,
-    "Name": "Tunbridge Wells",
-    "weighted": 21139.34,
-    "Color": "(0, 104, 151)"
-  },
-  "E07000177": {
-    "Population": 150503,
-    "Income": 24115,
-    "Name": "Cherwell",
-    "weighted": 18385.53,
-    "Color": "(0, 76, 179)"
-  },
-  "E07000178": {
-    "Population": 152457,
-    "Income": 22848,
-    "Name": "Oxford",
-    "weighted": 17518.17,
-    "Color": "(0, 67, 188)"
-  },
-  "E07000179": {
-    "Population": 142057,
-    "Income": 29669,
-    "Name": "South Oxfordshire",
-    "weighted": 22188.87,
-    "Color": "(0, 114, 141)"
-  },
-  "E07000180": {
-    "Population": 136007,
-    "Income": 25680,
-    "Name": "Vale of White Horse",
-    "weighted": 19336.07,
-    "Color": "(0, 85, 170)"
-  },
-  "E07000181": {
-    "Population": 110643,
-    "Income": 27212,
-    "Name": "West Oxfordshire",
-    "weighted": 20154.829999999998,
-    "Color": "(0, 94, 161)"
-  },
-  "E07000207": {
-    "Population": 136795,
-    "Income": 40922,
-    "Name": "Elmbridge",
-    "weighted": 30013.35,
-    "Color": "(0, 194, 61)"
-  },
-  "E07000208": {
-    "Population": 80627,
-    "Income": 29427,
-    "Name": "Epsom and Ewell",
-    "weighted": 21405.17,
-    "Color": "(0, 106, 149)"
-  },
-  "E07000209": {
-    "Population": 148998,
-    "Income": 29325,
-    "Name": "Guildford",
-    "weighted": 22017.48,
-    "Color": "(0, 113, 142)"
-  },
-  "E07000210": {
-    "Population": 87245,
-    "Income": 33329,
-    "Name": "Mole Valley",
-    "weighted": 24202.75,
-    "Color": "(0, 135, 120)"
-  },
-  "E07000211": {
-    "Population": 148748,
-    "Income": 29069,
-    "Name": "Reigate and Banstead",
-    "weighted": 21835.78,
-    "Color": "(0, 111, 144)"
-  },
-  "E07000212": {
-    "Population": 89424,
-    "Income": 26925,
-    "Name": "Runnymede",
-    "weighted": 19741.74,
-    "Color": "(0, 90, 165)"
-  },
-  "E07000213": {
-    "Population": 99844,
-    "Income": 26136,
-    "Name": "Spelthorne",
-    "weighted": 19293.639999999996,
-    "Color": "(0, 85, 170)"
-  },
-  "E07000214": {
-    "Population": 89305,
-    "Income": 29545,
-    "Name": "Surrey Heath",
-    "weighted": 21574.55,
-    "Color": "(0, 108, 147)"
-  },
-  "E07000215": {
-    "Population": 88129,
-    "Income": 30333,
-    "Name": "Tandridge",
-    "weighted": 22114.39,
-    "Color": "(0, 114, 141)"
-  },
-  "E07000216": {
-    "Population": 126328,
-    "Income": 33071,
-    "Name": "Waverley",
-    "weighted": 24412.979999999996,
-    "Color": "(0, 137, 118)"
-  },
-  "E07000217": {
-    "Population": 100793,
-    "Income": 29877,
-    "Name": "Woking",
-    "weighted": 21921.829999999998,
-    "Color": "(0, 112, 143)"
-  },
-  "E07000223": {
-    "Population": 64301,
-    "Income": 21618,
-    "Name": "Adur",
-    "weighted": 15775.609999999999,
-    "Color": "(0, 49, 206)"
-  },
-  "E07000224": {
-    "Population": 160758,
-    "Income": 22471,
-    "Name": "Arun",
-    "weighted": 17337.28,
-    "Color": "(0, 65, 190)"
-  },
-  "E07000225": {
-    "Population": 121129,
-    "Income": 26915,
-    "Name": "Chichester",
-    "weighted": 20051.79,
-    "Color": "(0, 93, 162)"
-  },
-  "E07000226": {
-    "Population": 112409,
-    "Income": 21656,
-    "Name": "Crawley",
-    "weighted": 16283.289999999999,
-    "Color": "(0, 55, 200)"
-  },
-  "E07000227": {
-    "Population": 143791,
-    "Income": 27522,
-    "Name": "Horsham",
-    "weighted": 20703.309999999998,
-    "Color": "(0, 99, 156)"
-  },
-  "E07000228": {
-    "Population": 151022,
-    "Income": 26947,
-    "Name": "Mid Sussex",
-    "weighted": 20373.12,
-    "Color": "(0, 96, 159)"
-  },
-  "E07000229": {
-    "Population": 110570,
-    "Income": 22224,
-    "Name": "Worthing",
-    "weighted": 16662.5,
-    "Color": "(0, 58, 197)"
-  },
-  "E06000022": {
-    "Population": 193282,
-    "Income": 23515,
-    "Name": "Bath and North East Somerset",
-    "weighted": 18393.32,
-    "Color": "(0, 76, 179)"
-  },
-  "E06000058": {
-    "Population": 395331,
-    "Income": 21652,
-    "Name": "Bournemouth, Christchurch and Poole",
-    "weighted": 19109.71,
-    "Color": "(0, 83, 172)"
-  },
-  "E06000023": {
-    "Population": 463377,
-    "Income": 20249,
-    "Name": "Bristol, City of",
-    "weighted": 18808.07,
-    "Color": "(0, 80, 175)"
-  },
-  "E06000052": {
-    "Population": 569578,
-    "Income": 18846,
-    "Name": "Cornwall",
-    "weighted": 18887.98,
-    "Color": "(0, 81, 174)"
-  },
-  "E06000053": {
-    "Population": 2224,
-    "Income": 24825,
-    "Name": "Isles of Scilly",
-    "weighted": 17399.74,
-    "Color": "(0, 66, 189)"
-  },
-  "E06000024": {
-    "Population": 215052,
-    "Income": 22878,
-    "Name": "North Somerset",
-    "weighted": 18165.12,
-    "Color": "(0, 74, 181)"
-  },
-  "E06000026": {
-    "Population": 262100,
-    "Income": 17343,
-    "Name": "Plymouth",
-    "weighted": 14761.099999999999,
-    "Color": "(0, 39, 216)"
-  },
-  "E06000025": {
-    "Population": 285093,
-    "Income": 22900,
-    "Name": "South Gloucestershire",
-    "weighted": 18880.929999999997,
-    "Color": "(0, 81, 174)"
-  },
-  "E06000030": {
-    "Population": 222193,
-    "Income": 20516,
-    "Name": "Swindon",
-    "weighted": 16583.129999999997,
-    "Color": "(0, 58, 197)"
-  },
-  "E06000027": {
-    "Population": 136264,
-    "Income": 18698,
-    "Name": "Torbay",
-    "weighted": 14451.239999999998,
-    "Color": "(0, 36, 219)"
-  },
-  "E06000054": {
-    "Population": 500024,
-    "Income": 23179,
-    "Name": "Wiltshire",
-    "weighted": 21225.54,
-    "Color": "(0, 105, 150)"
-  },
-  "E07000040": {
-    "Population": 146284,
-    "Income": 22078,
-    "Name": "East Devon",
-    "weighted": 16917.44,
-    "Color": "(0, 61, 194)"
-  },
-  "E07000041": {
-    "Population": 131405,
-    "Income": 19005,
-    "Name": "Exeter",
-    "weighted": 14617.55,
-    "Color": "(0, 38, 217)"
-  },
-  "E07000042": {
-    "Population": 82311,
-    "Income": 20811,
-    "Name": "Mid Devon",
-    "weighted": 15390.81,
-    "Color": "(0, 46, 209)"
-  },
-  "E07000043": {
-    "Population": 97145,
-    "Income": 20105,
-    "Name": "North Devon",
-    "weighted": 15044.95,
-    "Color": "(0, 42, 213)"
-  },
-  "E07000044": {
-    "Population": 87004,
-    "Income": 23927,
-    "Name": "South Hams",
-    "weighted": 17618.94,
-    "Color": "(0, 68, 187)"
-  },
-  "E07000045": {
-    "Population": 134163,
-    "Income": 21009,
-    "Name": "Teignbridge",
-    "weighted": 16047.93,
-    "Color": "(0, 52, 203)"
-  },
-  "E07000046": {
-    "Population": 68267,
-    "Income": 18974,
-    "Name": "Torridge",
-    "weighted": 13964.47,
-    "Color": "(0, 31, 224)"
-  },
-  "E07000047": {
-    "Population": 55796,
-    "Income": 21509,
-    "Name": "West Devon",
-    "weighted": 15614.259999999998,
-    "Color": "(0, 48, 207)"
-  },
-  "E06000059": {
-    "Population": 378508,
-    "Income": 22613,
-    "Name": "Dorset",
-    "weighted": 19614.18,
-    "Color": "(0, 88, 167)"
-  },
-  "E07000078": {
-    "Population": 116306,
-    "Income": 23197,
-    "Name": "Cheltenham",
-    "weighted": 17400.96,
-    "Color": "(0, 66, 189)"
-  },
-  "E07000079": {
-    "Population": 89862,
-    "Income": 29350,
-    "Name": "Cotswold",
-    "weighted": 21443.62,
-    "Color": "(0, 107, 148)"
-  },
-  "E07000080": {
-    "Population": 86791,
-    "Income": 19572,
-    "Name": "Forest of Dean",
-    "weighted": 14568.31,
-    "Color": "(0, 37, 218)"
-  },
-  "E07000081": {
-    "Population": 129128,
-    "Income": 18751,
-    "Name": "Gloucester",
-    "weighted": 14416.98,
-    "Color": "(0, 36, 219)"
-  },
-  "E07000082": {
-    "Population": 119964,
-    "Income": 23588,
-    "Name": "Stroud",
-    "weighted": 17711.239999999998,
-    "Color": "(0, 69, 186)"
-  },
-  "E07000083": {
-    "Population": 95019,
-    "Income": 21669,
-    "Name": "Tewkesbury",
-    "weighted": 16118.49,
-    "Color": "(0, 53, 202)"
-  },
-  "E07000187": {
-    "Population": 115587,
-    "Income": 22146,
-    "Name": "Mendip",
-    "weighted": 16658.07,
-    "Color": "(0, 58, 197)"
-  },
-  "E07000188": {
-    "Population": 123178,
-    "Income": 20340,
-    "Name": "Sedgemoor",
-    "weighted": 15469.78,
-    "Color": "(0, 46, 209)"
-  },
-  "E07000189": {
-    "Population": 168345,
-    "Income": 20810,
-    "Name": "South Somerset",
-    "weighted": 16250.449999999999,
-    "Color": "(0, 54, 201)"
-  },
-  "E07000246": {
-    "Population": 155115,
-    "Income": 20250,
-    "Name": "Somerset West and Taunton",
-    "weighted": 15726.15,
-    "Color": "(0, 49, 206)"
-  },
-  "W06000001": {
-    "Population": 70043,
-    "Income": 17529,
-    "Name": "Isle of Anglesey",
-    "weighted": 12970.73,
-    "Color": "(0, 21, 234)"
-  },
-  "W06000002": {
-    "Population": 124560,
-    "Income": 15941,
-    "Name": "Gwynedd",
-    "weighted": 12404.3,
-    "Color": "(0, 15, 240)"
-  },
-  "W06000003": {
-    "Population": 117203,
-    "Income": 18189,
-    "Name": "Conwy",
-    "weighted": 13904.33,
-    "Color": "(0, 31, 224)"
-  },
-  "W06000004": {
-    "Population": 95696,
-    "Income": 17901,
-    "Name": "Denbighshire",
-    "weighted": 13487.66,
-    "Color": "(0, 26, 229)"
-  },
-  "W06000005": {
-    "Population": 156100,
-    "Income": 18722,
-    "Name": "Flintshire",
-    "weighted": 14666.4,
-    "Color": "(0, 38, 217)"
-  },
-  "W06000006": {
-    "Population": 135957,
-    "Income": 17785,
-    "Name": "Wrexham",
-    "weighted": 13809.07,
-    "Color": "(0, 30, 225)"
-  },
-  "W06000023": {
-    "Population": 132435,
-    "Income": 18287,
-    "Name": "Powys",
-    "weighted": 14125.25,
-    "Color": "(0, 33, 222)"
-  },
-  "W06000008": {
-    "Population": 72695,
-    "Income": 17065,
-    "Name": "Ceredigion",
-    "weighted": 12672.45,
-    "Color": "(0, 18, 237)"
-  },
-  "W06000009": {
-    "Population": 125818,
-    "Income": 17207,
-    "Name": "Pembrokeshire",
-    "weighted": 13303.08,
-    "Color": "(0, 24, 231)"
-  },
-  "W06000010": {
-    "Population": 188771,
-    "Income": 16928,
-    "Name": "Carmarthenshire",
-    "weighted": 13737.309999999998,
-    "Color": "(0, 29, 226)"
-  },
-  "W06000011": {
-    "Population": 246993,
-    "Income": 16262,
-    "Name": "Swansea",
-    "weighted": 13853.33,
-    "Color": "(0, 30, 225)"
-  },
-  "W06000012": {
-    "Population": 143315,
-    "Income": 16442,
-    "Name": "Neath Port Talbot",
-    "weighted": 12942.55,
-    "Color": "(0, 21, 234)"
-  },
-  "W06000013": {
-    "Population": 147049,
-    "Income": 17047,
-    "Name": "Bridgend",
-    "weighted": 13403.39,
-    "Color": "(0, 25, 230)"
-  },
-  "W06000014": {
-    "Population": 133587,
-    "Income": 19987,
-    "Name": "Vale of Glamorgan",
-    "weighted": 15326.77,
-    "Color": "(0, 45, 210)"
-  },
-  "W06000015": {
-    "Population": 366903,
-    "Income": 17431,
-    "Name": "Cardiff",
-    "weighted": 15870.73,
-    "Color": "(0, 50, 205)"
-  },
-  "W06000024": {
-    "Population": 60326,
-    "Income": 15592,
-    "Name": "Merthyr Tydfil",
-    "weighted": 11517.66,
-    "Color": "(0, 6, 249)"
-  },
-  "W06000018": {
-    "Population": 181075,
-    "Income": 15992,
-    "Name": "Caerphilly",
-    "weighted": 13005.15,
-    "Color": "(0, 21, 234)"
-  },
-  "W06000019": {
-    "Population": 69862,
-    "Income": 14630,
-    "Name": "Blaenau Gwent",
-    "weighted": 10939.62,
-    "Color": "(0, 1, 254)"
-  },
-  "W06000020": {
-    "Population": 93961,
-    "Income": 16505,
-    "Name": "Torfaen",
-    "weighted": 12493.11,
-    "Color": "(0, 16, 239)"
-  },
-  "W06000021": {
-    "Population": 94590,
-    "Income": 21392,
-    "Name": "Monmouthshire",
-    "weighted": 15920.3,
-    "Color": "(0, 51, 204)"
-  },
-  "W06000022": {
-    "Population": 154676,
-    "Income": 17977,
-    "Name": "Newport",
-    "weighted": 14130.66,
-    "Color": "(0, 33, 222)"
-  },
-  "S12000033": {
-    "Population": 228670,
-    "Income": 21349,
-    "Name": "Aberdeen City",
-    "weighted": 17231,
-    "Color": "(0, 64, 191)"
-  },
-  "S12000034": {
-    "Population": 261210,
-    "Income": 22853,
-    "Name": "Aberdeenshire",
-    "weighted": 18609.199999999997,
-    "Color": "(0, 78, 177)"
-  },
-  "S12000041": {
-    "Population": 116200,
-    "Income": 19818,
-    "Name": "Angus",
-    "weighted": 15034.599999999999,
-    "Color": "(0, 42, 213)"
-  },
-  "S12000035": {
-    "Population": 85870,
-    "Income": 20314,
-    "Name": "Argyll and Bute",
-    "weighted": 15078.5,
-    "Color": "(0, 42, 213)"
-  },
-  "S12000005": {
-    "Population": 51540,
-    "Income": 18560,
-    "Name": "Clackmannanshire",
-    "weighted": 13507.4,
-    "Color": "(0, 26, 229)"
-  },
-  "S12000006": {
-    "Population": 148860,
-    "Income": 18806,
-    "Name": "Dumfries and Galloway",
-    "weighted": 14652.8,
-    "Color": "(0, 38, 217)"
-  },
   "S12000042": {
+    "Housing": 124246.4128,
     "Population": 149320,
     "Income": 16597,
     "Name": "Dundee City",
-    "weighted": 13111.1,
-    "Color": "(0, 22, 233)"
+    "weighted": 100083.58896000001,
+    "Color": "(0, 17, 238)"
   },
-  "S12000008": {
-    "Population": 122010,
-    "Income": 17306,
-    "Name": "East Ayrshire",
-    "weighted": 13334.3,
-    "Color": "(0, 25, 230)"
-  },
-  "S12000045": {
-    "Population": 108640,
-    "Income": 24004,
-    "Name": "East Dunbartonshire",
-    "weighted": 17889.2,
-    "Color": "(0, 71, 184)"
-  },
-  "S12000010": {
-    "Population": 107090,
-    "Income": 22494,
-    "Name": "East Lothian",
-    "weighted": 16816.7,
-    "Color": "(0, 60, 195)"
-  },
-  "S12000011": {
-    "Population": 95530,
-    "Income": 23685,
-    "Name": "East Renfrewshire",
-    "weighted": 17534.8,
-    "Color": "(0, 67, 188)"
-  },
-  "S12000036": {
-    "Population": 524930,
-    "Income": 23580,
-    "Name": "City of Edinburgh",
-    "weighted": 21755.3,
-    "Color": "(0, 110, 145)"
-  },
-  "S12000013": {
-    "Population": 26720,
-    "Income": 19318,
-    "Name": "Na h-Eileanan Siar",
-    "weighted": 13789.8,
-    "Color": "(0, 29, 226)"
-  },
-  "S12000014": {
-    "Population": 160890,
-    "Income": 18793,
-    "Name": "Falkirk",
-    "weighted": 14763.999999999998,
-    "Color": "(0, 39, 216)"
-  },
-  "S12000047": {
-    "Population": 373550,
-    "Income": 18518,
-    "Name": "Fife",
-    "weighted": 16698.1,
-    "Color": "(0, 59, 196)"
-  },
-  "S12000049": {
-    "Population": 633120,
-    "Income": 16345,
-    "Name": "Glasgow City",
-    "weighted": 17772.7,
-    "Color": "(0, 70, 185)"
+  "S12000006": {
+    "Housing": 128048.1654,
+    "Population": 148860,
+    "Income": 18806,
+    "Name": "Dumfries and Galloway",
+    "weighted": 104286.51578,
+    "Color": "(0, 20, 235)"
   },
   "S12000017": {
+    "Housing": 166906.5695,
     "Population": 235830,
     "Income": 20049,
     "Name": "Highland",
-    "weighted": 16392.6,
-    "Color": "(0, 56, 199)"
-  },
-  "S12000018": {
-    "Population": 77800,
-    "Income": 17982,
-    "Name": "Inverclyde",
-    "weighted": 13365.4,
-    "Color": "(0, 25, 230)"
-  },
-  "S12000019": {
-    "Population": 92460,
-    "Income": 21094,
-    "Name": "Midlothian",
-    "weighted": 15690.4,
-    "Color": "(0, 49, 206)"
-  },
-  "S12000020": {
-    "Population": 95820,
-    "Income": 19319,
-    "Name": "Moray",
-    "weighted": 14481.5,
-    "Color": "(0, 36, 219)"
-  },
-  "S12000021": {
-    "Population": 134740,
-    "Income": 17473,
-    "Name": "North Ayrshire",
-    "weighted": 13578.499999999998,
-    "Color": "(0, 27, 228)"
-  },
-  "S12000050": {
-    "Population": 341370,
-    "Income": 17391,
-    "Name": "North Lanarkshire",
-    "weighted": 15587.399999999998,
-    "Color": "(0, 48, 207)"
-  },
-  "S12000023": {
-    "Population": 22270,
-    "Income": 19831,
-    "Name": "Orkney Islands",
-    "weighted": 14104.4,
-    "Color": "(0, 33, 222)"
-  },
-  "S12000048": {
-    "Population": 151950,
-    "Income": 21504,
-    "Name": "Perth and Kinross",
-    "weighted": 16572.3,
-    "Color": "(0, 58, 197)"
-  },
-  "S12000038": {
-    "Population": 179100,
-    "Income": 19259,
-    "Name": "Renfrewshire",
-    "weighted": 15272.3,
-    "Color": "(0, 44, 211)"
+    "weighted": 133227.19865,
+    "Color": "(0, 37, 218)"
   },
   "S12000026": {
+    "Housing": 149505.3899,
     "Population": 115510,
     "Income": 20421,
     "Name": "Scottish Borders",
-    "weighted": 15449.8,
-    "Color": "(0, 46, 209)"
+    "weighted": 120103.57293000001,
+    "Color": "(0, 29, 226)"
   },
-  "S12000027": {
-    "Population": 22920,
-    "Income": 20960,
-    "Name": "Shetland Islands",
-    "weighted": 14901.199999999999,
-    "Color": "(0, 41, 214)"
+  "S12000034": {
+    "Housing": 184319.0942,
+    "Population": 261210,
+    "Income": 22853,
+    "Name": "Aberdeenshire",
+    "weighted": 147632.56594,
+    "Color": "(0, 45, 210)"
   },
-  "S12000028": {
-    "Population": 112610,
-    "Income": 19428,
-    "Name": "South Ayrshire",
-    "weighted": 14725.699999999999,
-    "Color": "(0, 39, 216)"
+  "S12000036": {
+    "Housing": 265678.8472,
+    "Population": 524930,
+    "Income": 23580,
+    "Name": "City of Edinburgh",
+    "weighted": 207730.49304,
+    "Color": "(0, 81, 174)"
   },
-  "S12000029": {
-    "Population": 320530,
-    "Income": 19360,
-    "Name": "South Lanarkshire",
-    "weighted": 16757.3,
-    "Color": "(0, 59, 196)"
-  },
-  "S12000030": {
-    "Population": 94210,
-    "Income": 21345,
-    "Name": "Stirling",
-    "weighted": 15883.599999999999,
-    "Color": "(0, 51, 204)"
+  "S12000038": {
+    "Housing": 122347.3043,
+    "Population": 179100,
+    "Income": 19259,
+    "Name": "Renfrewshire",
+    "weighted": 100915.41301,
+    "Color": "(0, 18, 237)"
   },
   "S12000039": {
+    "Housing": 105342.1416,
     "Population": 88930,
     "Income": 17937,
     "Name": "West Dunbartonshire",
-    "weighted": 13445.199999999999,
-    "Color": "(0, 26, 229)"
+    "weighted": 87184.69911999999,
+    "Color": "(0, 10, 245)"
   },
   "S12000040": {
+    "Housing": 162681.1001,
     "Population": 183100,
     "Income": 18694,
     "Name": "West Lothian",
-    "weighted": 14916.8,
-    "Color": "(0, 41, 214)"
+    "weighted": 128793.57007,
+    "Color": "(0, 34, 221)"
   },
-  "N09000001": {
-    "Population": 143504,
-    "Income": 17723,
-    "Name": "Antrim and Newtownabbey",
-    "weighted": 13841.14,
-    "Color": "(0, 30, 225)"
+  "S12000041": {
+    "Housing": 145718.0434,
+    "Population": 116200,
+    "Income": 19818,
+    "Name": "Angus",
+    "weighted": 117037.23038,
+    "Color": "(0, 27, 228)"
   },
-  "N09000002": {
-    "Population": 216205,
-    "Income": 16649,
-    "Name": "Armagh City, Banbridge and Craigavon",
-    "weighted": 13816.349999999999,
-    "Color": "(0, 30, 225)"
+  "S12000045": {
+    "Housing": 212444.2656,
+    "Population": 108640,
+    "Income": 24004,
+    "Name": "East Dunbartonshire",
+    "weighted": 166600.18592000002,
+    "Color": "(0, 56, 199)"
   },
-  "N09000003": {
-    "Population": 343542,
-    "Income": 16974,
-    "Name": "Belfast",
-    "weighted": 15317.22,
+  "S12000005": {
+    "Housing": 129617.0978,
+    "Population": 51540,
+    "Income": 18560,
+    "Name": "Clackmannanshire",
+    "weighted": 104239.36846,
+    "Color": "(0, 20, 235)"
+  },
+  "S12000008": {
+    "Housing": 95794.33876,
+    "Population": 122010,
+    "Income": 17306,
+    "Name": "East Ayrshire",
+    "weighted": 80390.337132,
+    "Color": "(0, 6, 249)"
+  },
+  "S12000011": {
+    "Housing": 228558.197,
+    "Population": 95530,
+    "Income": 23685,
+    "Name": "East Renfrewshire",
+    "weighted": 177525.53789999997,
+    "Color": "(0, 63, 192)"
+  },
+  "S12000013": {
+    "Housing": 119493.4267,
+    "Population": 26720,
+    "Income": 19318,
+    "Name": "Na h-Eileanan Siar",
+    "weighted": 97435.19868999999,
+    "Color": "(0, 16, 239)"
+  },
+  "S12000014": {
+    "Housing": 125046.4549,
+    "Population": 160890,
+    "Income": 18793,
+    "Name": "Falkirk",
+    "weighted": 102296.51843,
+    "Color": "(0, 19, 236)"
+  },
+  "S12000047": {
+    "Housing": 133617.4821,
+    "Population": 373550,
+    "Income": 18518,
+    "Name": "Fife",
+    "weighted": 110230.33747,
+    "Color": "(0, 23, 232)"
+  },
+  "S12000018": {
+    "Housing": 103201.0667,
+    "Population": 77800,
+    "Income": 17982,
+    "Name": "Inverclyde",
+    "weighted": 85606.14668999998,
+    "Color": "(0, 9, 246)"
+  },
+  "S12000019": {
+    "Housing": 186633.4985,
+    "Population": 92460,
+    "Income": 21094,
+    "Name": "Midlothian",
+    "weighted": 146333.84894999999,
     "Color": "(0, 45, 210)"
   },
-  "N09000004": {
-    "Population": 144838,
-    "Income": 17219,
-    "Name": "Causeway Coast and Glens",
-    "weighted": 13501.68,
-    "Color": "(0, 26, 229)"
+  "S12000020": {
+    "Housing": 150944.1292,
+    "Population": 95820,
+    "Income": 19319,
+    "Name": "Moray",
+    "weighted": 120142.39043999999,
+    "Color": "(0, 29, 226)"
   },
-  "N09000005": {
-    "Population": 151284,
-    "Income": 15331,
-    "Name": "Derry City and Strabane",
-    "weighted": 12244.539999999999,
-    "Color": "(0, 14, 241)"
+  "S12000021": {
+    "Housing": 107161.9331,
+    "Population": 134740,
+    "Income": 17473,
+    "Name": "North Ayrshire",
+    "weighted": 88591.85316999999,
+    "Color": "(0, 11, 244)"
   },
-  "N09000006": {
-    "Population": 117397,
-    "Income": 16403,
-    "Name": "Fermanagh and Omagh",
-    "weighted": 12656.069999999998,
-    "Color": "(0, 18, 237)"
+  "S12000023": {
+    "Housing": 152014.0309,
+    "Population": 22270,
+    "Income": 19831,
+    "Name": "Orkney Islands",
+    "weighted": 120514.22163,
+    "Color": "(0, 29, 226)"
   },
-  "N09000007": {
-    "Population": 146002,
-    "Income": 19774,
-    "Name": "Lisburn and Castlereagh",
-    "weighted": 15301.82,
-    "Color": "(0, 45, 210)"
+  "S12000048": {
+    "Housing": 192607.311,
+    "Population": 151950,
+    "Income": 21504,
+    "Name": "Perth and Kinross",
+    "weighted": 151397.41769999996,
+    "Color": "(0, 48, 207)"
   },
-  "N09000008": {
-    "Population": 139274,
-    "Income": 18496,
-    "Name": "Mid and East Antrim",
-    "weighted": 14339.939999999999,
-    "Color": "(0, 35, 220)"
+  "S12000027": {
+    "Housing": 158725.5285,
+    "Population": 22920,
+    "Income": 20960,
+    "Name": "Shetland Islands",
+    "weighted": 126009.06994999998,
+    "Color": "(0, 33, 222)"
   },
-  "N09000009": {
-    "Population": 148528,
-    "Income": 17164,
-    "Name": "Mid Ulster",
-    "weighted": 13500.08,
-    "Color": "(0, 26, 229)"
+  "S12000028": {
+    "Housing": 132771.1767,
+    "Population": 112610,
+    "Income": 19428,
+    "Name": "South Ayrshire",
+    "weighted": 107665.52369,
+    "Color": "(0, 22, 233)"
+  },
+  "S12000029": {
+    "Housing": 128473.2539,
+    "Population": 320530,
+    "Income": 19360,
+    "Name": "South Lanarkshire",
+    "weighted": 106688.57772999999,
+    "Color": "(0, 21, 234)"
+  },
+  "S12000030": {
+    "Housing": 189403.4496,
+    "Population": 94210,
+    "Income": 21345,
+    "Name": "Stirling",
+    "weighted": 148466.01472,
+    "Color": "(0, 46, 209)"
+  },
+  "S12000033": {
+    "Housing": 148668.0449,
+    "Population": 228670,
+    "Income": 21349,
+    "Name": "Aberdeen City",
+    "weighted": 121298.63143,
+    "Color": "(0, 30, 225)"
+  },
+  "S12000010": {
+    "Housing": 227760.1702,
+    "Population": 107090,
+    "Income": 22494,
+    "Name": "East Lothian",
+    "weighted": 176248.81914,
+    "Color": "(0, 62, 193)"
+  },
+  "S12000035": {
+    "Housing": 143852.2542,
+    "Population": 85870,
+    "Income": 20314,
+    "Name": "Argyll and Bute",
+    "weighted": 115775.07793999999,
+    "Color": "(0, 27, 228)"
   },
   "N09000010": {
+    "Housing": 144849.0489,
     "Population": 181368,
     "Income": 16728,
     "Name": "Newry, Mourne and Down",
-    "weighted": 13523.279999999999,
-    "Color": "(0, 27, 228)"
+    "weighted": 114917.61422999999,
+    "Color": "(0, 26, 229)"
   },
   "N09000011": {
+    "Housing": 154717.6865,
     "Population": 161725,
     "Income": 18925,
     "Name": "Ards and North Down",
-    "weighted": 14864.75,
+    "weighted": 123167.13055,
+    "Color": "(0, 31, 224)"
+  },
+  "E09000029": {
+    "Housing": 373196.4433,
+    "Population": 206349,
+    "Income": 25591,
+    "Name": "Sutton",
+    "weighted": 281214.70031,
+    "Color": "(0, 124, 131)"
+  },
+  "E09000006": {
+    "Housing": 438405.6782,
+    "Population": 332336,
+    "Income": 30157,
+    "Name": "Bromley",
+    "weighted": 331317.23474,
+    "Color": "(0, 153, 102)"
+  },
+  "E09000016": {
+    "Housing": 364713.3978,
+    "Population": 259552,
+    "Income": 24089,
+    "Name": "Havering",
+    "weighted": 274757.19846,
+    "Color": "(0, 120, 135)"
+  },
+  "E09000022": {
+    "Housing": 508348.5089,
+    "Population": 326034,
+    "Income": 30386,
+    "Name": "Lambeth",
+    "weighted": 380374.49623,
+    "Color": "(0, 182, 73)"
+  },
+  "E09000027": {
+    "Housing": 650883.187,
+    "Population": 198019,
+    "Income": 43363,
+    "Name": "Richmond upon Thames",
+    "weighted": 487952.5209,
+    "Color": "(0, 245, 10)"
+  },
+  "E09000030": {
+    "Housing": 438332.4244,
+    "Population": 324745,
+    "Income": 26404,
+    "Name": "Tower Hamlets",
+    "weighted": 328562.94708,
+    "Color": "(0, 151, 104)"
+  },
+  "E09000002": {
+    "Housing": 299686.2048,
+    "Population": 212906,
+    "Income": 18928,
+    "Name": "Barking and Dagenham",
+    "weighted": 225159.00336,
+    "Color": "(0, 91, 164)"
+  },
+  "E09000003": {
+    "Housing": 520386.4253,
+    "Population": 395869,
+    "Income": 31489,
+    "Name": "Barnet",
+    "weighted": 390271.48770999996,
+    "Color": "(0, 188, 67)"
+  },
+  "E09000004": {
+    "Housing": 338057.898,
+    "Population": 248287,
+    "Income": 23401,
+    "Name": "Bexley",
+    "weighted": 255504.09859999997,
+    "Color": "(0, 109, 146)"
+  },
+  "E09000005": {
+    "Housing": 484770.1893,
+    "Population": 329771,
+    "Income": 26376,
+    "Name": "Brent",
+    "weighted": 361100.04251,
+    "Color": "(0, 171, 84)"
+  },
+  "E09000007": {
+    "Housing": 834748.7033,
+    "Population": 270029,
+    "Income": 44015,
+    "Name": "Camden",
+    "weighted": 617834.88231,
+    "Color": "(65, 190, 0)"
+  },
+  "E09000008": {
+    "Housing": 365762.5183,
+    "Population": 386710,
+    "Income": 24603,
+    "Name": "Croydon",
+    "weighted": 277122.96281,
+    "Color": "(0, 121, 134)"
+  },
+  "E09000009": {
+    "Housing": 473336.2406,
+    "Population": 341806,
+    "Income": 28155,
+    "Name": "Ealing",
+    "weighted": 354461.92842,
+    "Color": "(0, 167, 88)"
+  },
+  "E09000010": {
+    "Housing": 394057.3336,
+    "Population": 333794,
+    "Income": 23710,
+    "Name": "Enfield",
+    "weighted": 295775.07352,
+    "Color": "(0, 132, 123)"
+  },
+  "E09000011": {
+    "Housing": 391560.0285,
+    "Population": 287942,
+    "Income": 24700,
+    "Name": "Greenwich",
+    "weighted": 294261.43994999997,
+    "Color": "(0, 131, 124)"
+  },
+  "E09000031": {
+    "Housing": 431536.5135,
+    "Population": 276983,
+    "Income": 24614,
+    "Name": "Waltham Forest",
+    "weighted": 322075.18945,
+    "Color": "(0, 148, 107)"
+  },
+  "E09000032": {
+    "Housing": 588820.2647,
+    "Population": 329677,
+    "Income": 40851,
+    "Name": "Wandsworth",
+    "weighted": 444066.65528999997,
+    "Color": "(0, 219, 36)"
+  },
+  "E09000033": {
+    "Housing": 956750.3887,
+    "Population": 261317,
+    "Income": 53670,
+    "Name": "Westminster",
+    "weighted": 709907.44209,
+    "Color": "(119, 136, 0)"
+  },
+  "E09000012": {
+    "Housing": 556561.4469,
+    "Population": 281120,
+    "Income": 24575,
+    "Name": "Hackney",
+    "weighted": 409606.71283,
+    "Color": "(0, 199, 56)"
+  },
+  "E09000013": {
+    "Housing": 718438.7406,
+    "Population": 185143,
+    "Income": 43040,
+    "Name": "Hammersmith and Fulham",
+    "weighted": 534886.54842,
+    "Color": "(16, 239, 0)"
+  },
+  "E09000014": {
+    "Housing": 548828.597,
+    "Population": 268647,
+    "Income": 30176,
+    "Name": "Haringey",
+    "weighted": 407989.6878999999,
+    "Color": "(0, 198, 57)"
+  },
+  "E09000015": {
+    "Housing": 449686.3771,
+    "Population": 251160,
+    "Income": 29284,
+    "Name": "Harrow",
+    "weighted": 337790.86397,
+    "Color": "(0, 157, 98)"
+  },
+  "E09000017": {
+    "Housing": 405173.0671,
+    "Population": 306870,
+    "Income": 23160,
+    "Name": "Hillingdon",
+    "weighted": 302901.84696999996,
+    "Color": "(0, 136, 119)"
+  },
+  "E09000018": {
+    "Housing": 402167.3098,
+    "Population": 271523,
+    "Income": 26575,
+    "Name": "Hounslow",
+    "weighted": 302834.84685999993,
+    "Color": "(0, 136, 119)"
+  },
+  "E09000019": {
+    "Housing": 631678.6048,
+    "Population": 242467,
+    "Income": 32534,
+    "Name": "Islington",
+    "weighted": 467373.49335999996,
+    "Color": "(0, 233, 22)"
+  },
+  "E09000020": {
+    "Housing": 1256712.531,
+    "Population": 156129,
+    "Income": 85376,
+    "Name": "Kensington and Chelsea",
+    "weighted": 941023.2616999999,
+    "Color": "(255, 0, 0)"
+  },
+  "E09000021": {
+    "Housing": 486236.8773,
+    "Population": 177507,
+    "Income": 29045,
+    "Name": "Kingston upon Thames",
+    "weighted": 362472.38411,
+    "Color": "(0, 171, 84)"
+  },
+  "E09000023": {
+    "Housing": 410349.5528,
+    "Population": 305842,
+    "Income": 24047,
+    "Name": "Lewisham",
+    "weighted": 307136.00695999997,
+    "Color": "(0, 139, 116)"
+  },
+  "E09000024": {
+    "Housing": 507899.5062,
+    "Population": 206548,
+    "Income": 33251,
+    "Name": "Merton",
+    "weighted": 380870.83434,
+    "Color": "(0, 182, 73)"
+  },
+  "E09000025": {
+    "Housing": 363456.238,
+    "Population": 353134,
+    "Income": 20710,
+    "Name": "Newham",
+    "weighted": 272447.7066,
+    "Color": "(0, 119, 136)"
+  },
+  "E09000026": {
+    "Housing": 415067.9548,
+    "Population": 305222,
+    "Income": 24650,
+    "Name": "Redbridge",
+    "weighted": 310854.78836,
+    "Color": "(0, 141, 114)"
+  },
+  "E09000028": {
+    "Housing": 498671.8914,
+    "Population": 318830,
+    "Income": 28609,
+    "Name": "Southwark",
+    "weighted": 372284.92397999996,
+    "Color": "(0, 177, 78)"
+  },
+  "N09000001": {
+    "Housing": 142254.3181,
+    "Population": 143504,
+    "Income": 17723,
+    "Name": "Antrim and Newtownabbey",
+    "weighted": 113419.16266999999,
+    "Color": "(0, 25, 230)"
+  },
+  "N09000002": {
+    "Housing": 122469.8357,
+    "Population": 216205,
+    "Income": 16649,
+    "Name": "Armagh City, Banbridge and Craigavon",
+    "weighted": 99545.23499,
+    "Color": "(0, 17, 238)"
+  },
+  "N09000003": {
+    "Housing": 131083.9297,
+    "Population": 343542,
+    "Income": 16974,
+    "Name": "Belfast",
+    "weighted": 107075.97079,
+    "Color": "(0, 22, 233)"
+  },
+  "N09000004": {
+    "Housing": 145739.1734,
+    "Population": 144838,
+    "Income": 17219,
+    "Name": "Causeway Coast and Glens",
+    "weighted": 115519.10138000001,
+    "Color": "(0, 27, 228)"
+  },
+  "N09000005": {
+    "Housing": 123065.9246,
+    "Population": 151284,
+    "Income": 15331,
+    "Name": "Derry City and Strabane",
+    "weighted": 98390.68721999999,
+    "Color": "(0, 16, 239)"
+  },
+  "N09000006": {
+    "Housing": 128333.6597,
+    "Population": 117397,
+    "Income": 16403,
+    "Name": "Fermanagh and Omagh",
+    "weighted": 102489.63178999998,
+    "Color": "(0, 19, 236)"
+  },
+  "N09000007": {
+    "Housing": 163390.8629,
+    "Population": 146002,
+    "Income": 19774,
+    "Name": "Lisburn and Castlereagh",
+    "weighted": 129675.42403,
+    "Color": "(0, 35, 220)"
+  },
+  "N09000008": {
+    "Housing": 128294.2454,
+    "Population": 139274,
+    "Income": 18496,
+    "Name": "Mid and East Antrim",
+    "weighted": 104145.91178,
+    "Color": "(0, 20, 235)"
+  },
+  "N09000009": {
+    "Housing": 135126.912,
+    "Population": 148528,
+    "Income": 17164,
+    "Name": "Mid Ulster",
+    "weighted": 108088.91840000001,
+    "Color": "(0, 22, 233)"
+  },
+  "E08000033": {
+    "Housing": 146942.7307,
+    "Population": 211455,
+    "Income": 17882,
+    "Name": "Calderdale",
+    "weighted": 117491.86148999998,
+    "Color": "(0, 28, 227)"
+  },
+  "E08000007": {
+    "Housing": 228233.1242,
+    "Population": 293423,
+    "Income": 21606,
+    "Name": "Stockport",
+    "weighted": 177821.61693999998,
+    "Color": "(0, 63, 192)"
+  },
+  "E08000010": {
+    "Housing": 134926.5928,
+    "Population": 328662,
+    "Income": 17239,
+    "Name": "Wigan",
+    "weighted": 109802.53496,
+    "Color": "(0, 23, 232)"
+  },
+  "E08000013": {
+    "Housing": 131209.8307,
+    "Population": 180585,
+    "Income": 17325,
+    "Name": "St. Helens",
+    "weighted": 105780.23148999999,
+    "Color": "(0, 21, 234)"
+  },
+  "E08000019": {
+    "Housing": 167002.822,
+    "Population": 584853,
+    "Income": 16131,
+    "Name": "Sheffield",
+    "weighted": 134042.20539999998,
+    "Color": "(0, 37, 218)"
+  },
+  "E08000025": {
+    "Housing": 188589.5937,
+    "Population": 1141816,
+    "Income": 15368,
+    "Name": "Birmingham",
+    "weighted": 154188.47559,
+    "Color": "(0, 49, 206)"
+  },
+  "E08000031": {
+    "Housing": 154056.8845,
+    "Population": 263357,
+    "Income": 15500,
+    "Name": "Wolverhampton",
+    "weighted": 121323.38914999997,
+    "Color": "(0, 30, 225)"
+  },
+  "E08000037": {
+    "Housing": 131170.1197,
+    "Population": 202055,
+    "Income": 16477,
+    "Name": "Gateshead",
+    "weighted": 105373.53379,
+    "Color": "(0, 21, 234)"
+  },
+  "E08000008": {
+    "Housing": 150900.8484,
+    "Population": 226493,
+    "Income": 17185,
+    "Name": "Tameside",
+    "weighted": 119925.02388,
+    "Color": "(0, 29, 226)"
+  },
+  "E08000009": {
+    "Housing": 290302.561,
+    "Population": 237354,
+    "Income": 24060,
+    "Name": "Trafford",
+    "weighted": 222427.3327,
+    "Color": "(0, 89, 166)"
+  },
+  "E08000032": {
+    "Housing": 136946.9005,
+    "Population": 539776,
+    "Income": 15308,
+    "Name": "Bradford",
+    "weighted": 111976.19034999999,
+    "Color": "(0, 24, 231)"
+  },
+  "E08000034": {
+    "Housing": 150239.7762,
+    "Population": 439787,
+    "Income": 17288,
+    "Name": "Kirklees",
+    "weighted": 121667.31334,
+    "Color": "(0, 30, 225)"
+  },
+  "E08000035": {
+    "Housing": 185627.7611,
+    "Population": 793139,
+    "Income": 18634,
+    "Name": "Leeds",
+    "weighted": 150914.62277,
+    "Color": "(0, 47, 208)"
+  },
+  "E08000036": {
+    "Housing": 150246.9464,
+    "Population": 348312,
+    "Income": 17329,
+    "Name": "Wakefield",
+    "weighted": 120786.28247999998,
+    "Color": "(0, 30, 225)"
+  },
+  "E08000011": {
+    "Housing": 130308.9765,
+    "Population": 150862,
+    "Income": 16627,
+    "Name": "Knowsley",
+    "weighted": 104363.80355,
+    "Color": "(0, 20, 235)"
+  },
+  "E08000012": {
+    "Housing": 133973.0043,
+    "Population": 498042,
+    "Income": 15673,
+    "Name": "Liverpool",
+    "weighted": 109732.62301,
+    "Color": "(0, 23, 232)"
+  },
+  "E08000014": {
+    "Housing": 167542.4896,
+    "Population": 276410,
+    "Income": 19325,
+    "Name": "Sefton",
+    "weighted": 133571.34272,
+    "Color": "(0, 37, 218)"
+  },
+  "E08000015": {
+    "Housing": 160475.2584,
+    "Population": 324011,
+    "Income": 19175,
+    "Name": "Wirral",
+    "weighted": 128995.29087999999,
+    "Color": "(0, 34, 221)"
+  },
+  "E08000016": {
+    "Housing": 124750.3851,
+    "Population": 246866,
+    "Income": 17093,
+    "Name": "Barnsley",
+    "weighted": 101759.02956999998,
+    "Color": "(0, 18, 237)"
+  },
+  "E08000017": {
+    "Housing": 128850.7864,
+    "Population": 311890,
+    "Income": 17001,
+    "Name": "Doncaster",
+    "weighted": 105215.15047999998,
+    "Color": "(0, 20, 235)"
+  },
+  "E08000018": {
+    "Housing": 140457.0197,
+    "Population": 265411,
+    "Income": 16985,
+    "Name": "Rotherham",
+    "weighted": 112863.52378999999,
+    "Color": "(0, 25, 230)"
+  },
+  "E08000021": {
+    "Housing": 159631.7865,
+    "Population": 302820,
+    "Income": 16473,
+    "Name": "Newcastle upon Tyne",
+    "weighted": 126301.55054999999,
+    "Color": "(0, 33, 222)"
+  },
+  "E08000022": {
+    "Housing": 161641.5235,
+    "Population": 207913,
+    "Income": 18246,
+    "Name": "North Tyneside",
+    "weighted": 128000.39645,
+    "Color": "(0, 34, 221)"
+  },
+  "E08000023": {
+    "Housing": 133526.6567,
+    "Population": 150976,
+    "Income": 15915,
+    "Name": "South Tyneside",
+    "weighted": 106118.91968999998,
+    "Color": "(0, 21, 234)"
+  },
+  "E08000024": {
+    "Housing": 116314.9512,
+    "Population": 277705,
+    "Income": 16011,
+    "Name": "Sunderland",
+    "weighted": 95405.21583999999,
+    "Color": "(0, 15, 240)"
+  },
+  "E08000026": {
+    "Housing": 188280.2305,
+    "Population": 371521,
+    "Income": 15350,
+    "Name": "Coventry",
+    "weighted": 146256.37135,
+    "Color": "(0, 45, 210)"
+  },
+  "E08000027": {
+    "Housing": 178582.9879,
+    "Population": 321596,
+    "Income": 16735,
+    "Name": "Dudley",
+    "weighted": 139938.55153,
+    "Color": "(0, 41, 214)"
+  },
+  "E08000028": {
+    "Housing": 152005.8675,
+    "Population": 328450,
+    "Income": 14454,
+    "Name": "Sandwell",
+    "weighted": 119806.40724999999,
+    "Color": "(0, 29, 226)"
+  },
+  "E08000029": {
+    "Housing": 283845.5376,
+    "Population": 216374,
+    "Income": 23722,
+    "Name": "Solihull",
+    "weighted": 217461.01632,
+    "Color": "(0, 86, 169)"
+  },
+  "E08000030": {
+    "Housing": 166990.4414,
+    "Population": 285478,
+    "Income": 15694,
+    "Name": "Walsall",
+    "weighted": 130733.88898,
+    "Color": "(0, 35, 220)"
+  },
+  "E08000001": {
+    "Housing": 137241.4111,
+    "Population": 287550,
+    "Income": 16533,
+    "Name": "Bolton",
+    "weighted": 110517.58776999998,
+    "Color": "(0, 24, 231)"
+  },
+  "E08000002": {
+    "Housing": 179195.2068,
+    "Population": 190990,
+    "Income": 19142,
+    "Name": "Bury",
+    "weighted": 140745.94475999998,
+    "Color": "(0, 41, 214)"
+  },
+  "E08000003": {
+    "Housing": 181071.142,
+    "Population": 552858,
+    "Income": 15322,
+    "Name": "Manchester",
+    "weighted": 143003.7794,
+    "Color": "(0, 43, 212)"
+  },
+  "E08000005": {
+    "Housing": 141396.8266,
+    "Population": 222412,
+    "Income": 16143,
+    "Name": "Rochdale",
+    "weighted": 112501.99862,
+    "Color": "(0, 25, 230)"
+  },
+  "E08000006": {
+    "Housing": 165465.8515,
+    "Population": 258834,
+    "Income": 17524,
+    "Name": "Salford",
+    "weighted": 130681.23604999998,
+    "Color": "(0, 35, 220)"
+  },
+  "E08000004": {
+    "Housing": 136051.5602,
+    "Population": 237110,
+    "Income": 15885,
+    "Name": "Oldham",
+    "weighted": 108726.69214,
+    "Color": "(0, 23, 232)"
+  },
+  "E07000145": {
+    "Housing": 173486.8243,
+    "Population": 99336,
+    "Income": 16225,
+    "Name": "Great Yarmouth",
+    "weighted": 133791.63701,
+    "Color": "(0, 37, 218)"
+  },
+  "E07000149": {
+    "Housing": 260584.4466,
+    "Population": 140880,
+    "Income": 20564,
+    "Name": "South Norfolk",
+    "weighted": 198212.71262,
+    "Color": "(0, 75, 180)"
+  },
+  "E07000166": {
+    "Housing": 211226.2555,
+    "Population": 53730,
+    "Income": 21033,
+    "Name": "Richmondshire",
+    "weighted": 163118.77884999997,
+    "Color": "(0, 54, 201)"
+  },
+  "E07000211": {
+    "Housing": 405831.8978,
+    "Population": 148748,
+    "Income": 29069,
+    "Name": "Reigate and Banstead",
+    "weighted": 305918.10846,
+    "Color": "(0, 138, 117)"
+  },
+  "E07000212": {
+    "Housing": 410246.3894,
+    "Population": 89424,
+    "Income": 26925,
+    "Name": "Runnymede",
+    "weighted": 306914.21257999993,
+    "Color": "(0, 139, 116)"
+  },
+  "E07000214": {
+    "Housing": 392086.1572,
+    "Population": 89305,
+    "Income": 29545,
+    "Name": "Surrey Heath",
+    "weighted": 296034.86004,
+    "Color": "(0, 132, 123)"
+  },
+  "E07000215": {
+    "Housing": 439765.387,
+    "Population": 88129,
+    "Income": 30333,
+    "Name": "Tandridge",
+    "weighted": 329950.16089999996,
+    "Color": "(0, 152, 103)"
+  },
+  "E07000216": {
+    "Housing": 451241.9183,
+    "Population": 126328,
+    "Income": 33071,
+    "Name": "Waverley",
+    "weighted": 340282.32281,
+    "Color": "(0, 158, 97)"
+  },
+  "E07000217": {
+    "Housing": 415297.9291,
+    "Population": 100793,
+    "Income": 29877,
+    "Name": "Woking",
+    "weighted": 312630.38037,
+    "Color": "(0, 142, 113)"
+  },
+  "E07000218": {
+    "Housing": 206851.2051,
+    "Population": 65264,
+    "Income": 20109,
+    "Name": "North Warwickshire",
+    "weighted": 159524.78357,
+    "Color": "(0, 52, 203)"
+  },
+  "E07000220": {
+    "Housing": 233933.5399,
+    "Population": 108935,
+    "Income": 22071,
+    "Name": "Rugby",
+    "weighted": 180292.52792999998,
+    "Color": "(0, 64, 191)"
+  },
+  "E07000221": {
+    "Housing": 317229.828,
+    "Population": 130098,
+    "Income": 27934,
+    "Name": "Stratford-on-Avon",
+    "weighted": 242915.65959999998,
+    "Color": "(0, 101, 154)"
+  },
+  "E07000222": {
+    "Housing": 309065.7605,
+    "Population": 143753,
+    "Income": 27980,
+    "Name": "Warwick",
+    "weighted": 237369.56234999996,
+    "Color": "(0, 98, 157)"
+  },
+  "E07000223": {
+    "Housing": 315664.9936,
+    "Population": 64301,
+    "Income": 21618,
+    "Name": "Adur",
+    "weighted": 236741.10551999995,
+    "Color": "(0, 98, 157)"
+  },
+  "E07000225": {
+    "Housing": 376961.0753,
+    "Population": 121129,
+    "Income": 26915,
+    "Name": "Chichester",
+    "weighted": 283924.54271,
+    "Color": "(0, 125, 130)"
+  },
+  "E07000226": {
+    "Housing": 280701.4683,
+    "Population": 112409,
+    "Income": 21656,
+    "Name": "Crawley",
+    "weighted": 212774.31781,
+    "Color": "(0, 84, 171)"
+  },
+  "E07000227": {
+    "Housing": 374058.5485,
+    "Population": 143791,
+    "Income": 27522,
+    "Name": "Horsham",
+    "weighted": 282544.29394999996,
+    "Color": "(0, 124, 131)"
+  },
+  "E07000228": {
+    "Housing": 369955.5875,
+    "Population": 151022,
+    "Income": 26947,
+    "Name": "Mid Sussex",
+    "weighted": 279342.03125,
+    "Color": "(0, 123, 132)"
+  },
+  "E07000229": {
+    "Housing": 279060.1925,
+    "Population": 110570,
+    "Income": 22224,
+    "Name": "Worthing",
+    "weighted": 212004.63475,
+    "Color": "(0, 83, 172)"
+  },
+  "E07000192": {
+    "Housing": 170510.929,
+    "Population": 100762,
+    "Income": 18096,
+    "Name": "Cannock Chase",
+    "weighted": 133032.4703,
+    "Color": "(0, 37, 218)"
+  },
+  "E07000194": {
+    "Housing": 246576.4678,
+    "Population": 104756,
+    "Income": 22974,
+    "Name": "Lichfield",
+    "weighted": 189732.88746,
+    "Color": "(0, 70, 185)"
+  },
+  "E07000195": {
+    "Housing": 157442.0101,
+    "Population": 129441,
+    "Income": 17666,
+    "Name": "Newcastle-under-Lyme",
+    "weighted": 123870.01707,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000196": {
+    "Housing": 230820.1886,
+    "Population": 112436,
+    "Income": 20463,
+    "Name": "South Staffordshire",
+    "weighted": 177022.59201999998,
+    "Color": "(0, 63, 192)"
+  },
+  "E07000197": {
+    "Housing": 209228.1002,
+    "Population": 137280,
+    "Income": 20473,
+    "Name": "Stafford",
+    "weighted": 162163.57013999997,
+    "Color": "(0, 54, 201)"
+  },
+  "E07000198": {
+    "Housing": 182358.3881,
+    "Population": 98435,
+    "Income": 19411,
+    "Name": "Staffordshire Moorlands",
+    "weighted": 142222.92166999998,
+    "Color": "(0, 42, 213)"
+  },
+  "E07000200": {
+    "Housing": 286017.4155,
+    "Population": 92036,
+    "Income": 22641,
+    "Name": "Babergh",
+    "weighted": 216981.25084999998,
+    "Color": "(0, 86, 169)"
+  },
+  "E07000202": {
+    "Housing": 197068.7093,
+    "Population": 136913,
+    "Income": 18093,
+    "Name": "Ipswich",
+    "weighted": 151982.32650999998,
+    "Color": "(0, 48, 207)"
+  },
+  "E07000203": {
+    "Housing": 267640.0436,
+    "Population": 103895,
+    "Income": 21280,
+    "Name": "Mid Suffolk",
+    "weighted": 203282.98051999998,
+    "Color": "(0, 78, 177)"
+  },
+  "E07000207": {
+    "Housing": 586050.4374,
+    "Population": 136795,
+    "Income": 40922,
+    "Name": "Elmbridge",
+    "weighted": 440248.65618,
+    "Color": "(0, 217, 38)"
+  },
+  "E07000208": {
+    "Housing": 454605.9879,
+    "Population": 80627,
+    "Income": 29427,
+    "Name": "Epsom and Ewell",
+    "weighted": 339629.36153,
+    "Color": "(0, 158, 97)"
+  },
+  "E07000209": {
+    "Housing": 445856.4668,
+    "Population": 148998,
+    "Income": 29325,
+    "Name": "Guildford",
+    "weighted": 334117.00675999996,
+    "Color": "(0, 155, 100)"
+  },
+  "E07000168": {
+    "Housing": 165214.9377,
+    "Population": 108757,
+    "Income": 19116,
+    "Name": "Scarborough",
+    "weighted": 130119.22639,
+    "Color": "(0, 35, 220)"
+  },
+  "E07000169": {
+    "Housing": 201019.2174,
+    "Population": 90620,
+    "Income": 21994,
+    "Name": "Selby",
+    "weighted": 157015.45218,
+    "Color": "(0, 51, 204)"
+  },
+  "E07000170": {
+    "Housing": 143389.1715,
+    "Population": 127918,
+    "Income": 16845,
+    "Name": "Ashfield",
+    "weighted": 113443.10004999998,
+    "Color": "(0, 25, 230)"
+  },
+  "E07000171": {
+    "Housing": 156256.0379,
+    "Population": 117459,
+    "Income": 18596,
+    "Name": "Bassetlaw",
+    "weighted": 123571.01652999998,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000172": {
+    "Housing": 186145.1016,
+    "Population": 114033,
+    "Income": 18570,
+    "Name": "Broxtowe",
+    "weighted": 144440.90112,
+    "Color": "(0, 43, 212)"
+  },
+  "E07000174": {
+    "Housing": 137695.5708,
+    "Population": 109313,
+    "Income": 17448,
+    "Name": "Mansfield",
+    "weighted": 109693.62955999999,
+    "Color": "(0, 23, 232)"
+  },
+  "E07000175": {
+    "Housing": 184091.9929,
+    "Population": 122421,
+    "Income": 20004,
+    "Name": "Newark and Sherwood",
+    "weighted": 144091.40503,
+    "Color": "(0, 43, 212)"
+  },
+  "E07000176": {
+    "Housing": 277906.3664,
+    "Population": 119184,
+    "Income": 23384,
+    "Name": "Rushcliffe",
+    "weighted": 212095.09648,
+    "Color": "(0, 83, 172)"
+  },
+  "E07000178": {
+    "Housing": 407963.5616,
+    "Population": 152457,
+    "Income": 22848,
+    "Name": "Oxford",
+    "weighted": 303092.66312,
+    "Color": "(0, 136, 119)"
+  },
+  "E07000179": {
+    "Housing": 408312.9111,
+    "Population": 142057,
+    "Income": 29669,
+    "Name": "South Oxfordshire",
+    "weighted": 308007.90777,
+    "Color": "(0, 139, 116)"
+  },
+  "E07000181": {
+    "Housing": 324130.2683,
+    "Population": 110643,
+    "Income": 27212,
+    "Name": "West Oxfordshire",
+    "weighted": 247046.01780999996,
+    "Color": "(0, 104, 151)"
+  },
+  "E07000187": {
+    "Housing": 257968.5443,
+    "Population": 115587,
+    "Income": 22146,
+    "Name": "Mendip",
+    "weighted": 197236.05101,
+    "Color": "(0, 74, 181)"
+  },
+  "E07000188": {
+    "Housing": 227492.3116,
+    "Population": 123178,
+    "Income": 20340,
+    "Name": "Sedgemoor",
+    "weighted": 174714.39811999997,
+    "Color": "(0, 61, 194)"
+  },
+  "E07000189": {
+    "Housing": 229151.8191,
+    "Population": 168345,
+    "Income": 20810,
+    "Name": "South Somerset",
+    "weighted": 176656.72337,
+    "Color": "(0, 62, 193)"
+  },
+  "E07000193": {
+    "Housing": 181624.3345,
+    "Population": 119754,
+    "Income": 19763,
+    "Name": "East Staffordshire",
+    "weighted": 142168.67414999998,
+    "Color": "(0, 42, 213)"
+  },
+  "E07000199": {
+    "Housing": 185877.0288,
+    "Population": 76696,
+    "Income": 18446,
+    "Name": "Tamworth",
+    "weighted": 143793.08015999998,
+    "Color": "(0, 43, 212)"
+  },
+  "E07000210": {
+    "Housing": 477691.7216,
+    "Population": 87245,
+    "Income": 33329,
+    "Name": "Mole Valley",
+    "weighted": 358586.95512,
+    "Color": "(0, 169, 86)"
+  },
+  "E07000173": {
+    "Housing": 187433.6992,
+    "Population": 117896,
+    "Income": 19250,
+    "Name": "Gedling",
+    "weighted": 145857.54943999997,
+    "Color": "(0, 44, 211)"
+  },
+  "E07000177": {
+    "Housing": 283741.9593,
+    "Population": 150503,
+    "Income": 24115,
+    "Name": "Cherwell",
+    "weighted": 217004.90150999997,
+    "Color": "(0, 86, 169)"
+  },
+  "E07000180": {
+    "Housing": 354352.9674,
+    "Population": 136007,
+    "Income": 25680,
+    "Name": "Vale of White Horse",
+    "weighted": 267383.14717999997,
+    "Color": "(0, 116, 139)"
+  },
+  "E07000235": {
+    "Housing": 266007.8175,
+    "Population": 78698,
+    "Income": 23220,
+    "Name": "Malvern Hills",
+    "weighted": 203246.45225,
+    "Color": "(0, 78, 177)"
+  },
+  "E07000237": {
+    "Housing": 210751.904,
+    "Population": 101222,
+    "Income": 19509,
+    "Name": "Worcester",
+    "weighted": 162194.8528,
+    "Color": "(0, 54, 201)"
+  },
+  "E07000238": {
+    "Housing": 273822.0229,
+    "Population": 129433,
+    "Income": 23462,
+    "Name": "Wychavon",
+    "weighted": 209393.14602999995,
+    "Color": "(0, 82, 173)"
+  },
+  "E07000239": {
+    "Housing": 192328.3254,
+    "Population": 101291,
+    "Income": 19037,
+    "Name": "Wyre Forest",
+    "weighted": 148968.63778,
+    "Color": "(0, 46, 209)"
+  },
+  "E07000240": {
+    "Housing": 506035.8961,
+    "Population": 148452,
+    "Income": 33751,
+    "Name": "St Albans",
+    "weighted": 379335.34726999997,
+    "Color": "(0, 181, 74)"
+  },
+  "E07000242": {
+    "Housing": 387598.0824,
+    "Population": 149748,
+    "Income": 28356,
+    "Name": "East Hertfordshire",
+    "weighted": 292665.33768,
+    "Color": "(0, 130, 125)"
+  },
+  "E07000243": {
+    "Housing": 283822.9296,
+    "Population": 87845,
+    "Income": 20079,
+    "Name": "Stevenage",
+    "weighted": 213609.80071999997,
+    "Color": "(0, 84, 171)"
+  },
+  "E07000213": {
+    "Housing": 366490.4085,
+    "Population": 99844,
+    "Income": 26136,
+    "Name": "Spelthorne",
+    "weighted": 275836.92595,
+    "Color": "(0, 121, 134)"
+  },
+  "E07000219": {
+    "Housing": 175961.4497,
+    "Population": 129883,
+    "Income": 18636,
+    "Name": "Nuneaton and Bedworth",
+    "weighted": 137517.04478999999,
+    "Color": "(0, 39, 216)"
+  },
+  "E07000224": {
+    "Housing": 284318.6902,
+    "Population": 160758,
+    "Income": 22471,
+    "Name": "Arun",
+    "weighted": 216360.36314,
+    "Color": "(0, 86, 169)"
+  },
+  "E07000234": {
+    "Housing": 293056.4666,
+    "Population": 99881,
+    "Income": 23909,
+    "Name": "Bromsgrove",
+    "weighted": 222874.63662,
+    "Color": "(0, 89, 166)"
+  },
+  "E07000011": {
+    "Housing": 260896.2694,
+    "Population": 177963,
+    "Income": 22089,
+    "Name": "Huntingdonshire",
+    "weighted": 199869.31857999996,
+    "Color": "(0, 76, 179)"
+  },
+  "E07000029": {
+    "Housing": 122159.7383,
+    "Population": 68183,
+    "Income": 18788,
+    "Name": "Copeland",
+    "weighted": 99345.24680999998,
+    "Color": "(0, 17, 238)"
+  },
+  "E07000035": {
+    "Housing": 269002.9409,
+    "Population": 72325,
+    "Income": 25635,
+    "Name": "Derbyshire Dales",
+    "weighted": 206969.80862999998,
+    "Color": "(0, 80, 175)"
+  },
+  "E07000042": {
+    "Housing": 235926.2082,
+    "Population": 82311,
+    "Income": 20811,
+    "Name": "Mid Devon",
+    "weighted": 180539.15574,
+    "Color": "(0, 65, 190)"
+  },
+  "E07000008": {
+    "Housing": 435408.6272,
+    "Population": 124798,
+    "Income": 25105,
+    "Name": "Cambridge",
+    "weighted": 323607.5190399999,
+    "Color": "(0, 149, 106)"
+  },
+  "E07000009": {
+    "Housing": 285122.0432,
+    "Population": 89840,
+    "Income": 22769,
+    "Name": "East Cambridgeshire",
+    "weighted": 216422.13024,
+    "Color": "(0, 86, 169)"
+  },
+  "E07000010": {
+    "Housing": 187937.1857,
+    "Population": 101850,
+    "Income": 17958,
+    "Name": "Fenland",
+    "weighted": 145145.12999,
+    "Color": "(0, 44, 211)"
+  },
+  "E07000012": {
+    "Housing": 373157.4126,
+    "Population": 159086,
+    "Income": 27610,
+    "Name": "South Cambridgeshire",
+    "weighted": 282128.04881999997,
+    "Color": "(0, 124, 131)"
+  },
+  "E07000026": {
+    "Housing": 151493.4415,
+    "Population": 97761,
+    "Income": 18968,
+    "Name": "Allerdale",
+    "weighted": 120300.61904999998,
+    "Color": "(0, 29, 226)"
+  },
+  "E07000027": {
+    "Housing": 121605.3483,
+    "Population": 67049,
+    "Income": 17990,
+    "Name": "Barrow-in-Furness",
+    "weighted": 98387.23381,
+    "Color": "(0, 16, 239)"
+  },
+  "E07000028": {
+    "Housing": 136613.3516,
+    "Population": 108678,
+    "Income": 19110,
+    "Name": "Carlisle",
+    "weighted": 110093.12611999999,
+    "Color": "(0, 23, 232)"
+  },
+  "E07000030": {
+    "Housing": 198644.1134,
+    "Population": 53253,
+    "Income": 22097,
+    "Name": "Eden",
+    "weighted": 155051.30938,
+    "Color": "(0, 50, 205)"
+  },
+  "E07000031": {
+    "Housing": 239019.4373,
+    "Population": 105088,
+    "Income": 23990,
+    "Name": "South Lakeland",
+    "weighted": 185157.48611,
+    "Color": "(0, 67, 188)"
+  },
+  "E07000032": {
+    "Housing": 174758.8099,
+    "Population": 128147,
+    "Income": 18983,
+    "Name": "Amber Valley",
+    "weighted": 136900.73692999998,
+    "Color": "(0, 39, 216)"
+  },
+  "E07000033": {
+    "Housing": 128807.4239,
+    "Population": 80562,
+    "Income": 16062,
+    "Name": "Bolsover",
+    "weighted": 102214.21673,
+    "Color": "(0, 19, 236)"
+  },
+  "E07000034": {
+    "Housing": 158537.3652,
+    "Population": 104900,
+    "Income": 16802,
+    "Name": "Chesterfield",
+    "weighted": 123786.55563999999,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000036": {
+    "Housing": 164643.2085,
+    "Population": 115371,
+    "Income": 18301,
+    "Name": "Erewash",
+    "weighted": 129214.65595,
+    "Color": "(0, 35, 220)"
+  },
+  "E07000068": {
+    "Housing": 425786.9659,
+    "Population": 77021,
+    "Income": 30517,
+    "Name": "Brentwood",
+    "weighted": 320182.98613,
+    "Color": "(0, 147, 108)"
+  },
+  "E07000074": {
+    "Housing": 335345.8137,
+    "Population": 64926,
+    "Income": 23427,
+    "Name": "Maldon",
+    "weighted": 251790.22958999997,
+    "Color": "(0, 106, 149)"
+  },
+  "E07000079": {
+    "Housing": 383645.294,
+    "Population": 89862,
+    "Income": 29350,
+    "Name": "Cotswold",
+    "weighted": 289995.3258,
+    "Color": "(0, 129, 126)"
+  },
+  "E07000081": {
+    "Housing": 204573.0359,
+    "Population": 129128,
+    "Income": 18751,
+    "Name": "Gloucester",
+    "weighted": 157618.10512999998,
+    "Color": "(0, 51, 204)"
+  },
+  "E07000062": {
+    "Housing": 214198.7459,
+    "Population": 92661,
+    "Income": 18545,
+    "Name": "Hastings",
+    "weighted": 163847.23213000002,
+    "Color": "(0, 55, 200)"
+  },
+  "E07000064": {
+    "Housing": 297475.1833,
+    "Population": 96080,
+    "Income": 22585,
+    "Name": "Rother",
+    "weighted": 225002.92830999996,
+    "Color": "(0, 91, 164)"
+  },
+  "E07000065": {
+    "Housing": 335892.0687,
+    "Population": 161475,
+    "Income": 25895,
+    "Name": "Wealden",
+    "weighted": 254865.69809,
+    "Color": "(0, 108, 147)"
+  },
+  "E07000066": {
+    "Housing": 306297.1969,
+    "Population": 187199,
+    "Income": 21435,
+    "Name": "Basildon",
+    "weighted": 231284.52782999998,
+    "Color": "(0, 94, 161)"
+  },
+  "E07000067": {
+    "Housing": 282018.5343,
+    "Population": 152604,
+    "Income": 22179,
+    "Name": "Braintree",
+    "weighted": 214464.31400999997,
+    "Color": "(0, 85, 170)"
+  },
+  "E07000069": {
+    "Housing": 305503.268,
+    "Population": 90376,
+    "Income": 22011,
+    "Name": "Castle Point",
+    "weighted": 230163.74759999997,
+    "Color": "(0, 94, 161)"
+  },
+  "E07000070": {
+    "Housing": 340877.1502,
+    "Population": 178388,
+    "Income": 24643,
+    "Name": "Chelmsford",
+    "weighted": 257647.98513999998,
+    "Color": "(0, 110, 145)"
+  },
+  "E07000071": {
+    "Housing": 263748.8266,
+    "Population": 194706,
+    "Income": 20570,
+    "Name": "Colchester",
+    "weighted": 200970.23861999996,
+    "Color": "(0, 77, 178)"
+  },
+  "E07000072": {
+    "Housing": 459561.5538,
+    "Population": 131689,
+    "Income": 30550,
+    "Name": "Epping Forest",
+    "weighted": 344394.97766,
+    "Color": "(0, 161, 94)"
+  },
+  "E07000073": {
+    "Housing": 273823.5176,
+    "Population": 87067,
+    "Income": 19157,
+    "Name": "Harlow",
+    "weighted": 205957.03232,
+    "Color": "(0, 80, 175)"
+  },
+  "E07000075": {
+    "Housing": 349442.0658,
+    "Population": 87368,
+    "Income": 22986,
+    "Name": "Rochford",
+    "weighted": 261573.32605999996,
+    "Color": "(0, 112, 143)"
+  },
+  "E07000076": {
+    "Housing": 219491.1946,
+    "Population": 146561,
+    "Income": 18513,
+    "Name": "Tendring",
+    "weighted": 168068.54621999996,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000077": {
+    "Housing": 391512.3565,
+    "Population": 91284,
+    "Income": 28090,
+    "Name": "Uttlesford",
+    "weighted": 294634.48955,
+    "Color": "(0, 132, 123)"
+  },
+  "E07000078": {
+    "Housing": 270796.0504,
+    "Population": 116306,
+    "Income": 23197,
+    "Name": "Cheltenham",
+    "weighted": 206958.19527999999,
+    "Color": "(0, 80, 175)"
+  },
+  "E07000080": {
+    "Housing": 240548.6451,
+    "Population": 86791,
+    "Income": 19572,
+    "Name": "Forest of Dean",
+    "weighted": 182952.36156999998,
+    "Color": "(0, 66, 189)"
+  },
+  "E07000061": {
+    "Housing": 243286.9951,
+    "Population": 103745,
+    "Income": 20020,
+    "Name": "Eastbourne",
+    "weighted": 185352.34657,
+    "Color": "(0, 67, 188)"
+  },
+  "E07000063": {
+    "Housing": 326956.5512,
+    "Population": 103268,
+    "Income": 23543,
+    "Name": "Lewes",
+    "weighted": 246382.36583999998,
+    "Color": "(0, 103, 152)"
+  },
+  "E07000037": {
+    "Housing": 195932.8567,
+    "Population": 92666,
+    "Income": 19824,
+    "Name": "High Peak",
+    "weighted": 151956.45969,
+    "Color": "(0, 48, 207)"
+  },
+  "E07000038": {
+    "Housing": 186764.9092,
+    "Population": 101462,
+    "Income": 19094,
+    "Name": "North East Derbyshire",
+    "weighted": 145115.85644,
+    "Color": "(0, 44, 211)"
+  },
+  "E07000039": {
+    "Housing": 193688.8383,
+    "Population": 107261,
+    "Income": 20154,
+    "Name": "South Derbyshire",
+    "weighted": 150762.59681,
+    "Color": "(0, 47, 208)"
+  },
+  "E07000040": {
+    "Housing": 289509.4499,
+    "Population": 146284,
+    "Income": 22078,
+    "Name": "East Devon",
+    "weighted": 219574.05492999998,
+    "Color": "(0, 88, 167)"
+  },
+  "E07000041": {
+    "Housing": 258288.5319,
+    "Population": 131405,
+    "Income": 19005,
+    "Name": "Exeter",
+    "weighted": 195419.52232999998,
+    "Color": "(0, 73, 182)"
+  },
+  "E07000043": {
+    "Housing": 247589.9511,
+    "Population": 97145,
+    "Income": 20105,
+    "Name": "North Devon",
+    "weighted": 188357.91577,
+    "Color": "(0, 69, 186)"
+  },
+  "E07000044": {
+    "Housing": 308230.73,
+    "Population": 87004,
+    "Income": 23927,
+    "Name": "South Hams",
+    "weighted": 233380.45099999997,
+    "Color": "(0, 96, 159)"
+  },
+  "E07000045": {
+    "Housing": 246983.3319,
+    "Population": 134163,
+    "Income": 21009,
+    "Name": "Teignbridge",
+    "weighted": 188936.26232999997,
+    "Color": "(0, 70, 185)"
+  },
+  "E07000046": {
+    "Housing": 233595.0351,
+    "Population": 68267,
+    "Income": 18974,
+    "Name": "Torridge",
+    "weighted": 177480.99457,
+    "Color": "(0, 63, 192)"
+  },
+  "E07000047": {
+    "Housing": 256849.44,
+    "Population": 55796,
+    "Income": 21509,
+    "Name": "West Devon",
+    "weighted": 195408.868,
+    "Color": "(0, 73, 182)"
+  },
+  "E07000136": {
+    "Housing": 155233.0299,
+    "Population": 70173,
+    "Income": 17826,
+    "Name": "Boston",
+    "weighted": 121843.05092999998,
+    "Color": "(0, 30, 225)"
+  },
+  "E07000137": {
+    "Housing": 179688.7085,
+    "Population": 141727,
+    "Income": 17178,
+    "Name": "East Lindsey",
+    "weighted": 139223.96595,
     "Color": "(0, 40, 215)"
+  },
+  "E07000138": {
+    "Housing": 154993.2675,
+    "Population": 99299,
+    "Income": 16874,
+    "Name": "Lincoln",
+    "weighted": 121300.07724999997,
+    "Color": "(0, 30, 225)"
+  },
+  "E07000139": {
+    "Housing": 209885.649,
+    "Population": 116915,
+    "Income": 19912,
+    "Name": "North Kesteven",
+    "weighted": 162027.50429999997,
+    "Color": "(0, 54, 201)"
+  },
+  "E07000140": {
+    "Housing": 189238.1162,
+    "Population": 95019,
+    "Income": 18459,
+    "Name": "South Holland",
+    "weighted": 146338.17133999997,
+    "Color": "(0, 45, 210)"
+  },
+  "E07000142": {
+    "Housing": 169044.2177,
+    "Population": 95667,
+    "Income": 18709,
+    "Name": "West Lindsey",
+    "weighted": 132383.92239,
+    "Color": "(0, 36, 219)"
+  },
+  "E07000110": {
+    "Housing": 289938.4488,
+    "Population": 171826,
+    "Income": 22888,
+    "Name": "Maidstone",
+    "weighted": 220696.77415999997,
+    "Color": "(0, 88, 167)"
+  },
+  "E07000117": {
+    "Housing": 84936.06021,
+    "Population": 88920,
+    "Income": 15409,
+    "Name": "Burnley",
+    "weighted": 71130.74214699998,
+    "Color": "(0, 1, 254)"
+  },
+  "E07000122": {
+    "Housing": 100629.3168,
+    "Population": 92112,
+    "Income": 15985,
+    "Name": "Pendle",
+    "weighted": 82551.14175999998,
+    "Color": "(0, 7, 248)"
+  },
+  "E07000125": {
+    "Housing": 138014.2184,
+    "Population": 71482,
+    "Income": 18078,
+    "Name": "Rossendale",
+    "weighted": 109979.37288,
+    "Color": "(0, 23, 232)"
+  },
+  "E07000106": {
+    "Housing": 301136.3271,
+    "Population": 165394,
+    "Income": 19631,
+    "Name": "Canterbury",
+    "weighted": 226191.06896999996,
+    "Color": "(0, 91, 164)"
+  },
+  "E07000107": {
+    "Housing": 297234.3185,
+    "Population": 112606,
+    "Income": 22459,
+    "Name": "Dartford",
+    "weighted": 224911.38295,
+    "Color": "(0, 91, 164)"
+  },
+  "E07000108": {
+    "Housing": 249141.3779,
+    "Population": 118131,
+    "Income": 19964,
+    "Name": "Dover",
+    "weighted": 189555.07452999998,
+    "Color": "(0, 70, 185)"
+  },
+  "E07000109": {
+    "Housing": 278532.6172,
+    "Population": 106939,
+    "Income": 20665,
+    "Name": "Gravesham",
+    "weighted": 210507.72203999996,
+    "Color": "(0, 82, 173)"
+  },
+  "E07000111": {
+    "Housing": 432829.1207,
+    "Population": 120750,
+    "Income": 31654,
+    "Name": "Sevenoaks",
+    "weighted": 326345.68449,
+    "Color": "(0, 150, 105)"
+  },
+  "E07000112": {
+    "Housing": 256300.7904,
+    "Population": 112996,
+    "Income": 20461,
+    "Name": "Folkestone and Hythe",
+    "weighted": 194863.21328,
+    "Color": "(0, 73, 182)"
+  },
+  "E07000113": {
+    "Housing": 249811.6093,
+    "Population": 150082,
+    "Income": 19753,
+    "Name": "Swale",
+    "weighted": 190196.04651000001,
+    "Color": "(0, 70, 185)"
+  },
+  "E07000114": {
+    "Housing": 236991.0392,
+    "Population": 141922,
+    "Income": 18710,
+    "Name": "Thanet",
+    "weighted": 180409.94744,
+    "Color": "(0, 65, 190)"
+  },
+  "E07000115": {
+    "Housing": 366755.5229,
+    "Population": 132153,
+    "Income": 25249,
+    "Name": "Tonbridge and Malling",
+    "weighted": 275724.69603,
+    "Color": "(0, 120, 135)"
+  },
+  "E07000116": {
+    "Housing": 383412.8421,
+    "Population": 118724,
+    "Income": 28503,
+    "Name": "Tunbridge Wells",
+    "weighted": 289528.32947,
+    "Color": "(0, 129, 126)"
+  },
+  "E07000118": {
+    "Housing": 180459.1949,
+    "Population": 118216,
+    "Income": 19463,
+    "Name": "Chorley",
+    "weighted": 141127.69642999998,
+    "Color": "(0, 42, 213)"
+  },
+  "E07000119": {
+    "Housing": 190037.0686,
+    "Population": 80780,
+    "Income": 21603,
+    "Name": "Fylde",
+    "weighted": 148955.84801999998,
+    "Color": "(0, 46, 209)"
+  },
+  "E07000120": {
+    "Housing": 96668.65509,
+    "Population": 81043,
+    "Income": 15704,
+    "Name": "Hyndburn",
+    "weighted": 79471.288563,
+    "Color": "(0, 5, 250)"
+  },
+  "E07000121": {
+    "Housing": 156283.1124,
+    "Population": 146038,
+    "Income": 17433,
+    "Name": "Lancaster",
+    "weighted": 123061.65868,
+    "Color": "(0, 31, 224)"
+  },
+  "E07000123": {
+    "Housing": 127379.8077,
+    "Population": 143135,
+    "Income": 17133,
+    "Name": "Preston",
+    "weighted": 102590.31538999999,
+    "Color": "(0, 19, 236)"
+  },
+  "E07000087": {
+    "Housing": 293760.4722,
+    "Population": 116233,
+    "Income": 22669,
+    "Name": "Fareham",
+    "weighted": 222662.96054,
+    "Color": "(0, 89, 166)"
+  },
+  "E07000093": {
+    "Housing": 325726.4104,
+    "Population": 126160,
+    "Income": 25872,
+    "Name": "Test Valley",
+    "weighted": 247380.48727999997,
+    "Color": "(0, 104, 151)"
+  },
+  "E07000099": {
+    "Housing": 337493.6698,
+    "Population": 133570,
+    "Income": 25826,
+    "Name": "North Hertfordshire",
+    "weighted": 255659.46885999996,
+    "Color": "(0, 109, 146)"
+  },
+  "E07000105": {
+    "Housing": 295051.1739,
+    "Population": 130032,
+    "Income": 21967,
+    "Name": "Ashford",
+    "weighted": 223213.04173,
+    "Color": "(0, 90, 165)"
+  },
+  "E07000082": {
+    "Housing": 279877.6828,
+    "Population": 119964,
+    "Income": 23588,
+    "Name": "Stroud",
+    "weighted": 213625.61795999997,
+    "Color": "(0, 84, 171)"
+  },
+  "E07000083": {
+    "Housing": 275232.6376,
+    "Population": 95019,
+    "Income": 21669,
+    "Name": "Tewkesbury",
+    "weighted": 208781.33632,
+    "Color": "(0, 81, 174)"
+  },
+  "E07000084": {
+    "Housing": 301641.2379,
+    "Population": 176582,
+    "Income": 25458,
+    "Name": "Basingstoke and Deane",
+    "weighted": 230735.28652999998,
+    "Color": "(0, 94, 161)"
+  },
+  "E07000085": {
+    "Housing": 366488.5819,
+    "Population": 122308,
+    "Income": 28337,
+    "Name": "East Hampshire",
+    "weighted": 277600.98733,
+    "Color": "(0, 122, 133)"
+  },
+  "E07000086": {
+    "Housing": 282451.8225,
+    "Population": 133584,
+    "Income": 22722,
+    "Name": "Eastleigh",
+    "weighted": 214957.51575,
+    "Color": "(0, 85, 170)"
+  },
+  "E07000088": {
+    "Housing": 210673.2957,
+    "Population": 84838,
+    "Income": 18711,
+    "Name": "Gosport",
+    "weighted": 161417.38698999997,
+    "Color": "(0, 53, 202)"
+  },
+  "E07000089": {
+    "Housing": 406364.6138,
+    "Population": 97073,
+    "Income": 29293,
+    "Name": "Hart",
+    "weighted": 305931.05965999997,
+    "Color": "(0, 138, 117)"
+  },
+  "E07000090": {
+    "Housing": 264257.7219,
+    "Population": 126220,
+    "Income": 20700,
+    "Name": "Havant",
+    "weighted": 200732.60533,
+    "Color": "(0, 76, 179)"
+  },
+  "E07000091": {
+    "Housing": 335120.2065,
+    "Population": 180086,
+    "Income": 24778,
+    "Name": "New Forest",
+    "weighted": 253729.60454999996,
+    "Color": "(0, 108, 147)"
+  },
+  "E07000092": {
+    "Housing": 281591.3284,
+    "Population": 94599,
+    "Income": 22215,
+    "Name": "Rushmoor",
+    "weighted": 213610.41987999997,
+    "Color": "(0, 84, 171)"
+  },
+  "E07000094": {
+    "Housing": 411570.9059,
+    "Population": 124859,
+    "Income": 28611,
+    "Name": "Winchester",
+    "weighted": 309375.92412999994,
+    "Color": "(0, 140, 115)"
+  },
+  "E07000095": {
+    "Housing": 351847.5251,
+    "Population": 97279,
+    "Income": 23109,
+    "Name": "Broxbourne",
+    "weighted": 263442.35757,
+    "Color": "(0, 113, 142)"
+  },
+  "E07000096": {
+    "Housing": 399291.6728,
+    "Population": 154763,
+    "Income": 26318,
+    "Name": "Dacorum",
+    "weighted": 299474.40095999994,
+    "Color": "(0, 134, 121)"
+  },
+  "E07000098": {
+    "Housing": 462457.1866,
+    "Population": 104919,
+    "Income": 30046,
+    "Name": "Hertsmere",
+    "weighted": 345801.42062,
+    "Color": "(0, 162, 93)"
+  },
+  "E07000102": {
+    "Housing": 514591.027,
+    "Population": 93323,
+    "Income": 29712,
+    "Name": "Three Rivers",
+    "weighted": 381945.3489,
+    "Color": "(0, 183, 72)"
+  },
+  "E07000103": {
+    "Housing": 347012.5441,
+    "Population": 96577,
+    "Income": 24163,
+    "Name": "Watford",
+    "weighted": 260788.65086999998,
+    "Color": "(0, 112, 143)"
+  },
+  "E07000236": {
+    "Housing": 209475.4498,
+    "Population": 85261,
+    "Income": 21187,
+    "Name": "Redditch",
+    "weighted": 162316.32486,
+    "Color": "(0, 54, 201)"
+  },
+  "E07000241": {
+    "Housing": 391313.1532,
+    "Population": 123043,
+    "Income": 22895,
+    "Name": "Welwyn Hatfield",
+    "weighted": 291176.13723999995,
+    "Color": "(0, 130, 125)"
+  },
+  "E07000143": {
+    "Housing": 223764.109,
+    "Population": 139968,
+    "Income": 18462,
+    "Name": "Breckland",
+    "weighted": 170957.95629999996,
+    "Color": "(0, 59, 196)"
+  },
+  "E07000144": {
+    "Housing": 262291.031,
+    "Population": 130783,
+    "Income": 21073,
+    "Name": "Broadland",
+    "weighted": 199662.6517,
+    "Color": "(0, 76, 179)"
+  },
+  "E07000146": {
+    "Housing": 217699.8233,
+    "Population": 151383,
+    "Income": 19572,
+    "Name": "King's Lynn and West Norfolk",
+    "weighted": 167604.10631,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000147": {
+    "Housing": 255655.07,
+    "Population": 104837,
+    "Income": 20466,
+    "Name": "North Norfolk",
+    "weighted": 194333.119,
+    "Color": "(0, 73, 182)"
+  },
+  "E07000148": {
+    "Housing": 204456.5833,
+    "Population": 140573,
+    "Income": 17170,
+    "Name": "Norwich",
+    "weighted": 156544.33831,
+    "Color": "(0, 51, 204)"
+  },
+  "E07000163": {
+    "Housing": 215741.5695,
+    "Population": 57142,
+    "Income": 22181,
+    "Name": "Craven",
+    "weighted": 167117.21865,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000164": {
+    "Housing": 231805.773,
+    "Population": 91594,
+    "Income": 23487,
+    "Name": "Hambleton",
+    "weighted": 179620.88109999997,
+    "Color": "(0, 64, 191)"
+  },
+  "E07000165": {
+    "Housing": 284710.4802,
+    "Population": 160831,
+    "Income": 26868,
+    "Name": "Harrogate",
+    "weighted": 219713.24613999997,
+    "Color": "(0, 88, 167)"
+  },
+  "E07000167": {
+    "Housing": 236199.6474,
+    "Population": 55380,
+    "Income": 22044,
+    "Name": "Ryedale",
+    "weighted": 181324.35317999998,
+    "Color": "(0, 65, 190)"
+  },
+  "E07000130": {
+    "Housing": 223647.2995,
+    "Population": 185851,
+    "Income": 18275,
+    "Name": "Charnwood",
+    "weighted": 171204.11965,
+    "Color": "(0, 59, 196)"
+  },
+  "E07000135": {
+    "Housing": 220447.4051,
+    "Population": 57015,
+    "Income": 18629,
+    "Name": "Oadby and Wigston",
+    "weighted": 167923.63357,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000141": {
+    "Housing": 216196.957,
+    "Population": 142424,
+    "Income": 21522,
+    "Name": "South Kesteven",
+    "weighted": 167827.5099,
+    "Color": "(0, 57, 198)"
+  },
+  "E07000124": {
+    "Housing": 215592.3066,
+    "Population": 60888,
+    "Income": 24493,
+    "Name": "Ribble Valley",
+    "weighted": 168668.59462000002,
+    "Color": "(0, 58, 197)"
+  },
+  "E07000126": {
+    "Housing": 169240.0172,
+    "Population": 110788,
+    "Income": 19528,
+    "Name": "South Ribble",
+    "weighted": 133245.49203999998,
+    "Color": "(0, 37, 218)"
+  },
+  "E07000127": {
+    "Housing": 186886.6982,
+    "Population": 114306,
+    "Income": 20004,
+    "Name": "West Lancashire",
+    "weighted": 145966.54874,
+    "Color": "(0, 44, 211)"
+  },
+  "E07000128": {
+    "Housing": 151267.5845,
+    "Population": 112091,
+    "Income": 18459,
+    "Name": "Wyre",
+    "weighted": 119929.51914999998,
+    "Color": "(0, 29, 226)"
+  },
+  "E07000129": {
+    "Housing": 229537.2559,
+    "Population": 101526,
+    "Income": 19145,
+    "Name": "Blaby",
+    "weighted": 175092.83912999998,
+    "Color": "(0, 61, 194)"
+  },
+  "E07000131": {
+    "Housing": 293602.6336,
+    "Population": 93807,
+    "Income": 24246,
+    "Name": "Harborough",
+    "weighted": 223432.11351999998,
+    "Color": "(0, 90, 165)"
+  },
+  "E07000132": {
+    "Housing": 221256.3415,
+    "Population": 113136,
+    "Income": 19841,
+    "Name": "Hinckley and Bosworth",
+    "weighted": 169899.49904999998,
+    "Color": "(0, 58, 197)"
+  },
+  "E07000133": {
+    "Housing": 226459.4892,
+    "Population": 51209,
+    "Income": 21473,
+    "Name": "Melton",
+    "weighted": 174064.83244,
+    "Color": "(0, 61, 194)"
+  },
+  "E07000134": {
+    "Housing": 207759.6006,
+    "Population": 103611,
+    "Income": 19644,
+    "Name": "North West Leicestershire",
+    "weighted": 160218.63042,
+    "Color": "(0, 53, 202)"
+  },
+  "W06000014": {
+    "Housing": 228398.676,
+    "Population": 133587,
+    "Income": 19987,
+    "Name": "Vale of Glamorgan",
+    "weighted": 175205.84319999997,
+    "Color": "(0, 62, 193)"
+  },
+  "W06000015": {
+    "Housing": 210250.2053,
+    "Population": 366903,
+    "Income": 17431,
+    "Name": "Cardiff",
+    "weighted": 163045.87371,
+    "Color": "(0, 54, 201)"
+  },
+  "W06000019": {
+    "Housing": 93045.76732,
+    "Population": 69862,
+    "Income": 14630,
+    "Name": "Blaenau Gwent",
+    "weighted": 76071.65712399999,
+    "Color": "(0, 3, 252)"
+  },
+  "W06000020": {
+    "Housing": 148184.761,
+    "Population": 93961,
+    "Income": 16505,
+    "Name": "Torfaen",
+    "weighted": 116222.4427,
+    "Color": "(0, 27, 228)"
+  },
+  "W06000021": {
+    "Housing": 273209.0341,
+    "Population": 94590,
+    "Income": 21392,
+    "Name": "Monmouthshire",
+    "weighted": 207166.62386999998,
+    "Color": "(0, 80, 175)"
+  },
+  "W06000022": {
+    "Housing": 184096.2085,
+    "Population": 154676,
+    "Income": 17977,
+    "Name": "Newport",
+    "weighted": 142998.00595,
+    "Color": "(0, 43, 212)"
+  },
+  "W06000023": {
+    "Housing": 186685.5798,
+    "Population": 132435,
+    "Income": 18287,
+    "Name": "Powys",
+    "weighted": 144805.15586,
+    "Color": "(0, 44, 211)"
+  },
+  "W06000001": {
+    "Housing": 176890.2767,
+    "Population": 70043,
+    "Income": 17529,
+    "Name": "Isle of Anglesey",
+    "weighted": 136793.92369,
+    "Color": "(0, 39, 216)"
+  },
+  "W06000005": {
+    "Housing": 169483.3821,
+    "Population": 156100,
+    "Income": 18722,
+    "Name": "Flintshire",
+    "weighted": 133304.76747,
+    "Color": "(0, 37, 218)"
+  },
+  "W06000012": {
+    "Housing": 119141.6054,
+    "Population": 143315,
+    "Income": 16442,
+    "Name": "Neath Port Talbot",
+    "weighted": 96341.67378,
+    "Color": "(0, 15, 240)"
+  },
+  "W06000018": {
+    "Housing": 138299.2569,
+    "Population": 181075,
+    "Income": 15992,
+    "Name": "Caerphilly",
+    "weighted": 109814.62982999999,
+    "Color": "(0, 23, 232)"
+  },
+  "W06000024": {
+    "Housing": 107890.6521,
+    "Population": 60326,
+    "Income": 15592,
+    "Name": "Merthyr Tydfil",
+    "weighted": 87041.11647000001,
+    "Color": "(0, 10, 245)"
+  },
+  "E06000007": {
+    "Housing": 193896.1844,
+    "Population": 210014,
+    "Income": 20946,
+    "Name": "Warrington",
+    "weighted": 152489.66908,
+    "Color": "(0, 48, 207)"
+  },
+  "E06000013": {
+    "Housing": 146411.2633,
+    "Population": 172292,
+    "Income": 17218,
+    "Name": "North Lincolnshire",
+    "weighted": 116263.40431,
+    "Color": "(0, 27, 228)"
+  },
+  "E06000018": {
+    "Housing": 144284.2182,
+    "Population": 332900,
+    "Income": 13381,
+    "Name": "Nottingham",
+    "weighted": 113694.65273999999,
+    "Color": "(0, 25, 230)"
+  },
+  "E06000020": {
+    "Housing": 167254.7823,
+    "Population": 179854,
+    "Income": 17250,
+    "Name": "Telford and Wrekin",
+    "weighted": 130951.88760999998,
+    "Color": "(0, 36, 219)"
+  },
+  "E06000001": {
+    "Housing": 108739.0584,
+    "Population": 93663,
+    "Income": 15962,
+    "Name": "Hartlepool",
+    "weighted": 88227.37087999999,
+    "Color": "(0, 11, 244)"
+  },
+  "E06000004": {
+    "Housing": 135678.3997,
+    "Population": 197348,
+    "Income": 17519,
+    "Name": "Stockton-on-Tees",
+    "weighted": 109211.65979,
+    "Color": "(0, 23, 232)"
+  },
+  "E06000005": {
+    "Housing": 130085.8847,
+    "Population": 106803,
+    "Income": 17391,
+    "Name": "Darlington",
+    "weighted": 104301.84928999998,
+    "Color": "(0, 20, 235)"
+  },
+  "E06000006": {
+    "Housing": 143477.7195,
+    "Population": 129410,
+    "Income": 17907,
+    "Name": "Halton",
+    "weighted": 114263.40365,
+    "Color": "(0, 26, 229)"
+  },
+  "E06000008": {
+    "Housing": 115128.7345,
+    "Population": 149696,
+    "Income": 14484,
+    "Name": "Blackburn with Darwen",
+    "weighted": 92225.87414999999,
+    "Color": "(0, 13, 242)"
+  },
+  "E06000009": {
+    "Housing": 105993.3009,
+    "Population": 139446,
+    "Income": 16276,
+    "Name": "Blackpool",
+    "weighted": 86982.97063,
+    "Color": "(0, 10, 245)"
+  },
+  "E06000010": {
+    "Housing": 113060.5048,
+    "Population": 259778,
+    "Income": 14908,
+    "Name": "Kingston upon Hull, City of",
+    "weighted": 92175.73336,
+    "Color": "(0, 13, 242)"
+  },
+  "E06000011": {
+    "Housing": 179831.0404,
+    "Population": 341173,
+    "Income": 20516,
+    "Name": "East Riding of Yorkshire",
+    "weighted": 143654.65828,
+    "Color": "(0, 43, 212)"
+  },
+  "E06000012": {
+    "Housing": 123210.3784,
+    "Population": 159563,
+    "Income": 16569,
+    "Name": "North East Lincolnshire",
+    "weighted": 99441.19488,
+    "Color": "(0, 17, 238)"
+  },
+  "E06000014": {
+    "Housing": 255724.1442,
+    "Population": 210618,
+    "Income": 20216,
+    "Name": "York",
+    "weighted": 195264.28094,
+    "Color": "(0, 73, 182)"
+  },
+  "E06000015": {
+    "Housing": 160702.9726,
+    "Population": 257302,
+    "Income": 16793,
+    "Name": "Derby",
+    "weighted": 126820.20082,
+    "Color": "(0, 33, 222)"
+  },
+  "E06000016": {
+    "Housing": 175232.6659,
+    "Population": 354224,
+    "Income": 13802,
+    "Name": "Leicester",
+    "weighted": 135866.50613,
+    "Color": "(0, 38, 217)"
+  },
+  "E06000017": {
+    "Housing": 307199.8691,
+    "Population": 39927,
+    "Income": 24707,
+    "Name": "Rutland",
+    "weighted": 232734.07837,
+    "Color": "(0, 95, 160)"
+  },
+  "E06000019": {
+    "Housing": 237128.7035,
+    "Population": 192801,
+    "Income": 20631,
+    "Name": "Herefordshire, County of",
+    "weighted": 182359.80245,
+    "Color": "(0, 66, 189)"
+  },
+  "E06000044": {
+    "Housing": 211374.0835,
+    "Population": 214905,
+    "Income": 17028,
+    "Name": "Portsmouth",
+    "weighted": 162030.50845,
+    "Color": "(0, 54, 201)"
+  },
+  "E06000045": {
+    "Housing": 208058.8076,
+    "Population": 252520,
+    "Income": 17529,
+    "Name": "Southampton",
+    "weighted": 160436.66532,
+    "Color": "(0, 53, 202)"
+  },
+  "E06000046": {
+    "Housing": 219869.2029,
+    "Population": 141771,
+    "Income": 19211,
+    "Name": "Isle of Wight",
+    "weighted": 168773.85203,
+    "Color": "(0, 58, 197)"
+  },
+  "E06000047": {
+    "Housing": 102350.2888,
+    "Population": 530094,
+    "Income": 16617,
+    "Name": "County Durham",
+    "weighted": 88578.04215999998,
+    "Color": "(0, 11, 244)"
+  },
+  "E06000050": {
+    "Housing": 206018.8247,
+    "Population": 343071,
+    "Income": 22301,
+    "Name": "Cheshire West and Chester",
+    "weighted": 163254.58729,
+    "Color": "(0, 55, 200)"
+  },
+  "E06000051": {
+    "Housing": 214801.0943,
+    "Population": 323136,
+    "Income": 20732,
+    "Name": "Shropshire",
+    "weighted": 168104.52601,
+    "Color": "(0, 57, 198)"
+  },
+  "E06000052": {
+    "Housing": 233997.8423,
+    "Population": 569578,
+    "Income": 18846,
+    "Name": "Cornwall",
+    "weighted": 182686.46961,
+    "Color": "(0, 66, 189)"
+  },
+  "E06000054": {
+    "Housing": 273729.3904,
+    "Population": 500024,
+    "Income": 23179,
+    "Name": "Wiltshire",
+    "weighted": 212836.11328,
+    "Color": "(0, 84, 171)"
+  },
+  "E06000056": {
+    "Housing": 304323.1733,
+    "Population": 288648,
+    "Income": 22419,
+    "Name": "Central Bedfordshire",
+    "weighted": 231606.00131,
+    "Color": "(0, 95, 160)"
+  },
+  "E06000057": {
+    "Housing": 152304.7254,
+    "Population": 322434,
+    "Income": 20216,
+    "Name": "Northumberland",
+    "weighted": 123988.84777999998,
+    "Color": "(0, 31, 224)"
+  },
+  "E06000026": {
+    "Housing": 177043.8075,
+    "Population": 262100,
+    "Income": 17343,
+    "Name": "Plymouth",
+    "weighted": 138691.76525,
+    "Color": "(0, 40, 215)"
+  },
+  "E06000037": {
+    "Housing": 351255.0897,
+    "Population": 158450,
+    "Income": 26714,
+    "Name": "West Berkshire",
+    "weighted": 266162.86279,
+    "Color": "(0, 115, 140)"
+  },
+  "E06000042": {
+    "Housing": 258508.0643,
+    "Population": 269457,
+    "Income": 22116,
+    "Name": "Milton Keynes",
+    "weighted": 199131.41500999997,
+    "Color": "(0, 76, 179)"
+  },
+  "E06000021": {
+    "Housing": 112145.6088,
+    "Population": 256375,
+    "Income": 15455,
+    "Name": "Stoke-on-Trent",
+    "weighted": 91884.17616,
+    "Color": "(0, 13, 242)"
+  },
+  "E06000022": {
+    "Housing": 337049.8951,
+    "Population": 193282,
+    "Income": 23515,
+    "Name": "Bath and North East Somerset",
+    "weighted": 254328.24657000002,
+    "Color": "(0, 108, 147)"
+  },
+  "E06000023": {
+    "Housing": 280436.6009,
+    "Population": 463377,
+    "Income": 20249,
+    "Name": "Bristol, City of",
+    "weighted": 215113.69063,
+    "Color": "(0, 85, 170)"
+  },
+  "E06000024": {
+    "Housing": 264775.9129,
+    "Population": 215052,
+    "Income": 22878,
+    "Name": "North Somerset",
+    "weighted": 203508.25903,
+    "Color": "(0, 78, 177)"
+  },
+  "E06000025": {
+    "Housing": 278245.2026,
+    "Population": 285093,
+    "Income": 22900,
+    "Name": "South Gloucestershire",
+    "weighted": 213652.57181999998,
+    "Color": "(0, 84, 171)"
+  },
+  "E06000027": {
+    "Housing": 197793.7858,
+    "Population": 136264,
+    "Income": 18698,
+    "Name": "Torbay",
+    "weighted": 152906.89005999998,
+    "Color": "(0, 48, 207)"
+  },
+  "E06000030": {
+    "Housing": 214333.5281,
+    "Population": 222193,
+    "Income": 20516,
+    "Name": "Swindon",
+    "weighted": 166616.59967,
+    "Color": "(0, 56, 199)"
+  },
+  "E06000031": {
+    "Housing": 194513.1313,
+    "Population": 202259,
+    "Income": 18124,
+    "Name": "Peterborough",
+    "weighted": 150868.58191,
+    "Color": "(0, 47, 208)"
+  },
+  "E06000032": {
+    "Housing": 235378.6065,
+    "Population": 213052,
+    "Income": 16873,
+    "Name": "Luton",
+    "weighted": 178706.64454999997,
+    "Color": "(0, 64, 191)"
+  },
+  "E06000033": {
+    "Housing": 285439.942,
+    "Population": 183125,
+    "Income": 21187,
+    "Name": "Southend-on-Sea",
+    "weighted": 216470.10939999996,
+    "Color": "(0, 86, 169)"
+  },
+  "E06000034": {
+    "Housing": 267574.0462,
+    "Population": 174341,
+    "Income": 19951,
+    "Name": "Thurrock",
+    "weighted": 203010.94233999995,
+    "Color": "(0, 78, 177)"
+  },
+  "E06000035": {
+    "Housing": 242796.3218,
+    "Population": 278556,
+    "Income": 19814,
+    "Name": "Medway",
+    "weighted": 186612.78525999998,
+    "Color": "(0, 68, 187)"
+  },
+  "E06000036": {
+    "Housing": 334743.3042,
+    "Population": 122549,
+    "Income": 23892,
+    "Name": "Bracknell Forest",
+    "weighted": 252270.20294,
+    "Color": "(0, 107, 148)"
+  },
+  "E06000038": {
+    "Housing": 293658.9357,
+    "Population": 161780,
+    "Income": 23203,
+    "Name": "Reading",
+    "weighted": 223421.15498999995,
+    "Color": "(0, 90, 165)"
+  },
+  "E06000002": {
+    "Housing": 112611.6416,
+    "Population": 140980,
+    "Income": 15835,
+    "Name": "Middlesbrough",
+    "weighted": 91322.44912,
+    "Color": "(0, 12, 243)"
+  },
+  "E06000003": {
+    "Housing": 119806.8622,
+    "Population": 137150,
+    "Income": 16882,
+    "Name": "Redcar and Cleveland",
+    "weighted": 97053.70353999999,
+    "Color": "(0, 16, 239)"
+  },
+  "E06000049": {
+    "Housing": 228157.4605,
+    "Population": 384152,
+    "Income": 25486,
+    "Name": "Cheshire East",
+    "weighted": 181391.94234999997,
+    "Color": "(0, 65, 190)"
+  },
+  "E06000055": {
+    "Housing": 287393.4834,
+    "Population": 173292,
+    "Income": 22321,
+    "Name": "Bedford",
+    "weighted": 218533.05838,
+    "Color": "(0, 87, 168)"
+  },
+  "E06000039": {
+    "Housing": 296955.853,
+    "Population": 149539,
+    "Income": 19469,
+    "Name": "Slough",
+    "weighted": 222992.7871,
+    "Color": "(0, 90, 165)"
+  },
+  "E06000040": {
+    "Housing": 472825.8184,
+    "Population": 151422,
+    "Income": 31975,
+    "Name": "Windsor and Maidenhead",
+    "weighted": 354874.79287999996,
+    "Color": "(0, 167, 88)"
+  },
+  "E06000041": {
+    "Housing": 406089.1079,
+    "Population": 171119,
+    "Income": 29443,
+    "Name": "Wokingham",
+    "weighted": 306583.66552999994,
+    "Color": "(0, 139, 116)"
+  },
+  "E06000043": {
+    "Housing": 364492.8287,
+    "Population": 290885,
+    "Income": 23142,
+    "Name": "Brighton and Hove",
+    "weighted": 274253.23008999997,
+    "Color": "(0, 120, 135)"
+  },
+  "W06000002": {
+    "Housing": 159634.1175,
+    "Population": 124560,
+    "Income": 15941,
+    "Name": "Gwynedd",
+    "weighted": 124148.18225,
+    "Color": "(0, 32, 223)"
+  },
+  "W06000003": {
+    "Housing": 168635.7313,
+    "Population": 117203,
+    "Income": 18189,
+    "Name": "Conwy",
+    "weighted": 131949.34191,
+    "Color": "(0, 36, 219)"
+  },
+  "W06000004": {
+    "Housing": 155914.7402,
+    "Population": 95696,
+    "Income": 17901,
+    "Name": "Denbighshire",
+    "weighted": 122627.97813999999,
+    "Color": "(0, 31, 224)"
+  },
+  "W06000006": {
+    "Housing": 157903.236,
+    "Population": 135957,
+    "Income": 17785,
+    "Name": "Wrexham",
+    "weighted": 124341.3352,
+    "Color": "(0, 32, 223)"
+  },
+  "W06000008": {
+    "Housing": 185083.003,
+    "Population": 72695,
+    "Income": 17065,
+    "Name": "Ceredigion",
+    "weighted": 142230.5521,
+    "Color": "(0, 42, 213)"
+  },
+  "W06000009": {
+    "Housing": 176297.8949,
+    "Population": 125818,
+    "Income": 17207,
+    "Name": "Pembrokeshire",
+    "weighted": 136711.60642999999,
+    "Color": "(0, 39, 216)"
+  },
+  "W06000010": {
+    "Housing": 148102.9115,
+    "Population": 188771,
+    "Income": 16928,
+    "Name": "Carmarthenshire",
+    "weighted": 117409.34804999999,
+    "Color": "(0, 28, 227)"
+  },
+  "W06000011": {
+    "Housing": 149330.8904,
+    "Population": 246993,
+    "Income": 16262,
+    "Name": "Swansea",
+    "weighted": 118384.95328,
+    "Color": "(0, 28, 227)"
+  },
+  "W06000013": {
+    "Housing": 154621.4849,
+    "Population": 147049,
+    "Income": 17047,
+    "Name": "Bridgend",
+    "weighted": 121638.42943,
+    "Color": "(0, 30, 225)"
   }
 }

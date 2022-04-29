@@ -168,9 +168,10 @@
                         .attr('id', (d) => d.id)
                         .attr("d", path)
                         .on("click", function (d, i) {
-                            document.getElementById("region_name").innerHTML = d.id;
+                            document.getElementById("region_name").innerHTML = m[d.id] && m[d.id]["Name"];
                             document.getElementById("region_pop").innerHTML = m[d.id] && m[d.id]["Population"];
                             document.getElementById("region_income").innerHTML = m[d.id] && m[d.id]["Income"];
+                            document.getElementById("region_housing").innerHTML = m[d.id] && m[d.id]["Housing"];
                         });
                 });
         }
@@ -198,7 +199,7 @@
     loadData(d3.json, "joint.json")
         .then(joint => {
             return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
-                .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05));
+                .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05));
         })
         .then(() => loadData(d3.csv, 'michellinData.csv'))
         .then(data => {
