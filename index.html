@@ -41,7 +41,7 @@
             color: #FFFDFD;
         }
 
-        h1, h2, p {
+        h1, h2, p th tr {
             font-family: 'Roboto', sans-serif;
         }
 
@@ -49,7 +49,6 @@
             font-size: 13px;
             color: #2D2D2D;
             text-align: center;
-
         }
 
         .selection_info {
@@ -77,6 +76,8 @@
 
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-path@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-shape@3"></script>
 </head>
 <body>
 
@@ -99,9 +100,9 @@
             <th>Housing</th>
         </tr>
         <tr>
-            <td><b id ="region_pop" ><i>##</i></b></td>
-            <td><b id = "region_income"><i>##</i></b></td>
-            <td><b><i>##</i></b></td>
+            <td id="region_pop"><b><i>##</i></b></td>
+            <td id="region_income"><b><i>##</i></b></td>
+            <td id="region_housing"><b><i>##</i></b></td>
         </tr>
     </table>
     <br>
@@ -130,81 +131,92 @@
     let zoom = d3.behavior.zoom()
         .on("zoom", function () {
             svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
-            svg.selectAll("circle").attr("r", d => 2 * d.rating / zoom.scale());
+            svg.selectAll(".star").attr("transform", function (d) {
+                return "translate(" + projection([d.lng, d.lat]) + ")" +
+                    " scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
+            });
         });
 
     let svg = d3.select("#canvas")
         .call(zoom)
         .append("g");
 
-    function componentToHex(c) {
-        var hex = c.toString(16);
-        return hex.length == 1 ? "0" + hex : hex;
-    }
-
-    function rgbToHex(R) {
-        l = R.Color.match(/\d+/g).map(Number)
-        console.log(l[0])
-        return "#" + componentToHex(l[0]) + componentToHex(l[1]) + componentToHex(l[2]);
-    }
-
-    function renderMap(maps, callback) {
-      const currentMap = maps.pop();
-      const colors = ["#AFE1AF", "#7DF9FF", "#90EE90", "#ECFFDC"];
-      const mapName = currentMap.split(".")[0];
-
-      d3.json(currentMap, function (error, data) {
-        const subunits = topojson.feature(data, data.objects.lad || data.objects.lgd);
-        console.log("Rendering " + currentMap);
-
-        d3.json('joint.json', function (error2, m) {
-          if (error2) return console.error(error2);
-          console.log(m["E06000001"].Color)
-
-          svg.selectAll(".subunit_" + mapName)
-            .data(subunits.features)
-            .enter().append("path")
-            .attr('id', (d) => d.id)
-            .attr("class", (d) => "subunit " + d.id)
-            .attr("fill", function (d) {
-              try { return rgbToHex(m[d.id]) }
-              catch { return "white" }
-            })
-            .attr("d", path)
-            .on("click", function (d, i) {
-              document.getElementById("region_name").innerHTML = `Region ID: ${m[d.id]["Name"]}`;
-              document.getElementById("region_pop").innerHTML = `Population: ${m[d.id]["Population"]}`;
-              document.getElementById("region_income").innerHTML = `Income: ${m[d.id]["Income"]}`;
+    /// Converts a D3 file load into a promise
+    function loadData(loader, file) {
+        return new Promise((resolve, reject) => {
+            loader(file, (err, data) => {
+                if (err) reject(err);
+                else resolve(data);
             });
-
-
-          if (maps.length === 0) {
-            callback();
-          } else {
-            renderMap(maps, callback);
-          }
         });
-      })
     }
 
-    renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], function () {
-        let michelin;
-        d3.csv('michellinData.csv', function (error2, m) {
-            if (error2) return console.error(error2);
-            console.log(m)
+    function renderMap(maps, m) {
+        let promise = new Promise(x => x());
 
-            svg.selectAll("circles.points")
-                .data(m)
-                .enter()
-                .append("circle")
-                .attr("fill", "black")
-                .attr("r", d => 2 * d.rating / zoom.scale())
-                .attr("transform", function (d) {
-                    return "translate(" + projection([d.lng, d.lat]) + ")"
-                })
+        for (const currentMap of maps) {
+            promise = promise
+                .then(() => loadData(d3.json, currentMap))
+                .then(data => {
+                    const subunits = topojson.feature(data, data.objects.lad || data.objects.lgd);
+                    console.log("Rendering " + currentMap);
+
+                    svg.selectAll(".subunit_" + currentMap.split(".")[0])
+                        .data(subunits.features)
+                        .enter().append("path")
+                        .attr("class", "map_region subunit_" + currentMap.split(".")[0])
+                        .attr('id', (d) => d.id)
+                        .attr("d", path)
+                        .on("click", function (d, i) {
+                            document.getElementById("region_name").innerHTML = d.id;
+                            document.getElementById("region_pop").innerHTML = m[d.id] && m[d.id]["Population"];
+                            document.getElementById("region_income").innerHTML = m[d.id] && m[d.id]["Income"];
+                        });
+                });
+        }
+
+        return promise;
+    }
+
+    function applyColorScheme(fn, clip=0.0) {
+        const validValues = svg.selectAll(".map_region").data().map(fn).filter(x => x !== undefined);
+
+        // Clip off the extremes to give more variation in output
+        validValues.sort((a, b) => a - b);
+        const clipped = Math.floor(validValues.length * clip);
+        const extent = [validValues[clipped], validValues[validValues.length - clipped - 1]];
+
+        const color = d3.scale.linear().domain(extent).range(["#AABBCC", "#003355"]);
+        svg.selectAll(".map_region").attr("fill", x => {
+            const mapped = fn(x);
+            if (mapped === undefined) return "#888888";
+            else return color(mapped);
+        });
+    }
+
+
+    loadData(d3.json, "joint.json")
+        .then(joint => {
+            return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
+                .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05));
         })
-    });
+        .then(() => loadData(d3.csv, 'michellinData.csv'))
+        .then(data => {
+            let star = d3.path();
+            d3.symbolStar.draw(star, 2);
 
+            svg.selectAll("points")
+                .data(data)
+                .enter()
+                .append("path")
+                .attr("class", "star")
+                .attr("stroke", "#FFD700")
+                .attr("d", star)
+                .attr("transform", function (d) {
+                    return "translate(" + projection([d.lng, d.lat]) + ")" +
+                    "scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
+                });
+        });
 </script>
 </body>
 </html>
