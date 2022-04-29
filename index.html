@@ -172,7 +172,7 @@
             })
             .attr("d", path)
             .on("click", function (d, i) {
-              document.getElementById("region_name").innerHTML = `Region ID: ${d.id}`;
+              document.getElementById("region_name").innerHTML = `Region ID: ${m[d.id]["Name"]}`;
               document.getElementById("region_pop").innerHTML = `Population: ${m[d.id]["Population"]}`;
               document.getElementById("region_income").innerHTML = `Income: ${m[d.id]["Income"]}`;
             });

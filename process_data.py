@@ -11,8 +11,8 @@ df_population = pd.read_csv("PopulationStd.csv",decimal=".")
 
 Housing = df[["Local authority code ","2019"]]
 Housing.columns = ["Code","Housing"]
-Income = df_income[["AREACD","2019"]]
-Income.columns = ["Code","Income"]
+Income = df_income[["AREACD","2019","AREANM"]]
+Income.columns = ["Code","Income","Name"]
 Pop = df_population[["Area Code","2019"]]
 Pop.columns = ["Code","Population"]
 Pop["Population"] = Pop['Population'].replace(',','', regex=True)
@@ -25,9 +25,6 @@ print(Pop["Population"].min())
 def calculate_constant(pop,income):
     print(income)
     return pop/100 + income*0.3
-
-
-
 
 def rgb(value, minimum=10939, maximum=61324):
     minimum, maximum = float(minimum), float(maximum)
