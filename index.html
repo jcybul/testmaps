@@ -136,8 +136,12 @@
             svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
             svg.selectAll(".star").attr("transform", function (d) {
                 return "translate(" + projection([d.lng, d.lat]) + ")" +
-                    " scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
-            });
+                    " scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
+            })
+            svg.selectAll(".starText").attr("transform", function (d) {
+                return "translate(" + projection([d.lng, d.lat]) + ")" +
+                    " scale(" + (Math.sqrt(0.4 * d.rating) / zoom.scale()) + ")"
+            })
         });
 
     let svg = d3.select("#canvas")
@@ -201,27 +205,65 @@
     }
 
 
+    // loadData(d3.json, "joint.json")
+    //     .then(joint => {
+    //         return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
+    //             .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05));
+    //     })
+    //     .then(() => loadData(d3.csv, 'michellinData.csv'))
+    //     .then(data => {
+    //         let star = d3.path();
+    //         d3.symbolStar.draw(star, 2);
+
+    //         svg.selectAll("points")
+    //             .data(data)
+    //             .enter()
+    //             .append("path")
+    //             .attr("class", "star")
+    //             .attr("stroke", "#FFD700")
+    //             .attr("d", star)
+    //             .attr('id', (d) => d.name)
+    //             .attr("transform", function (d) {
+    //                 return "translate(" + projection([d.lng, d.lat]) + ")" +
+    //                 "scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
+    //             });
+    //     });
     loadData(d3.json, "joint.json")
         .then(joint => {
             return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
                 .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05));
         })
+
         .then(() => loadData(d3.csv, 'michellinData.csv'))
         .then(data => {
             let star = d3.path();
             d3.symbolStar.draw(star, 2);
 
-            svg.selectAll("points")
-                .data(data)
-                .enter()
-                .append("path")
+            var elem = svg.selectAll("points")
+                .data(data);
+
+            var elemEnter = elem.enter()
+                .append("g")
+
+            var starPath = elemEnter.append("path")
                 .attr("class", "star")
                 .attr("stroke", "#FFD700")
                 .attr("d", star)
+                .attr('id', (d) => d.name)
                 .attr("transform", function (d) {
                     return "translate(" + projection([d.lng, d.lat]) + ")" +
-                    "scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
+                    "scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
                 });
+
+            elemEnter.append("text")
+                .attr("dx", function(d){return -4})
+                .attr("dy", function(d){return 5})
+                .attr("class", "starText")
+                .attr("transform", function (d) {
+                    return "translate(" + projection([d.lng, d.lat]) + ")" +
+                    "scale(" + (Math.sqrt( 0.4 * d.rating) / zoom.scale()) + ")"
+                })
+                .text(function(d){return d.rating});
         });
 </script>
 </body>
