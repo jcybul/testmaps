@@ -30,7 +30,7 @@
     "Name": "Highland",
     "weighted": 133227.19865,
     "Color": "(0, 37, 218)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "S12000026": {
     "Housing": 149505.3899,
@@ -63,7 +63,7 @@
     "Name": "City of Edinburgh",
     "weighted": 207730.49304,
     "Color": "(0, 81, 174)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "S12000038": {
     "Housing": 122347.3043,
@@ -360,7 +360,7 @@
     "Name": "Sutton",
     "weighted": 281214.70031,
     "Color": "(0, 124, 131)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 3
   },
   "E09000006": {
     "Housing": 438405.6782,
@@ -393,7 +393,7 @@
     "Name": "Lambeth",
     "weighted": 380374.49623,
     "Color": "(0, 182, 73)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 5
   },
   "E09000027": {
     "Housing": 650883.187,
@@ -404,7 +404,7 @@
     "Name": "Richmond upon Thames",
     "weighted": 487952.5209,
     "Color": "(0, 245, 10)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 7
   },
   "E09000030": {
     "Housing": 438332.4244,
@@ -415,7 +415,7 @@
     "Name": "Tower Hamlets",
     "weighted": 328562.94708,
     "Color": "(0, 151, 104)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 4
   },
   "E09000002": {
     "Housing": 299686.2048,
@@ -470,7 +470,7 @@
     "Name": "Camden",
     "weighted": 617834.88231,
     "Color": "(65, 190, 0)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 10
   },
   "E09000008": {
     "Housing": 365762.5183,
@@ -536,7 +536,7 @@
     "Name": "Wandsworth",
     "weighted": 444066.65529,
     "Color": "(0, 219, 36)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 6
   },
   "E09000033": {
     "Housing": 956750.3887,
@@ -547,7 +547,7 @@
     "Name": "Westminster",
     "weighted": 709907.44209,
     "Color": "(119, 136, 0)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 11
   },
   "E09000012": {
     "Housing": 556561.4469,
@@ -558,7 +558,7 @@
     "Name": "Hackney",
     "weighted": 409606.71283,
     "Color": "(0, 199, 56)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 6
   },
   "E09000013": {
     "Housing": 718438.7406,
@@ -569,7 +569,7 @@
     "Name": "Hammersmith and Fulham",
     "weighted": 534886.54842,
     "Color": "(16, 239, 0)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 8
   },
   "E09000014": {
     "Housing": 548828.597,
@@ -613,7 +613,7 @@
     "Name": "Hounslow",
     "weighted": 302834.84685999993,
     "Color": "(0, 136, 119)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 3
   },
   "E09000019": {
     "Housing": 631678.6048,
@@ -624,7 +624,7 @@
     "Name": "Islington",
     "weighted": 467373.49336,
     "Color": "(0, 233, 22)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 7
   },
   "E09000020": {
     "Housing": 1256712.531,
@@ -635,7 +635,7 @@
     "Name": "Kensington and Chelsea",
     "weighted": 941023.2617,
     "Color": "(255, 0, 0)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 15
   },
   "E09000021": {
     "Housing": 486236.8773,
@@ -701,7 +701,7 @@
     "Name": "Southwark",
     "weighted": 372284.92398,
     "Color": "(0, 177, 78)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 5
   },
   "N09000001": {
     "Housing": 142254.3181,
@@ -734,7 +734,7 @@
     "Name": "Belfast",
     "weighted": 107075.97079,
     "Color": "(0, 22, 233)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "N09000004": {
     "Housing": 145739.1734,
@@ -866,7 +866,7 @@
     "Name": "Birmingham",
     "weighted": 154188.47559,
     "Color": "(0, 49, 206)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 4
   },
   "E08000031": {
     "Housing": 154056.8845,
@@ -943,7 +943,7 @@
     "Name": "Leeds",
     "weighted": 150914.62277,
     "Color": "(0, 47, 208)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E08000036": {
     "Housing": 150246.9464,
@@ -998,7 +998,7 @@
     "Name": "Wirral",
     "weighted": 128995.29088,
     "Color": "(0, 34, 221)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E08000016": {
     "Housing": 124750.3851,
@@ -1042,7 +1042,7 @@
     "Name": "Newcastle upon Tyne",
     "weighted": 126301.55055,
     "Color": "(0, 33, 222)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E08000022": {
     "Housing": 161641.5235,
@@ -1121,7 +1121,7 @@
     "Name": "Solihull",
     "weighted": 217461.01632,
     "Color": "(0, 86, 169)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E08000030": {
     "Housing": 166990.4414,
@@ -1165,7 +1165,7 @@
     "Name": "Manchester",
     "weighted": 143003.7794,
     "Color": "(0, 43, 212)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E08000005": {
     "Housing": 141396.8266,
@@ -1253,7 +1253,7 @@
     "Name": "Runnymede",
     "weighted": 306914.21257999993,
     "Color": "(0, 139, 116)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 3
   },
   "E07000214": {
     "Housing": 392086.1572,
@@ -1264,7 +1264,7 @@
     "Name": "Surrey Heath",
     "weighted": 296034.86004,
     "Color": "(0, 132, 123)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 3
   },
   "E07000215": {
     "Housing": 439765.387,
@@ -1330,7 +1330,7 @@
     "Name": "Stratford-on-Avon",
     "weighted": 242915.6596,
     "Color": "(0, 101, 154)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E07000222": {
     "Housing": 309065.7605,
@@ -1341,7 +1341,7 @@
     "Name": "Warwick",
     "weighted": 237369.56235,
     "Color": "(0, 98, 157)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000223": {
     "Housing": 315664.9936,
@@ -1385,7 +1385,7 @@
     "Name": "Horsham",
     "weighted": 282544.29395,
     "Color": "(0, 124, 131)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 3
   },
   "E07000228": {
     "Housing": 369955.5875,
@@ -1396,7 +1396,7 @@
     "Name": "Mid Sussex",
     "weighted": 279342.03125,
     "Color": "(0, 123, 132)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 3
   },
   "E07000229": {
     "Housing": 279060.1925,
@@ -1429,7 +1429,7 @@
     "Name": "Lichfield",
     "weighted": 189732.88746,
     "Color": "(0, 70, 185)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000195": {
     "Housing": 157442.0101,
@@ -1539,7 +1539,7 @@
     "Name": "Guildford",
     "weighted": 334117.00676,
     "Color": "(0, 155, 100)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 4
   },
   "E07000168": {
     "Housing": 165214.9377,
@@ -1651,7 +1651,7 @@
     "Name": "South Oxfordshire",
     "weighted": 308007.90777,
     "Color": "(0, 139, 116)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 3
   },
   "E07000181": {
     "Housing": 324130.2683,
@@ -1695,7 +1695,7 @@
     "Name": "South Somerset",
     "weighted": 176656.72337,
     "Color": "(0, 62, 193)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000193": {
     "Housing": 181624.3345,
@@ -1728,7 +1728,7 @@
     "Name": "Mole Valley",
     "weighted": 358586.95512,
     "Color": "(0, 169, 86)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 4
   },
   "E07000173": {
     "Housing": 187433.6992,
@@ -1750,7 +1750,7 @@
     "Name": "Cherwell",
     "weighted": 217004.90151,
     "Color": "(0, 86, 169)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000180": {
     "Housing": 354352.9674,
@@ -1772,7 +1772,7 @@
     "Name": "Malvern Hills",
     "weighted": 203246.45225,
     "Color": "(0, 78, 177)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000237": {
     "Housing": 210751.904,
@@ -1937,7 +1937,7 @@
     "Name": "Cambridge",
     "weighted": 323607.5190399999,
     "Color": "(0, 149, 106)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 4
   },
   "E07000009": {
     "Housing": 285122.0432,
@@ -1981,7 +1981,7 @@
     "Name": "Allerdale",
     "weighted": 120300.61904999998,
     "Color": "(0, 29, 226)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000027": {
     "Housing": 121605.3483,
@@ -2014,7 +2014,7 @@
     "Name": "Eden",
     "weighted": 155051.30938,
     "Color": "(0, 50, 205)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000031": {
     "Housing": 239019.4373,
@@ -2025,7 +2025,7 @@
     "Name": "South Lakeland",
     "weighted": 185157.48611,
     "Color": "(0, 67, 188)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000032": {
     "Housing": 174758.8099,
@@ -2102,7 +2102,7 @@
     "Name": "Cotswold",
     "weighted": 289995.3258,
     "Color": "(0, 129, 126)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E07000081": {
     "Housing": 204573.0359,
@@ -2344,7 +2344,7 @@
     "Name": "East Devon",
     "weighted": 219574.05493,
     "Color": "(0, 88, 167)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000041": {
     "Housing": 258288.5319,
@@ -2366,7 +2366,7 @@
     "Name": "North Devon",
     "weighted": 188357.91577,
     "Color": "(0, 69, 186)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000044": {
     "Housing": 308230.73,
@@ -2377,7 +2377,7 @@
     "Name": "South Hams",
     "weighted": 233380.451,
     "Color": "(0, 96, 159)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000045": {
     "Housing": 246983.3319,
@@ -2509,7 +2509,7 @@
     "Name": "Pendle",
     "weighted": 82551.14175999998,
     "Color": "(0, 7, 248)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000125": {
     "Housing": 138014.2184,
@@ -2531,7 +2531,7 @@
     "Name": "Canterbury",
     "weighted": 226191.06897,
     "Color": "(0, 91, 164)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E07000107": {
     "Housing": 297234.3185,
@@ -2586,7 +2586,7 @@
     "Name": "Folkestone and Hythe",
     "weighted": 194863.21328,
     "Color": "(0, 73, 182)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000113": {
     "Housing": 249811.6093,
@@ -2597,7 +2597,7 @@
     "Name": "Swale",
     "weighted": 190196.04651,
     "Color": "(0, 70, 185)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000114": {
     "Housing": 236991.0392,
@@ -2608,7 +2608,7 @@
     "Name": "Thanet",
     "weighted": 180409.94744,
     "Color": "(0, 65, 190)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000115": {
     "Housing": 366755.5229,
@@ -2960,7 +2960,7 @@
     "Name": "King's Lynn and West Norfolk",
     "weighted": 167604.10631,
     "Color": "(0, 57, 198)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000147": {
     "Housing": 255655.07,
@@ -2971,7 +2971,7 @@
     "Name": "North Norfolk",
     "weighted": 194333.119,
     "Color": "(0, 73, 182)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000148": {
     "Housing": 204456.5833,
@@ -2993,7 +2993,7 @@
     "Name": "Craven",
     "weighted": 167117.21865,
     "Color": "(0, 57, 198)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000164": {
     "Housing": 231805.773,
@@ -3015,7 +3015,7 @@
     "Name": "Harrogate",
     "weighted": 219713.24614,
     "Color": "(0, 88, 167)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000167": {
     "Housing": 236199.6474,
@@ -3026,7 +3026,7 @@
     "Name": "Ryedale",
     "weighted": 181324.35318,
     "Color": "(0, 65, 190)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000130": {
     "Housing": 223647.2995,
@@ -3039,7 +3039,7 @@
     "Name": "Charnwood",
     "weighted": 171204.11965,
     "Color": "(0, 59, 196)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E07000135": {
     "Housing": 220447.4051,
@@ -3072,7 +3072,7 @@
     "Name": "Ribble Valley",
     "weighted": 168668.59462000002,
     "Color": "(0, 58, 197)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000126": {
     "Housing": 169240.0172,
@@ -3094,7 +3094,7 @@
     "Name": "West Lancashire",
     "weighted": 145966.54874,
     "Color": "(0, 44, 211)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E07000128": {
     "Housing": 151267.5845,
@@ -3171,7 +3171,7 @@
     "Name": "Vale of Glamorgan",
     "weighted": 175205.84319999997,
     "Color": "(0, 62, 193)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "W06000015": {
     "Housing": 210250.2053,
@@ -3215,7 +3215,7 @@
     "Name": "Monmouthshire",
     "weighted": 207166.62387,
     "Color": "(0, 80, 175)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "W06000022": {
     "Housing": 184096.2085,
@@ -3248,7 +3248,7 @@
     "Name": "Isle of Anglesey",
     "weighted": 136793.92369,
     "Color": "(0, 39, 216)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "W06000005": {
     "Housing": 169483.3821,
@@ -3314,7 +3314,7 @@
     "Name": "North Lincolnshire",
     "weighted": 116263.40431,
     "Color": "(0, 27, 228)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E06000018": {
     "Housing": 144284.2182,
@@ -3325,7 +3325,7 @@
     "Name": "Nottingham",
     "weighted": 113694.65274,
     "Color": "(0, 25, 230)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E06000020": {
     "Housing": 167254.7823,
@@ -3369,7 +3369,7 @@
     "Name": "Darlington",
     "weighted": 104301.84928999998,
     "Color": "(0, 20, 235)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E06000006": {
     "Housing": 143477.7195,
@@ -3424,7 +3424,7 @@
     "Name": "East Riding of Yorkshire",
     "weighted": 143654.65828,
     "Color": "(0, 43, 212)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E06000012": {
     "Housing": 123210.3784,
@@ -3446,7 +3446,7 @@
     "Name": "York",
     "weighted": 195264.28094,
     "Color": "(0, 73, 182)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E06000015": {
     "Housing": 160702.9726,
@@ -3479,7 +3479,7 @@
     "Name": "Rutland",
     "weighted": 232734.07837,
     "Color": "(0, 95, 160)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 1
   },
   "E06000019": {
     "Housing": 237128.7035,
@@ -3567,7 +3567,7 @@
     "Name": "Cornwall",
     "weighted": 182686.46961,
     "Color": "(0, 66, 189)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E06000054": {
     "Housing": 273729.3904,
@@ -3578,7 +3578,7 @@
     "Name": "Wiltshire",
     "weighted": 212836.11328,
     "Color": "(0, 84, 171)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E06000056": {
     "Housing": 304323.1733,
@@ -3600,7 +3600,7 @@
     "Name": "Northumberland",
     "weighted": 123988.84777999998,
     "Color": "(0, 31, 224)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "E06000026": {
     "Housing": 177043.8075,
@@ -3622,7 +3622,7 @@
     "Name": "West Berkshire",
     "weighted": 266162.86279,
     "Color": "(0, 115, 140)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E06000042": {
     "Housing": 258508.0643,
@@ -3655,7 +3655,7 @@
     "Name": "Bath and North East Somerset",
     "weighted": 254328.24657,
     "Color": "(0, 108, 147)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E06000023": {
     "Housing": 280436.6009,
@@ -3666,7 +3666,7 @@
     "Name": "Bristol, City of",
     "weighted": 215113.69063,
     "Color": "(0, 85, 170)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 2
   },
   "E06000024": {
     "Housing": 264775.9129,
@@ -3853,7 +3853,7 @@
     "Name": "Windsor and Maidenhead",
     "weighted": 354874.79288,
     "Color": "(0, 167, 88)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 4
   },
   "E06000041": {
     "Housing": 406089.1079,
@@ -3930,7 +3930,7 @@
     "Name": "Ceredigion",
     "weighted": 142230.5521,
     "Color": "(0, 42, 213)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "W06000009": {
     "Housing": 176297.8949,
@@ -3963,7 +3963,7 @@
     "Name": "Swansea",
     "weighted": 118384.95328,
     "Color": "(0, 28, 227)",
-    "Predicted_Stars": ""
+    "Predicted_Stars": 0
   },
   "W06000013": {
     "Housing": 154621.4849,
