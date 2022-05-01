@@ -166,7 +166,10 @@
         </tr>
     </table>
     <br>
-    <h2>Restaurants</h2>
+    <h2>Restaurants          Stars</h2>
+    <h2 id = "region_m">##</h2>
+    <h2 id = "stars"></h2>
+    
     <br>
     <br>
     <br>
@@ -228,9 +231,12 @@
                         .attr('id', (d) => d.id)
                         .attr("d", path)
                         .on("click", function (d, i) {
-                            document.getElementById("region_name").innerHTML = d.id;
+                            document.getElementById("region_name").innerHTML = m[d.id] && m[d.id]["Name"];
                             document.getElementById("region_pop").innerHTML = m[d.id] && m[d.id]["Population"];
                             document.getElementById("region_income").innerHTML = m[d.id] && m[d.id]["Income"];
+                            document.getElementById("region_housing").innerHTML = m[d.id] && m[d.id]["Housing"];
+                            document.getElementById("region_m").innerHTML = m[d.id] && m[d.id]["Restaurants"];
+                            document.getElementById("stars").innerHTML = m[d.id] && m[d.id]["Stars"];
                         });
                 });
         }
