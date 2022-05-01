@@ -113,17 +113,17 @@ td {
     font-weight: bolder;
 }
 
-ul {
+ol {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul {
+nav ol {
     max-height: 200px;
 }
 
-nav ul {
+nav ol {
     overflow: hidden;
     overflow-y: auto;
 }
@@ -132,12 +132,18 @@ li {
     display: block;
     margin: 2px;
     overflow: hidden;
+    line-height: 24px;
 }
 
 li span {
     display: block;
     float: right;
     right: 0;
+    font-size: 24px;
+}
+
+nav ol li:not(:last-child) {
+    border-bottom: 1px solid #AAAAAA;
 }
 
 .text-outline {

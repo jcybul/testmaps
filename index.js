@@ -35,7 +35,7 @@ function loadData(loader, file) {
     });
 }
 
-function renderMap(maps, m) {
+function renderMap(maps, m, stars) {
     let promise = new Promise(x => x());
 
     for (const currentMap of maps) {
@@ -58,23 +58,27 @@ function renderMap(maps, m) {
                         document.getElementById("region_housing").innerHTML = m[d.id] && m[d.id]["Housing"];
                         document.getElementById("region_stars").innerHTML = m[d.id] && m[d.id]["Stars"];
 
+                        const region_restaurants = d3.select("#region_restaurants").html("");
+
                         const restaurant_list = m[d.id] && m[d.id]["Restaurants"];
                         if (restaurant_list) {
                             const restaurants = eval(restaurant_list);
-                            console.log(restaurants);
+                            restaurants.sort((a, b) => stars.get(b).rating - stars.get(a).rating);
 
-                            const elements = d3.select("#region_restaurants")
-                                .html("")
-                                .selectAll("summary")
+                            const elements = region_restaurants.selectAll("summary")
                                 .data(restaurants)
                                 .enter()
                                 .append("li");
 
                             elements.html(d => d);
                             elements.append("span")
-                                .html("&#9733;&#9733;&#9733;")
+                                .html(d => "&#9733;".repeat(stars.get(d).rating))
                                 .attr("class", "text-outline")
                                 .style("color", "#FFD700");
+                            elements.append("span")
+                                .html(d => "&#9733;".repeat(3 - stars.get(d).rating))
+                                .attr("class", "text-outline")
+                                .style("color", "#2D2D2D");
                         }
                     });
             });
@@ -101,7 +105,8 @@ function applyColorScheme(fn, clip = 0.0) {
 
 
 loadData(d3.json, "joint.json")
-    .then(joint => {
+    .then(joint => loadData(d3.csv, 'michellinData.csv').then(stars => [joint, stars]))
+    .then(([joint, stars]) => {
         d3.selectAll(".color-select")[0].forEach(node => node.onclick = event => {
             event.preventDefault();
             // Apply changes to button classes
@@ -115,10 +120,15 @@ loadData(d3.json, "joint.json")
             return false;
         });
 
-        return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
-            .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05));
+        const restaurant_map = new Map();
+        for (const restaurant of stars) {
+            restaurant_map.set(restaurant.name, restaurant);
+        }
+
+        return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint, restaurant_map)
+            .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05))
+            .then(() => stars);
     })
-    .then(() => loadData(d3.csv, 'michellinData.csv'))
     .then(data => {
         let star = d3.path();
         d3.symbolStar.draw(star, 2);
