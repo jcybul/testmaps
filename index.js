@@ -57,6 +57,7 @@ function renderMap(maps, m, stars) {
                         d3.select("#region_income").html((m[d.id] && m[d.id]["Income"]) || "<b><i>##</i></b>");
                         d3.select("#region_housing").html((m[d.id] && parseInt(m[d.id]["Housing"])) || "<b><i>##</i></b>");
                         d3.select("#region_stars").html((m[d.id] && m[d.id]["Stars"]) || "<b><i>##</i></b>");
+                        d3.select("#region_prediction").html((m[d.id] && m[d.id]["Predicted_Stars"]) || "<b><i>##</i></b>");
 
                         const region_restaurants = d3.select("#region_restaurants").html("");
 
