@@ -55,6 +55,7 @@
             border-radius: 17px;
             background: #C4C4C4;
             padding: 1em;
+            max-height: 80%;
         }
 
         .selection_info h2 {
@@ -116,6 +117,43 @@
             bottom: 1em;
         }
 
+        .selection_info p {
+            margin: 0;
+            font-size: 12px;
+            font-weight: bolder;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul {
+            max-height: 200px;
+        }
+
+        nav ul {
+            overflow: hidden;
+            overflow-y: auto;
+        }
+
+        li {
+            display: block;
+            margin: 2px;
+            overflow: hidden;
+        }
+
+        li span {
+            display: block;
+            float: right;
+            right: 0;
+        }
+
+        .text-outline {
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+        }
+
         body {
             margin: 0;
         }
@@ -155,6 +193,7 @@
 
 <div class="selection_info">
     <h2 id="region_name">Region Name</h2>
+    <p><i>Stars: <span id="region_stars"></span></i></p>
     <table>
         <tr>
             <th>Population</th>
@@ -168,13 +207,10 @@
         </tr>
     </table>
     <br>
-    <h2>Restaurants          Stars</h2>
-    <h2 id = "region_m">##</h2>
-    <h2 id = "stars"></h2>
-    
-    <br>
-    <br>
-    <br>
+    <h2>Restaurants</h2>
+    <nav>
+        <ul id="region_restaurants"></ul>
+    </nav>
 </div>
 
 
@@ -237,8 +273,26 @@
                             document.getElementById("region_pop").innerHTML = m[d.id] && m[d.id]["Population"];
                             document.getElementById("region_income").innerHTML = m[d.id] && m[d.id]["Income"];
                             document.getElementById("region_housing").innerHTML = m[d.id] && m[d.id]["Housing"];
-                            document.getElementById("region_m").innerHTML = m[d.id] && m[d.id]["Restaurants"];
-                            document.getElementById("stars").innerHTML = m[d.id] && m[d.id]["Stars"];
+                            document.getElementById("region_stars").innerHTML = m[d.id] && m[d.id]["Stars"];
+
+                            const restaurant_list = m[d.id] && m[d.id]["Restaurants"];
+                            if (restaurant_list) {
+                                const restaurants = eval(restaurant_list);
+                                console.log(restaurants);
+
+                                const elements = d3.select("#region_restaurants")
+                                    .html("")
+                                    .selectAll("summary")
+                                    .data(restaurants)
+                                    .enter()
+                                    .append("li");
+
+                                elements.html(d => d);
+                                elements.append("span")
+                                    .html("&#9733;&#9733;&#9733;")
+                                    .attr("class", "text-outline")
+                                    .style("color", "#FFD700");
+                            }
                         });
                 });
         }
