@@ -90,13 +90,13 @@ function renderMap(maps, m, stars) {
 
                             elements.html(d => d);
                             elements.append("span")
-                                .html(d => "&#9733;".repeat(stars.get(d).rating))
-                                .attr("class", "text-outline")
-                                .style("color", "#FFD700");
-                            elements.append("span")
                                 .html(d => "&#9733;".repeat(3 - stars.get(d).rating))
                                 .attr("class", "text-outline")
                                 .style("color", "#2D2D2D");
+                            elements.append("span")
+                                .html(d => "&#9733;".repeat(stars.get(d).rating))
+                                .attr("class", "text-outline")
+                                .style("color", "#FFD700");
                         }
                     });
             });
