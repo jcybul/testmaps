@@ -1,7 +1,7 @@
 {
   "S12000042": {
     "Housing": 124246.4128,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 149320,
     "Income": 16597,
@@ -12,7 +12,7 @@
   },
   "S12000006": {
     "Housing": 128048.1654,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 148860,
     "Income": 18806,
@@ -34,7 +34,7 @@
   },
   "S12000026": {
     "Housing": 149505.3899,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 115510,
     "Income": 20421,
@@ -45,7 +45,7 @@
   },
   "S12000034": {
     "Housing": 184319.0942,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 261210,
     "Income": 22853,
@@ -67,7 +67,7 @@
   },
   "S12000038": {
     "Housing": 122347.3043,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 179100,
     "Income": 19259,
@@ -78,7 +78,7 @@
   },
   "S12000039": {
     "Housing": 105342.1416,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 88930,
     "Income": 17937,
@@ -89,7 +89,7 @@
   },
   "S12000040": {
     "Housing": 162681.1001,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 183100,
     "Income": 18694,
@@ -100,7 +100,7 @@
   },
   "S12000041": {
     "Housing": 145718.0434,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 116200,
     "Income": 19818,
@@ -111,7 +111,7 @@
   },
   "S12000045": {
     "Housing": 212444.2656,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 108640,
     "Income": 24004,
@@ -122,7 +122,7 @@
   },
   "S12000005": {
     "Housing": 129617.0978,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 51540,
     "Income": 18560,
@@ -133,7 +133,7 @@
   },
   "S12000008": {
     "Housing": 95794.33876,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 122010,
     "Income": 17306,
@@ -144,7 +144,7 @@
   },
   "S12000011": {
     "Housing": 228558.197,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 95530,
     "Income": 23685,
@@ -155,7 +155,7 @@
   },
   "S12000013": {
     "Housing": 119493.4267,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 26720,
     "Income": 19318,
@@ -166,7 +166,7 @@
   },
   "S12000014": {
     "Housing": 125046.4549,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 160890,
     "Income": 18793,
@@ -177,7 +177,7 @@
   },
   "S12000047": {
     "Housing": 133617.4821,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 373550,
     "Income": 18518,
@@ -188,7 +188,7 @@
   },
   "S12000018": {
     "Housing": 103201.0667,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 77800,
     "Income": 17982,
@@ -199,7 +199,7 @@
   },
   "S12000019": {
     "Housing": 186633.4985,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 92460,
     "Income": 21094,
@@ -210,7 +210,7 @@
   },
   "S12000020": {
     "Housing": 150944.1292,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 95820,
     "Income": 19319,
@@ -221,7 +221,7 @@
   },
   "S12000021": {
     "Housing": 107161.9331,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 134740,
     "Income": 17473,
@@ -232,7 +232,7 @@
   },
   "S12000023": {
     "Housing": 152014.0309,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 22270,
     "Income": 19831,
@@ -243,7 +243,7 @@
   },
   "S12000048": {
     "Housing": 192607.311,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 151950,
     "Income": 21504,
@@ -254,7 +254,7 @@
   },
   "S12000027": {
     "Housing": 158725.5285,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 22920,
     "Income": 20960,
@@ -265,7 +265,7 @@
   },
   "S12000028": {
     "Housing": 132771.1767,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 112610,
     "Income": 19428,
@@ -276,7 +276,7 @@
   },
   "S12000029": {
     "Housing": 128473.2539,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 320530,
     "Income": 19360,
@@ -287,7 +287,7 @@
   },
   "S12000030": {
     "Housing": 189403.4496,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 94210,
     "Income": 21345,
@@ -298,7 +298,7 @@
   },
   "S12000033": {
     "Housing": 148668.0449,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 228670,
     "Income": 21349,
@@ -309,7 +309,7 @@
   },
   "S12000010": {
     "Housing": 227760.1702,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 107090,
     "Income": 22494,
@@ -320,7 +320,7 @@
   },
   "S12000035": {
     "Housing": 143852.2542,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 85870,
     "Income": 20314,
@@ -331,7 +331,7 @@
   },
   "N09000010": {
     "Housing": 144849.0489,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 181368,
     "Income": 16728,
@@ -342,7 +342,7 @@
   },
   "N09000011": {
     "Housing": 154717.6865,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 161725,
     "Income": 18925,
@@ -364,7 +364,7 @@
   },
   "E09000006": {
     "Housing": 438405.6782,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 332336,
     "Income": 30157,
@@ -375,7 +375,7 @@
   },
   "E09000016": {
     "Housing": 364713.3978,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 259552,
     "Income": 24089,
@@ -419,7 +419,7 @@
   },
   "E09000002": {
     "Housing": 299686.2048,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 212906,
     "Income": 18928,
@@ -430,7 +430,7 @@
   },
   "E09000003": {
     "Housing": 520386.4253,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 395869,
     "Income": 31489,
@@ -441,7 +441,7 @@
   },
   "E09000004": {
     "Housing": 338057.898,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 248287,
     "Income": 23401,
@@ -452,7 +452,7 @@
   },
   "E09000005": {
     "Housing": 484770.1893,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 329771,
     "Income": 26376,
@@ -474,7 +474,7 @@
   },
   "E09000008": {
     "Housing": 365762.5183,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 386710,
     "Income": 24603,
@@ -485,7 +485,7 @@
   },
   "E09000009": {
     "Housing": 473336.2406,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 341806,
     "Income": 28155,
@@ -496,7 +496,7 @@
   },
   "E09000010": {
     "Housing": 394057.3336,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 333794,
     "Income": 23710,
@@ -507,7 +507,7 @@
   },
   "E09000011": {
     "Housing": 391560.0285,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 287942,
     "Income": 24700,
@@ -518,7 +518,7 @@
   },
   "E09000031": {
     "Housing": 431536.5135,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 276983,
     "Income": 24614,
@@ -573,7 +573,7 @@
   },
   "E09000014": {
     "Housing": 548828.597,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 268647,
     "Income": 30176,
@@ -584,7 +584,7 @@
   },
   "E09000015": {
     "Housing": 449686.3771,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 251160,
     "Income": 29284,
@@ -595,7 +595,7 @@
   },
   "E09000017": {
     "Housing": 405173.0671,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 306870,
     "Income": 23160,
@@ -639,7 +639,7 @@
   },
   "E09000021": {
     "Housing": 486236.8773,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 177507,
     "Income": 29045,
@@ -650,7 +650,7 @@
   },
   "E09000023": {
     "Housing": 410349.5528,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 305842,
     "Income": 24047,
@@ -661,7 +661,7 @@
   },
   "E09000024": {
     "Housing": 507899.5062,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 206548,
     "Income": 33251,
@@ -672,7 +672,7 @@
   },
   "E09000025": {
     "Housing": 363456.238,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 353134,
     "Income": 20710,
@@ -683,7 +683,7 @@
   },
   "E09000026": {
     "Housing": 415067.9548,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 305222,
     "Income": 24650,
@@ -705,7 +705,7 @@
   },
   "N09000001": {
     "Housing": 142254.3181,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 143504,
     "Income": 17723,
@@ -716,7 +716,7 @@
   },
   "N09000002": {
     "Housing": 122469.8357,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 216205,
     "Income": 16649,
@@ -738,7 +738,7 @@
   },
   "N09000004": {
     "Housing": 145739.1734,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 144838,
     "Income": 17219,
@@ -749,7 +749,7 @@
   },
   "N09000005": {
     "Housing": 123065.9246,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 151284,
     "Income": 15331,
@@ -760,7 +760,7 @@
   },
   "N09000006": {
     "Housing": 128333.6597,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 117397,
     "Income": 16403,
@@ -771,7 +771,7 @@
   },
   "N09000007": {
     "Housing": 163390.8629,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 146002,
     "Income": 19774,
@@ -782,7 +782,7 @@
   },
   "N09000008": {
     "Housing": 128294.2454,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 139274,
     "Income": 18496,
@@ -793,7 +793,7 @@
   },
   "N09000009": {
     "Housing": 135126.912,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 148528,
     "Income": 17164,
@@ -804,7 +804,7 @@
   },
   "E08000033": {
     "Housing": 146942.7307,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 211455,
     "Income": 17882,
@@ -815,7 +815,7 @@
   },
   "E08000007": {
     "Housing": 228233.1242,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 293423,
     "Income": 21606,
@@ -826,7 +826,7 @@
   },
   "E08000010": {
     "Housing": 134926.5928,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 328662,
     "Income": 17239,
@@ -837,7 +837,7 @@
   },
   "E08000013": {
     "Housing": 131209.8307,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 180585,
     "Income": 17325,
@@ -848,7 +848,7 @@
   },
   "E08000019": {
     "Housing": 167002.822,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 584853,
     "Income": 16131,
@@ -870,7 +870,7 @@
   },
   "E08000031": {
     "Housing": 154056.8845,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 263357,
     "Income": 15500,
@@ -881,7 +881,7 @@
   },
   "E08000037": {
     "Housing": 131170.1197,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 202055,
     "Income": 16477,
@@ -892,7 +892,7 @@
   },
   "E08000008": {
     "Housing": 150900.8484,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 226493,
     "Income": 17185,
@@ -903,7 +903,7 @@
   },
   "E08000009": {
     "Housing": 290302.561,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 237354,
     "Income": 24060,
@@ -914,7 +914,7 @@
   },
   "E08000032": {
     "Housing": 136946.9005,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 539776,
     "Income": 15308,
@@ -925,7 +925,7 @@
   },
   "E08000034": {
     "Housing": 150239.7762,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 439787,
     "Income": 17288,
@@ -947,7 +947,7 @@
   },
   "E08000036": {
     "Housing": 150246.9464,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 348312,
     "Income": 17329,
@@ -958,7 +958,7 @@
   },
   "E08000011": {
     "Housing": 130308.9765,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 150862,
     "Income": 16627,
@@ -969,7 +969,7 @@
   },
   "E08000012": {
     "Housing": 133973.0043,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 498042,
     "Income": 15673,
@@ -980,7 +980,7 @@
   },
   "E08000014": {
     "Housing": 167542.4896,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 276410,
     "Income": 19325,
@@ -1002,7 +1002,7 @@
   },
   "E08000016": {
     "Housing": 124750.3851,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 246866,
     "Income": 17093,
@@ -1013,7 +1013,7 @@
   },
   "E08000017": {
     "Housing": 128850.7864,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 311890,
     "Income": 17001,
@@ -1024,7 +1024,7 @@
   },
   "E08000018": {
     "Housing": 140457.0197,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 265411,
     "Income": 16985,
@@ -1046,7 +1046,7 @@
   },
   "E08000022": {
     "Housing": 161641.5235,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 207913,
     "Income": 18246,
@@ -1057,7 +1057,7 @@
   },
   "E08000023": {
     "Housing": 133526.6567,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 150976,
     "Income": 15915,
@@ -1068,7 +1068,7 @@
   },
   "E08000024": {
     "Housing": 116314.9512,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 277705,
     "Income": 16011,
@@ -1079,7 +1079,7 @@
   },
   "E08000026": {
     "Housing": 188280.2305,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 371521,
     "Income": 15350,
@@ -1090,7 +1090,7 @@
   },
   "E08000027": {
     "Housing": 178582.9879,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 321596,
     "Income": 16735,
@@ -1101,7 +1101,7 @@
   },
   "E08000028": {
     "Housing": 152005.8675,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 328450,
     "Income": 14454,
@@ -1125,7 +1125,7 @@
   },
   "E08000030": {
     "Housing": 166990.4414,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 285478,
     "Income": 15694,
@@ -1136,7 +1136,7 @@
   },
   "E08000001": {
     "Housing": 137241.4111,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 287550,
     "Income": 16533,
@@ -1147,7 +1147,7 @@
   },
   "E08000002": {
     "Housing": 179195.2068,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 190990,
     "Income": 19142,
@@ -1169,7 +1169,7 @@
   },
   "E08000005": {
     "Housing": 141396.8266,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 222412,
     "Income": 16143,
@@ -1180,7 +1180,7 @@
   },
   "E08000006": {
     "Housing": 165465.8515,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 258834,
     "Income": 17524,
@@ -1191,7 +1191,7 @@
   },
   "E08000004": {
     "Housing": 136051.5602,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 237110,
     "Income": 15885,
@@ -1202,7 +1202,7 @@
   },
   "E07000145": {
     "Housing": 173486.8243,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 99336,
     "Income": 16225,
@@ -1213,7 +1213,7 @@
   },
   "E07000149": {
     "Housing": 260584.4466,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 140880,
     "Income": 20564,
@@ -1224,7 +1224,7 @@
   },
   "E07000166": {
     "Housing": 211226.2555,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 53730,
     "Income": 21033,
@@ -1235,7 +1235,7 @@
   },
   "E07000211": {
     "Housing": 405831.8978,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 148748,
     "Income": 29069,
@@ -1268,7 +1268,7 @@
   },
   "E07000215": {
     "Housing": 439765.387,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 88129,
     "Income": 30333,
@@ -1279,7 +1279,7 @@
   },
   "E07000216": {
     "Housing": 451241.9183,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 126328,
     "Income": 33071,
@@ -1290,7 +1290,7 @@
   },
   "E07000217": {
     "Housing": 415297.9291,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 100793,
     "Income": 29877,
@@ -1301,7 +1301,7 @@
   },
   "E07000218": {
     "Housing": 206851.2051,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 65264,
     "Income": 20109,
@@ -1312,7 +1312,7 @@
   },
   "E07000220": {
     "Housing": 233933.5399,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 108935,
     "Income": 22071,
@@ -1345,7 +1345,7 @@
   },
   "E07000223": {
     "Housing": 315664.9936,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 64301,
     "Income": 21618,
@@ -1356,7 +1356,7 @@
   },
   "E07000225": {
     "Housing": 376961.0753,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 121129,
     "Income": 26915,
@@ -1367,7 +1367,7 @@
   },
   "E07000226": {
     "Housing": 280701.4683,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 112409,
     "Income": 21656,
@@ -1400,7 +1400,7 @@
   },
   "E07000229": {
     "Housing": 279060.1925,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 110570,
     "Income": 22224,
@@ -1411,7 +1411,7 @@
   },
   "E07000192": {
     "Housing": 170510.929,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 100762,
     "Income": 18096,
@@ -1433,7 +1433,7 @@
   },
   "E07000195": {
     "Housing": 157442.0101,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 129441,
     "Income": 17666,
@@ -1444,7 +1444,7 @@
   },
   "E07000196": {
     "Housing": 230820.1886,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 112436,
     "Income": 20463,
@@ -1455,7 +1455,7 @@
   },
   "E07000197": {
     "Housing": 209228.1002,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 137280,
     "Income": 20473,
@@ -1466,7 +1466,7 @@
   },
   "E07000198": {
     "Housing": 182358.3881,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 98435,
     "Income": 19411,
@@ -1477,7 +1477,7 @@
   },
   "E07000200": {
     "Housing": 286017.4155,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 92036,
     "Income": 22641,
@@ -1488,7 +1488,7 @@
   },
   "E07000202": {
     "Housing": 197068.7093,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 136913,
     "Income": 18093,
@@ -1499,7 +1499,7 @@
   },
   "E07000203": {
     "Housing": 267640.0436,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 103895,
     "Income": 21280,
@@ -1510,7 +1510,7 @@
   },
   "E07000207": {
     "Housing": 586050.4374,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 136795,
     "Income": 40922,
@@ -1521,7 +1521,7 @@
   },
   "E07000208": {
     "Housing": 454605.9879,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 80627,
     "Income": 29427,
@@ -1543,7 +1543,7 @@
   },
   "E07000168": {
     "Housing": 165214.9377,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 108757,
     "Income": 19116,
@@ -1554,7 +1554,7 @@
   },
   "E07000169": {
     "Housing": 201019.2174,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 90620,
     "Income": 21994,
@@ -1565,7 +1565,7 @@
   },
   "E07000170": {
     "Housing": 143389.1715,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 127918,
     "Income": 16845,
@@ -1576,7 +1576,7 @@
   },
   "E07000171": {
     "Housing": 156256.0379,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 117459,
     "Income": 18596,
@@ -1587,7 +1587,7 @@
   },
   "E07000172": {
     "Housing": 186145.1016,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 114033,
     "Income": 18570,
@@ -1598,7 +1598,7 @@
   },
   "E07000174": {
     "Housing": 137695.5708,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 109313,
     "Income": 17448,
@@ -1609,7 +1609,7 @@
   },
   "E07000175": {
     "Housing": 184091.9929,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 122421,
     "Income": 20004,
@@ -1620,7 +1620,7 @@
   },
   "E07000176": {
     "Housing": 277906.3664,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 119184,
     "Income": 23384,
@@ -1631,7 +1631,7 @@
   },
   "E07000178": {
     "Housing": 407963.5616,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 152457,
     "Income": 22848,
@@ -1655,7 +1655,7 @@
   },
   "E07000181": {
     "Housing": 324130.2683,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 110643,
     "Income": 27212,
@@ -1666,7 +1666,7 @@
   },
   "E07000187": {
     "Housing": 257968.5443,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 115587,
     "Income": 22146,
@@ -1677,7 +1677,7 @@
   },
   "E07000188": {
     "Housing": 227492.3116,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 123178,
     "Income": 20340,
@@ -1699,7 +1699,7 @@
   },
   "E07000193": {
     "Housing": 181624.3345,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 119754,
     "Income": 19763,
@@ -1710,7 +1710,7 @@
   },
   "E07000199": {
     "Housing": 185877.0288,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 76696,
     "Income": 18446,
@@ -1732,7 +1732,7 @@
   },
   "E07000173": {
     "Housing": 187433.6992,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 117896,
     "Income": 19250,
@@ -1754,7 +1754,7 @@
   },
   "E07000180": {
     "Housing": 354352.9674,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 136007,
     "Income": 25680,
@@ -1776,7 +1776,7 @@
   },
   "E07000237": {
     "Housing": 210751.904,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 101222,
     "Income": 19509,
@@ -1787,18 +1787,18 @@
   },
   "E07000238": {
     "Housing": 273822.0229,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 129433,
     "Income": 23462,
     "Name": "Wychavon",
-    "weighted": 209393.14602999997,
+    "weighted": 209393.14603,
     "Color": "(0, 82, 173)",
     "Predicted_Stars": 1
   },
   "E07000239": {
     "Housing": 192328.3254,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 101291,
     "Income": 19037,
@@ -1809,7 +1809,7 @@
   },
   "E07000240": {
     "Housing": 506035.8961,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 148452,
     "Income": 33751,
@@ -1820,7 +1820,7 @@
   },
   "E07000242": {
     "Housing": 387598.0824,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 149748,
     "Income": 28356,
@@ -1831,7 +1831,7 @@
   },
   "E07000243": {
     "Housing": 283822.9296,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 87845,
     "Income": 20079,
@@ -1842,7 +1842,7 @@
   },
   "E07000213": {
     "Housing": 366490.4085,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 99844,
     "Income": 26136,
@@ -1853,7 +1853,7 @@
   },
   "E07000219": {
     "Housing": 175961.4497,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 129883,
     "Income": 18636,
@@ -1864,7 +1864,7 @@
   },
   "E07000224": {
     "Housing": 284318.6902,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 160758,
     "Income": 22471,
@@ -1875,7 +1875,7 @@
   },
   "E07000234": {
     "Housing": 293056.4666,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 99881,
     "Income": 23909,
@@ -1886,7 +1886,7 @@
   },
   "E07000011": {
     "Housing": 260896.2694,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 177963,
     "Income": 22089,
@@ -1897,7 +1897,7 @@
   },
   "E07000029": {
     "Housing": 122159.7383,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 68183,
     "Income": 18788,
@@ -1908,7 +1908,7 @@
   },
   "E07000035": {
     "Housing": 269002.9409,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 72325,
     "Income": 25635,
@@ -1919,7 +1919,7 @@
   },
   "E07000042": {
     "Housing": 235926.2082,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 82311,
     "Income": 20811,
@@ -1941,7 +1941,7 @@
   },
   "E07000009": {
     "Housing": 285122.0432,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 89840,
     "Income": 22769,
@@ -1952,7 +1952,7 @@
   },
   "E07000010": {
     "Housing": 187937.1857,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 101850,
     "Income": 17958,
@@ -1963,7 +1963,7 @@
   },
   "E07000012": {
     "Housing": 373157.4126,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 159086,
     "Income": 27610,
@@ -1985,7 +1985,7 @@
   },
   "E07000027": {
     "Housing": 121605.3483,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 67049,
     "Income": 17990,
@@ -1996,7 +1996,7 @@
   },
   "E07000028": {
     "Housing": 136613.3516,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 108678,
     "Income": 19110,
@@ -2029,7 +2029,7 @@
   },
   "E07000032": {
     "Housing": 174758.8099,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 128147,
     "Income": 18983,
@@ -2040,7 +2040,7 @@
   },
   "E07000033": {
     "Housing": 128807.4239,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 80562,
     "Income": 16062,
@@ -2051,7 +2051,7 @@
   },
   "E07000034": {
     "Housing": 158537.3652,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 104900,
     "Income": 16802,
@@ -2062,7 +2062,7 @@
   },
   "E07000036": {
     "Housing": 164643.2085,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 115371,
     "Income": 18301,
@@ -2073,7 +2073,7 @@
   },
   "E07000068": {
     "Housing": 425786.9659,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 77021,
     "Income": 30517,
@@ -2084,7 +2084,7 @@
   },
   "E07000074": {
     "Housing": 335345.8137,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 64926,
     "Income": 23427,
@@ -2106,7 +2106,7 @@
   },
   "E07000081": {
     "Housing": 204573.0359,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 129128,
     "Income": 18751,
@@ -2117,7 +2117,7 @@
   },
   "E07000062": {
     "Housing": 214198.7459,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 92661,
     "Income": 18545,
@@ -2128,7 +2128,7 @@
   },
   "E07000064": {
     "Housing": 297475.1833,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 96080,
     "Income": 22585,
@@ -2139,7 +2139,7 @@
   },
   "E07000065": {
     "Housing": 335892.0687,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 161475,
     "Income": 25895,
@@ -2150,7 +2150,7 @@
   },
   "E07000066": {
     "Housing": 306297.1969,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 187199,
     "Income": 21435,
@@ -2161,7 +2161,7 @@
   },
   "E07000067": {
     "Housing": 282018.5343,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 152604,
     "Income": 22179,
@@ -2172,7 +2172,7 @@
   },
   "E07000069": {
     "Housing": 305503.268,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 90376,
     "Income": 22011,
@@ -2183,7 +2183,7 @@
   },
   "E07000070": {
     "Housing": 340877.1502,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 178388,
     "Income": 24643,
@@ -2194,7 +2194,7 @@
   },
   "E07000071": {
     "Housing": 263748.8266,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 194706,
     "Income": 20570,
@@ -2205,7 +2205,7 @@
   },
   "E07000072": {
     "Housing": 459561.5538,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 131689,
     "Income": 30550,
@@ -2216,7 +2216,7 @@
   },
   "E07000073": {
     "Housing": 273823.5176,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 87067,
     "Income": 19157,
@@ -2227,7 +2227,7 @@
   },
   "E07000075": {
     "Housing": 349442.0658,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 87368,
     "Income": 22986,
@@ -2238,7 +2238,7 @@
   },
   "E07000076": {
     "Housing": 219491.1946,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 146561,
     "Income": 18513,
@@ -2249,7 +2249,7 @@
   },
   "E07000077": {
     "Housing": 391512.3565,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 91284,
     "Income": 28090,
@@ -2260,7 +2260,7 @@
   },
   "E07000078": {
     "Housing": 270796.0504,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 116306,
     "Income": 23197,
@@ -2271,7 +2271,7 @@
   },
   "E07000080": {
     "Housing": 240548.6451,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 86791,
     "Income": 19572,
@@ -2282,7 +2282,7 @@
   },
   "E07000061": {
     "Housing": 243286.9951,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 103745,
     "Income": 20020,
@@ -2293,7 +2293,7 @@
   },
   "E07000063": {
     "Housing": 326956.5512,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 103268,
     "Income": 23543,
@@ -2304,7 +2304,7 @@
   },
   "E07000037": {
     "Housing": 195932.8567,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 92666,
     "Income": 19824,
@@ -2315,7 +2315,7 @@
   },
   "E07000038": {
     "Housing": 186764.9092,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 101462,
     "Income": 19094,
@@ -2326,7 +2326,7 @@
   },
   "E07000039": {
     "Housing": 193688.8383,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 107261,
     "Income": 20154,
@@ -2348,7 +2348,7 @@
   },
   "E07000041": {
     "Housing": 258288.5319,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 131405,
     "Income": 19005,
@@ -2381,7 +2381,7 @@
   },
   "E07000045": {
     "Housing": 246983.3319,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 134163,
     "Income": 21009,
@@ -2392,7 +2392,7 @@
   },
   "E07000046": {
     "Housing": 233595.0351,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 68267,
     "Income": 18974,
@@ -2403,7 +2403,7 @@
   },
   "E07000047": {
     "Housing": 256849.44,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 55796,
     "Income": 21509,
@@ -2414,7 +2414,7 @@
   },
   "E07000136": {
     "Housing": 155233.0299,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 70173,
     "Income": 17826,
@@ -2425,7 +2425,7 @@
   },
   "E07000137": {
     "Housing": 179688.7085,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 141727,
     "Income": 17178,
@@ -2436,7 +2436,7 @@
   },
   "E07000138": {
     "Housing": 154993.2675,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 99299,
     "Income": 16874,
@@ -2447,7 +2447,7 @@
   },
   "E07000139": {
     "Housing": 209885.649,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 116915,
     "Income": 19912,
@@ -2458,7 +2458,7 @@
   },
   "E07000140": {
     "Housing": 189238.1162,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 95019,
     "Income": 18459,
@@ -2469,7 +2469,7 @@
   },
   "E07000142": {
     "Housing": 169044.2177,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 95667,
     "Income": 18709,
@@ -2480,7 +2480,7 @@
   },
   "E07000110": {
     "Housing": 289938.4488,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 171826,
     "Income": 22888,
@@ -2491,7 +2491,7 @@
   },
   "E07000117": {
     "Housing": 84936.06021,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 88920,
     "Income": 15409,
@@ -2513,7 +2513,7 @@
   },
   "E07000125": {
     "Housing": 138014.2184,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 71482,
     "Income": 18078,
@@ -2535,7 +2535,7 @@
   },
   "E07000107": {
     "Housing": 297234.3185,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 112606,
     "Income": 22459,
@@ -2546,7 +2546,7 @@
   },
   "E07000108": {
     "Housing": 249141.3779,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 118131,
     "Income": 19964,
@@ -2557,7 +2557,7 @@
   },
   "E07000109": {
     "Housing": 278532.6172,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 106939,
     "Income": 20665,
@@ -2568,7 +2568,7 @@
   },
   "E07000111": {
     "Housing": 432829.1207,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 120750,
     "Income": 31654,
@@ -2612,7 +2612,7 @@
   },
   "E07000115": {
     "Housing": 366755.5229,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 132153,
     "Income": 25249,
@@ -2623,7 +2623,7 @@
   },
   "E07000116": {
     "Housing": 383412.8421,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 118724,
     "Income": 28503,
@@ -2634,7 +2634,7 @@
   },
   "E07000118": {
     "Housing": 180459.1949,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 118216,
     "Income": 19463,
@@ -2645,7 +2645,7 @@
   },
   "E07000119": {
     "Housing": 190037.0686,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 80780,
     "Income": 21603,
@@ -2656,7 +2656,7 @@
   },
   "E07000120": {
     "Housing": 96668.65509,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 81043,
     "Income": 15704,
@@ -2667,7 +2667,7 @@
   },
   "E07000121": {
     "Housing": 156283.1124,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 146038,
     "Income": 17433,
@@ -2678,7 +2678,7 @@
   },
   "E07000123": {
     "Housing": 127379.8077,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 143135,
     "Income": 17133,
@@ -2689,7 +2689,7 @@
   },
   "E07000087": {
     "Housing": 293760.4722,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 116233,
     "Income": 22669,
@@ -2700,7 +2700,7 @@
   },
   "E07000093": {
     "Housing": 325726.4104,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 126160,
     "Income": 25872,
@@ -2711,7 +2711,7 @@
   },
   "E07000099": {
     "Housing": 337493.6698,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 133570,
     "Income": 25826,
@@ -2722,7 +2722,7 @@
   },
   "E07000105": {
     "Housing": 295051.1739,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 130032,
     "Income": 21967,
@@ -2733,7 +2733,7 @@
   },
   "E07000082": {
     "Housing": 279877.6828,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 119964,
     "Income": 23588,
@@ -2744,7 +2744,7 @@
   },
   "E07000083": {
     "Housing": 275232.6376,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 95019,
     "Income": 21669,
@@ -2755,7 +2755,7 @@
   },
   "E07000084": {
     "Housing": 301641.2379,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 176582,
     "Income": 25458,
@@ -2766,7 +2766,7 @@
   },
   "E07000085": {
     "Housing": 366488.5819,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 122308,
     "Income": 28337,
@@ -2777,7 +2777,7 @@
   },
   "E07000086": {
     "Housing": 282451.8225,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 133584,
     "Income": 22722,
@@ -2788,7 +2788,7 @@
   },
   "E07000088": {
     "Housing": 210673.2957,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 84838,
     "Income": 18711,
@@ -2799,7 +2799,7 @@
   },
   "E07000089": {
     "Housing": 406364.6138,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 97073,
     "Income": 29293,
@@ -2810,7 +2810,7 @@
   },
   "E07000090": {
     "Housing": 264257.7219,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 126220,
     "Income": 20700,
@@ -2821,7 +2821,7 @@
   },
   "E07000091": {
     "Housing": 335120.2065,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 180086,
     "Income": 24778,
@@ -2832,7 +2832,7 @@
   },
   "E07000092": {
     "Housing": 281591.3284,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 94599,
     "Income": 22215,
@@ -2843,7 +2843,7 @@
   },
   "E07000094": {
     "Housing": 411570.9059,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 124859,
     "Income": 28611,
@@ -2854,7 +2854,7 @@
   },
   "E07000095": {
     "Housing": 351847.5251,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 97279,
     "Income": 23109,
@@ -2865,7 +2865,7 @@
   },
   "E07000096": {
     "Housing": 399291.6728,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 154763,
     "Income": 26318,
@@ -2876,7 +2876,7 @@
   },
   "E07000098": {
     "Housing": 462457.1866,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 104919,
     "Income": 30046,
@@ -2887,7 +2887,7 @@
   },
   "E07000102": {
     "Housing": 514591.027,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 93323,
     "Income": 29712,
@@ -2898,7 +2898,7 @@
   },
   "E07000103": {
     "Housing": 347012.5441,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 96577,
     "Income": 24163,
@@ -2909,7 +2909,7 @@
   },
   "E07000236": {
     "Housing": 209475.4498,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 85261,
     "Income": 21187,
@@ -2920,7 +2920,7 @@
   },
   "E07000241": {
     "Housing": 391313.1532,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 123043,
     "Income": 22895,
@@ -2931,7 +2931,7 @@
   },
   "E07000143": {
     "Housing": 223764.109,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 139968,
     "Income": 18462,
@@ -2942,7 +2942,7 @@
   },
   "E07000144": {
     "Housing": 262291.031,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 130783,
     "Income": 21073,
@@ -2975,7 +2975,7 @@
   },
   "E07000148": {
     "Housing": 204456.5833,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 140573,
     "Income": 17170,
@@ -2997,7 +2997,7 @@
   },
   "E07000164": {
     "Housing": 231805.773,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 91594,
     "Income": 23487,
@@ -3043,7 +3043,7 @@
   },
   "E07000135": {
     "Housing": 220447.4051,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 57015,
     "Income": 18629,
@@ -3054,7 +3054,7 @@
   },
   "E07000141": {
     "Housing": 216196.957,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 142424,
     "Income": 21522,
@@ -3076,7 +3076,7 @@
   },
   "E07000126": {
     "Housing": 169240.0172,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 110788,
     "Income": 19528,
@@ -3098,7 +3098,7 @@
   },
   "E07000128": {
     "Housing": 151267.5845,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 112091,
     "Income": 18459,
@@ -3109,7 +3109,7 @@
   },
   "E07000129": {
     "Housing": 229537.2559,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 101526,
     "Income": 19145,
@@ -3120,7 +3120,7 @@
   },
   "E07000131": {
     "Housing": 293602.6336,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 93807,
     "Income": 24246,
@@ -3131,7 +3131,7 @@
   },
   "E07000132": {
     "Housing": 221256.3415,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 113136,
     "Income": 19841,
@@ -3142,7 +3142,7 @@
   },
   "E07000133": {
     "Housing": 226459.4892,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 51209,
     "Income": 21473,
@@ -3153,7 +3153,7 @@
   },
   "E07000134": {
     "Housing": 207759.6006,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 103611,
     "Income": 19644,
@@ -3175,7 +3175,7 @@
   },
   "W06000015": {
     "Housing": 210250.2053,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 366903,
     "Income": 17431,
@@ -3186,7 +3186,7 @@
   },
   "W06000019": {
     "Housing": 93045.76732,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 69862,
     "Income": 14630,
@@ -3197,7 +3197,7 @@
   },
   "W06000020": {
     "Housing": 148184.761,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 93961,
     "Income": 16505,
@@ -3219,7 +3219,7 @@
   },
   "W06000022": {
     "Housing": 184096.2085,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 154676,
     "Income": 17977,
@@ -3230,7 +3230,7 @@
   },
   "W06000023": {
     "Housing": 186685.5798,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 132435,
     "Income": 18287,
@@ -3252,7 +3252,7 @@
   },
   "W06000005": {
     "Housing": 169483.3821,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 156100,
     "Income": 18722,
@@ -3263,7 +3263,7 @@
   },
   "W06000012": {
     "Housing": 119141.6054,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 143315,
     "Income": 16442,
@@ -3274,7 +3274,7 @@
   },
   "W06000018": {
     "Housing": 138299.2569,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 181075,
     "Income": 15992,
@@ -3285,7 +3285,7 @@
   },
   "W06000024": {
     "Housing": 107890.6521,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 60326,
     "Income": 15592,
@@ -3296,7 +3296,7 @@
   },
   "E06000007": {
     "Housing": 193896.1844,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 210014,
     "Income": 20946,
@@ -3329,7 +3329,7 @@
   },
   "E06000020": {
     "Housing": 167254.7823,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 179854,
     "Income": 17250,
@@ -3340,7 +3340,7 @@
   },
   "E06000001": {
     "Housing": 108739.0584,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 93663,
     "Income": 15962,
@@ -3351,7 +3351,7 @@
   },
   "E06000004": {
     "Housing": 135678.3997,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 197348,
     "Income": 17519,
@@ -3373,7 +3373,7 @@
   },
   "E06000006": {
     "Housing": 143477.7195,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 129410,
     "Income": 17907,
@@ -3384,7 +3384,7 @@
   },
   "E06000008": {
     "Housing": 115128.7345,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 149696,
     "Income": 14484,
@@ -3395,7 +3395,7 @@
   },
   "E06000009": {
     "Housing": 105993.3009,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 139446,
     "Income": 16276,
@@ -3406,7 +3406,7 @@
   },
   "E06000010": {
     "Housing": 113060.5048,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 259778,
     "Income": 14908,
@@ -3428,7 +3428,7 @@
   },
   "E06000012": {
     "Housing": 123210.3784,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 159563,
     "Income": 16569,
@@ -3450,7 +3450,7 @@
   },
   "E06000015": {
     "Housing": 160702.9726,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 257302,
     "Income": 16793,
@@ -3461,7 +3461,7 @@
   },
   "E06000016": {
     "Housing": 175232.6659,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 354224,
     "Income": 13802,
@@ -3483,7 +3483,7 @@
   },
   "E06000019": {
     "Housing": 237128.7035,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 192801,
     "Income": 20631,
@@ -3494,7 +3494,7 @@
   },
   "E06000044": {
     "Housing": 211374.0835,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 214905,
     "Income": 17028,
@@ -3505,7 +3505,7 @@
   },
   "E06000045": {
     "Housing": 208058.8076,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 252520,
     "Income": 17529,
@@ -3516,7 +3516,7 @@
   },
   "E06000046": {
     "Housing": 219869.2029,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 141771,
     "Income": 19211,
@@ -3527,7 +3527,7 @@
   },
   "E06000047": {
     "Housing": 102350.2888,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 530094,
     "Income": 16617,
@@ -3538,7 +3538,7 @@
   },
   "E06000050": {
     "Housing": 206018.8247,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 343071,
     "Income": 22301,
@@ -3549,7 +3549,7 @@
   },
   "E06000051": {
     "Housing": 214801.0943,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 323136,
     "Income": 20732,
@@ -3582,7 +3582,7 @@
   },
   "E06000056": {
     "Housing": 304323.1733,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 288648,
     "Income": 22419,
@@ -3604,7 +3604,7 @@
   },
   "E06000026": {
     "Housing": 177043.8075,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 262100,
     "Income": 17343,
@@ -3626,7 +3626,7 @@
   },
   "E06000042": {
     "Housing": 258508.0643,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 269457,
     "Income": 22116,
@@ -3637,7 +3637,7 @@
   },
   "E06000021": {
     "Housing": 112145.6088,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 256375,
     "Income": 15455,
@@ -3670,7 +3670,7 @@
   },
   "E06000024": {
     "Housing": 264775.9129,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 215052,
     "Income": 22878,
@@ -3681,7 +3681,7 @@
   },
   "E06000025": {
     "Housing": 278245.2026,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 285093,
     "Income": 22900,
@@ -3692,7 +3692,7 @@
   },
   "E06000027": {
     "Housing": 197793.7858,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 136264,
     "Income": 18698,
@@ -3703,7 +3703,7 @@
   },
   "E06000030": {
     "Housing": 214333.5281,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 222193,
     "Income": 20516,
@@ -3714,7 +3714,7 @@
   },
   "E06000031": {
     "Housing": 194513.1313,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 202259,
     "Income": 18124,
@@ -3725,7 +3725,7 @@
   },
   "E06000032": {
     "Housing": 235378.6065,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 213052,
     "Income": 16873,
@@ -3736,7 +3736,7 @@
   },
   "E06000033": {
     "Housing": 285439.942,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 183125,
     "Income": 21187,
@@ -3747,7 +3747,7 @@
   },
   "E06000034": {
     "Housing": 267574.0462,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 174341,
     "Income": 19951,
@@ -3758,7 +3758,7 @@
   },
   "E06000035": {
     "Housing": 242796.3218,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 278556,
     "Income": 19814,
@@ -3769,7 +3769,7 @@
   },
   "E06000036": {
     "Housing": 334743.3042,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 122549,
     "Income": 23892,
@@ -3780,7 +3780,7 @@
   },
   "E06000038": {
     "Housing": 293658.9357,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 161780,
     "Income": 23203,
@@ -3791,7 +3791,7 @@
   },
   "E06000002": {
     "Housing": 112611.6416,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 140980,
     "Income": 15835,
@@ -3802,7 +3802,7 @@
   },
   "E06000003": {
     "Housing": 119806.8622,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 137150,
     "Income": 16882,
@@ -3813,7 +3813,7 @@
   },
   "E06000049": {
     "Housing": 228157.4605,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 384152,
     "Income": 25486,
@@ -3824,7 +3824,7 @@
   },
   "E06000055": {
     "Housing": 287393.4834,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 173292,
     "Income": 22321,
@@ -3835,7 +3835,7 @@
   },
   "E06000039": {
     "Housing": 296955.853,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 149539,
     "Income": 19469,
@@ -3857,7 +3857,7 @@
   },
   "E06000041": {
     "Housing": 406089.1079,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 171119,
     "Income": 29443,
@@ -3868,7 +3868,7 @@
   },
   "E06000043": {
     "Housing": 364492.8287,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 290885,
     "Income": 23142,
@@ -3879,7 +3879,7 @@
   },
   "W06000002": {
     "Housing": 159634.1175,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 124560,
     "Income": 15941,
@@ -3890,7 +3890,7 @@
   },
   "W06000003": {
     "Housing": 168635.7313,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 117203,
     "Income": 18189,
@@ -3901,7 +3901,7 @@
   },
   "W06000004": {
     "Housing": 155914.7402,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 95696,
     "Income": 17901,
@@ -3912,7 +3912,7 @@
   },
   "W06000006": {
     "Housing": 157903.236,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 135957,
     "Income": 17785,
@@ -3934,7 +3934,7 @@
   },
   "W06000009": {
     "Housing": 176297.8949,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 125818,
     "Income": 17207,
@@ -3945,7 +3945,7 @@
   },
   "W06000010": {
     "Housing": 148102.9115,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 188771,
     "Income": 16928,
@@ -3967,7 +3967,7 @@
   },
   "W06000013": {
     "Housing": 154621.4849,
-    "Stars": "",
+    "Stars": 0,
     "Restaurants": "",
     "Population": 147049,
     "Income": 17047,
