@@ -142,6 +142,18 @@
                 return "translate(" + projection([d.lng, d.lat]) + ")" +
                     " scale(" + (Math.sqrt(0.4 * d.rating) / zoom.scale()) + ")"
             })
+            svg.selectAll(".circle").attr("transform", function (d) {
+                    return "translate(" + [d.X, (parseInt(d.Y) * 1.01 + 10)] + ")" +
+                    "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
+            })
+            svg.selectAll(".circleStar").attr("transform", function (d) {
+                    return "translate(" + [d.X, (parseInt(d.Y) * 1.01 + 10)] + ")" +
+                    "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
+            })
+            svg.selectAll(".circleText").attr("transform", function (d) {
+                    return "translate(" + [d.X, (parseInt(d.Y) * 1.01 + 10)] + ")" +
+                    "scale(" + (0.6 / zoom.scale()) + ")"
+            })
         });
 
     let svg = d3.select("#canvas")
@@ -172,7 +184,8 @@
                         .data(subunits.features)
                         .enter().append("path")
                         .attr("class", "map_region subunit_" + currentMap.split(".")[0])
-                        .attr('id', (d) => d.id)
+                        .attr('id', (d) => d.id )
+                        // .attr('id', (d) => path.centroid(d))
                         .attr("d", path)
                         .on("click", function (d, i) {
                             document.getElementById("region_name").innerHTML = m[d.id] && m[d.id]["Name"];
@@ -204,67 +217,101 @@
         });
     }
 
-
-    // loadData(d3.json, "joint.json")
-    //     .then(joint => {
-    //         return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
-    //             .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05));
-    //     })
-    //     .then(() => loadData(d3.csv, 'michellinData.csv'))
-    //     .then(data => {
-    //         let star = d3.path();
-    //         d3.symbolStar.draw(star, 2);
-
-    //         svg.selectAll("points")
-    //             .data(data)
-    //             .enter()
-    //             .append("path")
-    //             .attr("class", "star")
-    //             .attr("stroke", "#FFD700")
-    //             .attr("d", star)
-    //             .attr('id', (d) => d.name)
-    //             .attr("transform", function (d) {
-    //                 return "translate(" + projection([d.lng, d.lat]) + ")" +
-    //                 "scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
-    //             });
-    //     });
     loadData(d3.json, "joint.json")
         .then(joint => {
             return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
-                .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05));
+                .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05))
         })
 
-        .then(() => loadData(d3.csv, 'michellinData.csv'))
+        .then(() => loadData(d3.csv, 'joint.csv'))
         .then(data => {
-            let star = d3.path();
-            d3.symbolStar.draw(star, 2);
 
-            var elem = svg.selectAll("points")
-                .data(data);
+            // function ticked() {
+                let star = d3.path();
+                d3.symbolStar.draw(star, 2);
 
-            var elemEnter = elem.enter()
-                .append("g")
+                var elem = svg.selectAll("circle")
+                    .data(data);
 
-            var starPath = elemEnter.append("path")
-                .attr("class", "star")
-                .attr("stroke", "#FFD700")
-                .attr("d", star)
-                .attr('id', (d) => d.name)
-                .attr("transform", function (d) {
-                    return "translate(" + projection([d.lng, d.lat]) + ")" +
-                    "scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
-                });
+                var elemEnter = elem.enter()
+                    .append("g")
+                    // .merge(elem)
 
-            elemEnter.append("text")
-                .attr("dx", function(d){return -4})
-                .attr("dy", function(d){return 5})
-                .attr("class", "starText")
-                .attr("transform", function (d) {
-                    return "translate(" + projection([d.lng, d.lat]) + ")" +
-                    "scale(" + (Math.sqrt( 0.4 * d.rating) / zoom.scale()) + ")"
-                })
-                .text(function(d){return d.rating});
-        });
+                var circlePath = elemEnter.append("circle")
+                    .attr("fill", "#FFD700")
+                    .attr("r", 2)
+                    .attr("id", function(d) {
+                        return d.Code + "find me please"
+                    })
+                    .attr("class", "circle")
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.X, (parseInt(d.Y) * 1.01 + 10) ] + ")" +
+                        "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
+                    });
+                
+                elemEnter.append("path")
+                    .attr("class", "circleStar")
+                    .attr("stroke", "#FFEA70")
+                    .attr("d", star)
+                    .attr('id', (d) => d.Name)
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.X, (parseInt(d.Y) * 1.01 + 10) ] + ")" +
+                        "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
+                    });
+
+                elemEnter.append("text")
+                    .attr("dx", function(d){return Math.sqrt(Math.sqrt(d.Stars)) * -3})
+                    .attr("dy", function(d){return 5})
+                    .attr("class", "circleText")
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.X, (parseInt(d.Y) * 1.01 + 10) ] + ")" +
+                        "scale(" + (0.6 / zoom.scale()) + ")"
+                    })
+                    .text(function(d) {return d.Stars});
+
+                // elem.exit().remove()
+            // }
+            
+            // const simulation = d3.forceSimulation(elem)
+            //     .force('charge', d3.forceManyBody().strength(5))
+            //     .force('center', function(d) {d3.forceCenter(d.X, d.Y)})
+            //     .force('collision', d3.forceCollide().radius(function(d) {
+            //         return Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()
+            //     }))
+            //     .on('tick', ticked);
+        })
+
+        // .then(() => loadData(d3.csv, 'michellinData.csv'))
+        // .then(data => {
+        //     let star = d3.path();
+        //     d3.symbolStar.draw(star, 2);
+
+        //     var elem = svg.selectAll("points")
+        //         .data(data);
+
+        //     var elemEnter = elem.enter()
+        //         .append("g")
+
+        //     var starPath = elemEnter.append("path")
+        //         .attr("class", "star")
+        //         .attr("stroke", "#FFD700")
+        //         .attr("d", star)
+        //         .attr('id', (d) => d.name)
+        //         .attr("transform", function (d) {
+        //             return "translate(" + projection([d.lng, d.lat]) + ")" +
+        //             "scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
+        //         });
+
+        //     elemEnter.append("text")
+        //         .attr("dx", function(d){return -4})
+        //         .attr("dy", function(d){return 5})
+        //         .attr("class", "starText")
+        //         .attr("transform", function (d) {
+        //             return "translate(" + projection([d.lng, d.lat]) + ")" +
+        //             "scale(" + (Math.sqrt( 0.4 * d.rating) / zoom.scale()) + ")"
+        //         })
+        //         .text(function(d){return d.rating});
+        // });
 </script>
 </body>
 </html>
