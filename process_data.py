@@ -49,4 +49,5 @@ print(m["weighted"].min())
 # print(Pop)
 
 m.to_csv("joint.csv",index=False)
+
 Pop.to_csv("population.csv",index=False)
