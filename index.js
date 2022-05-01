@@ -150,12 +150,23 @@ loadData(d3.json, "joint.json")
     .then(() => loadData(d3.csv, 'joint.csv'))
         .then(data => {
 
+            // var force = d3.layout.force()
+            //     .gravity(0.05)
+            //     .charge(function(d, i) {
+            //         return i ? 0 : -2000;
+            //     })
+            //     .nodes(data)
+            //     .size([width, height]);
+
+            // force.start();
+
             let star = d3.path();
             d3.symbolStar.draw(star, 2);
 
             var elemEnter = svg.selectAll("circle")
                 .data(data).enter()
                 .append("g")
+                .attr("class", "circleStarGroup")
 
             elemEnter.each(d => d.translate = path.centroid(d3.select(`#${d.Code}`).datum()));
 
@@ -195,6 +206,48 @@ loadData(d3.json, "joint.json")
                         return d.Stars
                     }
                 });
+
+            // force.on("tick", function(e) {
+            //     var q = d3.geom.quadtree(data),
+            //         i = 0,
+            //         n = data.length;
+            
+            //     while (++i < n) q.visit(collide(data[i]));
+            
+            //     svg.selectAll(".circleStarGroup")
+            //         .attr("transform", function(d) {
+            //             return "translate(" + d.translate + ")"
+            //         });
+            // });
+
+            // function collide(data) {
+            //     var nodeEl = svg.selectAll(".circleStarGroup")
+            //         .filter(function(d, i) {
+            //             return data.id == d.id
+            //         });   
+            //     var nodeSize = 1000;//You can remove/reduce this static value 16 to decrease the gap between nodes.
+            //     var r = nodeSize / 2 + 16,
+            //         nx1 = data.x - r,
+            //         nx2 = data.x + r,
+            //         ny1 = data.y - r,
+            //         ny2 = data.y + r;
+            //     return function(quad, x1, y1, x2, y2) {
+            //         if (quad.point && (quad.point !== data)) {
+            //             var x = data.x - quad.point.x,
+            //                 y = data.y - quad.point.y,
+            //                 l = Math.sqrt(x * x + y * y),
+            //                 r = nodeSize / 2 + quad.point.radius;
+            //             if (l < r) {
+            //                 l = (l - r) / l * .5;
+            //                 data.x -= x *= l;
+            //                 data.y -= y *= l;
+            //                 data.point.x += x;
+            //                 data.point.y += y;
+            //             }
+            //         }
+            //         return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+            //     };
+            // }
         })
 
     //RENDER THE STARS
