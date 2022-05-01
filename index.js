@@ -52,12 +52,13 @@ function renderMap(maps, m, stars) {
                     .attr('id', (d) => d.id)
                     .attr("d", path)
                     .on("click", function (d, i) {
+                        const sanitize = x => x === undefined || x === "" ? "<b><i>##</i></b>" : x;
                         d3.select("#region_name").html((m[d.id] && m[d.id]["Name"]) || "<b><i>Unknown</i></b>");
-                        d3.select("#region_pop").html((m[d.id] && m[d.id]["Population"]) || "<b><i>##</i></b>");
-                        d3.select("#region_income").html((m[d.id] && m[d.id]["Income"]) || "<b><i>##</i></b>");
-                        d3.select("#region_housing").html((m[d.id] && parseInt(m[d.id]["Housing"])) || "<b><i>##</i></b>");
-                        d3.select("#region_stars").html((m[d.id] && m[d.id]["Stars"]) || "<b><i>##</i></b>");
-                        d3.select("#region_prediction").html((m[d.id] && m[d.id]["Predicted_Stars"]) || "<b><i>##</i></b>");
+                        d3.select("#region_pop").html(sanitize(m[d.id] && m[d.id]["Population"]));
+                        d3.select("#region_income").html(sanitize(m[d.id] && m[d.id]["Income"]));
+                        d3.select("#region_housing").html(sanitize(m[d.id] && parseInt(m[d.id]["Housing"])));
+                        d3.select("#region_stars").html(sanitize(m[d.id] && m[d.id]["Stars"]));
+                        d3.select("#region_prediction").html(sanitize(m[d.id] && m[d.id]["Predicted_Stars"]));
 
                         const region_restaurants = d3.select("#region_restaurants").html("");
 
