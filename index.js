@@ -52,11 +52,11 @@ function renderMap(maps, m, stars) {
                     .attr('id', (d) => d.id)
                     .attr("d", path)
                     .on("click", function (d, i) {
-                        document.getElementById("region_name").innerHTML = m[d.id] && m[d.id]["Name"];
-                        document.getElementById("region_pop").innerHTML = m[d.id] && m[d.id]["Population"];
-                        document.getElementById("region_income").innerHTML = m[d.id] && m[d.id]["Income"];
-                        document.getElementById("region_housing").innerHTML = m[d.id] && m[d.id]["Housing"];
-                        document.getElementById("region_stars").innerHTML = m[d.id] && m[d.id]["Stars"];
+                        d3.select("#region_name").html((m[d.id] && m[d.id]["Name"]) || "<b><i>Unknown</i></b>");
+                        d3.select("#region_pop").html((m[d.id] && m[d.id]["Population"]) || "<b><i>##</i></b>");
+                        d3.select("#region_income").html((m[d.id] && m[d.id]["Income"]) || "<b><i>##</i></b>");
+                        d3.select("#region_housing").html((m[d.id] && parseInt(m[d.id]["Housing"])) || "<b><i>##</i></b>");
+                        d3.select("#region_stars").html((m[d.id] && m[d.id]["Stars"]) || "<b><i>##</i></b>");
 
                         const region_restaurants = d3.select("#region_restaurants").html("");
 
@@ -126,7 +126,7 @@ loadData(d3.json, "joint.json")
         }
 
         return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint, restaurant_map)
-            .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05))
+            .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05))
             .then(() => stars);
     })
     .then(data => {
