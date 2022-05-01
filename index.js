@@ -24,15 +24,15 @@ let zoom = d3.behavior.zoom()
                 " scale(" + (Math.sqrt(0.4 * d.rating) / zoom.scale()) + ")"
         })
         svg.selectAll(".circle").attr("transform", function (d) {
-                return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119)] + ")" +
+                return "translate(" + d.translate + ")" +
                 "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
         })
         svg.selectAll(".circleStar").attr("transform", function (d) {
-                return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119)] + ")" +
+                return "translate(" + d.translate + ")" +
                 "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
         })
         svg.selectAll(".circleText").attr("transform", function (d) {
-                return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119)] + ")" +
+                return "translate(" + d.translate + ")" +
                 "scale(" + (0.6 / zoom.scale()) + ")"
         });
     });
@@ -145,20 +145,19 @@ loadData(d3.json, "joint.json")
 
         return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint, restaurant_map)
             .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05))
-            .then(() => stars);
+            .then(() => [joint, stars]);
     })
-
     .then(() => loadData(d3.csv, 'joint.csv'))
         .then(data => {
 
             let star = d3.path();
             d3.symbolStar.draw(star, 2);
 
-            var elem = svg.selectAll("circle")
-                .data(data);
-
-            var elemEnter = elem.enter()
+            var elemEnter = svg.selectAll("circle")
+                .data(data).enter()
                 .append("g")
+
+            elemEnter.each(d => d.translate = path.centroid(d3.select(`#${d.Code}`).datum()));
 
             var circlePath = elemEnter.append("circle")
                 .attr("fill", "#FFD700")
@@ -168,7 +167,8 @@ loadData(d3.json, "joint.json")
                 })
                 .attr("class", "circle")
                 .attr("transform", function (d) {
-                    return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119) ] + ")" +
+                    console.log(d);
+                    return "translate(" + d.translate + ")" +
                     "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
                 });
             
@@ -178,7 +178,7 @@ loadData(d3.json, "joint.json")
                 .attr("d", star)
                 .attr('id', (d) => d.Name)
                 .attr("transform", function (d) {
-                    return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119) ] + ")" +
+                    return "translate(" + d.translate + ")" +
                     "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
                 });
 
@@ -187,7 +187,7 @@ loadData(d3.json, "joint.json")
                 .attr("dy", function(d){return 5})
                 .attr("class", "circleText")
                 .attr("transform", function (d) {
-                    return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119) ] + ")" +
+                    return "translate(" + d.translate + ")" +
                     "scale(" + ( 0.6 / zoom.scale()) + ")"
                 })
                 .text(function(d) {
