@@ -15,26 +15,13 @@ let path = d3.geo.path()
 let zoom = d3.behavior.zoom()
     .on("zoom", function () {
         svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
-        svg.selectAll(".star").attr("transform", function (d) {
+        svg.selectAll(".star-group").attr("transform", function (d) {
             return "translate(" + projection([d.lng, d.lat]) + ")" +
-                " scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
+                " scale(" + (1.0 / zoom.scale()) + ")"
         })
-        svg.selectAll(".starText").attr("transform", function (d) {
-            return "translate(" + projection([d.lng, d.lat]) + ")" +
-                " scale(" + (Math.sqrt(0.4 * d.rating) / zoom.scale()) + ")"
-        })
-        svg.selectAll(".circle").attr("transform", function (d) {
-                return "translate(" + d.translate + ")" +
-                "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
-        })
-        svg.selectAll(".circleStar").attr("transform", function (d) {
-                return "translate(" + d.translate + ")" +
-                "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
-        })
-        svg.selectAll(".circleText").attr("transform", function (d) {
-                return "translate(" + d.translate + ")" +
-                "scale(" + (0.6 / zoom.scale()) + ")"
-        });
+
+        svg.selectAll(".circleStarGroup")
+            .attr("transform", d => "translate(" + d.translate + ")" + " scale(" + (1 / zoom.scale()) + ")");
     });
 
 let svg = d3.select("#canvas")
@@ -98,6 +85,10 @@ function renderMap(maps, m, stars) {
                                 .attr("class", "text-outline")
                                 .style("color", "#2D2D2D");
                         }
+
+                        svg.selectAll(".star-group").attr("style", "visibility:hidden;");
+                        svg.selectAll(`.${d.id}`).attr("style", "")
+
                     });
             });
     }
@@ -145,87 +136,69 @@ loadData(d3.json, "joint.json")
 
         return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint, restaurant_map)
             .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05))
-            .then(() => [joint, stars]);
+            .then(() => stars);
     })
-    .then(() => loadData(d3.csv, 'joint.csv'))
-        .then(data => {
+    .then(stars => loadData(d3.csv, 'joint.csv')
+        .then(joint => [joint, stars]))
+    .then(([joint, stars]) => {
 
-            let star = d3.path();
-            d3.symbolStar.draw(star, 2);
+        let star = d3.path();
+        d3.symbolStar.draw(star, 2);
 
-            var elemEnter = svg.selectAll("circle")
-                .data(data).enter()
-                .append("g")
+        const elemEnter = svg.selectAll("circle")
+            .data(joint).enter()
+            .append("g")
+            .each(d => d.translate = path.centroid(d3.select(`#${d.Code}`).datum()))
+            .attr("transform", d => "translate(" + d.translate + ")")
+            .attr("class", "circleStarGroup");
 
-            elemEnter.each(d => d.translate = path.centroid(d3.select(`#${d.Code}`).datum()));
+        elemEnter.append("circle")
+            .attr("fill", "#FFD700")
+            .attr("r", 2)
+            .attr("class", "circle")
+            .attr("transform", d => "scale(" + Math.sqrt(Math.sqrt(16 * d.Stars)) + ")");
 
-            var circlePath = elemEnter.append("circle")
-                .attr("fill", "#FFD700")
-                .attr("r", 2)
-                .attr("id", function(d) {
-                    return d.Code + "find me please"
-                })
-                .attr("class", "circle")
-                .attr("transform", function (d) {
-                    console.log(d);
-                    return "translate(" + d.translate + ")" +
-                    "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
-                });
-            
-            elemEnter.append("path")
-                .attr("class", "circleStar")
-                .attr("stroke", "#FFEA70")
-                .attr("d", star)
-                .attr('id', (d) => d.Name)
-                .attr("transform", function (d) {
-                    return "translate(" + d.translate + ")" +
-                    "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
-                });
+        elemEnter.append("path")
+            .attr("class", "circleStar")
+            .attr("stroke", "#FFEA70")
+            .attr("d", star)
+            .attr('id', d => d.Name)
+            .attr("transform", d => "scale(" + Math.sqrt(Math.sqrt(4 * d.Stars)) + ")");
 
-            elemEnter.append("text")
-                .attr("dx", function(d){return Math.sqrt(Math.sqrt(d.Stars)) * -3})
-                .attr("dy", function(d){return 5})
-                .attr("class", "circleText")
-                .attr("transform", function (d) {
-                    return "translate(" + d.translate + ")" +
-                    "scale(" + ( 0.6 / zoom.scale()) + ")"
-                })
-                .text(function(d) {
-                    if (d.Stars > 0){
-                        return d.Stars
-                    }
-                });
-        })
+        elemEnter.append("text")
+            .attr("dx", d => Math.sqrt(Math.sqrt(d.Stars)) * -3)
+            .attr("dy", 5)
+            .attr("class", "circleText")
+            .attr("transform", "scale(0.6)")
+            .text(d => d.Stars > 0 ? d.Stars : undefined);
 
-    //RENDER THE STARS
-        // .then(() => loadData(d3.csv, 'michellinData.csv'))
-        // .then(data => {
-        //     let star = d3.path();
-        //     d3.symbolStar.draw(star, 2);
+        const restaurant_regions = new Map();
+        for (const region of joint) {
+            if (region["Restaurants"]) {
+                eval(region["Restaurants"]).forEach(x => restaurant_regions.set(x, region.Code));
+            }
+        }
 
-        //     var elem = svg.selectAll("points")
-        //         .data(data);
+        const starGroup = svg.selectAll("points")
+            .data(stars)
+            .enter()
+            .append("g")
+            .each(d => d.region = restaurant_regions.get(d.name))
+            .attr("class", d => `star-group ${d.region}`)
+            .attr("style", "visibility:hidden;")
+            .attr("transform", d => "translate(" + projection([d.lng, d.lat]) + ")");
 
-        //     var elemEnter = elem.enter()
-        //         .append("g")
+        starGroup.append("path")
+            .attr("class", d => `star ${restaurant_regions.get(d.name)}`)
+            .attr("stroke", "#FFD700")
+            .attr("d", star)
+            .attr("transform", d => "scale(" + Math.sqrt(10 * d.rating) + ")")
+            .each(d => d.region = restaurant_regions.get(d.name));
 
-        //     var starPath = elemEnter.append("path")
-        //         .attr("class", "star")
-        //         .attr("stroke", "#FFD700")
-        //         .attr("d", star)
-        //         .attr('id', (d) => d.name)
-        //         .attr("transform", function (d) {
-        //             return "translate(" + projection([d.lng, d.lat]) + ")" +
-        //             "scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
-        //         });
-
-        //     elemEnter.append("text")
-        //         .attr("dx", function(d){return -4})
-        //         .attr("dy", function(d){return 5})
-        //         .attr("class", "starText")
-        //         .attr("transform", function (d) {
-        //             return "translate(" + projection([d.lng, d.lat]) + ")" +
-        //             "scale(" + (Math.sqrt( 0.4 * d.rating) / zoom.scale()) + ")"
-        //         })
-        //         .text(function(d){return d.rating});
-        // });
+        starGroup.append("text")
+            .attr("dx", -4)
+            .attr("dy", 5)
+            .attr("class", d => `starText ${d.Code}`)
+            .attr("transform", d => "scale(" + Math.sqrt(0.4 * d.rating) + ")")
+            .text(d => d.rating);
+    });
