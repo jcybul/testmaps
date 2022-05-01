@@ -1,0 +1,149 @@
+.left_box {
+    background: #00345E;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#canvas {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 30%;
+}
+
+.selection_info {
+    position: absolute;
+    right: 1.5em;
+    top: 1.5em;
+}
+
+.left_box h1 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #FFFDFD;
+}
+
+.left_box p {
+    font-size: 13px;
+    color: #FFFDFD;
+}
+
+h1, h2, p, th, tr, td {
+    font-family: 'Roboto', sans-serif;
+}
+
+th, tr {
+    font-size: 13px;
+    color: #2D2D2D;
+    text-align: center;
+}
+
+.selection_info {
+    border-radius: 17px;
+    background: #C4C4C4;
+    padding: 1em;
+    max-height: 80%;
+}
+
+.selection_info h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2D2D2D;
+    margin: 0;
+}
+
+.button-group {
+    width: 90%;
+    float: bottom;
+    border-spacing: 0;
+    height: 2em;
+}
+
+.color-select {
+    background-color: #C4C4C4;
+    cursor: pointer;
+    user-select: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.color-select:hover {
+    background-color: #AAAAAA;
+}
+
+.color-select.selected {
+    background-color: #888888;
+}
+
+.color-select:not(:last-child) {
+    border-right: 1px solid #AAAAAA;
+}
+
+.color-select:first-child {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.color-select:last-child {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+td {
+    font-size: 24px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: absolute;
+    left: 2em;
+    right: 2em;
+    bottom: 1em;
+}
+
+.selection_info p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    max-height: 200px;
+}
+
+nav ul {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+li {
+    display: block;
+    margin: 2px;
+    overflow: hidden;
+}
+
+li span {
+    display: block;
+    float: right;
+    right: 0;
+}
+
+.text-outline {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+}
+
+body {
+    margin: 0;
+}
