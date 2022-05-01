@@ -41,7 +41,7 @@
             color: #FFFDFD;
         }
 
-        h1, h2, p th tr {
+        h1, h2, p, th, tr, td {
             font-family: 'Roboto', sans-serif;
         }
 
@@ -64,8 +64,55 @@
             margin: 0;
         }
 
+        .button-group {
+            width: 90%;
+            float: bottom;
+            border-spacing: 0;
+        }
+
+        .color-select {
+            background-color: #C4C4C4;
+            cursor: pointer;
+            user-select: none;
+            border: 0;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .color-select:hover {
+            background-color: #AAAAAA;
+        }
+
+        .color-select.selected {
+            background-color: #888888;
+        }
+
+        .color-select:not(:last-child) {
+            border-right: 1px solid #AAAAAA;
+        }
+
+        .color-select:first-child {
+            border-top-left-radius: 1em;
+            border-bottom-left-radius: 1em;
+        }
+
+        .color-select:last-child {
+            border-top-right-radius: 1em;
+            border-bottom-right-radius: 1em;
+        }
+
         td {
             font-size: 24px;
+        }
+
+        .controls {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            position: absolute;
+            left: 2em;
+            right: 2em;
+            bottom: 1em;
         }
 
         body {
@@ -89,6 +136,19 @@
     <br>
     <p>Select a region to learn more about its demographics and how likely a restaurant will be awarded a Michelin
         star.</p>
+
+    <div class="controls">
+        <table class="button-group">
+            <tr>
+                <td class="color-select" data-name="Population" data-clip="0.03">Population</td>
+                <td class="color-select" data-name="Housing" data-clip="0.05">Housing</td>
+                <td class="color-select" data-name="Income" data-clip="0.05">Income</td>
+                <td class="color-select selected" data-name="weighted" data-clip="0.05">Prediction</td>
+            </tr>
+        </table>
+
+        <!-- Additional graph controls can be placed here -->
+    </div>
 </div>
 
 <div class="selection_info">
@@ -178,7 +238,7 @@
         return promise;
     }
 
-    function applyColorScheme(fn, clip=0.0) {
+    function applyColorScheme(fn, clip = 0.0) {
         const validValues = svg.selectAll(".map_region").data().map(fn).filter(x => x !== undefined);
 
         // Clip off the extremes to give more variation in output
@@ -197,8 +257,21 @@
 
     loadData(d3.json, "joint.json")
         .then(joint => {
+            d3.selectAll(".color-select")[0].forEach(node => node.onclick = event => {
+                event.preventDefault();
+                // Apply changes to button classes
+                d3.selectAll(".color-select").attr("class", "color-select");
+                event.target.className = "color-select selected";
+
+                const field = event.target.getAttribute("data-name");
+                const clip = +(event.target.getAttribute("data-clip") || 0.0);
+
+                applyColorScheme(d => joint[d.id] && joint[d.id][field], clip);
+                return false;
+            });
+
             return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint)
-                .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05));
+                .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["weighted"], 0.05));
         })
         .then(() => loadData(d3.csv, 'michellinData.csv'))
         .then(data => {
@@ -214,7 +287,7 @@
                 .attr("d", star)
                 .attr("transform", function (d) {
                     return "translate(" + projection([d.lng, d.lat]) + ")" +
-                    "scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
+                        "scale(" + (Math.sqrt(4 * d.rating) / zoom.scale()) + ")"
                 });
         });
 </script>
