@@ -37,7 +37,6 @@ let svg_left = d3.select("#left_side_canvas")
     .attr("width", '100%')
     .attr("height", '100%')
     .attr("viewBox", "0 0 " + left_width + " " + left_height)
-    // .attr("preserveAspectRatio", "xMinYMin meet")
     .append("g")
         .attr("transform", 
             "translate(" + 0 + "," + 0 + ")");
