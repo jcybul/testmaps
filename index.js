@@ -331,5 +331,14 @@ function updateGraphLegend(field, clip){
                 else return color(mapped);
             });
 
+        svg_left.append("text")
+            .attr("dx", left_width/2)
+            .attr("dy", -8)
+            .attr("text-anchor", "middle")
+            .style("font-size", "18px")
+            .style("font-family", 'Roboto')
+            .style("color", "#2D2D2D")
+            .text(field + " data in ascending order by Local Authority");
+
     })   
 }
