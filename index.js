@@ -87,7 +87,9 @@ function renderMap(maps, m, stars) {
                         }
 
                         svg.selectAll(".star-group").attr("style", "visibility:hidden;");
-                        svg.selectAll(`.${d.id}`).attr("style", "")
+                        svg.selectAll(".circleStarGroup").attr("style", "");
+                        svg.selectAll(`.${d.id}`).attr("style", "");
+                        svg.selectAll(`.${d.id}Group`).attr("style", "visibility:hidden;");
 
                     });
             });
@@ -142,6 +144,13 @@ loadData(d3.json, "joint.json")
         .then(joint => [joint, stars]))
     .then(([joint, stars]) => {
 
+        const restaurant_regions = new Map();
+        for (const region of joint) {
+            if (region["Restaurants"]) {
+                eval(region["Restaurants"]).forEach(x => restaurant_regions.set(x, region.Code));
+            }
+        }
+
         let star = d3.path();
         d3.symbolStar.draw(star, 2);
 
@@ -150,7 +159,7 @@ loadData(d3.json, "joint.json")
             .append("g")
             .each(d => d.translate = path.centroid(d3.select(`#${d.Code}`).datum()))
             .attr("transform", d => "translate(" + d.translate + ")")
-            .attr("class", "circleStarGroup");
+            .attr("class", d => `circleStarGroup ${d.Code}Group`);
 
         elemEnter.append("circle")
             .attr("fill", "#FFD700")
@@ -171,13 +180,6 @@ loadData(d3.json, "joint.json")
             .attr("class", "circleText")
             .attr("transform", "scale(0.6)")
             .text(d => d.Stars > 0 ? d.Stars : undefined);
-
-        const restaurant_regions = new Map();
-        for (const region of joint) {
-            if (region["Restaurants"]) {
-                eval(region["Restaurants"]).forEach(x => restaurant_regions.set(x, region.Code));
-            }
-        }
 
         const starGroup = svg.selectAll("points")
             .data(stars)
@@ -202,55 +204,3 @@ loadData(d3.json, "joint.json")
             .attr("transform", d => "scale(" + Math.sqrt(0.4 * d.rating) + ")")
             .text(d => d.rating);
     });
-
-    // var force = d3.layout.force()
-            //     .gravity(0.05)
-            //     .charge(function(d, i) {
-            //         return i ? 0 : -2000;
-            //     })
-            //     .nodes(data)
-            //     .size([width, height]);
-
-            // force.start();
-
-// force.on("tick", function(e) {
-            //     var q = d3.geom.quadtree(data),
-            //         i = 0,
-            //         n = data.length;
-            
-            //     while (++i < n) q.visit(collide(data[i]));
-            
-            //     svg.selectAll(".circleStarGroup")
-            //         .attr("transform", function(d) {
-            //             return "translate(" + d.translate + ")"
-            //         });
-            // });
-
-            // function collide(data) {
-            //     var nodeEl = svg.selectAll(".circleStarGroup")
-            //         .filter(function(d, i) {
-            //             return data.id == d.id
-            //         });   
-            //     var nodeSize = 1000;//You can remove/reduce this static value 16 to decrease the gap between nodes.
-            //     var r = nodeSize / 2 + 16,
-            //         nx1 = data.x - r,
-            //         nx2 = data.x + r,
-            //         ny1 = data.y - r,
-            //         ny2 = data.y + r;
-            //     return function(quad, x1, y1, x2, y2) {
-            //         if (quad.point && (quad.point !== data)) {
-            //             var x = data.x - quad.point.x,
-            //                 y = data.y - quad.point.y,
-            //                 l = Math.sqrt(x * x + y * y),
-            //                 r = nodeSize / 2 + quad.point.radius;
-            //             if (l < r) {
-            //                 l = (l - r) / l * .5;
-            //                 data.x -= x *= l;
-            //                 data.y -= y *= l;
-            //                 data.point.x += x;
-            //                 data.point.y += y;
-            //             }
-            //         }
-            //         return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
-            //     };
-            // }
