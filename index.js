@@ -15,26 +15,13 @@ let path = d3.geo.path()
 let zoom = d3.behavior.zoom()
     .on("zoom", function () {
         svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
-        svg.selectAll(".star").attr("transform", function (d) {
+        svg.selectAll(".star-group").attr("transform", function (d) {
             return "translate(" + projection([d.lng, d.lat]) + ")" +
-                " scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
+                " scale(" + (1.0 / zoom.scale()) + ")"
         })
-        svg.selectAll(".starText").attr("transform", function (d) {
-            return "translate(" + projection([d.lng, d.lat]) + ")" +
-                " scale(" + (Math.sqrt(0.4 * d.rating) / zoom.scale()) + ")"
-        })
-        svg.selectAll(".circle").attr("transform", function (d) {
-                return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119)] + ")" +
-                "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
-        })
-        svg.selectAll(".circleStar").attr("transform", function (d) {
-                return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119)] + ")" +
-                "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
-        })
-        svg.selectAll(".circleText").attr("transform", function (d) {
-                return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119)] + ")" +
-                "scale(" + (0.6 / zoom.scale()) + ")"
-        });
+
+        svg.selectAll(".circleStarGroup")
+            .attr("transform", d => "translate(" + d.translate + ")" + " scale(" + (1 / zoom.scale()) + ")");
     });
 
 let svg = d3.select("#canvas")
@@ -90,14 +77,20 @@ function renderMap(maps, m, stars) {
 
                             elements.html(d => d);
                             elements.append("span")
-                                .html(d => "&#9733;".repeat(stars.get(d).rating))
-                                .attr("class", "text-outline")
-                                .style("color", "#FFD700");
-                            elements.append("span")
                                 .html(d => "&#9733;".repeat(3 - stars.get(d).rating))
                                 .attr("class", "text-outline")
                                 .style("color", "#2D2D2D");
+                            elements.append("span")
+                                .html(d => "&#9733;".repeat(stars.get(d).rating))
+                                .attr("class", "text-outline")
+                                .style("color", "#FFD700");
                         }
+
+                        svg.selectAll(".star-group").attr("style", "visibility:hidden;");
+                        svg.selectAll(".circleStarGroup").attr("style", "");
+                        svg.selectAll(`.${d.id}`).attr("style", "");
+                        svg.selectAll(`.${d.id}Group`).attr("style", "visibility:hidden;");
+
                     });
             });
     }
@@ -147,85 +140,67 @@ loadData(d3.json, "joint.json")
             .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05))
             .then(() => stars);
     })
+    .then(stars => loadData(d3.csv, 'joint.csv')
+        .then(joint => [joint, stars]))
+    .then(([joint, stars]) => {
 
-    .then(() => loadData(d3.csv, 'joint.csv'))
-        .then(data => {
+        const restaurant_regions = new Map();
+        for (const region of joint) {
+            if (region["Restaurants"]) {
+                eval(region["Restaurants"]).forEach(x => restaurant_regions.set(x, region.Code));
+            }
+        }
 
-            let star = d3.path();
-            d3.symbolStar.draw(star, 2);
+        let star = d3.path();
+        d3.symbolStar.draw(star, 2);
 
-            var elem = svg.selectAll("circle")
-                .data(data);
+        const elemEnter = svg.selectAll("circle")
+            .data(joint).enter()
+            .append("g")
+            .each(d => d.translate = path.centroid(d3.select(`#${d.Code}`).datum()))
+            .attr("transform", d => "translate(" + d.translate + ")")
+            .attr("class", d => `circleStarGroup ${d.Code}Group`);
 
-            var elemEnter = elem.enter()
-                .append("g")
+        elemEnter.append("circle")
+            .attr("fill", "#FFD700")
+            .attr("r", 2)
+            .attr("class", "circle")
+            .attr("transform", d => "scale(" + Math.sqrt(Math.sqrt(16 * d.Stars)) + ")");
 
-            var circlePath = elemEnter.append("circle")
-                .attr("fill", "#FFD700")
-                .attr("r", 2)
-                .attr("id", function(d) {
-                    return d.Code + "find me please"
-                })
-                .attr("class", "circle")
-                .attr("transform", function (d) {
-                    return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119) ] + ")" +
-                    "scale(" + (Math.sqrt(Math.sqrt(16 * d.Stars)) / zoom.scale()) + ")"
-                });
-            
-            elemEnter.append("path")
-                .attr("class", "circleStar")
-                .attr("stroke", "#FFEA70")
-                .attr("d", star)
-                .attr('id', (d) => d.Name)
-                .attr("transform", function (d) {
-                    return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119) ] + ")" +
-                    "scale(" + (Math.sqrt(Math.sqrt(4 * d.Stars)) / zoom.scale()) + ")"
-                });
+        elemEnter.append("path")
+            .attr("class", "circleStar")
+            .attr("stroke", "#FFEA70")
+            .attr("d", star)
+            .attr('id', d => d.Name)
+            .attr("transform", d => "scale(" + Math.sqrt(Math.sqrt(4 * d.Stars)) + ")");
 
-            elemEnter.append("text")
-                .attr("dx", function(d){return Math.sqrt(Math.sqrt(d.Stars)) * -3})
-                .attr("dy", function(d){return 5})
-                .attr("class", "circleText")
-                .attr("transform", function (d) {
-                    return "translate(" + [d.X, ((parseInt(d.Y) * 1.01) + 119) ] + ")" +
-                    "scale(" + ( 0.6 / zoom.scale()) + ")"
-                })
-                .text(function(d) {
-                    if (d.Stars > 0){
-                        return d.Stars
-                    }
-                });
-        })
+        elemEnter.append("text")
+            .attr("dx", d => Math.sqrt(Math.sqrt(d.Stars)) * -3)
+            .attr("dy", 5)
+            .attr("class", "circleText")
+            .attr("transform", "scale(0.6)")
+            .text(d => d.Stars > 0 ? d.Stars : undefined);
 
-    //RENDER THE STARS
-        // .then(() => loadData(d3.csv, 'michellinData.csv'))
-        // .then(data => {
-        //     let star = d3.path();
-        //     d3.symbolStar.draw(star, 2);
+        const starGroup = svg.selectAll("points")
+            .data(stars)
+            .enter()
+            .append("g")
+            .each(d => d.region = restaurant_regions.get(d.name))
+            .attr("class", d => `star-group ${d.region}`)
+            .attr("style", "visibility:hidden;")
+            .attr("transform", d => "translate(" + projection([d.lng, d.lat]) + ")");
 
-        //     var elem = svg.selectAll("points")
-        //         .data(data);
+        starGroup.append("path")
+            .attr("class", d => `star ${restaurant_regions.get(d.name)}`)
+            .attr("stroke", "#FFD700")
+            .attr("d", star)
+            .attr("transform", d => "scale(" + Math.sqrt(10 * d.rating) + ")")
+            .each(d => d.region = restaurant_regions.get(d.name));
 
-        //     var elemEnter = elem.enter()
-        //         .append("g")
-
-        //     var starPath = elemEnter.append("path")
-        //         .attr("class", "star")
-        //         .attr("stroke", "#FFD700")
-        //         .attr("d", star)
-        //         .attr('id', (d) => d.name)
-        //         .attr("transform", function (d) {
-        //             return "translate(" + projection([d.lng, d.lat]) + ")" +
-        //             "scale(" + (Math.sqrt(10 * d.rating) / zoom.scale()) + ")"
-        //         });
-
-        //     elemEnter.append("text")
-        //         .attr("dx", function(d){return -4})
-        //         .attr("dy", function(d){return 5})
-        //         .attr("class", "starText")
-        //         .attr("transform", function (d) {
-        //             return "translate(" + projection([d.lng, d.lat]) + ")" +
-        //             "scale(" + (Math.sqrt( 0.4 * d.rating) / zoom.scale()) + ")"
-        //         })
-        //         .text(function(d){return d.rating});
-        // });
+        starGroup.append("text")
+            .attr("dx", -4)
+            .attr("dy", 5)
+            .attr("class", d => `starText ${d.Code}`)
+            .attr("transform", d => "scale(" + Math.sqrt(0.4 * d.rating) + ")")
+            .text(d => d.rating);
+    });

@@ -339,8 +339,8 @@
   },
   "E06000027": {
     "Housing": 197793.7858,
-    "Stars": 0,
-    "Restaurants": "",
+    "Stars": 1,
+    "Restaurants": "['Elephant']",
     "Population": 136264,
     "Income": 18698,
     "Name": "Torbay",
@@ -989,8 +989,8 @@
   },
   "E07000044": {
     "Housing": 308230.73,
-    "Stars": 1,
-    "Restaurants": "['Elephant']",
+    "Stars": 0,
+    "Restaurants": "",
     "Population": 87004,
     "Income": 23927,
     "Name": "South Hams",
@@ -1262,8 +1262,8 @@
   },
   "E07000078": {
     "Housing": 270796.0504,
-    "Stars": 0,
-    "Restaurants": "",
+    "Stars": 1,
+    "Restaurants": "['Le Champignon Sauvage']",
     "Population": 116306,
     "Income": 23197,
     "Name": "Cheltenham",
@@ -1275,8 +1275,8 @@
   },
   "E07000079": {
     "Housing": 383645.294,
-    "Stars": 1,
-    "Restaurants": "['Le Champignon Sauvage']",
+    "Stars": 0,
+    "Restaurants": "",
     "Population": 89862,
     "Income": 29350,
     "Name": "Cotswold",
@@ -3544,7 +3544,7 @@
   "E09000007": {
     "Housing": 834748.7033,
     "Stars": 5,
-    "Restaurants": "['The Ninth', 'Hakkasan Mayfair', 'Pied à Terre', 'Kitchen Table']",
+    "Restaurants": "['The Ninth', 'Hakkasan Hanway Place', 'Pied à Terre', 'Kitchen Table']",
     "Population": 270029,
     "Income": 44015,
     "Name": "Camden",
@@ -3882,7 +3882,7 @@
   "E09000033": {
     "Housing": 956750.3887,
     "Stars": 45,
-    "Restaurants": "['Le Gavroche', 'Muse', 'Seven Park Place', 'Ikoyi', 'Benares', 'Gymkhana', 'Wild Honey St James', 'Kol', 'Hélène Darroze at The Connaught', 'Locanda Locatelli', \"Evelyn's Table\", 'Amaya', 'Dining Room at The Goring', 'Sketch (The Lecture Room & Library)', 'Ritz Restaurant', 'Veeraswamy', 'Murano', 'Dinner by Heston Blumenthal', 'Quilon', 'Pollen Street Social', 'Kai', 'Portland', 'Pétrus by Gordon Ramsay', 'Umu', 'Frog by Adam Handling', 'Hakkasan Hanway Place', 'Trishna', 'A. Wong', 'Sabor', 'Alain Ducasse at The Dorchester', 'Marcus', 'SO|LA', 'Barrafina', 'HIDE', 'Jamavar']",
+    "Restaurants": "['Le Gavroche', 'Muse', 'Seven Park Place', 'Ikoyi', 'Benares', 'Gymkhana', 'Wild Honey St James', 'Kol', 'Hélène Darroze at The Connaught', 'Locanda Locatelli', \"Evelyn's Table\", 'Amaya', 'Dining Room at The Goring', 'Sketch (The Lecture Room & Library)', 'Ritz Restaurant', 'Veeraswamy', 'Murano', 'Dinner by Heston Blumenthal', 'Quilon', 'Pollen Street Social', 'Kai', 'Portland', 'Pétrus by Gordon Ramsay', 'Umu', 'Frog by Adam Handling', 'Hakkasan Mayfair', 'Trishna', 'A. Wong', 'Sabor', 'Alain Ducasse at The Dorchester', 'Marcus', 'SO|LA', 'Barrafina', 'HIDE', 'Jamavar']",
     "Population": 261317,
     "Income": 53670,
     "Name": "Westminster",

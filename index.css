@@ -159,3 +159,7 @@ nav ol li:not(:last-child) {
 body {
     margin: 0;
 }
+
+.circleStar {
+    user-select: none;
+}
