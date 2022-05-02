@@ -1,5 +1,7 @@
 const width = window.innerWidth * 0.7;
 const height = window.innerHeight;
+const left_width = window.innerWidth * 0.4;
+const left_height = window.innerHeight * 0.3;
 
 let projection = d3.geo.albers()
     .center([0, 55.4])
@@ -27,6 +29,16 @@ let zoom = d3.behavior.zoom()
 let svg = d3.select("#canvas")
     .call(zoom)
     .append("g");
+
+let svg_left = d3.select("#left_side_canvas")
+    .append("svg")
+    .attr("width", '100%')
+    .attr("height", '100%')
+    .attr("viewBox", "0 0 " + left_width + " " + left_height)
+    // .attr("preserveAspectRatio", "xMinYMin meet")
+    .append("g")
+        .attr("transform", 
+            "translate(" + 0 + "," + 0 + ")");
 
 /// Converts a D3 file load into a promise
 function loadData(loader, file) {
@@ -128,6 +140,7 @@ loadData(d3.json, "joint.json")
             const clip = +(event.target.getAttribute("data-clip") || 0.0);
 
             applyColorScheme(d => joint[d.id] && joint[d.id][field], clip);
+            updateGraphLegend(field, clip);
             return false;
         });
 
@@ -138,6 +151,7 @@ loadData(d3.json, "joint.json")
 
         return renderMap(["data.json", "ni.json", "scotland.json", "wales.json"], joint, restaurant_map)
             .then(() => applyColorScheme(d => joint[d.id] && joint[d.id]["Income"], 0.05))
+            .then(() => updateGraphLegend("Income", 0.05))
             .then(() => stars);
     })
     .then(stars => loadData(d3.csv, 'joint.csv')
@@ -204,3 +218,74 @@ loadData(d3.json, "joint.json")
             .attr("transform", d => "scale(" + Math.sqrt(0.4 * d.rating) + ")")
             .text(d => d.rating);
     });
+
+function updateGraphLegend(field, clip){
+    svg_left.selectAll("*").remove();
+
+    loadData(d3.csv, 'joint.csv')
+        .then(joint => {
+
+        joint.sort(function(a, b) {
+            return a[field] - b[field]
+        })
+
+        var fn = (d => d[field])
+        const validValues = joint.map(fn)
+
+        validValues.sort((a, b) => a - b);
+        const clipped = Math.floor(validValues.length * clip);
+        const extent = [validValues[clipped], validValues[validValues.length - clipped - 1]];
+
+        const color = d3.scale.linear().domain(extent).range(["#AABBCC", "#003355"]);
+
+        var x = d3.scale.ordinal().rangeRoundBands([0, left_width], .2, .02);
+
+        x.domain(joint.map(function(d) { return d.Code; }));
+
+        svg_left.append("g")
+        .attr("class", "bar_axis easting")
+        .attr("transform", "translate(0," + left_height + ")")
+        //    .call(xAxis)
+        //    .selectAll("text")
+        //     .style("text-anchor", "middle");
+
+        var y = d3.scale.linear().range([left_height, 0]);
+        var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("right")
+                    .ticks(5);
+
+        // y.domain([0, d3.max(joint, function(d) { return d[field]; })]);
+        y.domain([0, joint[joint.length - 1][field]]);
+
+        svg_left.append("g")
+            .attr("class", "bar_axis northing")
+            .call(yAxis)
+            .selectAll("line")
+            .attr("x2", left_width)
+            
+            
+        svg_left.selectAll('rect')
+            .data(joint)
+            .enter()
+            .append('rect')
+            .attr('width', function(d,i){
+                return x.rangeBand();
+            })
+            .attr('height', function(d,i){
+                return left_height - y(d[field]);
+            })
+            .attr('x', function(d,i){
+                return x(d.Code);
+            })
+            .attr('y', function(d,i){
+                return y(d[field]);
+            })
+            .attr('fill', function(d) {
+                const mapped = d[field];
+                if (mapped === undefined) return "#888888";
+                else return color(mapped);
+            });
+
+    })   
+}

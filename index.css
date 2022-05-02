@@ -14,6 +14,16 @@
     left: 30%;
 }
 
+#left_side_canvas {
+    background: #C4C4C4;
+    margin: auto;
+    border-radius: 17px;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    padding: .5em;
+}
+
 .selection_info {
     position: absolute;
     right: 1.5em;
@@ -162,4 +172,13 @@ body {
 
 .circleStar {
     user-select: none;
+}
+
+.bar_axis {
+    font-size: 16px;
+    color: #2D2D2D;
+}
+  
+.northing line {
+  stroke: #9d9d9d;
 }
