@@ -3,6 +3,8 @@ const height = window.innerHeight;
 const left_width = window.innerWidth * 0.4;
 const left_height = window.innerHeight * 0.3;
 
+var selectedField = "Income"
+
 let projection = d3.geo.albers()
     .center([0, 55.4])
     .rotate([4.4, 0])
@@ -22,7 +24,7 @@ let zoom = d3.behavior.zoom()
                 " scale(" + (1.0 / zoom.scale()) + ")"
         })
 
-        svg.selectAll(".circleStarGroup")
+        svg.selectAll(".circleStarGroup,.circlePredGroup")
             .attr("transform", d => "translate(" + d.translate + ")" + " scale(" + (1 / zoom.scale()) + ")");
     });
 
@@ -98,11 +100,15 @@ function renderMap(maps, m, stars) {
                                 .style("color", "#FFD700");
                         }
 
-                        svg.selectAll(".star-group").attr("style", "visibility:hidden;");
-                        svg.selectAll(".circleStarGroup").attr("style", "");
-                        svg.selectAll(`.${d.id}`).attr("style", "");
-                        svg.selectAll(`.${d.id}Group`).attr("style", "visibility:hidden;");
+                        if (selectedField == "Predicted_Stars" || selectedField == "Stars"){
 
+                        } else {
+                            svg.selectAll(".star-group").attr("style", "visibility:hidden;");
+                            svg.selectAll(".circleStarGroup").attr("style", "");
+                            svg.selectAll(`.${d.id}`).attr("style", "");
+                            svg.selectAll(`.${d.id}Group`).attr("style", "visibility:hidden;");
+                        }
+                        
                     });
             });
     }
@@ -126,6 +132,19 @@ function applyColorScheme(fn, clip = 0.0) {
     });
 }
 
+function updateStarGroups(field) {
+    if (field == "Predicted_Stars"){
+        svg.selectAll(".star-group,.circleStarGroup").attr("style", "visibility:hidden;");
+        svg.selectAll(".circlePredGroup").attr("style", "");
+    } else if (field == "Stars") {
+        svg.selectAll(".circleStarGroup,.circlePredGroup").attr("style", "visibility:hidden;");
+        svg.selectAll(".star-group").attr("style", "");
+    } else {
+        svg.selectAll(".star-group,.circlePredGroup").attr("style", "visibility:hidden;");
+        svg.selectAll(".circleStarGroup").attr("style", "");
+    }
+}
+
 
 loadData(d3.json, "joint.json")
     .then(joint => loadData(d3.csv, 'michellinData.csv').then(stars => [joint, stars]))
@@ -141,6 +160,8 @@ loadData(d3.json, "joint.json")
 
             applyColorScheme(d => joint[d.id] && joint[d.id][field], clip);
             updateGraphLegend(field, clip);
+            updateStarGroups(field);
+            selectedField = field;
             return false;
         });
 
@@ -217,6 +238,34 @@ loadData(d3.json, "joint.json")
             .attr("class", d => `starText ${d.Code}`)
             .attr("transform", d => "scale(" + Math.sqrt(0.4 * d.rating) + ")")
             .text(d => d.rating);
+        
+        const predGroup = svg.selectAll(".circlePredGroup")
+            .data(joint).enter()
+            .append("g")
+            .each(d => d.translate = path.centroid(d3.select(`#${d.Code}`).datum()))
+            .attr("transform", d => "translate(" + d.translate + ")")
+            .attr("style", "visibility:hidden;")
+            .attr("class", d => `circlePredGroup ${d.Code}PredGroup`);
+
+        predGroup.append("circle")
+            .attr("fill", "#C4C4C4")
+            .attr("r", 2)
+            .attr("class", "circle")
+            .attr("transform", d => "scale(" + Math.sqrt(Math.sqrt(16 * d.Predicted_Stars)) + ")");
+
+        predGroup.append("path")
+            .attr("class", "circleStar")
+            .attr("stroke", "#FFEA70")
+            .attr("d", star)
+            .attr('id', d => d.Name)
+            .attr("transform", d => "scale(" + Math.sqrt(Math.sqrt(4 * d.Predicted_Stars)) + ")");
+
+        predGroup.append("text")
+            .attr("dx", d => Math.sqrt(Math.sqrt(d.Predicted_Stars)) * -3)
+            .attr("dy", 5)
+            .attr("class", "circleText")
+            .attr("transform", "scale(0.6)")
+            .text(d => d.Predicted_Stars > 0 ? d.Predicted_Stars : undefined);
     });
 
 function updateGraphLegend(field, clip){
@@ -245,9 +294,6 @@ function updateGraphLegend(field, clip){
         svg_left.append("g")
         .attr("class", "bar_axis easting")
         .attr("transform", "translate(0," + left_height + ")")
-        //    .call(xAxis)
-        //    .selectAll("text")
-        //     .style("text-anchor", "middle");
 
         var y = d3.scale.linear().range([left_height, 0]);
         var yAxis = d3.svg.axis()
@@ -255,7 +301,6 @@ function updateGraphLegend(field, clip){
                     .orient("right")
                     .ticks(5);
 
-        // y.domain([0, d3.max(joint, function(d) { return d[field]; })]);
         y.domain([0, joint[joint.length - 1][field]]);
 
         svg_left.append("g")
